@@ -1,0 +1,12 @@
+# LaTeX 编译临时文件
+*.aux
+*.log
+*.toc
+*.out
+*.synctex.gz
+*.gz
+
+# 旧结构遗留规则（保留）
+/Traditional_Chinese_Medicine/中医书籍/备急千金要方/*.toc
+/Traditional_Chinese_Medicine/中医书籍/备急千金要方/*.log
+/Traditional_Chinese_Medicine/中医书籍/备急千金要方/*.gz

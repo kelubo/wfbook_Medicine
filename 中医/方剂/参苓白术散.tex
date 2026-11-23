@@ -1,0 +1,153 @@
+% 参苓白术散.tex
+
+\documentclass[12pt,UTF8]{ctexbook}
+
+% 设置纸张信息。
+\input{../../../Book/common/page}
+
+% 设置字体，并解决显示难检字问题。
+\xeCJKsetup{AutoFallBack=true}
+% 注意：ctexbook类已默认设置SimSun为CJKrmdefault
+% 以下设置用于确保字体回退和扩展字体可用
+% 仅设置扩展字体以避免与默认设置冲突
+\setCJKfamilyfont{hei}{SimHei}
+\setCJKfamilyfont{kai}{KaiTi}
+
+% 目录 chapter 级别加点（.）。
+\usepackage{titletoc}
+\titlecontents{chapter}[0pt]{\vspace{3mm}\bf\addvspace{2pt}\filright}{\contentspush{\thecontentslabel\hspace{0.8em}}}{}{\titlerule*[8pt]{.}\contentspage}
+
+% 支持目录点击跳转
+\usepackage[colorlinks,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
+
+% 设置 part 和 chapter 标题格式。
+\ctexset{
+	part/name= {第,卷},
+	part/number={\chinese{part}},
+	chapter/name={第,篇},
+	chapter/number={\arabic{chapter}}
+}
+
+% 图片相关设置。
+\usepackage{graphicx}
+\graphicspath{{Images/}}
+
+% 设置署名格式。
+\newenvironment{shuming}{\hfill\zihao{4}}
+
+% 注脚每页重新编号，避免编号过大。
+\usepackage[perpage]{footmisc}
+
+% 设置古文原文格式。
+\newenvironment{yuanwen}{\bfseries\zihao{4}}
+
+% 设置段落间距
+\setlength{\parskip}{0.8em plus 0.2em minus 0.1em}
+
+% 列表格式支持，列表项向右偏移。
+\usepackage{enumitem}
+
+% 定义方剂组成环境
+\newenvironment{fangji}[1]{\section{#1}\begin{enumerate}[leftmargin=2cm]}{\end{enumerate}}
+
+\title{\heiti\zihao{0} 参苓白术散}
+\author{WangFei}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+\frontmatter
+\chapter{前言}
+
+\mainmatter
+
+\chapter{参苓白术散}
+
+\section{基本信息}
+\begin{itemize}
+	\item 【别名】：参术饮、白术散
+	\item 【出处】：《太平惠民和剂局方》
+	\item 【分类】：补益剂-补气
+\end{itemize}
+
+\section{组成}
+\begin{fangji}{药物组成}
+	\item 人参 10g
+	\item 茯苓 15g
+	\item 白术（麸炒）15g
+	\item 山药 15g
+	\item 白扁豆（炒）12g
+	\item 莲子 10g
+	\item 薏苡仁（炒）15g
+	\item 砂仁 6g
+	\item 桔梗 10g
+	\item 甘草 6g
+\end{fangji}
+
+\section{性状}
+本品为淡黄色的水丸；气香，味甜。
+
+\section{用法}
+\begin{itemize}
+	\item 【煎服方法】：水煎服，每日1剂，分2次温服
+	\item 【服用剂量】：成人用量10-15g，儿童酌减
+	\item 【服用时间】：宜饭前服用或进食同时服
+	\item 【特殊处理】：无特殊处理
+\end{itemize}
+
+\section{功效}
+\begin{itemize}
+	\item 【主要功效】：补脾胃，益肺气
+	\item 【作用机制】：通过益气健脾、渗湿止泻，改善脾胃功能
+\end{itemize}
+
+\section{主治}
+\begin{itemize}
+	\item 【传统主治】：脾胃虚弱，食少便溏，气短咳嗽，肢倦乏力
+	\item 【现代主治】：慢性胃肠炎、贫血、慢性支气管炎、慢性肾炎、妇女带下病等属脾虚湿盛者
+\end{itemize}
+
+\section{方解}
+\begin{description}
+	\item[君药]：人参、白术、茯苓 - 益气健脾渗湿
+	\item[臣药]：山药、莲子 - 健脾益气，兼能止泻
+	\item[佐药]：白扁豆、薏苡仁 - 健脾渗湿；砂仁 - 醒脾和胃，行气化滞；桔梗 - 宣肺利气，载药上行
+	\item[使药]：甘草 - 健脾和中，调和诸药
+\end{description}
+
+\section{临床应用}
+\begin{itemize}
+	\item 【辨证要点】：食少便溏，肢倦乏力，舌淡苔白腻，脉虚缓
+	\item 【现代应用】：慢性胃肠炎、消化不良、肠易激综合征、慢性支气管炎、慢性肾炎等
+	\item 【病例举隅】：适用于长期脾胃虚弱，反复腹泻，神疲乏力的患者
+\end{itemize}
+
+\section{加减变化}
+\begin{fangji}{随证加减}
+	\item 兼气滞者，加陈皮、木香
+	\item 兼寒者，加干姜、肉桂
+	\item 兼热者，加黄连、黄芩
+	\item 兼湿重者，加苍术、藿香
+\end{fangji}
+
+\section{注意事项}
+\begin{fangji}{使用禁忌}
+	\item 泄泻兼有大便不通畅，肛门有下坠感者忌服
+	\item 服本药时不宜同时服用藜芦、五灵脂、皂荚或其制剂
+	\item 不宜喝茶和吃萝卜以免影响药效
+	\item 不宜和感冒类药同时服用
+	\item 高血压、心脏病、肾脏病、糖尿病严重患者及孕妇应在医师指导下服用
+\end{fangji}
+
+\section{附方}
+\begin{itemize}
+	\item 【相关方剂】：四君子汤、六君子汤、香砂六君子汤
+	\item 【比较分析】：四君子汤为基础方，参苓白术散在此基础上加山药、莲子、白扁豆等增强健脾渗湿作用
+\end{itemize}
+
+\backmatter
+
+\end{document}

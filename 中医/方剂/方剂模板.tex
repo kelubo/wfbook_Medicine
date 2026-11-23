@@ -1,0 +1,154 @@
+% 中药方剂模板
+% 方剂模板.tex
+
+\documentclass[12pt,UTF8]{ctexbook}
+
+% 设置纸张信息。
+\input{../../../Book/common/page}
+
+% 设置字体，并解决显示难检字问题。
+\xeCJKsetup{AutoFallBack=true}
+% 注意：ctexbook类已默认设置SimSun为CJKrmdefault
+% 以下设置用于确保字体回退和扩展字体可用
+% 仅设置扩展字体以避免与默认设置冲突
+\setCJKfamilyfont{hei}{SimHei}
+\setCJKfamilyfont{kai}{KaiTi}
+
+% 目录 chapter 级别加点（.）。
+\usepackage{titletoc}
+\titlecontents{chapter}[0pt]{\vspace{3mm}\bf\addvspace{2pt}\filright}{\contentspush{\thecontentslabel\hspace{0.8em}}}{}{\titlerule*[8pt]{.}\contentspage}
+
+% 支持目录点击跳转
+\usepackage[colorlinks,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
+
+% 设置 part 和 chapter 标题格式。
+\ctexset{
+	part/name= {第,卷},
+	part/number={\chinese{part}},
+	chapter/name={第,篇},
+	chapter/number={\arabic{chapter}}
+}
+
+% 图片相关设置。
+\usepackage{graphicx}
+\graphicspath{{Images/}}
+
+% 设置署名格式。
+\newenvironment{shuming}{\hfill\zihao{4}}
+
+% 注脚每页重新编号，避免编号过大。
+\usepackage[perpage]{footmisc}
+
+% 设置古文原文格式。
+\newenvironment{yuanwen}{\bfseries\zihao{4}}
+
+% 设置段落间距
+\setlength{\parskip}{0.8em plus 0.2em minus 0.1em}
+
+% 列表格式支持，列表项向右偏移。
+\usepackage{enumitem}
+
+% 定义古籍风格药物命令（行内下标格式，如：白术土炒₃两(90g)）
+\newcommand{\gujiyaowusub}[2]{\textbf{#1}\raisebox{0.3ex}{\textsubscript{\scriptsize #2}}}
+
+% 定义古籍风格药物表格环境（自动分行，上下对齐）
+\newenvironment{gujiyaowutable}[1]{%
+    \section{#1}%
+    \begin{center}%
+    \begin{tabular}{@{}p{3.5cm}p{3.5cm}p{3.5cm}p{3.5cm}@{}}%
+}{%  % 4列布局，每列3.5cm宽度
+    \end{tabular}%
+    \end{center}%
+}
+
+\title{\heiti\zihao{0} 方剂名称}
+\author{WangFei}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+\frontmatter
+\chapter{前言}
+
+\mainmatter
+
+\chapter{方剂名称}
+
+\section{基本信息}
+\begin{itemize}
+	\item 【别名】：其他名称
+	\item 【出处】：古籍或现代标准
+	\item 【分类】：功效分类
+\end{itemize}
+
+\section{组成}
+
+% 药物组成（古籍表格风格）
+\begin{gujiyaowutable}{组成}
+    \gujiyaowusub{白术土炒}{三两(90g)} & \gujiyaowusub{白芍炒}{二两(60g)} & \gujiyaowusub{陈皮炒}{一两半(45g)} & \gujiyaowusub{防风}{二两(60g)} \\
+    \gujiyaowusub{人参}{一两(30g)} & \gujiyaowusub{茯苓}{一两(30g)} & \gujiyaowusub{甘草炙}{五钱(15g)} & \\
+\end{gujiyaowutable}
+
+\section{用法}
+\begin{itemize}
+	\item 【煎服方法】：煎煮时间、用水量
+	\item 【服用剂量】：成人用量、儿童用量
+	\item 【服用时间】：饭前/饭后、频服/顿服
+	\item 【特殊处理】：先煎、后下、包煎等
+\end{itemize}
+
+\section{功效}
+\begin{itemize}
+	\item 【主要功效】：简明扼要的功效描述
+	\item 【作用机制】：现代医学解释（可选）
+\end{itemize}
+
+\section{主治}
+\begin{itemize}
+	\item 【传统主治】：古籍记载的适应症
+	\item 【现代主治】：现代临床应用范围
+\end{itemize}
+
+\section{方解}
+\begin{description}
+	\item[君药]：药物名称 - 作用
+	\item[臣药]：药物名称 - 作用
+	\item[佐药]：药物名称 - 作用
+	\item[使药]：药物名称 - 作用
+\end{description}
+
+\section{临床应用}
+\begin{itemize}
+	\item 【辨证要点】：使用方剂的辨证依据
+	\item 【现代应用】：现代医学疾病应用
+	\item 【病例举隅】：典型病例（可选）
+\end{itemize}
+
+\section{加减变化}
+\subsection{随证加减}
+\begin{enumerate}[leftmargin=2cm]
+	\item 
+	\item 
+	\item 
+\end{enumerate}
+
+\section{注意事项}
+\subsection{使用禁忌}
+\begin{enumerate}[leftmargin=2cm]
+	\item 禁忌人群和情况
+	\item 服用期间的注意事项
+	\item 可能的副作用
+\end{enumerate}
+
+\section{附方}
+\begin{itemize}
+	\item 【相关方剂】：衍生方或类似方
+	\item 【比较分析】：与相关方剂的区别
+\end{itemize}
+
+\backmatter
+
+\end{document}

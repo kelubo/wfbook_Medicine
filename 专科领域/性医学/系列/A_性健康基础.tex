@@ -1,0 +1,4707 @@
+% =================================================
+% 性学系列 · 性健康基础
+% 共享基座见 common.tex
+% =================================================
+\documentclass[12pt,UTF8,openany]{ctexbook}
+\input{common.tex}
+
+\begin{document}
+
+% ===== 封面 =====
+\begin{titlepage}
+\centering
+\vspace*{1.5cm}
+\begin{tikzpicture}
+\draw[myblue,line width=2pt] (0,0) circle (1.2);
+\node[text=white] at (0,0) {\myhei\zihao{3}性};
+\end{tikzpicture}
+\vspace{0.6cm}
+\noindent\rule{\textwidth}{0.4pt}
+\vspace{0.5cm}
+\myhei\zihao{5} 性学系列\,·\,家庭健康科普\,·\,全五册
+\vspace{2.5cm}
+\myhei\zihao{0} 性健康基础\par
+\vspace{1.2cm}
+\itshape\zihao{3} 认知·同意·防护——先建立安全底线\par
+\vspace{5.2cm}
+\noindent\rule{\textwidth}{0.4pt}
+\vspace{0.5cm}
+\zihao{5} 性学系列\,·\,\today
+\end{titlepage}
+
+% ===== 免责声明 =====
+\begin{center}\zihao{5}\itshape
+本书为家庭健康科普读物，内容力求科学严谨，但\textbf{不替代专业医生的诊断与治疗}。\\
+涉及个人健康问题，请以正规医疗机构的检查与建议为准。\\
+全书以安全、自愿、相互尊重为底色，尊重多元与个体差异。\par\end{center}
+\clearpage
+
+% ===== 如何使用本书 =====
+\chapter*{如何使用本书}
+\addcontentsline{toc}{chapter}{如何使用本书}
+\noindent\textbf{性学系列共五册：}
+\begin{itemize}[leftmargin=2em]
+\item \textbf{A 性健康基础} —— 认知、同意、防护、STI、避孕总论（建议先读）
+\item \textbf{B 亲密实践与技巧} —— 前戏、体位、高潮引导、呼吸与盆底
+\item \textbf{C 男性性健康} —— 男性解剖、ED/自慰、绝育、不育
+\item \textbf{D 女性性健康} —— 女性解剖、妇科、不孕、人流、避孕、孕期/更年期
+\item \textbf{E BDSM 与 Kink} —— 安全框架下的亲密表达
+\end{itemize}
+\vspace{0.6em}
+\noindent\textbf{建议阅读路径（零基础）：} 先通读 A 建立认知与安全底线 → 按需读 C 或 D 了解自己的身体 → 再读 B 学技巧 → 兴趣到了再读 E。每章末有“一页要点”可快读。
+\clearpage
+
+% ===== 目录 =====
+\tableofcontents
+\clearpage
+\chapter{为什么要读这本书}
+
+对性好奇、想提前弄明白，是非常正常且负责任的表现。真正危险的不是"懂"，
+而是"似懂非懂就行动"。性健康是整体健康的一部分，它关系到身体的安全、
+心理的成熟，以及人与人之间的尊重。
+
+\section{一个核心判断}
+
+本书反复强调一条主线，可以浓缩为六个字：
+
+\begin{quote}
+\centering \myhei\zihao{3}\textcolor{blue}{安全 · 自愿 · 知情}
+\end{quote}
+
+\begin{itemize}
+  \item \textbf{安全}：采取科学措施，避免意外怀孕与性传播感染。
+  \item \textbf{自愿}：任何行为都建立在双方清醒、自愿的前提之上。
+  \item \textbf{知情}：了解足够的知识，在明白后果的前提下做决定。
+\end{itemize}
+
+\section{本书与专业教材的关系}
+
+同一书库中另有一册《性医学基础》，系统讲解生殖解剖、性激素、性功能障碍等
+专业内容，面向医学与相关专业读者。本书则面向完全没有基础的普通人，
+从"我该了解什么、该准备什么"的角度切入，两者是互补关系。
+当你读完本书想深入学习时，可以再阅读专业教材。
+
+\chapter{五个方面的准备}
+
+面对"初次接触性，我该准备什么"这个问题，可以把它拆成五个相互支撑的方面。
+先建立整体框架，再逐一落实。
+
+\begin{table}[htbp]
+  \centering
+  \caption{性健康准备的五个方面}
+  \begin{tabularx}{\textwidth}{@{}l l X@{}}
+    \toprule
+    \textbf{方面} & \textbf{关键词} & \textbf{要解决的核心问题} \\
+    \midrule
+    认知准备   & 了解       & 懂基本的生理结构与生殖常识，不被谣言误导 \\
+    安全防护   & 保护       & 学会正确使用安全套，懂得避孕与防病 \\
+    沟通与同意 & 尊重       & 明确意愿与边界，学会和伴侣沟通 \\
+    健康维护   & 预防       & 疫苗、筛查、卫生，把风险挡在前面 \\
+    心态准备   & 从容       & 不攀比、不勉强，尊重彼此节奏 \\
+    \bottomrule
+  \end{tabularx}
+\end{table}
+
+以下各章按这五个方面依次展开。
+
+\chapter{认知准备：先懂 basics}
+
+\begin{center}
+\begin{tikzpicture}[scale=0.85,
+  organ/.style={fill=mypinkL,draw=mypink,thin},
+  lead/.style={mygray,thin,dashed},
+  lab/.style={font=\footnotesize}
+]
+  % 内生殖器（左）
+  \draw[organ] (1,2.2) ellipse (0.35 and 0.5);
+  \draw[organ] (4.5,2.2) ellipse (0.35 and 0.5);
+  \draw[mypink,thick] (2.3,2.4) to[out=150,in=100] (1.4,2.3);
+  \draw[mypink,thick] (3.7,2.4) to[out=30,in=80] (4.6,2.3);
+  \fill[mypinkL,draw=mypink] (3,2.5) .. controls (2.6,2.2) and (2.6,1.7) .. (3,1.5) .. controls (3.4,1.7) and (3.4,2.2) .. (3,2.5);
+  \fill[mypinkL,draw=mypink] (2.9,1.45) -- (2.85,0.5) -- (3.15,0.5) -- (3.1,1.45) -- cycle;
+  \draw[lead] (1,2.6) -- (0.4,3) node[lab,left]{卵巢};
+  \draw[lead] (2,2.5) -- (1.3,3.2) node[lab,above]{输卵管};
+  \draw[lead] (3.4,2) -- (4.4,2.7) node[lab,right]{子宫};
+  \draw[lead] (3.1,1) -- (4.4,0.8) node[lab,right]{阴道};
+  % 外生殖器（右）
+  \begin{scope}[shift={(7,0)}]
+    \draw[mypink,thick] (0.5,2.6) to[out=-95,in=95] (0.5,0.6);
+    \draw[mypink,thick] (2.5,2.6) to[out=-85,in=85] (2.5,0.6);
+    \draw[mypinkM,thick] (0.9,2.5) to[out=-90,in=90] (0.9,0.8);
+    \draw[mypinkM,thick] (2.1,2.5) to[out=-90,in=90] (2.1,0.8);
+    \fill[mypinkM,draw=mypink] (1.5,2.7) circle (0.15);
+    \fill[mypink] (1.5,2.1) circle (0.08);
+    \draw[organ] (1.5,1.6) ellipse (0.3 and 0.2);
+    \draw[lead] (1.5,2.85) -- (1.5,3.3) node[lab,above,mypink]{阴蒂};
+    \draw[lead] (0.5,2) -- (-0.2,2.2) node[lab,left]{大阴唇};
+    \draw[lead] (1.1,1.9) -- (0.2,1.9) node[lab,left]{小阴唇};
+    \draw[lead] (1.6,2.1) -- (2.6,2.3) node[lab,right]{尿道口};
+    \draw[lead] (1.8,1.6) -- (2.7,1.5) node[lab,right]{阴道口};
+  \end{scope}
+\end{tikzpicture}
+\par\vspace{0.5em}\noindent\footnotesize 图：女性生殖系统示意（左：内生殖器；右：外生殖器）。科普示意，非精确解剖。
+\end{center}
+
+\section{了解身体与生命周期}
+
+无论男女，了解自己的生殖系统结构与基本功能是第一步。建议通过正规医学
+教材、医院科普栏或权威健康网站学习，理解以下内容：
+
+\begin{itemize}
+  \item 男性和女性外生殖器、内生殖器的名称与基本功能。
+  \item 女性月经周期与排卵的大致规律，以及"安全期"并非绝对安全的原因。
+  \item 精液、阴道分泌物等正常生理现象，以及哪些变化属于异常、需要就医。
+\end{itemize}
+
+\section{怀孕是怎么发生的}
+
+怀孕需要精子与卵子结合（受精）并在子宫着床。理解这一点，就能理解各种
+避孕方法的原理：有的是阻挡精子（屏障法），有的是抑制排卵（激素法），
+有的是阻止着床。方法不同，但目标一致——在"不打算要孩子"时避免意外。
+
+\section{常见误区}
+
+\subsection*{误区一："体外排精"很安全}
+失败率较高，因为射精前分泌物中可能已含有精子，且时点难以精确控制。
+
+\subsection*{误区二："第一次不会怀孕"}
+只要有排卵和 unprotected 的行为，就有怀孕的可能，与第几次无关。
+
+\subsection*{误区三："看起来健康就没病"}
+许多性传播感染在早期没有明显症状，无法靠外表判断，只能通过检测确知。
+
+\chapter{安全防护：最实际的一章}
+
+\begin{center}
+\begin{tikzpicture}[
+  st/.style={draw=myblue,fill=myblueL,rounded corners=2pt,minimum width=1.9cm,minimum height=1.1cm,align=center,font=\small}
+]
+\node[st] (s1) {1\\检查\\有效期/尺寸};
+\node[st,right=0.5cm of s1] (s2) {2\\小心撕开\\(别咬)};
+\node[st,right=0.5cm of s2] (s3) {3\\戴在\\勃起上};
+\node[st,right=0.5cm of s3] (s4) {4\\全程使用\\不翻转};
+\node[st,right=0.5cm of s4] (s5) {5\\射精后\\按住退出};
+\draw[-Stealth] (s1) -- (s2);
+\draw[-Stealth] (s2) -- (s3);
+\draw[-Stealth] (s3) -- (s4);
+\draw[-Stealth] (s4) -- (s5);
+\end{tikzpicture}
+\par\vspace{0.5em}
+\begin{tikzpicture}[font=\small]
+  \node[anchor=west,font=\normalsize\bfseries] at (0,1.6){紧急避孕时间窗（越早越好）};
+  \fill[mygreenL] (0,0.9) rectangle (6,1.2);
+  \node[anchor=west,mygreen] at (6.2,1.05){$\le$72h\ 左炔诺孕酮};
+  \fill[myblueL] (0,0.3) rectangle (10,0.6);
+  \node[anchor=west,myblue] at (10.2,0.45){$\le$120h\ 乌利司坦/铜IUD(最可靠)};
+  \draw[mygray] (0,-0.2) -- (10,-0.2);
+  \draw[mygray] (0,-0.3) -- (0,-0.1) node[below,mygray,font=\footnotesize] at (0,-0.4){0h};
+  \draw[mygray] (6,-0.3) -- (6,-0.1) node[below,mygray,font=\footnotesize] at (6,-0.4){72h};
+  \draw[mygray] (10,-0.3) -- (10,-0.1) node[below,mygray,font=\footnotesize] at (10,-0.4){120h};
+\end{tikzpicture}
+\end{center}
+
+这是全书最具操作性的部分。请认真读完，并落实到位。
+
+\section{安全套：一举两得的工具}
+
+安全套（避孕套）是\textbf{目前唯一能同时避孕和降低性传播感染风险}的常用工具。
+据美国 CDC 资料，在血清状态不一致（一方感染、一方未感染）的异性恋伴侣中，
+坚持使用安全套者感染 HIV 的风险比不使用者的伴侣低约 71\%--80\%；
+对衣原体、淋病、乙肝、滴虫等其他感染也有明确的降低风险作用。
+世界卫生组织同样指出，安全套是唯一兼具避孕与预防包括 HIV 在内的性传播感染功能的方法。
+
+\subsection*{关于有效率的真实数字}
+
+\begin{table}[htbp]
+  \centering
+  \caption{男用乳胶安全套的第一年失败率（避孕）}
+  \begin{tabularx}{\textwidth}{@{}l C C@{}}
+    \toprule
+    \textbf{使用方式} & \textbf{第一年失败率} & \textbf{说明} \\
+    \midrule
+    典型使用（日常真实情况） & 约 15\% & 常因遗漏、佩戴不当所致 \\
+    坚持且正确使用           & 约 2\%  & 接近理想效果 \\
+    \bottomrule
+  \end{tabularx}
+\end{table}
+
+可见安全套本身可靠，问题几乎总是出在"没有每次、正确地使用"上。
+CDC 也指出，安全套失效多源于使用不一致或不正确，而非破裂——
+乳胶安全套在性交与退出过程中的破裂率约为每一百个中两个。
+
+\subsection*{正确使用的要点}
+
+\begin{enumerate}[leftmargin=2em,itemsep=0.3em]
+  \item 每次行为都用\textbf{新的}安全套，检查包装完整与有效期。
+  \item 在生殖器发生任何接触\textbf{之前}佩戴：阴茎勃起后，捏住储精囊排出空气，再展开至根部。
+  \item 全程使用，结束后在阴茎仍勃起时按住套口边缘一同退出，避免精液外溢。
+  \item 用后打结或用纸巾包好丢入垃圾桶，不可重复使用。
+  \item 若中途破裂或滑脱，应立即停止并更换新的安全套。
+  \item 润滑剂只用\textbf{水基或硅基}；凡士林、婴儿油、护肤乳等油基会削弱乳胶、导致破裂。
+  \item 对乳胶过敏者可选聚氨酯等合成材质安全套。
+\end{enumerate}
+
+\section{其他避孕方法}
+
+\begin{table}[htbp]
+  \centering
+  \caption{常见避孕方法概览（ efficacy 为典型使用下的大致水平）}
+  \begin{tabularx}{\textwidth}{@{}l X C@{}}
+    \toprule
+    \textbf{方法} & \textbf{特点} & \textbf{能否防性病} \\
+    \midrule
+    男用安全套   & 易获取、即时可用；需每次正确使用 & 能 \\
+    女用安全套   & 由使用者自主掌握；同样为屏障法   & 能 \\
+    短效口服避孕药 & 需每日按时服用；适合固定伴侣   & 不能 \\
+    宫内节育器   & 长效可逆，由医生放置           & 不能 \\
+    皮下埋植     & 长效可逆，由医生放置           & 不能 \\
+    绝育手术     & 永久性的，适用于确定不再生育者 & 不能 \\
+    安全期 / 体外排精 & 可靠性低，不推荐单独依赖 & 不能 \\
+    \bottomrule
+  \end{tabularx}
+\end{table}
+
+选择哪种方法，应结合健康状况、伴侣情况与个人需求，并咨询医生。
+注意：\textbf{除安全套外，其他方法基本不能预防性传播感染}，
+必要时需与安全套联合使用（双重保护）。
+
+\section{万一发生了无保护行为}
+
+\begin{itemize}
+  \item \textbf{紧急避孕}：在无保护行为后应尽快（越早越好，通常在 72 小时内，
+        部分方案可延长至 120 小时）咨询医生或药师使用紧急避孕药，
+        它不能作为常规避孕手段。
+  \item \textbf{检测}：如有感染风险，应在医生建议的时间窗后做性传播感染筛查；
+        很多感染早期无症状，检测是唯一确知方式。
+  \item \textbf{就医}：出现疼痛、异常分泌物、出血、发热等症状，请及时到正规医院就诊。
+\end{itemize}
+
+\chapter{沟通与同意：不可逾越的底线}
+
+\section{什么算"同意"}
+
+同意必须同时满足几个条件：\textbf{清醒}（未受酒精或药物影响）、
+\textbf{自愿}（没有被强迫、欺骗或施压）、\textbf{具体}（针对当下这件事）、
+\textbf{可撤回}（任何时候都可以改变主意）。沉默、犹豫、畏惧都不等于同意。
+
+需要特别强调：性行为涉及法律年龄界限，各地规定不同。若你或对方未成年，
+请务必先了解当地法律，并听取可信成年人的意见。
+
+\section{如何与伴侣沟通}
+
+ Opening the conversation 常常让人觉得尴尬，但这是成熟与负责的表现。
+可以在轻松的场合，坦诚地谈：
+
+\begin{itemize}
+  \item 双方对避孕与防病的打算：是否使用安全套、是否做过检测。
+  \item 彼此的意愿、顾虑与边界：什么可以做、什么不接受。
+  \item 可以随时喊停的"安全词"或约定，让任何一方安心表达不适。
+\end{itemize}
+
+谈这些不会破坏气氛，反而会让双方更放松、更信任。真正尊重你的人，
+会认真对待你的边界。
+
+\input{A_补充.tex}
+
+\chapter{健康维护：把风险挡在前面}
+
+\section{疫苗}
+
+\subsection*{HPV 疫苗}
+人乳头瘤病毒（HPV）感染与宫颈癌等多种疾病相关，疫苗是有效的预防手段。
+在我国，二价、四价、九价 HPV 疫苗的获批接种年龄已扩展至 9--45 岁
+（具体以最新说明书和当地接种门诊为准）。CDC 建议 11--12 岁常规接种，
+可从 9 岁开始；26 岁前未接种者建议补种；27--45 岁者可与医生共同决策。
+总体原则是：\textbf{越早接种，保护效果越好}。
+
+\subsection*{乙肝疫苗}
+乙肝可通过性接触传播。CDC 建议所有未接种、未感染且有风险者接种乙肝疫苗。
+
+\section{定期筛查}
+
+\begin{itemize}
+  \item 有固定性伴侣前，双方做一次性传播感染筛查，是负责任的做法。
+  \item 女性按年龄与医生建议定期进行宫颈癌筛查（如 HPV 检测、TCT）。
+  \item 很多感染无症状，"没感觉"不等于"没感染"。
+\end{itemize}
+
+\section{日常卫生}
+
+保持基本清洁即可，不必过度。重点是：行为前后适当清洁、
+不共用可能接触体液的个人物品、出现不适及时就医而不是自行乱用药。
+
+\chapter{心态准备：从容比技巧更重要}
+
+\begin{itemize}
+  \item \textbf{不必比较}：没有"标准剧本"，每个人的节奏都不同。
+  \item \textbf{允许笨拙}：紧张、不熟练都很正常，沟通与体谅远比表现重要。
+  \item \textbf{可以不做}："不想"本身就是充分的理由，任何人都不应被勉强。
+  \item \textbf{尊重彼此}：把对方当作有感受、有边界的人，而不是目标。
+\end{itemize}
+
+健康的性观念，本质是把自己和对方都当作值得尊重的人。
+
+\chapter{去哪里获取可靠信息}
+
+信息源决定了观念的质量。请优先选择权威渠道，远离以流量为目的的
+"经验分享"和以表演为目的的成人内容——后者不是教材，会建立错误的期待。
+
+\begin{table}[htbp]
+  \centering
+  \caption{推荐的可信信息渠道}
+  \begin{tabularx}{\textwidth}{@{}l X@{}}
+    \toprule
+    \textbf{渠道} & \textbf{说明} \\
+    \midrule
+    世界卫生组织（WHO）   & 全球权威的性与生殖健康指南与数据 \\
+    美国疾控中心（CDC）   & 性病预防、安全套使用、疫苗接种的循证资料 \\
+    国家卫健委 / 各地疾控 & 国内政策、疫苗接种点与健康教育信息 \\
+    正规医院妇科 / 泌尿外科 / 皮肤性病科 & 个体化的诊断、检测与咨询 \\
+    权威医学工具书         & 如默沙东诊疗手册（MSD Manual）等 \\
+    \bottomrule
+  \end{tabularx}
+\end{table}
+
+\chapter{深入篇：高频疑问解答}
+\label{chap:faq}
+
+前面各章给出的是框架，这一章回答初学者最常问的几个具体问题。
+顺序从"工具怎么用"到"方案怎么选"，再到"话怎么讲""事怎么办"。
+
+\section{安全套怎么才算"用对了"}
+
+多数失败并非产品质量问题，而是使用环节出错。对照下表自查：
+
+\begin{table}[htbp]
+  \centering
+  \caption{安全套使用的常见错误与正确做法}
+  \begin{tabularx}{\textwidth}{@{}X X@{}}
+    \toprule
+    \textbf{常见错误} & \textbf{正确做法} \\
+    \midrule
+    中途才戴、先接触后戴 & 生殖器接触之前就戴好 \\
+    用牙齿/指甲撕开包装   & 沿锯齿边小心撕开，避免划破 \\
+    没排空气               & 捏住顶端储精囊排出空气再展开 \\
+    戴反了翻过来再用       & 戴反即换新，不翻面重复使用 \\
+    用油基润滑（凡士林等） & 只用水基或硅基润滑剂 \\
+    一个用到底、重复使用   & 每次每个行为都用新的 \\
+    射精后不按住就退出     & 按住套口、趁勃起时退出 \\
+    存放在高温/暴晒处      & 阴凉干燥处存放，看有效期 \\
+    \bottomrule
+  \end{tabularx}
+\end{table}
+
+\section{避孕方式怎么选}
+
+没有"最好"的方法，只有"最适合当下情况"的方法。可以分三步判断。
+
+\subsection*{第一步：看关系状态}
+
+\begin{itemize}
+  \item \textbf{新伴侣、非固定关系，或对方健康状况不明}：\textbf{必须用安全套}。
+        这是唯一能降低性传播感染风险的工具，不能省。
+  \item \textbf{稳定单一伴侣且双方已检测}：可在安全套之外，叠加更高效的方法，
+        如短效口服避孕药、宫内节育器（IUD）、皮下埋植，形成"双保险"。
+  \item \textbf{还没决定或只是偶尔}：安全套通常已足够，不必把问题复杂化。
+\end{itemize}
+
+\subsection*{第二步：看有效率需求}
+
+若把"意外怀孕"的风险降到最低，长效可逆避孕（IUD、埋植）与绝育术的有效率
+最高，短效药次之，安全套与行为类方法相对较低。但请记住：
+\textbf{高效避孕 $\neq$ 防病}，只有安全套兼顾后者。
+
+\subsection*{第三步：看健康与可及性}
+
+激素类方法并非人人适合（如有某些血栓风险、偏病史等情况需医生评估）；
+IUD、埋植需由医生放置；短效药需每日按时服用。请结合身体状况咨询医生，
+不要自行长期服用来源不明的药物。
+
+\section{怎么和伴侣开口谈检测和边界}
+
+很多人觉得难以启齿，但这恰恰是成熟的表现。可以事先想好一句开场白，例如：
+
+\begin{quote}
+"我想认真聊一下我们的健康和安全——不是不信任你，
+而是我们都该对自己负责。我们要不要一起去做个检测，
+以及确认一下彼此都能接受的边界？"
+\end{quote}
+
+要点：\textbf{对事不对人}，强调"保护我们俩"而非"怀疑你"；
+把话题落在具体行动（检测、安全套、可以喊停）上，而不是抽象审问。
+对方若尊重你，会认真对待；若回避、施压或嘲讽，这本身就是重要信号。
+
+\section{无保护行为后怎么办}
+
+\begin{enumerate}[leftmargin=2em,itemsep=0.3em]
+  \item \textbf{尽快求助}：紧急避孕越早越好，通常在 72 小时内，部分方案可延至 120 小时，
+        请咨询医生或药师，不要当作常规避孕手段。
+  \item \textbf{安排检测}：很多感染早期无症状，需在医生建议的时间窗后筛查；
+        过早检测可能出现假阴性。
+  \item \textbf{留意症状}：出现异常分泌物、疼痛、出血、发热等，及时就医。
+  \item \textbf{下次改进}：把这次经历转化为经验，落实"每次、全程、正确"使用安全套。
+\end{enumerate}
+
+\section{什么时候必须去看医生}
+
+出现以下任一情况，请尽快到正规医院妇科、泌尿外科或皮肤性病科就诊，
+不要自行买药或拖延：
+
+\begin{itemize}
+  \item 疑似无保护行为后需要紧急避孕或暴露后预防（如 HIV 暴露）。
+  \item 出现疼痛、异常出血、分泌物异常、溃疡、皮疹、发热等症状。
+  \item 检测呈阳性，需要规范治疗（多数性传播感染可治愈或可有效控制）。
+  \item 对避孕方法有疑问，或需要 HPV、乙肝等疫苗接种建议。
+\end{itemize}
+
+\chapter{性传播感染详解}
+\label{chap:sti}
+
+性传播感染（STI）是初学者最容易恐慌、也最容易被谣言误导的话题。
+这一章用循证医学的视角把它讲清楚：哪些能治、哪些不能、如何发现、出了问题怎么办。
+
+\section{三个基本事实}
+
+\begin{enumerate}[leftmargin=2em,itemsep=0.3em]
+  \item \textbf{多数 STI 没有症状。} 世界卫生组织指出，大多数性传播感染没有症状，
+        女性以及咽部、直肠等非尿道部位尤其如此。所以"没感觉"不等于"没感染"，
+        唯一确知方式是检测。
+  \item \textbf{分为"可治愈"和"可控"两大类。} 细菌性和寄生虫类通常能根治；
+        病毒类多为终身感染，但可用药物抑制，并不影响正常寿命。
+  \item \textbf{早发现、早治疗能防并发症。} 未经治疗可导致不孕、宫外孕、死胎、
+        神经系统与心血管疾病，并增加感染 HIV 的风险。
+\end{enumerate}
+
+\section{可治愈类：细菌与寄生虫}
+
+\begin{table}[htbp]
+  \centering
+  \caption{常见的可治愈性传播感染}
+  \begin{tabularx}{\textwidth}{@{}l X X@{}}
+    \toprule
+    \textbf{感染} & \textbf{常见表现} & \textbf{要点} \\
+    \midrule
+    衣原体 & 常无症状；可有分泌物增多、排尿灼痛 & 可治愈；不治可致女性生殖系统永久损伤、不孕或宫外孕 \\
+    淋病 & 男性可有尿痛、黄绿色分泌物；女性常无症状或很轻微 & 可治愈，但耐药菌株增多，须完成全程，不可自行买药或分给别人 \\
+    梅毒 & 一期为单个无痛溃疡；二期可全身皮疹（含手掌足底） & 可治愈；潜伏期无症状但血清学阳性 \\
+    滴虫 & 女性分泌物异常、外阴瘙痒、性交痛 & 可治愈；性伴需同时治疗 \\
+    \bottomrule
+  \end{tabularx}
+\end{table}
+
+\noindent 共性：一旦确诊，\textbf{你和伴侣必须同时接受治疗}，否则容易反复交叉感染。
+
+\section{不可治愈但可控类：病毒}
+
+\begin{table}[htbp]
+  \centering
+  \caption{常见的病毒类性传播感染}
+  \begin{tabularx}{\textwidth}{@{}l X X@{}}
+    \toprule
+    \textbf{感染} & \textbf{特点} & \textbf{应对} \\
+    \midrule
+    HIV & 攻击免疫细胞；感染头几个月可能无症状但传染性强 & 无法治愈，但抗逆转录病毒治疗（ART）可长期抑制，病毒量测不出时不会传染性伴 \\
+    生殖器疱疹（HSV） & 疼痛性水疱或溃疡，易复发；很多人无症状或极轻微 & 终身感染，抗病毒药可减少复发；不会经马桶、泳池、毛巾等日常物品传播 \\
+    乙肝（HBV） & 可经性接触传播 & \textbf{有疫苗}；慢性感染需长期管理 \\
+    HPV & 极常见，约九成感染两年内自行消退；少数持续感染可致宫颈等癌症 & \textbf{有疫苗}；宫颈癌筛查（HPV 检测、TCT）可早发现癌前病变 \\
+    \bottomrule
+  \end{tabularx}
+\end{table}
+
+\noindent 关键区别：病毒类"治不好"不等于"没救"。ART 抑制 HIV、抗病毒药控制疱疹、
+疫苗预防乙肝和 HPV，都是成熟手段。
+
+\section{症状与窗口期}
+
+出现以下任一信号应尽快就医：异常分泌物、生殖器溃疡或肿物、排尿灼痛、下腹痛、
+性交痛、发热皮疹。但更要记住——\textbf{没有任何信号也可能已经感染}。
+
+以 HIV 为例，多数人在感染后 28 天内产生抗体；WHO 建议高危暴露后检测阴性者，
+\textbf{28 天后再复查一次}，因为过早检测可能出现假阴性。其他感染的检测时机各有不同，
+请遵医嘱安排。
+
+\section{检测：怎么做、多久一次}
+
+\begin{itemize}[leftmargin=2em]
+  \item \textbf{方式}：多为尿液或拭子采样（尿道、宫颈、咽部、直肠），无创快捷。
+        主动告诉医生你的性行为方式，便于选对采样部位。
+  \item \textbf{频率}：CDC 建议有性行为的男男性行为者至少每年查 HIV、梅毒、乙肝、丙肝（依风险）；
+        25 岁以下或有新性伴、多性伴、性伴已感染的女性每年查衣原体与淋病。
+        普通人确定固定伴侣前双方各查一次，是负责任的做法。
+  \item \textbf{阳性不是终点}：多数 STI 可治愈或可控，规范治疗、通知伴侣、按期复查即可。
+\end{itemize}
+
+\section{暴露后怎么办：PEP}
+
+HIV 暴露后预防（PEP）用于可能接触 HIV 的紧急情况（如安全套破裂、共用针具、性侵）：
+\textbf{越早越好，最好 24 小时内、最晚不超过 72 小时}到急诊或医疗机构启动，
+\textbf{每天服药、连服 28 天}。PEP 不能替代常规防护；若反复暴露，
+应咨询医生改用暴露前预防（PrEP）。
+
+在国内，各地疾控中心、传染病医院、三甲医院感染科或急诊可提供咨询与 PEP，
+也可拨打当地 12320 卫生热线询问。
+
+\section{预防小结}
+
+\begin{enumerate}[leftmargin=2em,itemsep=0.3em]
+  \item \textbf{安全套}：每次、全程、正确使用。对体液传播的感染（淋病、衣原体、HIV 等）效果好；
+        对皮肤接触传播的感染（疱疹、HPV、梅毒）只能部分降低风险。
+  \item \textbf{疫苗}：HPV、乙肝（及甲肝）疫苗。
+  \item \textbf{固定性伴与双方检测}：双方均未感染的单一性伴关系风险最低。
+  \item \textbf{定期筛查}：无症状感染只能靠筛查发现。
+  \item \textbf{避免酒精与药物影响下决策}：会降低判断力，导致不戴套等风险行为。
+\end{enumerate}
+
+\chapter{关系与现实：小白最该知道的几件事}
+\label{chap:reality}
+
+前面各章偏重"知识"，这一章偏重"观念"。对初学者来说，
+破除迷思、学会沟通、保护自己，比记住任何技巧都重要。
+
+\section{破除对"第一次"的迷思}
+
+\begin{itemize}[leftmargin=2em]
+  \item \textbf{"出血 = 第一次"是过时观念}：阴道瓣（旧称处女膜）形态各异，
+        很多人第一次并不出血；剧烈运动、卫生棉条等都可能影响它。
+        用它评判别人既不科学也不尊重。
+  \item \textbf{疼痛不是必须的}：放松、沟通、充分的前戏与润滑能大幅减少不适。
+        如果很痛就停下来——不是"不够好"，而是方法或时机需要调整。
+  \item \textbf{别追求"完美表现"}：第一次更重要的是彼此信任和沟通，不是表演。
+  \item \textbf{影视夸大了戏剧性}：现实往往平淡得多，甚至有点失望，这完全正常。
+\end{itemize}
+
+\section{别把色情内容当教材}
+
+如果你对性的"首次印象"来自网络视频，请意识到\textbf{那是表演，不是教育}：
+
+\begin{itemize}[leftmargin=2em]
+  \item 时长、体型、反应、场景都经过设计和剪辑，和真实生活差距很大。
+  \item 它几乎不涉及\textbf{安全、同意、情感}——而这恰恰是现实中最重要的三件事。
+  \item 长期拿它当标准，容易对自己的身体和伴侣产生不必要的不满与焦虑。
+\end{itemize}
+
+\section{性欲与节奏：没有标准答案}
+
+\begin{itemize}[leftmargin=2em]
+  \item 每个人的性欲高低、唤起方式、节奏都不同，还会随年龄、压力、健康、情绪波动。
+  \item 有人浪漫先行，有人身体先行——都正常。
+  \item \textbf{差异不等于问题}。真正值得关注的信号是：欲望突然、显著地变化
+        并带来困扰，那可以咨询医生或心理咨询师。
+\end{itemize}
+
+\section{学会说"不"，也学会接受"不"}
+
+这是初学者最需要、却最少被教的一课：
+
+\begin{itemize}[leftmargin=2em]
+  \item \textbf{拒绝不需要理由}："我不想"就是完整理由，不必解释到对方满意。
+  \item \textbf{具体说法}："我现在不想""我还没准备好""换个方式吧""我累了想休息"。
+  \item \textbf{对方说"不"时}：尊重、不追问、不施压、不冷战。那不是拒绝你这个人。
+  \item \textbf{危险信号}：用"如果你爱我你就会""大家都这样""你不配合我就生气"
+        来施压——这是操控，不是亲密。
+\end{itemize}
+
+\section{身体意象与自我接纳}
+
+\begin{itemize}[leftmargin=2em]
+  \item 身体的形状、大小、肤色、体毛千差万别，\textbf{没有"标准款"}。
+  \item 图片和视频里的光影、角度、剪辑都会改变呈现，真实的人不是那样。
+  \item 好的亲密关系建立在\textbf{接纳}上，而不是把自己或伴侣和某个图像比较。
+\end{itemize}
+
+\section{几个容易被忽视的实际问题}
+
+\begin{itemize}[leftmargin=2em]
+  \item \textbf{酒后 / 药后}：判断力和自控力下降。提前想好界限，不单独赴不明场合的约。
+  \item \textbf{线上交友}：不轻易透露住址、单位、经济状况；初次见面选公共场所并告知朋友；
+        \textbf{不发送私密照片}——一旦发出难以收回，可能被用于敲诈。
+  \item \textbf{隐私}：任何亲密行为都属私密。\textbf{未经同意拍摄或传播他人私密影像，
+        是严重伤害，且违法。}
+  \item \textbf{金钱与礼物往来}：保持清醒，别被物质裹挟做出不愿的决定。
+\end{itemize}
+
+\section{如果感到困惑或受伤}
+
+\begin{table}[htbp]
+  \centering
+  \caption{遇到困惑或伤害时的求助渠道}
+  \begin{tabularx}{\textwidth}{@{}l X@{}}
+    \toprule
+    \textbf{情况} & \textbf{求助渠道} \\
+    \midrule
+    性健康知识、检测咨询 & 正规医院、当地疾控、12320 卫生热线 \\
+    情绪困扰、心理压力 & 心理咨询师、心理援助热线 \\
+    性骚扰、性侵 & 立即离开现场、拨打 110、保留证据、尽快就医并联系可信任的人 \\
+    \bottomrule
+  \end{tabularx}
+\end{table}
+
+\noindent\textbf{一句话总结}：慢一点、问清楚、尊重彼此、保护好自己。
+任何时刻觉得不确定或不舒服，都可以停下来——查证或求助，一点都不丢人。
+
+\chapter{亲密过程中的身体反应：性反应周期与注意事项}
+
+\begin{center}
+\begin{tikzpicture}[font=\small]
+  \draw[mygray,thin] (0,0) -- (9.5,0) node[midway,below,mygray]{时间 →};
+  \draw[mygray,thin] (0,0) -- (0,3.6) node[midway,left,mygray]{唤起水平};
+  \draw[myblue,thick] (0,0.4) to[out=45,in=170] (2.2,3.0) to[out=0,in=180] (4.6,2.7) to[out=0,in=110] (5.6,3.4) to[out=350,in=90] (9,0.5);
+  \fill[myblue] (5.6,3.4) circle (0.06);
+  \node[mygray] at (1.1,3.9){兴奋期};
+  \node[mygray] at (3.4,3.9){平台期};
+  \node[myblue] at (5.6,3.9){高潮};
+  \node[mygray] at (7.4,3.9){消退期};
+  \node[mygray,font=\footnotesize] at (1.1,-0.5){唤起·充血·润滑};
+  \node[mygray,font=\footnotesize] at (3.4,-0.5){维持高位·张力升};
+  \node[myblue,font=\footnotesize] at (5.6,-0.5){节律性收缩};
+  \node[mygray,font=\footnotesize] at (7.6,-0.5){回落基线};
+\end{tikzpicture}
+\par\vspace{0.5em}\noindent\footnotesize 图：性反应周期（Masters \& Johnson）四阶段唤起水平曲线。
+\end{center}
+\label{chap:cycle}
+
+本章讲"过程中身体到底会发生什么"——用经典的\textbf{性反应周期}四阶段模型，
+从生理角度把过程说清楚。全程用医学科普的口吻，聚焦正常反应、个体差异和注意事项，
+不涉及露骨的动作描写。先记住一句：这些反应大多是自动发生的，你不需要"表演"，
+也不需要拿自己去对照任何标准。
+
+\section{整体框架：四个阶段}
+
+经典模型（Masters \& Johnson，1966 年《Human Sexual Response》）把一次亲密过程的身体反应
+分为四个阶段：\textbf{兴奋期 $\to$ 平台期 $\to$ 高潮期 $\to$ 消退期}。
+它不是机械流水线——各阶段长短因人而异，有时会跳过或反复，情绪、疲劳、压力、环境都会影响。
+理解它，主要是为了知道"什么反应是正常的""什么时候该注意"。
+
+\section{兴奋期：身体开始"准备"}
+
+\textbf{身体会发生什么}（男女共同）：心跳加快、呼吸变快、血压上升、肌肉逐渐紧张、皮肤可能泛红；
+男性阴茎勃起；女性阴道分泌润滑液、阴道扩张、外生殖器充血。
+
+\begin{itemize}[leftmargin=2em]
+  \item \textbf{唤起需要时间}，个体差异很大。女性往往需要更长时间，不要急着进入"正题"——这也是前戏的意义。
+  \item \textbf{勃起受情绪和状态影响很正常}。紧张、疲劳、饮酒、压力大时勃起不理想很常见，不等于"有问题"。
+  \item \textbf{干涩就补水基润滑剂}，这是正常生理差异（年龄、压力、药物都会影响），不是"不够投入"。
+  \item 保持沟通："这样舒服吗？"比默默猜测可靠。
+\end{itemize}
+
+\section{平台期：反应持续加强}
+
+\textbf{身体会发生什么}：心率、呼吸进一步加快，肌肉紧张加剧，部分人胸腹部出现红疹（"性红晕"）；
+男性尿道口可能分泌少量液体；女性阴道下段收缩、相关组织进一步充血。
+
+\begin{itemize}[leftmargin=2em]
+  \item 这是"持续"阶段，节奏可根据双方感受调整——\textbf{快了就慢一点，累了就停一停}。
+  \item 男性注意：\textbf{射精前的分泌物中可能已混有精子}，所以"体外排精"并不可靠，
+        不能当作避孕方法（见第~\ref{chap:intimacy}~章）。
+  \item 若一直"卡"在此阶段、许久没有进展，不必焦虑——放慢、换方式或顺其自然结束都可以。
+        \textbf{亲密不等于必须走到某一步。}
+\end{itemize}
+
+\section{高潮期：短暂的峰值}
+
+\textbf{身体会发生什么}：盆底及相关肌肉出现节律性收缩，心率、呼吸达到高峰，
+主观上有强烈愉悦感；持续几秒到几十秒。男性射精通常与高潮同时发生，
+女性是否高潮、强弱差异极大。
+
+\begin{itemize}[leftmargin=2em]
+  \item \textbf{女性高潮差异非常大}：有人容易、有人需要特定条件、也有人从未体验过——
+        \textbf{都正常}，不必假装，更不要用"对方有没有高潮"评判这次亲密是否成功。
+  \item 高潮不是必须的终点。\textbf{连接、愉悦、彼此舒服才是目的}，高峰只是可能的组成部分。
+  \item 一次不理想很正常，别给自己下"不行"的定义。
+\end{itemize}
+
+\section{消退期：身体慢慢恢复}
+
+\textbf{身体会发生什么}：心跳、呼吸、肌肉紧张在数分钟内逐渐恢复。
+男性通常有\textbf{不应期}（refractory period）——此期间难以再次勃起，年轻时较短、随年龄增长变长；
+女性一般没有明显不应期，但也可能因敏感而需要休息。
+
+\begin{itemize}[leftmargin=2em]
+  \item \textbf{不应期是正常的生理现象}，不是"能力下降"。别给自己或对方"马上再来"的压力。
+  \item 消退期是\textbf{温存的好时机}：拥抱、说说话、聊聊感受。这段"事后时光"对关系的意义，
+        往往比高峰本身更大。
+  \item 若有无保护行为，记住 72 小时窗口（紧急避孕 / PEP），并按第~\ref{chap:sti}~章安排检测。
+\end{itemize}
+
+\section{贯穿全程的注意事项}
+
+\begin{enumerate}[leftmargin=2em,itemsep=0.3em]
+  \item \textbf{没有"标准"}：时长、反应、节奏人人不同，也随年龄、状态、情绪变化。
+        别拿自己或伴侣和任何图像、视频比较。
+  \item \textbf{安全套全程、正确使用}：这是全程不变的底线（用法见第~\ref{chap:intimacy}~章）。
+  \item \textbf{保持清醒}：酒精会降低判断力，也让"同意"变得可疑。
+  \item \textbf{持续沟通}：任何新动作前确认意愿，"还好吗？""要不要慢一点？"——沉默不是同意。
+  \item \textbf{疼痛、出血、明显不适就停}，并考虑就医，不要忍。
+  \item \textbf{情绪连接高于一切}：WHO 把良好的性健康定义为"积极、尊重、愉悦且安全的体验，
+        免于胁迫、歧视和暴力"。技术是次要的，尊重与舒服才是核心。
+\end{enumerate}
+
+\section{几个常见困惑}
+
+\begin{itemize}[leftmargin=2em]
+  \item \textbf{"没有高潮是不是有问题？"}——多数情况下不是。关注愉悦和连接，而非某个生理终点；
+        若长期困扰可咨询医生。
+  \item \textbf{"中途软了/勃起不理想"}——偶发很常见；若持续出现并带来困扰，
+        去正规医院（泌尿外科/男科）评估，别乱吃补药。
+  \item \textbf{"总觉得太快了"}——先分清是不是"正常变异"或"主观感受"，别急着贴标签；
+        持续困扰可就医（EAU 指南强调不能只看时间）。
+  \item \textbf{"总觉得疼/干"}——先试水基润滑、放慢节奏；若持续疼痛，就医排查原因。
+\end{itemize}
+
+\chapter{避孕方法详解：怎么选才靠谱}
+
+\begin{center}
+\begin{tikzpicture}[font=\small]
+  \node[anchor=east] at (0,0) {IUD / 埋植棒(LARC)};
+  \fill[mygreen] (0.2,0) rectangle (0.247,0.3);
+  \node[mygray] at (0.75,0.15) {\textless 1\%};
+  \node[anchor=east] at (0,-0.7) {结扎};
+  \fill[mygreen] (0.2,-0.7) rectangle (0.247,-0.4);
+  \node[mygray] at (0.75,-0.55) {\textless 1\%};
+  \node[anchor=east] at (0,-1.4) {口服药 / 贴片 / 环};
+  \fill[myteal] (0.2,-1.4) rectangle (0.62,-1.1);
+  \node[mygray] at (1.1,-1.25) {约 9\%};
+  \node[anchor=east] at (0,-2.1) {安全套(男用)};
+  \fill[myteal] (0.2,-2.1) rectangle (0.81,-1.8);
+  \node[myteal] at (1.5,-1.95) {约 13\% · 唯一防 STI};
+  \node[anchor=east] at (0,-2.8) {安全期 / 日历法};
+  \fill[myamber] (0.2,-2.8) rectangle (1.05,-2.5);
+  \node[mygray] at (1.55,-2.65) {约 18\%};
+  \node[anchor=east] at (0,-3.5) {体外射精};
+  \fill[myamber] (0.2,-3.5) rectangle (1.14,-3.2);
+  \node[mygray] at (1.64,-3.35) {约 20\%};
+  \node[anchor=east] at (0,-4.2) {安全套 + 杀精剂};
+  \fill[myamber] (0.2,-4.2) rectangle (1.52,-3.9);
+  \node[mygray] at (2.0,-4.05) {约 28\%};
+  \node[anchor=east] at (0,-4.9) {不避孕};
+  \fill[myred] (0.2,-4.9) rectangle (4.2,-4.6);
+  \node[myred] at (4.7,-4.75) {约 85\%};
+\end{tikzpicture}
+\par\vspace{0.3em}\noindent\footnotesize 图：各避孕方法典型使用失败率（每年）。条形越长越易意外怀孕。
+\end{center}
+
+\label{chap:contraception}
+
+前面多次提到安全套与紧急避孕。这一章把\textbf{全部避孕方法}放进同一张图里看，回答一个最实际的问题：\textbf{怎么选才既防怀孕、又防性病。}
+
+\section{先建立一个关键认知：两种"失败率"差别巨大}
+
+\begin{itemize}[leftmargin=2em,itemsep=0.3em]
+  \item \textbf{完美使用}：每次都严格按说明做（每天按时吃、每次都戴）。
+  \item \textbf{典型使用}：真实生活里——会漏服、会忘、会中途出问题。
+\end{itemize}
+
+\noindent 同一个方法，两个数字可能差 3 倍以上。判断"靠不靠谱"，要看\textbf{典型使用失败率}（按真实使用，一年里约有多少人意外怀孕）。
+
+\section{按"真实可靠度"分层（越靠上越可靠）}
+
+\begin{tabularx}{\textwidth}{p{3.4cm}CCC}
+\toprule
+方法 & 典型使用约怀孕比例(每年) & 能否防性病 & 是否长效 \\
+\midrule
+宫内节育器/皮下埋植(LARC) & $<$1\% & 否 & 是(多年) \\
+男/女结扎 & $<$1\% & 否 & 是(不可逆) \\
+短效口服药/贴片/阴道环 & 约 7--12\% & 否 & 否(需每天) \\
+安全套(男用) & 约 13\% & \textbf{是(唯一日常)} & 否(每次) \\
+安全套+杀精剂 & 约 28\% & 部分 & 否(每次) \\
+安全期/日历法 & 约 12--24\% & 否 & 否(每次) \\
+体外射精 & 约 20\% & 部分(前液) & 否(每次) \\
+不避孕 & 约 85\% & — & — \\
+\bottomrule
+\end{tabularx}
+
+\vspace{0.5em}
+\noindent\textbf{一句话：} 要"几乎不担心怀孕"选 LARC（IUD/埋植）；要"顺便防性病"必用安全套。\textbf{两者不冲突，可以叠加}（安全套 + 口服药 = 既防孕又防 STI）。
+
+\section{几个高频方法的要点}
+
+\subsection*{1. 安全套（唯一日常防 STI 的方法）}
+
+防 STI 能力取决于"每次都正确用"：\textbf{事前戴、全程戴、不翻转、戴在勃起上、射精后按住退出、用完即弃}。漏用/滑脱是中途出问题的主因；\textbf{不要与油基润滑同用}（会溶乳胶，见\ref{chap:practices}）。
+
+\subsection*{2. 短效口服避孕药（需每天、防不了 STI）}
+
+核心是"每天都吃、别漏"——\textbf{漏服/晚服是失败主因}。常见误区：刚开始吃的前 7 天要配合安全套；\textbf{它不防任何性病}。需医生评估适应证（偏头痛伴先兆、吸烟且年龄较大、血栓风险等人群多不宜）。
+
+\subsection*{3. LARC（长效可逆：IUD / 埋植棒）——一次放置、多年有效}
+
+放置后基本"免维护"，典型失败率 $<$1\%，是目前\textbf{非绝育里最可靠}的。\textbf{可逆}：取出后生育力通常很快恢复。需到正规医院放置/取出；"上环影响生育"多为误解——取出后不影响。
+
+\subsection*{4. 紧急避孕（事后补救，不是日常方法）}
+
+\begin{itemize}[leftmargin=2em,itemsep=0.3em]
+  \item 左炔诺孕酮片：\textbf{越早越好，72 小时内}效果最佳（5 天内仍部分有效）。
+  \item 乌利司坦：120 小时内。
+  \item 铜 IUD：\textbf{事后 5 天内放置，是最可靠的紧急避孕}。
+  \item \textbf{不能替代常规避孕}，频繁用会紊乱经期、失败率高于常规法。
+\end{itemize}
+
+\section{小白最容易踩的几个坑}
+
+\begin{enumerate}[leftmargin=2em,itemsep=0.3em]
+  \item \textbf{"第一次/月经前后是安全期"}——排卵会提前、精子可存活数天，安全期并不可靠。
+  \item \textbf{体外射精很安全}——射精前已有含精子/STI 的前液，典型失败率约 20\%。
+  \item \textbf{"吃了药就不用套了"}——口服药只防孕，不防 STI；性伴不明确时两者都要。
+  \item \textbf{靠"感觉"判断排卵期}——身体感受不准，别赌。
+\end{enumerate}
+
+\section{怎么选（决策逻辑）}
+
+\begin{itemize}[leftmargin=2em,itemsep=0.3em]
+  \item \textbf{要不要防 STI？} → 要：\textbf{安全套是底线}。
+  \item \textbf{想长期、几乎不想操心？} → LARC（IUD/埋植），需就医。
+  \item \textbf{暂时、短期、可逆、能按时吃药？} → 短效口服药 + 安全套。
+  \item \textbf{一次性、不确定长期关系？} → 安全套为主。
+  \item \textbf{已发生无保护行为？} → 尽快紧急避孕（72h 内）+ 考虑检测。
+\end{itemize}
+
+\vspace{1em}
+\noindent\textbf{一句话总结：} 最可靠的组合 = \textbf{LARC/口服药管怀孕 + 安全套管性病}；体外射精和安全期都不可靠；紧急避孕是补救不是日常。
+
+\chapter{生命周期：不同年龄段的性健康}
+
+前面各章讲的是"通用原则"，本章补上唯一缺的维度——\textbf{身体会随年龄变化，性和亲密需求也要跟着调整}。分四个阶段：青春期、产后、更年期、老年。核心观念先立住：\textbf{性健康不是某一个年龄的事，而是贯穿一生的；每个阶段都有该关注的不同重点。}
+
+\section{青春期：建立认知和保护的起点}
+
+\textbf{身体变化}：第二性征出现、月经初潮/遗精、性欲萌动——全是正常生理，不必羞耻或恐慌。
+
+\textbf{这个阶段最该建立的三个认知}：
+
+\begin{enumerate}[leftmargin=2em,itemsep=0.3em]
+  \item \textbf{避孕与防病是两件事}——WHO 明确：\textbf{安全套是唯一既能避孕、又能防 STI（含 HIV）的方法}；口服药、埋植、IUD 都只避孕不防病。
+  \item \textbf{"第一次"没有标准剧本}——不出血、不痛都很常见（呼应前面章节）；别被成人片或同伴话术带节奏。
+  \item \textbf{避孕不会导致不孕}——WHO 澄清：现代避孕方法（含 IUD、埋植）\textbf{不会造成不孕}；"上环影响生育"是常见误解。
+\end{enumerate}
+
+\begin{itemize}[leftmargin=2em,itemsep=0.3em]
+  \item 越早建立"全程安全套 + 同意 + 检测"的习惯，越受益；青少年同样可安全使用避孕药和 LARC（需医生评估）。
+  \item 遇到困惑找\textbf{正规渠道}（校医、疾控、正规医院妇科/皮肤科），别靠网络偏方。
+  \item 遇到任何让你不舒服的触碰——\textbf{同意可以随时撤回}，这不是"半途而废"。
+\end{itemize}
+
+\section{产后：恢复到重新亲密}
+
+\textbf{什么时候可以恢复同房}（NHS/WHO 共识）：
+
+\begin{itemize}[leftmargin=2em,itemsep=0.3em]
+  \item 一般建议\textbf{等到恶露停止、会阴/剖宫产伤口愈合}，通常是\textbf{产后约 6 周}；顺产有撕裂或剖宫产者按医生具体指导。
+  \item 过早（恶露未净时）恢复会\textbf{增加感染风险}。
+  \item 恢复初期\textbf{动作宜慢、宜浅、用润滑}（激素变化常致干涩，尤其哺乳期），疼就停。
+\end{itemize}
+
+\textbf{避孕——这是最容易被忽略的点}：
+
+\begin{tabularx}{\linewidth}{X X}
+\toprule
+\textbf{要点} & \textbf{说明} \\
+\midrule
+\textbf{产后可能很快恢复排卵} & 月经没来 $\ne$ 不会怀孕；先排卵后月经，可能"没来月经就怀上" \\
+\textbf{哺乳闭经避孕法（LAM）} & 需\textbf{同时满足}三条件：(1) 纯母乳喂养 (2) 月经尚未恢复 (3) 产后 6 个月内；任一条件改变即失效，失败率随之上升 \\
+\textbf{药物避孕时机} & WHO：纯母乳喂养者避孕药一般\textbf{产后 6 个月}开始；部分母乳喂养者\textbf{产后 6 周}；\textbf{仅孕激素迷你 pill 产后可立即用、不影响乳汁} \\
+\textbf{LARC（IUD/埋植）} & 高效、可逆，产后由医生评估放置时机 \\
+\bottomrule
+\end{tabularx}
+
+\vspace{0.5em}
+\noindent 一句话：\textbf{别把"哺乳期"当天然避孕}——要么严格满足 LAM 三条件，要么用可靠的避孕方法。
+
+\section{更年期（围绝经期）：变化是正常的，可处理}
+
+\textbf{身体变化}（通常 45--55 岁，因雌激素下降）：
+
+\begin{itemize}[leftmargin=2em,itemsep=0.3em]
+  \item \textbf{阴道干涩、灼热、同房痛}——称\textbf{泌尿生殖综合征（GSM）}，是雌激素下降的直接结果，\textbf{不是"你不想了"或"感情问题"}。
+  \item 性欲可能波动；潮热、情绪、睡眠也会受影响。
+  \item 这一变化\textbf{很常见、且可处理}，不必默默忍受。
+\end{itemize}
+
+\textbf{怎么处理（NHS 明确）}：
+
+\begin{tabularx}{\linewidth}{X X}
+\toprule
+\textbf{方法} & \textbf{要点} \\
+\midrule
+\textbf{润滑剂 / 阴道保湿剂} & 第一步、最安全；同房用润滑，日常用保湿剂 \\
+\textbf{阴道局部雌激素（local HRT）} & 低剂量、只作用于阴道，\textbf{不增加乳腺癌风险、通常无需配孕激素、可按需长期使用}；最多约 3 个月起效；需医生评估 \\
+\textbf{全身 HRT} & 针对潮热/情绪/睡眠等，需医生权衡利弊；局部阴道症状优先用局部雌激素 \\
+\textbf{睾酮（低性欲）} & 非更年期常规适应证，仅专科医生在特定情况（绝经后、HRT 无效的低性欲）考虑 \\
+\bottomrule
+\end{tabularx}
+
+\vspace{0.5em}
+\textbf{两个易错点}：
+
+\begin{itemize}[leftmargin=2em,itemsep=0.3em]
+  \item \textbf{局部雌激素 $\ne$ 全身 HRT}：前者风险低得多，别因为害怕 HRT 而连局部治疗也拒绝。
+  \item \textbf{更年期 $\ne$ 不用避孕}：NHS 建议——\textbf{50 岁以下}停经后仍需避孕 2 年，\textbf{50 岁以上}需 1 年；\textbf{55 岁后}自然怀孕极罕见（仍需注意 STI 防护）。
+\end{itemize}
+
+\section{老年阶段：需求不消失，方式可调整}
+
+\textbf{核心认知}：性需求不会因年龄"消失"——\textbf{亲密、触摸、陪伴的需要贯穿一生}。"老年人不该有性生活"既不科学也不人道。
+
+\begin{itemize}[leftmargin=2em,itemsep=0.3em]
+  \item \textbf{干涩更明显}：润滑剂和局部雌激素依然是首选（同上）。
+  \item \textbf{男性 ED 更常见}：常与血管/糖尿病/药物相关，\textbf{是可治疗的}；PDE5 抑制剂需医生评估（尤其心血管用药者）。
+  \item \textbf{慢性病与药物}：很多药（降压药、抗抑郁药等）会影响性功能——\textbf{可与医生沟通调整}，别自行停药。
+  \item \textbf{安全套别停}：老年人 STI 感染率在部分人群上升，\textbf{新伴侣仍需防护}。
+  \item \textbf{亲密形式可以更广}：拥抱、按摩、陪伴、相互爱抚——\textbf{"性"不等于"插入"}（呼应\ref{chap:outer}）。
+\end{itemize}
+
+\textbf{何时就医}：突发性功能变化、性交疼痛、出血、或因药物明显影响生活——都值得找医生，\textbf{不是"难为情"的事}。
+
+\section{一页速览}
+
+\begin{tabularx}{\linewidth}{C X X}
+\toprule
+\textbf{阶段} & \textbf{身体关键变化} & \textbf{最该记住的一件事} \\
+\midrule
+\textbf{青春期} & 第二性征、初潮/遗精、性欲萌动 & 安全套是唯一既避孕又防病；避孕不致不孕 \\
+\textbf{产后} & 恶露、伤口、激素波动、干涩 & 月经没来 $\ne$ 不排卵；LAM 三条件缺一不可 \\
+\textbf{更年期} & 雌激素降、GSM 干涩、性欲波动 & 局部雌激素安全有效；停经后仍需避孕一段时间 \\
+\textbf{老年} & 干涩加重、ED、药物影响 & 需求正常、可治疗；新伴侣仍要防护 \\
+\bottomrule
+\end{tabularx}
+
+\vspace{1em}
+\noindent\textbf{一句话总结：} 生命周期视角 = \textbf{每个阶段身体不同、需求正常、都有对应办法}——青春期重"建立保护习惯"，产后重"恢复 + 别误判避孕"，更年期重"干涩可治、别怕局部雌激素"，老年重"需求不消失、可调整可治疗"。
+
+\chapter{常见困惑深挖：很多"问题"其实是"正常"}
+\label{chap:concerns}
+
+很多让人尴尬的"情况"，其实处在\textbf{正常范围内}，或属于\textbf{可治疗、很常见}的问题——先别自我怀疑、也别羞耻。这一章把最常被问到的几类讲清楚。
+
+\section{一、男性：勃起困难（ED）与早泄（PE）}
+
+\subsection*{勃起功能障碍（ED）}
+\begin{itemize}[leftmargin=2em,itemsep=0.3em]
+  \item \textbf{原因常是两类叠加}：心理（焦虑、压力、关系紧张、表现焦虑）+ 生理（血管、神经、激素、某些药物）。
+  \item \textbf{偶发很常见、属正常}；若\textbf{持续数周至数月且影响生活}，才值得就医。
+  \item \textbf{可治疗}：治疗基础病（糖尿病/高血压/血脂）、在医生指导下使用 PDE5 抑制剂（如西地那非，\textbf{需处方、注意禁忌}）、心理与伴侣沟通。
+  \item \textbf{红旗}：ED 有时是\textbf{心血管问题的早期信号}，医生常会顺带评估心血管风险。
+\end{itemize}
+
+\subsection*{早泄（PE）}
+\begin{itemize}[leftmargin=2em,itemsep=0.3em]
+  \item 分\textbf{原发}（一直如此）与\textbf{继发}（后来才出现，可能与其他因素有关）。
+  \item \textbf{处理}：行为法（停--起始法、挤压法）、局部麻醉剂、心理（减压、与伴侣沟通）、在医生指导下使用处方药（部分 SSRI）。
+  \item \textbf{关键}：别把它当"个人缺陷"——它是\textbf{常见、可管理}的，伴侣的理解与沟通本身就是治疗的一部分。
+\end{itemize}
+
+\section{二、女性：高潮困难与性疼痛}
+
+\subsection*{高潮困难（anorgasmia）}
+\begin{itemize}[leftmargin=2em,itemsep=0.3em]
+  \item \textbf{多数女性需要直接阴蒂刺激}才到高潮（见\ref{chap:outer-pleasure}），"光插入不够"非常普遍，\textbf{不代表异常}。
+  \item \textbf{常见原因}：焦虑/分心、关系因素、激素变化、药物（如部分抗抑郁药）、盆底紧张。
+  \item \textbf{处理}：充分唤起与阴蒂刺激、与伴侣沟通偏好、必要时就医（评估激素/药物/盆底/心理）。
+\end{itemize}
+
+\subsection*{性疼痛（dyspareunia）/ 阴道痉挛（vaginismus）}
+\begin{itemize}[leftmargin=2em,itemsep=0.3em]
+  \item \textbf{疼痛原因多样}：感染、干涩、激素（围绝经期）、子宫内膜异位、盆底肌过度紧张、阴道痉挛。
+  \item \textbf{处理}：润滑剂、局部激素（医生指导）、盆底治疗、心理、循序渐进的扩张训练、\textbf{找出根本原因}。
+  \item \textbf{原则}：\textbf{疼不要忍}——反复疼痛应就医排查，而不是"习惯了就好"。
+\end{itemize}
+
+\section{三、双方：性欲差异（libido gap）}
+
+\begin{itemize}[leftmargin=2em,itemsep=0.3em]
+  \item \textbf{两人欲望不一样，很常见}，不等于"谁有问题"，更不等于谁不爱谁。
+  \item 若\textbf{长期显著下降并造成困扰}，才考虑是否为\textbf{HSDD（女性性兴趣/欲望减退障碍）}，可就医评估（激素、药物、心理、关系）。
+  \item \textbf{处理核心是沟通}（见\ref{chap:communication}）：谈感受、谈边界、找共同舒适的频率，\textbf{而非互相贬低或指责}。
+\end{itemize}
+
+\section{四、何时该去看医生（红旗信号）}
+
+\begin{itemize}[leftmargin=2em,itemsep=0.3em]
+  \item 反复/持续的\textbf{疼痛、出血、异常分泌物或体味}。
+  \item \textbf{持续}的勃起困难、早泄并造成困扰。
+  \item 性欲\textbf{长期大幅下降}并影响关系或情绪。
+  \item 伴随\textbf{情绪困扰、创伤经历}——找正规心理/性医学科。
+  \item 任何你"拿不准"的身体变化——\textbf{问医生比猜更靠谱}。
+\end{itemize}
+
+\section{一页要点}
+
+\begin{tabularx}{\textwidth}{lCCX}
+\toprule
+情况 & 常见原因 & 可先做 & 何时就医 \\
+\midrule
+勃起困难 & 心理+血管/激素/药物 & 减压、沟通 & 持续数月、伴晨勃消失 \\
+早泄 & 原发/继发、紧张 & 行为法、沟通 & 长期困扰 \\
+高潮困难 & 需阴蒂刺激/心理/药物 & 前戏+阴蒂刺激 & 长期困扰、情绪受影响 \\
+性疼痛 & 感染/干涩/激素/盆底 & 润滑、别忍 & 反复疼痛、出血 \\
+性欲差异 & 关系/压力/激素/药物 & 沟通找原因 & 长期显著下降并困扰 \\
+\bottomrule
+\end{tabularx}
+
+\vspace{1em}
+\noindent\textbf{一句话总结：} 绝大多数"性方面的困扰"都落在\textbf{正常范围}或\textbf{常见、可治疗}的区间——\textbf{别羞耻、别硬扛、先沟通，持续或疼痛就找正规医生}，这是最省时间也最安全的路。
+
+\chapter{术语表与全书总览}
+\label{chap:glossary}
+
+把全书出现的关键术语整理成中英对照，方便日后检索；再把整本书串一遍，方便你按主题快速翻回对应章节。
+
+\section{核心术语中英对照}
+
+\begin{tabularx}{\textwidth}{l C X}
+\toprule
+术语 & 英文 & 一句话 \\
+\midrule
+前戏 & foreplay & 唤起阶段的爱抚、亲吻、触摸 \\
+边缘控制 & edging & 接近高潮时放慢/退回，再推上去 \\
+同意 & consent & 持续、自愿、可撤回，不只是"没说" \\
+偷摘安全套 & stealthing & 未经同意移除/不使用安全套 \\
+长效可逆避孕 & LARC & 一次放置、多年有效的避孕（IUD/埋植） \\
+宫内节育器 & IUD & 放入子宫的长效避孕装置 \\
+性传播感染 & STI & 经性接触传播的感染总称 \\
+疱疹 & HSV & 可口/生殖器互染，皮肤接触传播 \\
+人乳头瘤病毒 & HPV & 与宫颈癌/口咽癌相关，疫苗可防 \\
+牙科薄膜 & dental dam & 口交时的口腔屏障工具 \\
+尿路感染 & UTI & 性行为后女性常见，事后排尿可降风险 \\
+性疼痛 & dyspareunia & 性交疼痛，需找根因，别忍 \\
+阴道痉挛 & vaginismus & 盆底肌不自主紧张致难以进入 \\
+高潮困难 & anorgasmia & 长期难以达高潮，多与刺激/心理/药物相关 \\
+勃起功能障碍 & ED & 持续勃起困难，常心理+生理，可治疗 \\
+早泄 & PE & 射精过早泄且困扰，常见可管理 \\
+性欲减退障碍 & HSDD & 性欲长期显著下降并困扰 \\
+性欲 & libido & 对性的兴趣与欲望，因人而异 \\
+暴露前预防 & PrEP & 高危者用药预防 HIV \\
+暴露后预防 & PEP & 无保护暴露后 72h 内紧急用药 \\
+紧急避孕 & emergency contraception & 事后 72h/120h 内的补救措施 \\
+唤起伸展 & tenting & 唤起时阴道伸展增加空间 \\
+性反应周期 & sexual response cycle & 兴奋/平台/高潮/消退四阶段 \\
+\bottomrule
+\end{tabularx}
+
+\section{全书总览（按主题串一遍）}
+
+\begin{enumerate}[leftmargin=2em,itemsep=0.3em]
+  \item \textbf{为什么要读这本书}——定位与用法。
+  \item \textbf{五个方面的准备}——认知、安全、沟通、健康、心态。
+  \item \textbf{认知准备}——先懂 basics，破除谣言。
+  \item \textbf{安全防护}——最实际的一章（安全套/润滑/检测）。
+  \item \textbf{沟通与同意}——不可逾越的底线。
+  \item \textbf{健康维护}——把风险挡在前面。
+  \item \textbf{心态准备}——从容比技巧更重要。
+  \item \textbf{去哪里获取可靠信息}——权威渠道清单。
+  \item \textbf{深入篇：高频疑问解答}。
+  \item \textbf{性传播感染详解}——各 STI 的循证说明。
+  \item \textbf{关系与现实}——小白最该知道的几件事。
+  \item \textbf{见面了怎么办}——从邀约到在场的清单。
+  \item \textbf{男性视角的补充}——同样重要的一半。
+  \item \textbf{到了私密场所后}——以酒店为例的具体清单。
+  \item \textbf{床上的事}——亲密过程的健康框架。
+  \item \textbf{性反应周期与注意事项}——四阶段的生理过程。
+  \item \textbf{亲密行为的类型与健康防护}——四类行为总览。
+  \item \textbf{非插入类行为详解}——完整、合理、不遗漏。
+  \item \textbf{非插入类行为的愉悦技巧}——从"不危险"到"很愉悦"。
+  \item \textbf{亲密关系沟通}——从"会说话"到"更亲密"。
+  \item \textbf{避孕方法详解}——怎么选才靠谱。
+  \item \textbf{口交、阴道性交、肛交：逐类深入}——三类对照。
+  \item \textbf{阴道性交详解}——单独深入。
+  \item \textbf{口交详解}——咽部/黏膜感染与屏障。
+  \item \textbf{肛交详解}——无自润滑+黏膜薄的防护铁律。
+  \item \textbf{常见困惑深挖}——很多"问题"其实是"正常"。
+  \item \textbf{术语表与全书总览}——本条。
+  \item \textbf{出发前的清单}——逐项确认的实操清单。
+\end{enumerate}
+
+\section{去哪里查权威信息}
+
+\begin{itemize}[leftmargin=2em,itemsep=0.3em]
+  \item 国际：\textbf{WHO（who.int）}、\textbf{CDC（cdc.gov）} 的性健康/STI 页面。
+  \item 国内：\textbf{国家卫生健康委员会}、\textbf{中国疾控中心} 的官方发布。
+  \item 就医：正规医院的\textbf{性医学科、男科/泌尿外科、妇科、感染科、心理科}。
+  \item 原则：\textbf{以权威发布为准，别把网络偏方当结论}；拿不准就问医生。
+\end{itemize}
+
+\vspace{1em}
+\noindent\textbf{全书一句话：} 性健康 = \textbf{知情 + 自愿 + 愉悦 + 安全}，四者缺一不可；这本书把"认知、防护、沟通、行为、方法、困惑"串成一条可执行的线，剩下的交给你的判断与医生的专业。
+
+\chapter{附录：全书知识框架与补充索引}
+
+前面各章是写给读者的内容，本附录换个视角：给出全书的\textbf{知识骨架与索引地图}，既方便按图索骥、也留作日后逐步补充的框架。每个节点标注了核心问题、关键概念、证据等级与覆盖状态。
+
+\section{框架依据与图例}
+
+\begin{tabularx}{\linewidth}{X X}
+\toprule
+\textbf{依据} & \textbf{说明} \\
+\midrule
+WHO 性健康定义（2002） & 与性有关的\textbf{身体、情感、心理、社会}四方面完好状态，不仅是无疾病；含"积极、尊重、愉悦、安全、免于胁迫歧视暴力" \\
+生物-心理-社会模型 & 任何性问题都从\textbf{生物、心理、社会/关系}三层面看，避免单一归因 \\
+性权利框架 & 性自由、平等、隐私、免于暴力、性健康权；对应同意、偷拍、影像传播等议题 \\
+\bottomrule
+\end{tabularx}
+
+\vspace{0.5em}
+\noindent\textbf{图例}：证据等级 \textbf{1} = 系统综述/权威指南（WHO/CDC/ACOG/EAU/NICE）；\textbf{2} = RCT/大型队列；\textbf{3} = 专家共识/权威教材；\textbf{4} = 科普共识/观察描述。覆盖状态 \textbf{已} = 已覆盖；\textbf{半} = 部分覆盖；\textbf{待} = 待补充。章号对应正文。
+
+\section{A 基础认知}
+
+\begin{tabularx}{\linewidth}{C X c c}
+\toprule
+\textbf{节点} & \textbf{核心问题 / 关键概念} & \textbf{证据} & \textbf{状态} \\
+\midrule
+A1 定义与权利 & 性健康不只是"没病"；性权利有哪些 & 1 & 已 \\
+A2 女性解剖 & 内外生殖器；阴蒂/尿道/阴道位置；尿道短易 UTI & 3 & 已 \\
+A3 男性解剖 & 阴茎/睾丸/附睾/前列腺；勃起射精生理 & 3 & 半 \\
+A4 性反应周期 & 兴奋/平台/高潮/消退；唤起需时、阴蒂高潮 & 2 & 已 \\
+A5 性取向与性别 & 取向与性别认同的区别；常见误解 & 3 & 待 \\
+A6 性心理 & 性欲如何产生；心理唤起先于生理 & 3 & 半 \\
+A7 生命周期总览 & 一生的性健康重点如何随年龄变化 & 3 & 已 \\
+\bottomrule
+\end{tabularx}
+
+\section{B 健康与防护}
+
+\begin{tabularx}{\linewidth}{C X c c}
+\toprule
+\textbf{节点} & \textbf{核心问题 / 关键概念} & \textbf{证据} & \textbf{状态} \\
+\midrule
+B1 STI 总论 & 病原谱、传播途径、无症状与筛查 & 1 & 已 \\
+B2 重点 STI & HIV/HPV/疱疹/梅毒/淋病/衣原体/乙肝 & 1 & 已 \\
+B3 避孕方法 & 完美 vs 典型失败率；按需求选 & 1 & 已 \\
+B4 紧急避孕 & 72h/120h/铜 IUD 5 天 & 1 & 已 \\
+B5 屏障工具 & 安全套用法、口用套/薄膜、润滑选择 & 1 & 已 \\
+B6 暴露前后预防 & PrEP/PEP 适用与就医 & 1 & 半 \\
+B7 疫苗 & HPV/乙肝/甲肝（肛交者） & 1 & 半 \\
+B8 女性非 STI 问题 & BV/念珠菌/UTI 识别与就医 & 2 & 半 \\
+B9 男性常见问题 & ED/早泄；处方药与就医指征；伴侣支持视角、自慰正常化 & 1 & 已 \\
+B10 检测与筛查流程 & 查什么、窗口期、去哪查、阳性怎么办 & 1 & 待 \\
+\bottomrule
+\end{tabularx}
+
+\section{C 行为与实践}
+
+\begin{tabularx}{\linewidth}{C X c c}
+\toprule
+\textbf{节点} & \textbf{核心问题 / 关键概念} & \textbf{证据} & \textbf{状态} \\
+\midrule
+C1 行为分类 & 插入/非插入；体液 vs 皮肤接触风险 & 1 & 已 \\
+C2 非插入类 & 阴蒂为核心；慢+润滑、边缘控制 & 2 & 已 \\
+C3 阴道性交 & 唤起、润滑、阴蒂叠加、防 UTI & 2 & 已 \\
+C4 口交 & 咽部感染、薄膜/口用套、HSV-1 & 1 & 已 \\
+C5 肛交 & 无自润滑、黏膜薄、换套、水/硅基润滑 & 1 & 已 \\
+C6 愉悦元技巧 & 慢、润滑、读反应、开口问、高潮非 KPI & 2 & 已 \\
+C7 姿势与场景 & 按需求选；孕期/初次调整 & 4 & 已 \\
+C8 常见困惑 & 高潮困难/性疼痛/性欲差异；红旗信号 & 2 & 已 \\
+C9 BDSM 与 Kink & 去病理化(DSM-5)；SSC/RACK、安全词、aftercare；颈压/窒息风险 & 2 & 已 \\
+\bottomrule
+\end{tabularx}
+
+\section{D 关系、同意与伦理}
+
+\begin{tabularx}{\linewidth}{C X c c}
+\toprule
+\textbf{节点} & \textbf{核心问题 / 关键概念} & \textbf{证据} & \textbf{状态} \\
+\midrule
+D1 同意 & 有效同意要素、可撤回、stealthing & 1 & 已 \\
+D2 沟通 & NVC 四步、时机、倾听 & 3 & 已 \\
+D3 约会与现实 & 邀约到在场的清单、防偷拍 & 4 & 已 \\
+D4 关系形态 & 长期/异地/开放关系的边界协商 & 3 & 待 \\
+D5 法律伦理 & 隐私、偷拍、影像传播的法规边界 & 1 & 半 \\
+D6 数字时代的同意 & 私密影像、AI 合成、网络骚扰 & 3 & 待 \\
+\bottomrule
+\end{tabularx}
+
+\section{E 生命周期与特殊人群}
+
+\begin{tabularx}{\linewidth}{C X c c}
+\toprule
+\textbf{节点} & \textbf{核心问题 / 关键概念} & \textbf{证据} & \textbf{状态} \\
+\midrule
+E1 青春期 & 身体变化、保护习惯、可靠信息 & 1 & 已 \\
+E2 孕期 & 安全性、红线、姿势、干涩、引产 & 1 & 已 \\
+E3 产后 & 恢复时机、避孕陷阱、LAM 三条件 & 1 & 已 \\
+E4 更年期 & GSM 干涩、局部雌激素、避孕时限 & 1 & 已 \\
+E5 老年 & 需求、ED、药物、防护 & 2 & 已 \\
+E6 残障/慢性病 & 身体限制下的亲密与用药 & 3 & 待 \\
+E7 LGBTQ+ 健康 & 针对性筛查、去污名 & 2 & 待 \\
+\bottomrule
+\end{tabularx}
+
+\section{F 求助、资源与工具}
+
+\begin{tabularx}{\linewidth}{C X c c}
+\toprule
+\textbf{节点} & \textbf{核心问题 / 关键概念} & \textbf{证据} & \textbf{状态} \\
+\midrule
+F1 就医路径 & 症状对应科室、如何开口 & 3 & 待 \\
+F2 红旗信号 & 剧痛、大出血、发热、神经症状须就医 & 1 & 半 \\
+F3 权威信息源 & WHO/CDC/ACOG/NHS/中国疾控/卫健委 & 1 & 已 \\
+F4 术语表 & 中英术语对照 & --- & 已 \\
+F5 检测与疫苗地图 & 本地化检测/疫苗渠道 & 3 & 待 \\
+F6 更新维护 & 每次补充记录日期/节点/来源 & --- & 待 \\
+\bottomrule
+\end{tabularx}
+
+\section{怎么补充才科学}
+
+\begin{enumerate}[leftmargin=2em,itemsep=0.3em]
+  \item \textbf{一个节点一段}：先写结论，再写"为什么"（机制/证据），最后写"怎么做"。
+  \item \textbf{标注证据等级}：新结论注明来源机构或文献；无权威来源者标"观点/共识"，不写成定论。
+  \item \textbf{数字要核对}：失败率、时限、剂量等关键数值，写入前联网核对权威来源（同正文做法）。
+  \item \textbf{中国语境}：涉及法律、就医、疫苗可及性时以中国法规与本地服务为准，注明地区差异。
+  \item \textbf{避免重复}：补充前先看状态列，已覆盖的节点按需"深化"而非新建。
+  \item \textbf{配图}：流程/分层/曲线类节点按全书 TikZ 风格补图，保持风格统一。
+\end{enumerate}
+
+\chapter{出发前的清单}
+
+把前面的内容浓缩为一份可操作的清单。逐项确认，就能大幅降低风险。
+
+\begin{enumerate}[leftmargin=2em,itemsep=0.4em]
+  \item 我了解基本的生理与避孕常识，不靠谣言做决定。
+  \item 我准备了合格、在有效期内、尺寸合适的安全套，并会用。
+  \item 我备好水基润滑剂，知道油基会破坏乳胶。
+  \item 我和伴侣已经谈过避孕、检测和各自的边界。
+  \item 我确认双方都清醒、自愿，且可随时喊停。
+  \item 我了解 HPV 疫苗，并考虑接种与定期筛查。
+  \item 我知道无保护行为后的紧急避孕与就医途径。
+  \item 我知道去哪里查权威信息，也知道遇到问题该找医生。
+\end{enumerate}
+
+\chapter*{结语}
+\addcontentsline{toc}{chapter}{结语}
+
+性健康不是一门靠"顿悟"的学问，而是可以系统学习、理性准备的知识。
+愿这本小册子帮你建立起安全、自愿、知性的观念：既保护自己，也尊重他人。
+当你需要更深入的专业内容时，请翻阅同书库的《性医学基础》，
+或直接向正规医疗机构的专业人员求助。
+
+\vspace{2em}
+
+\noindent\textbf{主要资料来源：}
+\begin{itemize}[leftmargin=2em]
+  \item World Health Organization (WHO). \emph{Family planning/contraception methods}; \emph{Medical eligibility criteria for contraceptive use}, 6th ed.
+  \item U.S. Centers for Disease Control and Prevention (CDC). \emph{Primary Prevention Methods — STI Treatment Guidelines}; \emph{Condom Use: An Overview}; \emph{The Lowdown on How to Prevent STDs}.
+  \item 国家卫生健康委员会及中国疾病预防控制中心关于 HPV 疫苗接种的相关公告（以最新发布为准）。
+  \item European Association of Urology (EAU). \emph{Guidelines on Male Sexual Dysfunction}; ICD-11"早期射精"定义（第14章）。
+  \item 科技日报、中国新闻网：酒店针孔摄像头识别与防范专家建议（藏在镜子背面、插座、空调出风口、烟雾报警器等处；手机"红点法"局限；手电查反光、查 WiFi 陌生设备、物理遮挡）（第15章）。
+  \item 全国人大《中华人民共和国民法典》第 1033 条、《治安管理处罚法》、《刑法》第 283 条关于隐私空间与窃照器材的规定（第15章）。
+  \item Non-consensual condom removal ("stealthing"): PMC\,6306234（墨尔本性健康诊所研究）；Drouin 等，\emph{Psychology of Violence} (2024)（第15章）。
+  \item CDC. \emph{Clinical Overview of Urinary Tract Infections}（性行为引入细菌、女性尿道较短风险更高）；\emph{Condom Use: An Overview}（第16章）。
+  \item WHO. \emph{Sexual health}（2006 工作定义：积极、尊重、愉悦且安全、免于胁迫）；\emph{Redefining sexual health for benefits throughout life} (2022)（第16章）。
+  \item W.\,H. Masters \& V.\,E. Johnson. \emph{Human Sexual Response} (1966)：兴奋期/平台期/高潮期/消退期四阶段模型（第17章）。
+  \item WHO. \emph{Comprehensive sexuality education}（科学准确、适龄的身体与关系知识，帮助保护健康、尊重他人）（第17章）。
+  \item CDC. \emph{How to Prevent STIs}; \emph{About STI Risk and Oral Sex}; \emph{How to Use a Dental Dam}; \emph{Condom Use: An Overview}（屏障工具、换套、口交膜与杀精剂禁忌）（第18章）。
+  \item CDC. \emph{MMWR Recommendations—Opportunistic Pathogens}（避免口--粪暴露、换套、手部清洁）；WHO. \emph{Condoms}（直肠无自然润滑、肛交需润滑）（第18章）。
+  \item CDC. \emph{Appendix A: Known or Possible HIV Exposure Scenarios}（接吻、相互手刺激属可忽略风险，nPEP 不常规推荐，除非可见血 + 黏膜破损）；\emph{How HIV Spreads}（HIV 仅经特定体液经黏膜/破损皮肤传播）（第19章）。
+  \item CDC. \emph{Preventing HIV with Condoms}（安全套用于共用器具高效防 HIV 及部分 STI）；\emph{How to Prevent STIs}（皮肤接触传播）（第19章）。
+  \item 女性高潮与阴蒂刺激依赖：大样本与综述研究（多数女性需直接阴蒂刺激达高潮；仅阴道插入缺少阴蒂刺激时高潮率明显更低）——综合 Masters \& Johnson 性反应模型与后续大样本调查（第19章）。
+  \item CDC. \emph{How to Use a Dental Dam}; \emph{About STI Risk and Oral Sex}（口--口/口--生殖器黏膜传播、口腔屏障工具、有活动性溃疡/疱疹时避免）（第19章）。
+  \item M.\,B.\,Rosenberg. \emph{Nonviolent Communication: A Language of Life}（观察--感受--需要--请求四步框架，请求与指责的区分）（第20章）。
+  \item WHO. \emph{Sexual health}（积极、尊重、愉悦且安全的性体验，免于胁迫与暴力）（第20章）。
+  \item American College of Obstetricians and Gynecologists (ACOG); J.\,Trussell 等. \emph{Typical-Use and Perfect-Use Contraceptive Failure Rates}（各方法典型/完美使用失败率分层）（第21章）。
+  \item WHO. \emph{Medical Eligibility Criteria for Contraceptive Use}, 6th ed.（口服药适应证/禁忌、避孕方法选择）（第21章）。
+  \item CDC. \emph{Emergency Contraception}（左炔诺孕酮 72h 内最佳、乌利司坦 120h、铜 IUD 事后 5 天内最可靠）（第21章）。
+  \item CDC. \emph{Pharyngeal Gonorrhea/Chlamydia}; \emph{About Hepatitis A and B}（有肛交者建议接种甲肝/乙肝疫苗）（第22章）。
+  \item WHO. \emph{Condoms}（直肠无自然润滑、肛交需充分水基/硅基润滑；油基破坏乳胶）（第22章）。
+  \item CDC. \emph{Clinical Overview of Urinary Tract Infections}（女性尿道短、性行为引入细菌、事后排尿/多饮水降低 UTI 风险）；\emph{Vaginal Douching}（阴道冲洗破坏菌群，不推荐）（第22章）。
+  \item W.\,H.\,Masters \& V.\,E.\,Johnson. \emph{Human Sexual Response} (1966)（唤起期"tenting"伸展、高潮非必然）；ACOG 关于 \emph{Vaginismus / dyspareunia} 的临床说明（剧痛就医指征）（第23章）。
+  \item WHO. \emph{Condoms}; CDC. \emph{Lubricants and Condoms}（水基/硅基可配乳胶套、油基破坏乳胶）（第23章）。
+  \item WHO. \emph{Human papillomavirus (HPV)}（HPV 与宫颈癌/口咽癌关联、疫苗可防；HIV 经口传播极低的判断与\ref{chap:sti}一致）（第24章）。
+  \item CDC. \emph{PrEP (Pre-Exposure Prophylaxis) for HIV Prevention}（高危者 PrEP 显著降低 HIV 感染风险）（第25章）。
+  \item EAU. \emph{Guidelines on Erectile Dysfunction / Premature Ejaculation}（ED/PE 循证处理、PDE5 抑制剂需处方、行为法）；NICE / AUA 关于 \emph{dyspareunia、vaginismus} 与 HSDD 的说明（第26章）。
+  \item NHS. \emph{Is it safe to have sex in pregnancy?}；Tommy's \emph{Sex in pregnancy}（孕期性生活一般安全、需避免的情况：前置/低位胎盘·破水·多次流产·不明原因出血；推荐并排侧卧、水基润滑；口唇疱疹避免口--生殖器；无证据表明性交会引产、假宫缩非临产；28 周后避免长时间仰卧）（第25章）。
+  \item 阴道瓣（hymen）解剖与初次性行为：阴道口黏膜褶皱、中间有孔、形态多样；初次不一定出血或疼痛；疼痛/出血多源于紧张·润滑不足·动作过快（科普共识）（第25章）。
+  \item NHS. \emph{Vaginal oestrogen / HRT}（更年期局部雌激素低剂量、不增加乳腺癌风险、无需配孕激素、可按需长期使用、约 3 个月起效；睾酮仅专科特定情况；停经后避孕时限 50 岁以下 2 年/以上 1 年、55 岁后极罕见）（第26章）。
+  \item WHO. \emph{Family planning/contraception methods}（安全套唯一既避孕又防 STI、现代避孕不致不孕、青少年可安全使用）；\emph{Medical eligibility criteria / Oral contraceptives}（产后避孕时机：纯母乳 6 个月/部分母乳 6 周、迷你 pill 产后即可）。LAM 哺乳闭经避孕法三条件（纯母乳·月经未恢复·6 个月内）（第26章）。
+  \item DSM-5（APA, 2013）关于 \emph{paraphilia 与 paraphilic disorder} 的区分（性偏好不再默认病理化；仅显著痛苦/功能受损方为障碍）；Indiana University kink 研究（拍打 30\%、dom/sub 22\%、束缚 20\%、鞭打 13\%）与 41 国 31.7 万人调查（约 20\% 用过眼罩/束缚）（第31章）。
+  \item 颈动脉窦综合征/反射（心脏抑制型 50--70\%、血管抑制型 5--10\%、中枢型；60 岁以上晕厥患者 17.6\% 相关、70+ 达 25\%；触发：扼颈·勾肩·亲吻颈部·衣领过紧·颈部按摩）（腾讯医典/央广网）；ScienceDirect 系统综述（2010，48 例 CiRCA 案例：纯反射单独致死罕见，多合并脑缺氧）（第31章）。
+  \item 催产素/多巴胺机制综述（OT 峰值后回落；OT 释放被触摸与生理支持增强，为 aftercare 提供依据）（PubMed 39827220 / 20584551）；WHO \emph{Sexual health}（积极、尊重、愉悦且安全的性体验，免于胁迫与暴力）（第31章）。
+\end{itemize}
+
+\begin{center}
+\itshape 本文为健康教育科普，不构成医疗建议；具体诊疗请遵医嘱。
+\end{center}
+
+\clearpage
+
+\noindent\textbf{说明：} 以下为原《性学》一书内容，按现代 LaTeX 结构整理：原手写"篇/章"标题已转为标准章节命令，删除了与原正文重复的大纲段，其余文字尽量保留原貌。部分观点成书年代较早，请以正文各章的循证结论与医生建议为准。
+
+\chapter{构造图}
+
+乳房
+
+乳房的构造简单来看只是两团脂肪组织，整个区域唯一的肌肉只有乳头。当然，从性的角度来讲，乳房、乳头和乳晕（乳头周围的有色区域）对触摸会有强烈的性反应。这就是整个乳房区域在性刺激下会胀大的原因。
+
+乳头是乳房最敏感的区域，因为它是由可勃起组织以及极为敏感的神经组织所构成。这也意味着在受到触摸或寒冷刺激时，整个乳房都会膨胀而且极为敏感。
+
+外阴
+
+从基本上来说，它是当你倾下身用镜子来窥探下体便可以看得见的性器官。它包括阴阜、大阴唇、小阴唇（也称为内、外“唇”），以及阴蒂。
+
+阴阜：就是覆盖在耻骨上方、脂肪较厚的那部分皮肤，所有的阴毛都生在这个区域。可以在肚脐下方大约10厘米（4英寸）处找到这一区域。
+
+在性爱中，一定要对这一区域善加利用。
+
+不要把阴毛剃光，除非想让自己的下体上长满了令人刺氧的毛茬。
+
+大阴唇：阴道的唇——就是遮盖阴道口的两层皮肤褶皱。
+
+小阴唇：大阴唇内侧细小的皮肤褶皱。有些女性的小阴唇会下垂，或是从大阴唇中探出，而其他人的则是隐藏在外层的褶皱内。
+
+如果注意到阴唇上有一些白色物质（这里要注意一下），那只是一种自然分泌物，是由分泌油脂的腺体产生的，跟男性包皮下的分泌物相似，很容易清洗掉。
+
+阴蒂
+
+阴蒂实际上只是一个较大器官的一个部分——我们所指的是延伸到你体内大约四英寸，并与阴道四周的可勃起组织相连的器官。女性的这种小型器官是与男性的阴茎相对应的。大致来看，它也有自己的柱状部分以及龟头，而且也包裹着一层类似于包皮的皮层，它被称为hood。此器官存在的作用就是给你带来性愉悦。
+
+要找到它的位置，需要先找到小阴唇最内侧的两片唇闭合处的阴道口。要注意的是，这整个器官都是由跟阴茎相似的组织构成，所以，轻微的刺激就可以使它膨胀、发硬，而受到摩擦时会带来更多的美妙感受。阴蒂处于松弛状态时，只有一颗松子那么大，但受到刺激后，却能膨胀到一颗大花生米那样大。
+
+不要对你的阴蒂大小大惊小怪。或大或小都没什么关系，不会影响你达到性高潮。
+
+阴道
+
+阴道实际上就是生殖器的体内部分，是一条有肌肉束缚而成的三至四英寸长的柔软管道。它具有很多种功能：首先，阴茎由此进入女性的身体；第二，它是婴儿出生的管道；第三，它还是经血的排出管道。
+
+阴道在放松状态下，富有弹性的肌肉壁就会平贴在一起，但是在性事中，肌肉壁则会伸展开来，然后在“运动”结束后又会弹回原状。
+
+其实，阴道各部分之间也有很大差别：大多数的奇妙感觉都是由阴道靠外的部分感受到的，所以阴茎进入此处时会带来愉悦感。而分布在中间部分以及靠近子宫颈部分的神经末梢就少得多了，所以这两处不会给你多少感觉。
+
+阴道在每月的不同时期都会有一些正常的分泌物。
+
+不要为了贪图“有趣”，就什么都往这里面塞。最好遵守这样一条经验法则：不能往嘴里放的东西，也不要往阴道里塞。
+
+子宫颈
+
+也被称为子宫的颈部，就位于体内阴道的上方，是一处大约2.5厘米长的由粗壮纤维组织构成的狭小部分。它的中央是一个小开口，精液可由此进入，而经血也是由此排出。这个开口在怀孕期间就会关闭，然后在生产时扩张开来以产出婴儿。总体来讲，子宫颈是由坚韧的肌肉组织以及其他组织构成的，但从细胞活力的角度来看，这里却是人体的薄弱环节。因为，在两性交合时，两种细胞在此相遇，而这有可能引发子宫颈细胞发生质变，还有可能导致宫颈癌。所以，定期的子宫颈涂片测试是必不可少的。
+
+子宫颈很敏感，所以采用一些较深入的性体位时会有疼痛的感觉。即使触到了子宫颈，也不必中途停止性事，只要换个体位就行了。
+
+子宫
+
+在怀孕期间，这里就是婴儿的居所。子宫的长与宽大约都是7.5厘米（3英寸），而且具有强壮到不可思议的肌肉组织。在月经周期里，子宫内会生成一层子宫内膜。而在随后的一段时间内，如果没有受孕，子宫内膜就会自动脱落。
+
+处女膜
+
+部分覆盖阴道口的那层薄膜组织就叫做处女膜。因为它被认为是童贞的象征，在一些国家掀起轩然大波。实际上，处女膜经常会在剧烈活动中或使用卫生棉条时破裂——或许在你有性行为之前，它就已经破掉了。
+
+如果处女膜是在你的“第一次”时破裂的，会有一点儿疼。处女膜在运动时破裂是很难察觉的。
+
+4.五个超动力女性敏感点
+
+乳房
+
+一开始，你要让他把精力都集中在你乳房四周的区域。每边乳房下方和侧面的肌肤都是极为敏感的区域。让他由此入手，然后再慢慢继续后面的“工作”。
+
+乳头
+
+当他触及你的乳头区域时，不要让他用手捻弄，而要让他选择一些吸吮、亲吻或轻轻摩擦的方式，而且还要将乳晕包含在内。
+
+G点
+
+要找到这一点，要将一个手指探入阴道当中，然后向上移动5厘米（2英寸），触到阴道前壁，用手可以感觉到的一处小的肌里突起，这就是G点。如果他在你处于半兴奋状态时抚摸这里，你或许会幸运的体会到生平第一次G点高潮——一种超具诱惑力的高潮。
+
+阴蒂
+
+这是人体神经末梢分布最为集中的女性敏感点。如果能以正确的方式刺激这一点，你就立刻会有“哇~嘿”的反应。不过还是要给他一点建议：要在你下体完全湿润之后才能触摸此处，动作要轻柔，力道也要恰到好处。
+
+会阴
+
+这是位于阴道与肛门之间一小片稍稍隆起的区域，是极为敏感的性感地带，受到摩擦、舔吮或抚摸时，会有阵阵快感袭来，挑逗着你所有的敏感神经，并且有助于增强高潮。
+
+
+阴茎
+
+它是男性生理构造中对性刺激最为敏感的部位。阴茎是由可勃起的海绵组织、不随意肌以及血管组成的。别看它只是个挂在体外的简单柱状体，实际上，最有趣的还在于它的内部构造：
+
+·阴茎的顶端（或称为龟头）极为敏感，龟头中央向外的开口就是尿道口，精液和尿液都是由此射出。
+
+·阴茎在松弛状态时的一般长度为9厘米（3.5英寸）。
+
+·阴茎无论大小都能勃起和达到高潮。
+
+·大小无关紧要，实际上，虽然软下来的阴茎看起来不怎么相同，但是勃起时的阴茎一般都有13至18厘米（5至7英寸）长。
+
+尿道
+
+由膀胱通到阴茎顶端的管道。
+
+·尿道是精液（含有精子的液体）和尿液共享的排出管道。
+
+·当然精液和尿液是不会同时排出的。
+
+尿道常识：性事之中，膀胱的一处肌肉会将出口紧闭，这样在射精时就不会有尿液排出。
+
+包皮
+
+覆盖阴茎并且包裹龟头的皮层。
+
+·有些男性会出于宗教或健康的原因在童年时期就已经把包皮割除了。这种割除手术被称为包皮环切术。经过这种手术后，龟头就会永远显露在外了。
+
+·包皮环切术不会影响到他或你的性快感。
+
+·没有割除包皮的男性则要注意个人卫生，以预防非性病类传染病。只要经常洗澡并注意清洗包皮下面，即使没有割除包皮也会一样健康。
+
+包皮常识：有人认为对女性来讲，跟割除了包皮的男性做爱会比较干净，其实是没有道理的。从芝加哥大学针对包皮环切术的一项研究来看，割过包皮的男性与没有割过的男性，在性健康方面没有任何明显差异。还有人认为包皮环切术可以预防宫颈癌，这种说法也已经被美国癌症协会否定。
+
+睾丸
+
+就是阴茎下方的两个小腺体。
+
+·睾丸每天能产生多达几百万粒的精子。
+
+·单个睾丸一般都有4厘米（1.5英寸）长，3厘米（1.25英寸）宽。
+
+·通常左侧的睾丸要略微高于右侧的，以防止它们相互碰撞。
+
+·每边的睾丸都是由一种索状结构悬于阴囊中的，这种索状结构被称为精索。在某些情况下，这两个球体会被拧扭或纠起，会引起极度的疼痛和反胃的感觉，这时可就需要紧急的医疗救护了。
+
+·睾丸还会产生和分泌男性性荷尔蒙——睾丸素。
+
+·千万别拿踢别人的睾丸开玩笑——一次直接的重击就能使它们破裂。
+
+睾丸常识：睾丸癌是在20至40岁男性中最常见的癌症种类。80%的肿瘤最先都是以肿块的形式出现在睾丸中。但如果发现得足够及时，就会有95%的治愈可能。
+
+阴囊
+
+就是包裹睾丸的一层皮囊。
+
+·阴囊就像一个袋子一样将睾丸悬在体外，因为产生精子需要的温度，要比人体正常体温98.6华氏摄氏度低5度。
+
+阴囊常识：虽然阴囊看起来只有一个囊，但实际上分为两个部分，每边各装有一个睾丸。
+
+前列腺
+
+前列腺位于膀胱下方，负责产生精液中30%的液体。
+
+·前列腺也被称为男性G点。
+
+·它的大小跟核桃差不多。
+
+前列腺常识：此腺体在直接刺激下会产生令人惊异的感觉。不幸的是要触到这一点唯一方法是要将手指伸入直肠中去。
+
+精子
+
+这种东西被称为精子或精虫，貌似蝌蚪而且也会游来游去，它们实际上是男性的卵细胞。精子的生理功能就是由男性体内向女性体内传递遗传信息。
+
+·一般情况下，男性产生精子的速度可达每秒钟1000个。
+
+·精子在睾丸中的成长需要两周时间。
+
+·每位男性每月产生的精子多达三千万个，而每汤匙精液中就含有五千至一亿个精子（虽然其中40%的都是无用的）。
+
+精子常识：女性能产生的卵子数量生来就是一定的，而男性与女性不同，他们在出生时还不能产生精子，要到青春期之后才会有这种功能。
+
+精液
+男性射精时，从阴茎中射出的体液与精子的混合物就叫做精液。
+
+·精液是由10%的精子以及90%的体液（60%来自于精囊，30%来自前列腺）构成的。
+
+·一次射精射出的精液只有一汤匙那么多。
+
+精液常识：与一些常见的说法恰恰相反，精液中所含的并不都是热量，还有蛋白质和维生素，而且每次射出的精液中所含的热量只有10至30卡。
+
+6.五个超动力男性敏感点
+
+阴茎
+
+很多男性对他们的阴茎顶端总是紧张兮兮的，因为这里实在是太敏感了，而且有谁不怕疼呢？所以千万要小心，不要直接用牙齿去咬阴茎，也不要用舌头对它施加过多压力。口交功夫要做好，就要用你的嘴唇包住牙齿，吮吸的力道不能太大，更不能用力咬或抓。
+
+男性乳头
+
+尽管此处十分敏感，可不是所有的男人都喜欢你抚摸这里。如果你想要接近这一区域，一定要慢慢来，不要用手捻弄，而要用舌头。先观察一下他的反应，如果他露出笑容，那就说明你可以继续下去了。
+
+系带
+
+这是阴茎下侧一小块皮肤隆起，它可是极易点燃激情的敏感点，所以它是性爱中必不可少的一点。
+
+男性G点
+
+也被称作前列腺，要触摸到这一点，就要将手指探入他的肛门之中（这可不是所有男人都喜欢的举动，所以在这之前你先要征得他的同意）。
+
+会阴
+
+这是位于阴茎与肛门之间的一小块皮肤，有助于在性事中达到高潮。这里充满了快感神经，极为敏感，所以，男性们很喜欢这里受到轻柔的摩擦和爱抚。
+
+7.是什么促使我们产生性行为？
+
+性这东西，细想来真是有些滑稽，两个赤身裸体的人为了想象中的快感，大汗淋漓的交缠在一起。如果这件事不是所有人的必需，我们就能一道来谴责它是粗俗下流的行为。但事实上，总有一些个因素让我们就是无法对它嗤之以鼻。而且就是这些因素，总是不断怂恿我们想要跟人发生性行为。这些因素中最主要的就是我们的性荷尔蒙。这些偷偷摸摸的化学信号总是会像焰火一样在大脑中突然爆炸开来，唤起我们全部的性感官，并将其激发成性爱所需的一切感觉和情绪。如果你了解到它们是如何发挥作用的，你便可将它们为己所用。
+8.引起性欲的强力男性荷尔蒙——睾丸素
+睾丸素是一种掠夺性的性荷尔蒙，所有男性都在它的统治之下。初学者们应该了解，男性体内的雄性激素是女性体内的20至40倍，这对他们而言可不是什么好事，因为睾丸素对四周环境极为敏感。也就是说如果你在一位男性脸上挂个DD杯？？，或让他处于纯男性的体育环境中而且/或者让他跟一大群女人一起“交流一下”，他的睾丸素可就会开始疯狂的搅动起来，使他当时的情绪和行为发生着变化。
+
+对付男性荷尔蒙的六种方法：
+
+a． 不要对他过于苛刻。
+当他情绪低落时，他的睾丸素水平会一落千丈，你面前只是一个阴沉压抑、逆来顺受的可怜虫，那儿还会有什么性欲。
+
+b． 小心挑选时间。
+不要将性爱的激情都寄托在夜晚，他在那时会很疲劳，过多要求只会让你搬起石头砸了自己的脚。最好选在早上他“性致”高昂、体力充沛时，让他来尽一下“义务”。
+
+c． 让他自己解决。
+如果他在跟你做爱的同时还会自慰，你可不要感到厌恶。睾丸素不仅会激发他的性欲，也会增加他自慰的欲望。
+
+d． 让他运动起来。
+经常锻炼身体不仅可以促进人体全部性荷尔蒙的分泌，还能提升睾丸素的效率。
+
+e．向他表明你对他的渴望。
+当他“性致”缺缺的时候，你要表现出一副被欲火烧到眩晕的样子，让他看到你有多渴 望他。这会让他的睾丸素与其它两种荷尔蒙LHRH以及DHEA？？（都有助于将他萎靡不振的欲望提升起来）汇合。接着炽烈的欲望就会化作火热的行动。
+
+f．有更多的性生活。
+性爱可以促使大脑刺激睾丸素在睾丸以及脑部的分泌。因此，你们“做”得越多，他就越想“做”。
+要注意在日常情况下，男性的睾丸素水平在早上较高（你可以分辨出来），到下午晚些时候下降到较低水平（这时他开始累了），而到了晚上就会非常低（这时他需要休息了）。其间，还可能有些上下波动。
+
+9.女性荷尔蒙——雌激素以及孕激素
+如果你觉得男性荷尔蒙是一篇“噩耗”，那再来看看女性荷尔蒙——雌激素以及孕激素。雌激素可是荷尔蒙中的一只热辣辣的小野猫，它性感、活泼，渴望他人的瞩目。而孕激素则是一张沉闷的湿毯子，渴望扑灭一切激情的火焰，毁掉你们的乐趣。这两种交替出现的荷尔蒙一直影响着你在月经周期每一天里的性情绪。这样，你该明白为何你的性欲总是起起伏伏了吧。
+月经周期第一至七天
+你会感到：
+好像刚刚从一场恶梦中醒来，与前面七天不同，你会感到心情放松、愉快且平和。这都亏了脑垂体所分泌的一种荷尔蒙FSH(卵泡刺激素)。这种荷尔蒙还可以刺激卵巢产生女性性荷尔蒙——雌激素。
+这时适合——
+·开始社交。
+这时不适合——
+·“猎捕”男性。
+·沉溺于高强度的性生活。
+第七至十四天
+你会感到：
+性感。如果在第一至七天你已从风暴中心平静下来，那么在第七至十四天，你又会被卷入另一场风暴之中。而这几天也是你的月经周期中最重要的部分，这就是说是时候舒展一下筋骨了。因为雌激素的存在，让你的精力在此时最为旺盛。从性的角度来讲，你会欣喜若狂的去追逐你的心上人，心里只有一个坚定的念头——性。然而，虽然此时你的自信心很高，判断力却低的可怜，所以一定要小心。这时，你很容易会找上一个差劲的家伙，最惨的是，还要再过两周你才能意识到。
+这时适合——
+·性事。
+·尽情的调情。
+第十四至二十一天
+你会感到：
+厌烦、疲倦。这段时间可以说是在风暴中毁灭的日子。最初，大脑分泌的LH（黄体色素荷尔蒙）会引起排卵，而且会使你的性欲终日维持在较高水平。然而，排卵一经完成（在一至四天内）你的雌激素水平便会很快下降，而孕激素水平则开始上升。
+孕激素可是荷尔蒙中的马丽·怀特豪斯 ，它会使你的性欲一落千丈。从身体上来看，你也许会觉得自己的体重有所增加，特别是胸部和上腹部（你的身体正在储存水分，以防在经期到来时发生脱水现象）。而且因为孕激素有一种镇定作用，你还可能在运动时觉得软弱无力、浑身懈怠。你的体力在这一时期也会呈下降趋势。
+这时适合——
+·呆在家里。
+·跟他进行亲密的“爱的谈话”。
+·早早上床休息。
+这时不适合——
+·连续熬夜
+第二十一至二十八天
+你会感到：
+十分低落。你要做好充分的准备，因为在这段期间你最爱的两种荷尔蒙——雌性激素和孕激素都会消失。这意味着你可能会变得暴躁、易怒、伤感而且还会有些压抑。
+在这段时间内，你可能会买和穿一些会令你终生后悔的东西（想象一下一双淡黄色的牛仔靴），而且这段时间还是你最容易感到沮丧的时候。这是因为此时你的精力都已经转移到身体的其他部分，注意力水平就会一直偏低。不过，好消息是：孕激素已经从你的周期中消失了，睾丸素（男性性荷尔蒙）会在你的体内初露端倪。它与处于下降趋势中的雌性激素相混合，会使你产生一阵突然的性冲动。这也就意味着你此时很容易获得高潮。
+这时适合——
+·待在床上。
+·体会一次惊天动地的性高潮。
+·吃些巧克力。
+“我的男友说在我的月经周期里，每次月经和抑郁期过后，我都会有大约一天的时间心情特别好。”
+——蒂娜，20岁
+10.是什么阻止你享受性爱？
+——性的恶魔
+我们的荷尔蒙可以促使我们享受性生活或保持性感的感觉，但有时它们却受到我们某些性观念的压抑。所以一旦你感觉自己在性事中没有得到满足，或是感到你的性欲受到了压抑，那就要小心，说不定就是下面这些恶魔在作祟。
+误区：性是肮脏的。
+只有你想让它变得肮脏，它才会真的肮脏。这可不是开玩笑，你所接受的教养有时会阻止你享受性爱，而且会妨碍你在性事中发挥最大的潜力。或许，你所生长的家庭认为婚姻之外的性是“坏”的或“错”的，或者为了乐趣而做爱会违反你的宗教信仰。如果说这些约束都是合理的，那就值得考虑一下这样的事实：性，只要是发生在两个自愿的成年人之间，就如同呼吸一样自自然然、普普通通。
+误区：女性要比男性寡欲。
+好嘛，这就是某些男性想要我们相信的事情。实际上，女性的性欲跟男性不相上下。之所以有这种说法，是因为男性所接受的教育告诉他们，只有男性才有享受性爱的权利，而女性则没有。换一种角度，有些女性也会为自己的性欲感到愧疚，因此会竭力去隐藏、压抑甚至要忘记她们也有性的欲望。
+误区：男人不可能对你忠诚。
+有些男人是不忠，有些女人也一样是朝三暮四——这与“生理”以及所谓的“播种需要”毫无关联，而只是与心理伪装有关罢了。
+误区：你不可能通过学习来精通性事。
+你可以通过学习学好任何东西，尤其是性事。实际上，要想成为一个好情人，你要做的只是花些时间去学习动作。毕竟，最棒的情人们也不是因为有什么天赋才精通房术，他们只是很幸运的结交到一些可以给予他们“专业指导”的人士。
+误区：你只能跟你喜欢的人做。
+如果真能找到这么一位，也不失为一个好建议。但要注意的是：美好的爱情不等于美好的性，美好的性也不等于美好的爱情。尽管在性爱中，灵与肉的交汇是令人惊奇的，但“为性而性”可比你预想的更为普遍。而且，对很多人来说，性事也是个消磨时光的好方法。
+误区：只有瘦子才能享受美妙的性爱。
+性爱的美妙取决于胸部、大腿以及腹部（对男性则是阴茎以及肱二头肌）的大小。只有在你过于扭捏，或者性事半途中只想把肚子吸回去，还或是坚持要在一片漆黑中“办事”，体格的大小才会影响到性爱的品质。
+误区：你不是一个性欲旺盛的人。
+这是真的，还是你现在（或过去）的性生活让你有这样的感觉呢？事实是，如果你的性生活真的很糟糕，你是不会有什么“性致”的，而且实际上你可能根本就不想做。这样的话，就有充足的理由来检验和观察一下掩藏于表面下的真相了。
+误区：每个人的性爱到最后都会变得平淡乏味。
+性爱只有在你变得乏味的时候，才会变得乏味。这也就是说，如果你停止了试验新方法，停止了尝试新东西，停止了翻来覆去，而只会上床、下床，那你的性生活很快就会变得无聊透顶。好消息是，如果你肯多下点工夫，你未来的性生活便又会大放异彩了。
+11.为什么性爱对我们有益？
+虽然我是第一个说“性爱不是生活中最重要的事”的人，但也要考虑到，性爱的确可以为我们的生活增添乐趣。而且刚巧它还有利于身体和健康，有了它你就不必每日都去健身房了。以下就是性爱对我们的诸多益处：
+使你远离心脏病。
+最近英国布里斯托大学在一项针对2500人的研究中发现，每周至少有三次性生活就会把得心脏病的几率降低50%。所以，忘掉健身房吧。
+延长寿命。
+英国威尔士大学的调查表明：每周有两次或两次以上性高潮的人，与那些戒绝性事和自慰的人相比，寿命要长得多。
+可以增强骨质。
+美国弗吉尼亚大学的研究员们发现，定期的性生活以及生殖器刺激能提升人睾丸素水平，而且还能减轻月经症状从而大大改善你的经期情绪。
+使你容颜焕发、青春永驻。
+英国皇家艾丁伯格医院的科学家们通过一项针对3500人的研究发现：那些看上去最年轻的人，往往都会拥有最富活力的性生活。
+让你保持性感。
+在年轻时就经常有性生活的男性与女性，在年纪大了之后还能在性事中保持生龙活虎的状态。想象一下，如果你几个月都没有使用过双腿，它们萎缩的会有多快？！你的性欲也是如此。如果你没有定期的“锻炼”，当你年纪大一些之后，你的性能力便会迅速的退化。
+不用节食了！
+定期的性行为还有助于提高性荷尔蒙DHEA??和雌性激素的水平，从而可以降低胆固醇，不用节食也可以减肥了。这是因为DHEA??以及雌性激素可以促进所谓的“脂肪酸循环”，就会影响到脂肪的新陈代谢，加快人体新陈代谢的速度，帮助你燃掉过多的热量（卡路里）。
+降低中风的危险。
+定期的性生活还能使血压整体下降，这对你的健康是有长远利益的。血压下降，不仅可以让你的心跳更有效率，还能帮你避免因上了年纪而引起的中风。
+有助于睡眠。
+性高潮能使人们睡得很熟，因为在性高潮中，催产素荷尔蒙的水平会比平常突增五倍。而熟睡转而又能刺激大脑神经中枢在脑部释放褪黑激素，据说这种激素可以增强性欲、消除压抑情绪。最重要的是，褪黑激素是一种自由基抗氧化剂（自由基被证实有助于预防年龄性或与年龄有关的疾病，例如，关节炎，心血管疾病等等）。
+
+自慰，手淫，跟自己玩。这仅仅是因为女性们通常对自慰会产生深切的羞耻感。怎么能对自己做这种事呢？那么我看，你一定是位无人问津的可悲的独身者，要不然就是一个欲求不满的花痴。
+自慰，手淫，跟自己玩——随便你怎么叫身体上的快乐旅行
+
+1.自慰，手淫，跟自己玩——随便你怎么叫
+自慰，手淫，跟自己玩——随便你怎么叫，这些字眼甚至能使心脏强健的床上女妖都会头昏眼花、呵呵傻笑。这仅仅是因为女性们通常对自慰会产生深切的羞耻感。怎么能对自己做这种事呢？那么我看，你一定是位无人问津的可悲的独身者，要不然就是一个欲求不满的花痴。
+这个词听起来耳熟吗？这就是事实——大多数人，甚至是最懒的情人们都会自慰。这是因为，对很多女性来讲，当然男性也是一样，自娱自乐也是一种快乐。无论你有何偏好（让我们面对现实——是有一些人不喜欢这种行为），无论那只是在浮现你头脑中的幻象还是已经实践过的剧情，活跃的自慰性行为都是美妙性爱的关键。而干坐在那里等待一位专业情人来为你开启性的大门，这种做法根本就是性的死亡之吻（乍看是个好主意，实则害人不浅）。
+那么我就来告诉你一个好消息——自慰、性幻想以及富于想象力的自慰行为，是不会让你为性而毁灭的。实事恰恰相反，它们不仅不会使你泥足深陷，也肯定不会降低你获得高潮的几率。
+关于自慰的方法——有一些人做得很完整，全身赤裸，用整个身体来获取快感。而其他人则不会真的去触摸自己的身体，只是通过性幻想以及按压生殖器，高效率的进行自慰。有些人偏好性玩具（见第六章），而还有些人则喜欢在办公室的文具橱上快速自行解决（如果你就是这么干的，可要小心电视台的摄像机）。
+不管你喜欢哪种方式，这一章都是为你而写的。因为，如果你想拥有成功的性生活，你就需要有丰富的自慰经验。只要学会让你的思维与你的身体一起悸动、轻哼、呜鸣，那我保证你的情人们一定会经常跑来向你祈求更多的缠绵。
+2.身体上的快乐旅行
+那么为什么自慰呢？顶级的性专家们讲，要想终生保持旺盛的性活力，定期自慰是最保险的方法。这是因为自慰对你的性生活有以下种种益处：
+飘飘欲飞的自慰会带给你——
+·一次完美的性发泄，无论你是不是单身都是如此。
+·如果把性欲看作是一块肌肉，锻炼得越多，它就会越强，那你所谓的“爱的肌肉”锻炼得越多，也会保持越来越旺的劲头。
+·除了性爱对健康的益处，自慰对健康还有一些独到的好处。它不仅可以帮你消除压力和焦虑，缓解痛经，还有助于睡眠激素的分泌。
+·最重要的是，你可以把自慰当作一个投资银行，你在性爱的账户里有了投资，最终就能从性爱中获取利息。
+·自慰还能帮你给你的情人进行正确的指导，你就可以告诉他，怎样做才能让你感到舒服。而且还能向他示范该如何改进爱抚的技巧。
+如果你对此仍有兴趣，这里将向你介绍该如何尝试。
+法则一：忽略你的法则。
+自慰只是一种偏好，怎样进行都由你自己决定。然而，那些坚持要按部就班的朋友，还有那些觉得好笑的朋友，你们需要做的基本上就只是用手爱抚全身。
+法则二：私密一些。
+当然一开始就做到这一点对你还是很有帮助的。所以，记得要锁上房门，因为如果你一直担心会不会有人闯进来，就不会有性感的感觉了。还有，一定要选择合适的时间和地点，避开那些吵吵嚷嚷的室友，关掉手机和电话答录机（否则，一旦听到你妈的电话留言，你就什么情绪也没有了）。之后，你就要看看怎样做才会让你觉得舒服些——对某些人来说，就意味着关上灯，而对其他人来讲，也许就意味着赤身裸体了。
+“触摸自己，我可受不了这种想法。我曾经试过一次，但是觉得实在是太恶心、太愚蠢了。我的性观念并不保守，只是自慰实在不适合我。”
+——杰克，20岁
+法则三：别光躺在那儿。
+现在让你的双手开始四处游移，让它们轻轻擦过你身体的各个部分。提醒自己在第一章中所了解的那些敏感点，同时集中注意力在其它的一些性感地带上，例如嘴唇、面颊以及颈部。你或需早已了解哪些地方可以令你兴奋和颤抖，但要是能找到其它那些不明显的区域，不仅会改善你对自己身体的感觉，还能帮你开发做“热辣”情人的潜力。但首先要记住，这可不是什么科学实验，所以不要把自己的身体当作肉块似的对待。还要试一下怀着性感的念头爱抚自己，这会帮你体会到性感的感觉。
+法则四：怀着性感的念头。
+如果这是你第一次尝试自慰，或者是第一次怀着某种念头来自慰，这或许能帮你进入适当的情绪。对某些女性来说，她们需要的是一部性爱电影或一本色情小说。如果这些对你行不通，那就试着去想一些性感的东西——过去遇到过的人，前任好情人（或是现任的），甚至还可以回想一下以前看过的电影。
+这样做的目的就是让你的情绪进入状态，不要觉得难为情，也不要想这看上去有多可笑，这些举动可都不利于获得高潮。问问自己：
+·在按压自己的胸部时，力道是轻些好，还是重些好？
+·你喜欢大腿内侧被爱抚或被轻捏的感觉吗？
+·摩擦或爱抚乳头对你有效吗？
+当你觉得自己已经做好准备，那就将重心转移到生殖器区域去吧。接下来，就介绍几种女性自慰的有效方法。
+·用手、手掌以及手指直接摩擦阴蒂。
+·用一样东西（例如枕头、毛巾等）来挤压阴蒂。
+·对阴蒂使用振动按摩器。
+·用淋浴头向阴蒂冲水。
+·用手指插入阴道。
+·爱抚并摩擦乳房、乳头和臀部。
+·在身体的性感地带和生殖器区域尽情逗弄。
+法则五：使其生效。
+在试过以上方法之后，还是什么也没有发生吗？千万不要放弃。也许是你的期望过高或是太紧张了，还或是有什么东西干扰了你。实际上，有时自慰会带来高潮，而也有时只会让你不时的在边缘徘徊，却又根本发挥不了关键作用。如果有这种情况出现，试一下下面这些解决方法：
+·看看你是否需要润滑剂的帮助吗？也许你不喜欢用这种东西，但如果你的下体像沙漠一样干涩，摩擦起来可是一点享受也没有。所以，有必要的话还是买些KY胶吧。
+·接下来，想一下你用的体位。你是端坐着、躺下、站着还是在椅子上？初学者最好采取仰卧的姿势，将双腿分开。如果你觉得不适合你，或是觉得太过暴露，那就改用俯卧，把头放在枕头上。虽然这种方式“关照”不到你的乳房，但确实有助于你沉浸在此刻的激情中。
+·那么现在，再来试着改变一下触摸自己的方式。你会讨厌插入吗？那就先别这样做。你会讨厌私处在摩擦时那种拖曳的感觉吗？那就试着在身体上爱抚或画圈。或者用手指抚过体侧，还或是想象你在做爱时多么渴望他的抚摸，然后就照你想象中的情形来做。
+·不要担心性高潮。研究表明：大多数女性自慰时只需四分钟就能达到高潮，但是很多女性需要更长时间。
+·改变你的节奏。既然你不想让你的情人来猛抓你的胸部或是猛撞你的私处，所以要想靠自己达到一次完美的享受，也要形成一定的步调和节奏。注意变换抚摸的速度，而且要伸直双腿或是将双脚的脚底相抵，来把身体绷紧。
+法则六：到卧室之外的地方。
+虽然你可能把床当作是实现你所有最佳设想的地方，但当你由足够的信心之后，就可以尝试一下床垫之外的地方了。当然，我可不是鼓动你在37路公共汽车上当众自慰，那可需要足够的勇气。你可以试一下在浴室里，或是淋浴时，或是坐在长镜对面的椅子上，或是穿着衣服站着做，还或者甚至在你的情人面前自慰。最后这种听起来好像很可怕，但它的确能延长做爱的时间，还帮助你在每次性生活中都能达到高潮。
+3.男性的自慰
+这里只是简单的讲一下男性是如何进行自慰的。
+这听起来好像有点性别歧视，不过男性对自慰可没有什么羞耻感，他们通常在十四岁之后对这件事就已驾轻就熟了，更别说在二十五岁的时候了。这就是说，一个男人也许在被你“钓”到之前或许就已经是个自慰的专家了。总体上来说，大多数男性进行自慰的速度都很快，而且很频繁，这与他们是已婚，单身还是有性伴侣都没什么关系。如果他经常自慰也就意味着他确切的知道该如何指导你该怎样做、不该怎样做。
+（这也是你需要对男性的自慰行为稍作了解的一个原因）。
+自慰能教会男性——
+·如何延长性高潮。
+·“无回复点”（the point of no returns）的感觉（这对你的性生活很重要）。
+·怎样能使他们的高潮来的更快，还有怎样能使他们产生性冲动。
+·这也是一种消除厌倦感、驱走性挫折以及减轻压力的好办法。
+男性进行自慰的方法
+男性在开始自慰时，通常会想象一些能让他们产生性冲动的东西。而且，男性对视觉刺激的态度要比我们女性开放、诚实得多，他们会利用很多种“工具”，像是黄色录像或色情杂志之类的，但更多人只用想的就成了。大致来讲，男性性高潮是由阴茎受刺激而引起的，因此，男性进行自慰可能采用以下这些方法：
+·用手快速摩擦阴茎的柱状部分。
+·专注于自己阴茎的顶端（龟头）——这是一个布满神经末梢的区域。他们或是只按压此处，或是前后摩擦阴茎的柱状部分与按压龟头交替进行。
+·激烈的爱抚自己全身，并且摩擦阴囊和睾丸。
+·刺激会阴、大腿以及肛门。
+·向后拉扯包皮，并渐渐加快节奏和频率。
+·一些男性还会使用润滑剂来帮助自己摩擦。
+整个过程只需几分钟而已，这也是很多男性在做爱时会出现早泄的原因——见第三及第七章。
+疑难解答
+现在，你已经掌握了自慰的相关内容，尽管自慰对你的性生活意义重大，但如果你把它看得太重，结果只会适得其反，所以还要注意以下事宜：
+·注意经常变换自慰的方法。如果你总是通过某种固定方式来达到高潮，你的身体会变得只对这一种方式有反应，这可会给你的性生活带来大麻烦。要记住，自慰是获得美妙性爱的关键，但不是获得美妙性爱的唯一方式。
+·不要在情人面前假装高潮，再偷偷的靠自慰来为自己解决。虽然，经历一次美妙的自慰之旅是件好事，但也不值得在劣质的性爱后用自慰来补偿自己（还要小心他会翻身过来取笑你）。如果他没有满足你，就拿着他的手告诉他应该怎样做。
+·不必过分担心他的自慰性高潮过于激烈。大多数男性在自慰时都会将自己的阴茎握得很紧，这样会带来强烈的性高潮，而这种感觉是无法靠女性的阴道来获得的。
+·不必为他技巧不佳而大惊小怪。切记，自慰只是能帮你改善性生活的向导，不是标记详细的路线图。
+·亲自实践之后还是讨厌自慰吗？那就不要再做了，自慰并不是每个人的“必修科目”。其实，有关于性爱的事情都是如此，只要觉得不舒服的，都不必去做。作为代替，你可以只是看着自己的私处，集中精力开始想象（这就是自慰行为中的身体幻想元素）。
+·不要妄想他在跟你上床后就会停止自慰。如果他已经持续了几年，即使跟你在一起，也能毫无问题的继续下去。这并不是说你不能满足他，而且你也不必把这放在心上。除非他宁愿自慰也不愿跟你上床，那就真的有问题了。再说，你也不必为他停止自慰呀。正如前面所讲的，自慰，能够改善性生活、增进性欲、还能保持你性感的感觉，何乐而不为呢？
+“我记得，我的一位前女友撞见我在自慰就大呼小叫的，她好像把这当作‘外遇’一样，一连几天都不理我，真是太奇怪了！”
+——汤姆，25岁
+4.一起来做吧
+这种技巧会把你学习过的有关自身的知识都运用到你的性生活中去。要知道，除非你的男友会读心术，要不然他绝对读不到你的心思。要让你们互相了解如何点燃对方激情，最性感且最懒惰的方法就是两人一起自慰。在你们俩人赤身裸体、热情四溢时，尽管性交谈要容易百倍，撇开这个不说，交互自慰也不会像你想的那样难为情。实际上，你很可能已经做过了（记得你们在前戏中的动作吗？那就是我们所说的交互自慰）。这里有很多种供你尝试的方法，选一种最不会让你感到难为情的吧。
+互相观赏
+好处：这是让你了解你的伴侣喜欢哪种爱抚游戏的绝好机会，在激起性欲方面也是功效不凡。
+总体而言，男性们似乎更加自信，他们会在你向他们展示你的性感地带之前，向你展示他们自己的身体。这听起来挺愚蠢，尤其是如果你已经拥有充满活力的性生活，但要鼓起勇气向他展示你全部的“自慰私密”，也的确是件难事。如果你实在怕羞，就让他先来吧。轮到你热情回报时，你就想象是在为他表演。如果想让自己感觉好些的话，你可以衣衫半蔽，不过还是要告诉他你在做什么，为什么这样做。这不仅能让他产生欲望，还能提醒他该如何改进前戏中的风格。以下内容可能会对你有所帮助：
+·注意观察他怎样做的，以及他在达到高潮时的速度和节奏。
+·向他表明你喜欢他怎样做，还有你不喜欢他技巧中的哪一部分。
+·发出点声响。你也许已经体会到摩擦带来的确切感受，但他可能接受不到你内心的信号。那就用呻吟、叹息或大声的啜泣，让他感受到你的回应。
+·仔细观察。不是不知道该如何用手替他解决吗，不用问，他会亲自向你示范的。
+·不要被性高潮所困扰，要注意他是喜欢专注于阴茎还是偏向于转移到其它区域。
+·不要只注重你的生殖器区域。向他展示你其它的敏感区域——乳房、颈部，你渴望被抚摸的所有区域。
+·不要难为情，让他也加入你的行动中来，把他的手放在你的手上，告诉他你在想什么，让他来采取主动，并且让这种游戏成为你日常性生活中的一部分。
+5.交互自慰
+好处：仅靠触摸就能带来更为激烈的性高潮更有可能获得刺激型性高潮，尤其是在他先为你服务的情况下。
+交互自慰就是指两人同时抚摸对方。使用这种方法很快就能引燃两人的激情，推起共同的高潮。交互自慰的目标就是仅靠触摸来完成整个性事过程，所以要充分利用你们的手、唇、口以及声音去探索彼此的身躯。记住一定要把注意力投放在你身体上已被发掘出的全部的性感地带，还要再加上这些：
+a． 体侧。
+这是令人难以抗拒但又经常被忽略的两个区域，分别位于身体的两侧，确切位置在腋窝下5厘米（2英寸）处。当这两个区域被抚摸时，你会感到腹中有一种翻腾的感觉，兴奋的波浪沿着脊柱上下奔涌。这两个区域密布着神经末梢，有很少被触摸，所以极为敏感。要体会到这种销魂的感觉，就要他轻轻抚触这两个区域，时间要长一些、力道也要稍大些。
+b． 耳垂。
+耳垂可是非常非常敏感的区域，对这里的刺激也是极为有效。所以，无论磨蹭、轻咬或爱抚，都能向你的大脑传去“对了，就是这里”的信号。但仍需要警告一下，与人们的普遍想法相反，当你在性事中用到这一区域时， 切记口水浴对耳朵来讲，可不是什么性感的举动。
+c． 手指与手。
+十指连心，所以足见它们有多敏感了。试着轻抚或吮吸手指。要达到最好效果，你可以暗示他将你的一、两个手指慢慢放在口中做挑逗状的吮吸。这样，你就能了解到他“下面”的工夫是否了得，还有，与他四目相对，更会有一种用言辞难以表达的性感。
+d． 双脚与小腿。
+脚底以及脚趾间的空隙与性器官紧密相连，摩擦这些地方能比直接的摩擦性器官更具刺激性。这个柔软脆弱的区域渴望着关注与爱抚，让他将一只手指轻轻推进你的脚趾间，然后缓缓抽动，性感的激流就会向正确的位置直奔而去，而你立即就会兴奋不已。最后，一定要让他细细吻遍你的脚踝四周，然后从小腿向上一直爱抚到膝盖——这里也是一处敏感地带。
+e． 大腿内侧
+你也许早就了解了这一区域的功效，但是你是否知道除了用手对大腿的直接刺激，还有没有其他的方法能让你攀上“顶峰”呢？这次，又与神经末梢有很大关系，而且性参与度也有一定的影响。当然，还有什么能比炽热的气息与好奇的手指在大腿内侧上下游移的感觉更妙呢？让他用长时间按摩式的爱抚来挑逗你，如果你还受的住，还可以试一下搔痒式的轻抚。
+f． 头发
+有没有想过为什么你总喜欢用手梳理头发？那是因为轻拉头发可以起到按摩头皮、养精提神的作用。如果你想借此来引发性激情，需要注意两件事：一，你那位可要知道轻扯与猛拉之间的差别；下一条，确定你的头发不会打结，这样他的手才能轻松穿插而过。让他从两侧的发根开始，然后向内移动——一只手轻轻穿插而过，顺着向后滑到你的颈部，按摩着、亲吻着一路向下移去，轻拉头发也会有销魂的性感。
+g． 背脊。
+做过按摩吗？做过的话，就不需要我告诉你脊柱上也散布着几百个微小的性感点，而且大多数都在脊柱的根部。建议他从你的颈部开始，一路画着小圈圈下移到臀部以唤醒你性的激情。让他的手指沿着你的脊柱上下滑动，就如同弹钢琴一般，这样不仅能弹动你的欲望，甚至连你的背部神经也会为之奏起疯狂的旋律。还想要更刺激的，就要他一面按摩你的肩部和背部，一面将部分身体轻压在你身上。
+h． 膝后及腰部。
+这些都是容易被忽视的性感地带，真是遗憾，要知道这些区域可都是一些强劲的激情引爆点。换一种说法，只要轻轻几下亲吻、爱抚、吮吸就能使这些区域热血沸腾、温度上升、悸动不已，而你也会沐浴在愉悦的光辉中……还用我再讲下去吗？
+i． 小臂内侧。
+肢体预言专家指出小臂内侧也是一大性感地带，因为这里很少受到关注和爱抚。想一想，你有几回注意过身体的这一部分？卷起袖子，让他亲吻小臂下侧的柔软区域。你就会尝到火辣辣的性感滋味，还想要更来劲的，就让他用他的脸和唇，挑逗式的细细磨蹭。
+j． 腹部
+这个敏感点也是经常被错过的，通常是因为你总是忙着把它吸回去，不给他挑逗的机会。不过，让他的指和唇在这一带游移可是会带来别样滋味。如果你还受得住，就让他顺便“研究”一下你的肚脐（这会使你的身体轻轻颤栗）。不过，还是要提醒一句，如果他想要给你做个腹部按摩，一定要按顺时针方向（不然会影响到你的消化）。而且在他开始前要先确定一下，你应该不大可能在这种时候“肠气”外泻吧。
+6.性幻想——开动你的激情
+自慰并不是让你在一分钟内就达到高潮的唯一方法。美妙且传统的性幻想或许也会是你最佳的“启动工具”。如果你想在以后的性生活中轻触“开关”就能开启激情，那你的目标就应该是建造一座“图书馆”，在里面存满色情的经历、剧情以及纯粹的性故事。不管你是“独处”或与他人“相处”时，随时都能派上用场。
+在最著名的一本女性性幻想书籍——南茜·芙莱德的《我的神秘园》中，来自世界各地的女性都谈到了对她们最为有效的各种性幻想。从中，你能找到从女奴幻想、假强奸，到普通遭遇的各式各样的性幻想。如果在电视上看到这些，绝对会让你笑掉大牙。而这就是幻想所能带来的纯粹的愉悦——这不是现实，也不需要忠实于现实，而你也更没有必要在现实生活中将其重演。
+性幻想的意义就在于找到一个适合自己使用的“性欲启动工具”。一幕美妙的性剧情（如果它对你有效的话）可以让你仿佛置身于中心舞台之上，让你在刹那间产生性感的感觉。虽然性幻想与自慰经常是一对好搭档，但也要注意，制造一个火辣辣的性幻想对两人性爱也会有所帮助，特别是如果你因为某种问题而徘徊于高潮边缘，或者你的伴侣根本连想都懒得想。
+7.如何形成我们的性幻想？
+性学专家们认为，性幻想是随着我们不断成熟而形成于我们的头脑中的，它们来源于我们的所见、所读，也许还有亲身经历过的事情。除了这些，一些单凭其一点邪恶和禁忌就能使人感到愉悦与兴奋的事物，也可能成为幻想的原料。无论性幻想背后的原因是什么，如果你对它会有罪恶感，就不要沉溺于其中——毕竟那些白日梦都只是大脑中的幻象，只是用来改善性生活的工具。它们都不具真实性，既不能说明你是个变态，也肯定不能代表你真正喜欢做的事情。
+女性在性幻想中想些什么？
+·被一个陌生人侵犯。
+·跟某个名人做爱。
+·来个“三人行”。
+·与其他女性做爱。
+·被人观看。
+·受到惩罚或鞭打。
+某些人的性幻想始终只有一个固定的主题，而其他人则会不断变换主题。但是研究显示：男性与女性的性幻想中总会有一定相同的模式与主题，都会倾向于“跟某位明星”、“被迫”、“惟命是从”，还有“被主宰”或“主宰”之类。那么再来看一下两性共有的幻想主题吧。
+尽管男性偏好更为视觉化的影像（想一下那些色情杂志），但在所有的性幻想中都有这样一个不争的、共同的事实——男性与女性都偏好于自己喜欢做的事，起码也要是喜欢在想像中“实践”的事。还在为猜不透他的而烦恼吗？下面就让我们一起来戳穿这些有关性幻想的谬论。
+误区：我梦到了女人，我一定是同性恋了！
+根本不是（当然除非你知道自己是）。同性幻想只是跟自己的想象力一起玩的游戏，除了说明你的好奇之心，再没有其它的含义。当然，如果在产生这种幻想之后，你觉得自己以前选错了方向，而且渴望有一次同性经历，这时，也只有在这种时候，同性幻想就有更多含义了。
+误区：我做爱时幻想到其他男人，那我一定要离开现在的男友了。
+问一下任何一对相处数年的情侣，他们两人都会承认自己会不时假装在跟某个电影明星做爱，而不是他们的男友或女友。这并不代表着他们真的想跟那个明星有什么，这只是一种
+为夜间长期运作的性生活增添情趣的秘密方法。所以你不必为此感到愧疚。当然，除非你每次做爱都会有这种幻想，而且也确实想离开现在的男友，那就另当别论了。
+误区：有非常性爱的幻想就意味着你是个变态。
+男性在性幻想中想些什么？
+·巨大的乳房。
+·主宰他人。
+·被惩罚。
+·观看两个女人做爱。
+·与某个知名女性做一次。
+梦到或幻想到变态的事，与想要在现实生活中做变态的事是有天壤之别的。有些女人经常会幻想被海盗赤身裸体的绑在树上，然后被一个骑士“解救”——这也真有够变态的了，可还是不能说明有这种幻想的人就是变态。只有在你的幻想使你感到恐惧，或是你感到被迫要去做某些会伤害到自己或他人的事（以一种很恶劣的方式）的时候，那就需要当心了。
+误区：男人总是幻想跟别的女人在一起。
+这也是冤枉的。问一下大多数男性在性事中想的是什么，答案通常都是“性事”。对男性而言，性在那一刻意味着很多——跟女性不同，他们的思维不会真的跑去他们的“幻想图书馆”里挑选剧情。因为他们的精力全都集中在高潮上了，想要分神，也是乏术。即使他在前戏中想过别的女人，这也不能说明他对你不忠（正如大多数与幻象嬉戏的人，他们也有权为自己的性经历添些个特别风味）。这也只是性爱游戏的一部分，说明不了其它任何事情。
+8.反性爱元素
+最后，正如有如此丰富的情景、剧情和人能令你“性致”勃勃，在生活中也有同样多的事物会给你的激情的火焰泼上一盆冷水。尽管这也许对你来说是少有的事（你也有权保有或遵循那些反性爱观念），但如果你不去理会它们，它们也就不会妨碍到你的性生活了。
+反性爱主义者
+作为一个肉欲者，但愿你还没有碰到过这一部分人口。他们把“性”当作是一个肮脏的字眼——不该用于享受，也不该发生在婚姻之外。也许你就是在这种观念中成长的，如果真是这样，可就逮到令你谈性色变的罪魁祸首了。一旦有这种感觉，你就需要找个人来探讨一下你所接受的那些性信息。一位资优的精神治疗专家不但可以帮你纠正错误的想法，还能将你从那些狭隘的观念中解脱出来。
+暴君情人
+这种情人总是要你遵从他们的规则。有些男人自以为比你更有经验就有资格让你按他的方式做事，遇到这种男人经常就意味着你遇到了暴君情人。如遇这种情形，你要遵循的规则很简单——就是不要做你不想做的事。正如我们前面所提到的，自慰不是适合于所有人，某些动作、幻想以及某些性行为方式也是如此。而且，什么能引起你的冲动，什么会让你对性产生厌恶，这些都是你凭自己的感觉而得知的，与你是否缺乏性经验根本毫无干系。
+没有激情却扮狂野
+跟上面那些因素相同，被迫表演也会使你对性产生深远的厌恶感。一些杂志，甚至还有书籍的错误引导会加重缺乏热情和经验给你带来的自卑感。幸好我们的情况还没有那么糟。研究显示，大多数人都懒得去用什么“奥林匹克”式的体位，而是坚持采用传统的传教士式。
+再说，我们大多数人还是不会选择在恐怖的公共场所冒险，而是安安分分的呆在卧室里“行事”。大多数女性最时髦的做法，也不过就是在MS买些色色的内衣罢了。这不能说明我们都是平淡乏味的人（想一想，谁会知道你穿那些性感内衣是要干嘛），而假扮狂野也不是对任何男人都能奏效。如果你真的有这种性情，那也最好是慢慢展现，特别是在新情人的面前，可不要过火到把人家吓跑（详见第六章）。
+色情图片
+一想到色情图片就会让你浑身上下直打寒战？还是有股欲望的冲动？实际上大家对待色情图片的态度，也是仁者见仁，智者见智。有人觉得这种东西实在可耻，只适合那些穿着雨衣的可怜男人。而其他人一看到这些就会产生激情的悸动。无论你对色情读物有何观感，那可是男性们自青少年时代起在性爱历程上的第一个港口。这就是说，没有几个你认识的男人会对顶架上的杂志或录影带不动声色。或许他们正在用这些来排遣欲望。如果你真的想知道，不妨去问问他。
+“我八岁的时候跟我的朋友一起偷看色情杂志，我们觉得那些照片真是太恶心了。我还记得当时我想，‘妈呀，女人两腿之间的是什么鬼东西？我一辈子都不会接近那里’。”
+——马克，20岁
+你得到的答案会取决于以下几方面：（1）你的语调（2）你是否已经知道答案。如果你已经找到一个箱子，里面装满他在近十年内收藏的各种色情杂志，而你还要问他，那你的目的好像只是故意要他难堪。如果真是这样，你可要注意以下几点：
+·大多数男性，也有不少女性会，会在两人性事或自慰时把色情图片用作视觉刺激。
+·只要他不会强迫你看，那他还不算是过分沉溺，而且那些图片也不会有多猛烈、多恶心——这都取决于他。
+·当然，如果你问他只是想跟他分享其中乐趣，那就痛痛快快的问吧。
+
+1.什么能使懒女孩们享受到性爱的美妙
+是什么能使懒女孩们享受到性爱的美妙呢？是连手指都不用动就能达到的多重高潮？还是一个索求无度却又能满足对方欲望的男友？还是随时随地都能享受的性事？这些全都是，还是全都不是？美妙性爱的定义是因人而异的，所以不管你现在是否拥有它，都要注意：就算你的床伴多如过江之鲫，就算你把房顶叫翻过N次，这些都不能证明你所拥有的性就是美妙的。
+如何才能让你的闺房“一片春光无限好”，到这里来寻求解答吧。
+2.口交技巧指南
+口交的好处是，如果你是接受的那方，就什么也不用做，只要专心躺在那儿慢慢享受就成了。这也许就是大家如此偏好口交的一大原由吧。口交受到青睐的其它原因还包括：
+·它经常会使人感觉比生殖器的抽插还要深入。
+·更容易唤起高潮。
+·舌头带来的感觉可是大有不同。
+·有一种邪恶的感觉。
+·不会有受孕的危险。
+·这是引发性冲动的最快方法。
+但是，如果你是施与者就需要下一番工夫了。你要注意，尽管是有很多人想以“追求性享受”为名进行口交，但不是所有人都能轻松的享受到这种乐趣。如果你不确定怎样才能把他“吹”好，以下是要注意的几点：
+3.你真的想要这样做吗
+这是你要问自己的第一个问题，他也许期待着你来做，但如果你讨厌这种方式，就要好好找找原因了。很多女性都不喜欢口交，因为害怕做的不对。还有一些人则是担心会有什么怪味会让她们中途窒息，还有她们到底要不要把那些东西吞下去？如果这也是你的顾虑，切记，口交是没有什么规则可循，你怎样舒服就怎样做。
+4.他的性卫生状况会不会让你抓狂？
+即使是最放荡的情人，在可怕的个人卫生状况面前，也会立即“性致”全无。如果你一来到他的腿间就会捏着鼻子发出作呕的声音，那他的卫生状况也是有够糟糕了。不要因为尴尬就不向他说明，因为卫生状况是女性避免口交的第一大原因。如果你不敢说“你实在太臭了”，还可以采取以下策略：
+·拉他去洗澡，假装这是做前戏。
+·请他去健身房洗温泉。
+·建议他来一次漫长的“鸳鸯戏水”。
+警告:
+如果他洗过之后还是臭味难挡，那他带给你的可就不只是性高潮了。（小心会感染STI或细菌类传染病。）如果真有这种情况，那你最好是使用保险套，恐怕还要为你们两人安排一次在当地泌尿生殖科诊所的约会。
+5.忘掉“深入喉咙”吧
+这只是七十年代色情电影中的可悲想法，根本不能采用（除非你是个吞剑者）。因为所有人的喉咙后侧被碰触时都会有呕吐反应，所以一旦他这样做了，能得到的唯一回报也只能是让你吐个翻江倒海。
+担心会有怪味
+精液是由精子、蛋白质、糖类以及其它液体混合而成，与那些传言相反，它没有多少热量。精液的味道是有点怪：有时会发咸，但也有时也会受到饮食的影响。所以，没什么值得大惊小怪的。
+6.口交的终极指南
+只是想象一下你低下头去的样子，就能让他为你而疯狂。为什么呢？这是因为阴茎作为男性的性器官，上面布满了神经末梢，因此才能保证他可以达到性高潮。而且，男性们通常都会说喜欢看到你给他们的阴茎施加直接刺激。如果你想跟他一样沉浸其中，不妨试一下以下方法：
+做的舒服些。
+没有什么是比用一种令人尴尬的体位来进行口交更糟糕的事了。所以，你一定要处于正确的位置上。他可以坐着或站着，而你则可以跪在他前方。或是让他躺在床上，那么你就可以把头放在他的大腿之间。
+不要让他扶着你的头
+这是女性们对口交抱怨最多的事。你需要一直控制阴茎进出的节奏和深度，所以不要让他扶着你的头来控制你。
+用手开始。
+用你的手来爱抚他的阴茎，他很快就会“性致”勃发了。在用嘴环住他之前，先用一只手成拳状握住他阴茎的根部，这样就能防止他向你的嘴巴猛冲，还能帮你将他的阴茎引向你所希望的位置上。如果他喜欢猛冲，就让他躺下来，你就会有更多控制权了。
+舔吮。
+把他当作一根棒棒糖，不只是要吮吸还要舔吮和亲吻。要充分运用你的舌尖和舌中央平坦的部分（这会给他两种截然不同的感受），试着从根部一直舔到顶端。卷曲你的舌头环住他，然后再专注于顶端。要特别注意顶端下侧那一片隆起的区域，这个被称为系带的地方也是极为敏感的性感区域。对阴茎采取的最佳动作就是用你的嘴上下套弄并且轻轻的吮吸。
+“有些女孩子很怕口交和手交，她们只会敷衍了事，根本起不了什么作用，正确的做法是要抓的紧一些。女孩们，来做吧！我们真的很喜欢这样的感觉。”
+——麦克斯，24岁
+再加上些花样。
+用些气味芬芳的润滑剂或是味道强劲的薄荷糖，都能为此增添乐趣。这不仅有助于增加口腔的湿润度，还会使他的阴茎在被你的嘴唇环住时感到阵阵暖意。
+用上你的手。
+担心自己的下巴会疼？那就把手也用上。当你的嘴专注于他的阴茎顶端时，用手握住阴茎根部，并且同时爱抚和轻握睾丸（不过要事先确定他是否喜欢这样）。再试着去摩擦他的会阴处（再阴茎与肛门之间一小片隆起的区域），这样会使他更加兴奋。
+不要忽略他身体的其它部位。
+你在给他做口交的同时，还可以去爱抚和触摸他身体的其它部分。主要集中在他的大腿和臀部，甚至对肛门也要下一番额外的工夫。口交的目的是“以口做爱”，所以，要有一次完整的经历，就必须让你的手和唇在他全身上下持续的移动。
+吐出来还是吞下去。
+如果你不想就不必吞下去——这不会使你背上劣质情人的恶名。记得在附近放几张纸巾，一旦他射在你口中就吐出来。试着做得有礼貌些，毕竟看到自己的情人起身跑向浴室可不是件性感的事。如果你不希望发生这种情形，就要注意观察他即将射精时的征兆。在他射精之前（他也可以及时警告你）他的臀部会出现一些反应，阴茎也会膨胀和扭曲，睾丸也会更贴近身体。如果你看不出任何生理征兆，就注意他的呼吸以及他在冲刺中速度增加的幅度。
+7.接受口交的疑虑
+很多女性都乐于施与口交，但对她们男友的“回报” ——舔阴，却会觉得怪异。一些普遍的疑虑包括：
+·担心自己的生殖器有异味。
+·担心他不是真的想做。
+·担心自己不会达到高潮。
+·担心自己的性器官外观奇异.。
+好消息是，以上没有一样会是真的。尽管阴道天生有一种霉味，但并不恶心也不会有腥味（除非你是得了轻度传染病，那就需要检查一下了——详见第七章）。还要注意每个月的不同时期，阴道的润滑程度也有所不同——你只需保持好个人卫生，就能保证这些都不会成为问题。而关于生殖器外观，也不必大惊小怪，每个人的生殖器，跟眼睛、鼻子、耳朵一样，外观都不尽相同。
+关于舔阴，值得注意的是：对大多数女性来说，以这种方式获得高潮要比用其它方式要容易得多。原因很简单，因为这是对阴蒂的直接刺激。
+对女性施与口交应包括：
+·刺激阴蒂、阴道以及会阴。
+·刺激大腿内侧和乳房。
+·将注意力集中在阴蒂上。
+·用手插入刺激。
+·舌头的动作要有稳定的速度和规律性的节奏。
+·需要你给他一定的指导（如果你害羞到讲不出话来，就用呻吟声来表示赞赏，或用身体的移动来帮他找到确切的位置）
+·还要有一位心甘情愿的情人。
+8.口交疑难解答
+“69”式体位不适合你。
+出于各种不同的原因，很多人都不喜欢使用“69”式体位：一些人觉得这样不舒服，还有人觉得这样很难获得性高潮。女性们对此最多的抱怨是，她们发现同时施与和接受会分散精力，无法专注于高潮。而男性们也抱怨说因为他们的女友无法集中注意力，他们也享受不到正确的口交，。原因就在于，当你接近性高潮的时候根本无法顾及自己的“职责”；而如果你想专注于自己的“职责”，你就不能尽情的享受高潮。这是一种恶性循环。如果你碰到这种情况，在保留“69”式的基础上，最好每次只有一人施与、一人接受。这样，你既能随意施与，也可以尽情享受，无论如何都不会分心了。
+“手上工夫”要优于“口头工夫”。
+这是口交技巧中的上上之选。成功的秘诀就在于——
+·不要抓得太用力或是拉扯——这可是男士们的头号抱怨。因为阴茎看似坚挺，在勃起时却极为敏感。
+·问他想要你怎样做。（如果一定会擦到你手上的伤口可就惨了）。每个男人的喜好都有所不同，有一些喜欢抓得紧些，还有些喜欢轻且快的动作。让他们先自己开始，然后把你的手放在他的手上去感受一下正确的做法。
+·一旦你的动作上了轨道，掌握了他所喜好的强度和节奏，就试着用手从阴茎的根部一直上移到顶端的隆起。如果还想加点花样，就在顶端和根部稍加力道。
+·用些润滑剂。这样既能给阴茎增加湿度，又能保持动作的顺滑。可以用KY胶或唾液。
+·一定要沉浸其中——如果做的时候你摆出一副心不在焉、呵欠连篇的样子，不仅不会加快他的高潮的到来，连你自己的情欲恐怕也要烟消云散。
+·在他临近高潮的时候就要放开阴茎，因为这时阴茎的顶端会跟阴蒂一样敏感。
+你讨厌在口交时阴蒂受到过多“关注”。
+这也是很常见的问题。因为高潮前，阴唇的肿胀有时会使阴蒂收缩不见，有些男性就会过分专注于寻找阴蒂。而这时阴蒂上所有的神经末梢都会处于红色警戒状态，所以阴蒂就会变得极为敏感，也就极易受到伤害（有些男性的阴茎顶端也是如此）。碰到这样的情况，要让你的情人退后点、温柔些。
+不知道该拿包皮怎么办。
+那就什么也不要做。然而，将包皮拉紧包住阴茎的柱状部分会给男性带来额外的愉悦感。最好的方法就是把手放在阴茎下距根部2.5厘米（1英寸）的地方，将手箍成环状像下拉，这样阴茎的上部就会稍稍露出。还可以试着舔吮包皮的四周然后再专注于阴茎的顶端。
+“大多数男人的口交方法都不正确，他们只会一头扎下去猛流口水，就好像要舔出一杯牛奶来。真是讨厌！而且他们似乎认为，不管他们在下面做的怎样，你都要对他们感激不尽。”
+——劳拉，24岁
+你的男友拒绝口交。
+他拒绝为你做口交的借口有很多种，像是“下面太暗了，我看不到自己在做什么”，“这太奇怪了”，还有最可笑的——“会有异味”。其实，男性拒绝口交的真正原因多半是他们害怕自己做的不对，除此之外根本没有别的缘由。
+这也就是说，如果你想要你的情人为你做口交，最好的办法就是直截了当的告诉他你喜欢这种方式，还要告诉他应该怎样做。
+这会立即奏效，因为（1）他不可能曲解你的要求；（2）你一字一句的指导定能让他心领神会。尽量多用一些视觉性的描述，男性往往要通过这种方式才能搞清应该怎么做。一定要让他保持你所需要的持续且有规律的节奏，动作要柔，力道要轻，还要告诉他要用怎样的性刺激来将你推向高潮。
+9.性爱的第一乐章——前戏
+不需要我来教你怎样做爱吧？你只要把衣服脱掉，让他进入然后在你体内冲刺几下不就完事了，不是吗？
+但愿你的反应是大叫一声“不对”。
+性行为看似简单，但要做好也实属不易。因此现在最主要的就是先要综合一下你现在对性的全部了解。回想一下那些生理基础知识、有关自慰、精神挑逗、前戏、性感地带以及口交的内容。把这些全部综合就能指引你走向更美满的性生活，甚至是体会高潮中的更多美妙滋味。如果你太痴迷于抽插，即使有性生活也不会有持久的兴奋感。想要来些给懒女孩们的速成建议吗？那就往下看。
+做好前戏需要有——
+·在插入前需要至少多于五分钟的前戏。
+·前戏中要有大量的拥抱和亲吻。
+·互相爱抚、摸索彼此的身体。
+·要覆盖大部分的性感地带（见第二章）。
+·要有某种形式的口交。
+·聊几句（但不宜过多，全程解说可不是性感的举动）。
+·用上你的手、指、舌、唇以及你能想到的任何东西。
+10.改进前戏：
+将你花在这一阶段的时间延长一倍。
+如果你的男友是个喜欢“速战速决”的人，那你就要让他专注于他在进行的事情，而不是进行到哪里了。大多数男性急着从开始一下子猛冲到顶点，这并不是因为他们急切的想要进入，而是因为他们面对前戏有些无助，捏了几下你的乳房之后就毫无头绪了。要帮助他，就要告诉他前戏不只有接吻、逗弄乳头和笨拙的摸索。要开始并延长这个阶段，靠简单的亲吻就成了。
+a． 脱衣动作要性感。
+宽衣解带是绝对惹火的举动。让他抚摸你的胸罩十分钟，而你把头罩在上衣内，用手隔着他的衣服捉住他的阴茎，这些都是挑逗激情的“杀手锏”。所以，不要急着脱光，衣服要比你想象的性感多了。来段脱衣舞，让他观赏你轻解罗衫，他立刻就会“性致”昂扬。或者换你穿着内衣躺在床上，静静观赏他的表演，那就更棒了。
+b． 问他喜欢怎样做。
+男性在性沟通方面可是臭名昭著的无能，所以如果你不问他，他就会用他那些恶劣的方法来让你做他想要你做的事。不能让他随意就把你的头向他下身推去，更不能让他抽打你的身体，这样实在很杀风景。相反，你必须让他自己去要求/争取他想要的。这不仅能提升他的“性致”，还能增加这一时刻的性感价值。
+c． 不要期待他会读懂你的心思。
+与以上相同，“问”是能让你获得满足的关键所在。是不是需要更多的口交？少一些亲吻？多一些舔吮？那么就告诉他你有多么渴望他。如果不能用“言传”，那就用你整个身体来进行“身教”，挑动他的欲望并且给他正确的指引。用上他的手指、唇舌，让他试着用手指进入你，这样很快就能把你带向高潮。
+d． 拒绝作假。
+如果你觉得有什么不适之处说出来，否则你一生恐怕都要默默忍受这种烂技术了。有些男人总是会遵守“你不说，我不改”的原则，这就是说，如果你不跟他说明你讨厌他舔你的耳朵，他就会一直舔下去直到让你抓狂。
+e． 前戏不可太烂。
+最后，要记着，前戏固然重要，但如果做的太烂，那就另当别论了。软弱无力的口交、拍打阴茎或是半烘烤式的性按摩都不是合格的前戏技巧。又没主意了？那就再看一下前面或后面的内容（见第二章及第六章），看看怎样才能使你的性生活活力四射。
+11.性爱的第二乐章——失去童贞
+童贞是一个惯用的侮辱性的词汇，除了在那些传言之中，童贞根本不能说明你是个怎样的人，只能说明你还没有过实质性的性行为。处女之身并不意味着你会是个无能的情人，也不能说明你不会获得高潮（让我们面对现实，你也许已经不是处女，但在其他性领域毕竟还是个初学者），或是比那些有多年床上经验的人更为出色。因为大家都在做（据英国国内数据统计署的数据，大约有四分之一的英国女孩在十六岁之前就不是处女了，而大多数择会等到19岁左右）。那么对那些迫不及待要摆脱处女身份的朋友，以下是你需要了解的一些内容：
+接受现实也许要比想象中困难。
+很多第一次做的情侣们都会对性爱的严酷现实产生种种疑问，这只是因为他们对处女膜的破裂还有诸多疑问。处女膜，就是部分覆盖住阴道口的薄膜组织。有些女性的处女膜在有性行为之前就已经破裂了，儿时的剧烈运动和使用卫生棉条很容易就能使处女膜破裂，而在很多情况下，处女膜在第一次性爱尝试中却能完好无损。
+如果你的男友不能进入或是感觉有什么东西阻挡了他的前进，那他就是触到处女膜了。如果你感到一阵疼痛，而且看到有血流出，这就意味着你的处女膜破裂了。
+有助于性事的最佳方法：
+·开始时要采用传教士体位，这对“第一次”来讲是最佳体位。传教士式大致上就是俩个人躺下来，让他位于你的上方。
+·当他第一次进入你的时候，用你的阴道肌肉将他向下推挤，就像要小便的感觉一样。
+·接着，他会慢慢插入，然后在你们俩人都放松下来时，更加深入，直到完全进入。
+·这会使你的阴道不断扩张以适应他的存在，而处女膜的破裂使你最终得尝禁果。
+记得要提醒他这是你的第一次。
+童贞或性爱都不会在你的头上挂个霓虹灯招牌来宣告你是否做过。“他看不出来吗？”如果你的处女膜已经破裂（见上），答案是——他的确看不出。话说回来，你又为什么要说谎呢？性爱可是件大事。如果你不想它成为一次美妙的经历，硬装出一副事事明白的样子，你就不能体会到个中乐趣了。
+如果他是处子，要对他好一些。
+每个人都会有第一次，如果你要跟一个处男上床，切记，男性跟我们女性不同，他们在第一次时前戏只需一笔带过。如果你花了太长的时间来挑逗他，再把他带上高潮边缘，他就会达到无回复点，恐怕在进行到实质性部分之前他就射精了。所以，你最好——
+·选择一个能让你掌控全局的体位，例如男下女上式，采用这种体位的话，在他过早射精时，你就能及时起身。
+·告诉他你喜欢怎样的触摸，怎样做会让你有美妙的感觉。因为他对这些了解不多（当然，除非你也只是处于尝试阶段，那你们两个可就是半斤八量了）。
+小心会痛。
+处女膜破裂时会有点疼，但疼痛很快就会消失。如果性事中还是很痛，那就需要有更多的前戏，还要注意以下几点：
+·不要痴迷于插入。如果你做不到，想靠蛮力继续下去是很容易，但也会让你疼痛难忍，要再深入就更不可能了。你最好先暂停一下，在前戏、口交和亲吻上花上更多的工夫，完全放松后再试一次。
+·尽量放松，当我们事先认定什么东西会很痛苦或很艰难的时候，就会潜意识的紧张起来，这样会导致阴道肌肉紧闭形成阻碍。一旦出现这种情况，无论用什么润滑剂也无济于事了。
+时间就是一切。
+一旦你们俩人都学会该如何挑起对方的激情，你不仅会在头脑中有所领会，你的骨盆区域也会有一种膨胀的感觉，这是你已经做好准备的信号。时间的积累还能，还能在其它方面对你有所帮助，例如高潮（见第四章），所以如果第一次不能带来焰火或爆炸般的性感感受也没什么好奇怪的。就像第一次约会一样，有一点尴尬和难为情都是在所难免。而且这也不能代表以后的情形。性爱这种事，也是做得越多，就能做得越好。
+选择避孕法。
+民间有一种说法，“第一次”的时候，即使他采取“及时撤退”的方法都不能避免受孕。事实恰恰相反，如果你不想成为英国每年十一万意外受孕的女孩之一，就一定要采取某种保护措施。无保护性爱还可能使你染上性传播类传染病，所以一定要选择一种能起到屏障作用的避孕法，即使用保险套。（关于避孕的详细内容见第七章）。
+“我在某些地方读到男性每六十秒钟就要想一次性。如果你跟我和我的朋友们待上一晚，你就会见识到，我们绝对能打破这个纪录。”
+——露西，24岁
+不要急于追求刺激。
+在你开始像火堆上旋转着的狂舞者一般翻滚、扭曲你的身体之前，还是先掌握好全部的基本体位吧。你也许渴望着去体验性爱狂野的一面，但如果连最简单的都还不能做好，就更不用提那些高难度动作了。然而，也不必整晚都停留在传教士式——试着起身，站着做，向后倾斜，亲吻他，逗弄他，抚摸他。当你心满意足之后稍作休息，过一会儿再把他叫醒，继续“第二回合”。
+不要期望过高。
+美妙的性爱是需要时间的，每次你跟一位新男友开始一段新的“关系”，通常需要做过几次才能得其要领。所以，即使没有获得高潮，还有一些不满之处，甚至没有丝毫享受的感觉，你也不必大惊小怪。这并不能说明你是性无能或冷感者（骇人的虚假字眼，没有任何意义）。这只能说明你需要更多时间来学习性爱的基本内容。先回到性爱的插入前阶段，专注于亲吻和前戏，感觉对头了，再来发起第二次冲击吧。
+12.性爱的第三乐章——平凡之中见神奇
+做爱、性交、交和、交媾——这种游戏的名字就如同它的做法一样举不胜举。幸好我可不是在提倡倒吊在房顶上或是去Trantric，也不在怂恿你在邻居面前做爱。我的建议只是，不管你有过多少经验，技巧的多样化才是性生活美满的关键。
+美满性生活
+性生活的多样化是指：
+·前戏技巧的变化。
+·变换体位。
+·尝试各种抚摸方式。
+·为你的性生活增添乐趣。
+·考虑一下“速战速决”的做法。
+·考虑一下“持久战”的做法。
+·告诉他哪里做得好。
+·告诉他那里做得不好。
+·寻求改进个人技巧的建议。
+·到卧室之外的地方去。
+性爱的麻烦在于，我们中的大多数人只要遇到了某人，坠入爱河，经历了一段极度兴奋的性冒险，之后就会急流勇退，停在一条固定的套路上，这时的性爱就会成了“在下雨的午后”才做的事。然后，我们中的大多数人就会依靠性的回忆生活着，不断的提醒着我们的伴侣我们曾有过那样非比寻常的性爱，或是还想要再次尝试。就这样，直到有一人觉得无聊，转身去寻找另一个会停下来跟他聊天、上床的人。
+正如你的上班路线一样，如果你每次性事都按同一条路线，那你就会进入一种自动驾驶状态，因此就会上演上面的那出悲剧。这就是说，在他开始用鼻子磨蹭你的颈部时，你就会开始想起要清洗厨房地板，或是开始想象你是跟布莱德·皮特在一起。
+所以，即使你的“基本功”已经上升到艺术的层次，但为了你和你的伴侣获得更多的享受，你仍需要重新修炼并扩展你的性技能。好消息是，这很容易做到，比你想象的要省力多了。
+
+13.性体位
+你知道多少种性体位呢？三种？三十种？还是三百种？不管你知道多少，其中有几种是你做得到的呢？而你又为什么要用这些做法呢？如果你都有所了解，那么最好是从中选出五种体位，并且要固定在这五种上。因为（1）既然你选择了这五种，就说明它们功效不凡（2）这些也是你能做得到（3）将双腿绑在头两侧这种高难度动作，你也做不了。这些都是显而易见的——但或许你还想了解一下，仅用一些小动作或身体的简单移动至多能变换出多少种体位，还有用平淡无奇的方法又怎样才能变换出全新的方式。下面就让我来告诉你吧：
+传教士式
+这是一种最为传统的体位，如果那些调查结果还算可信的话，现在仍是人们最常采用的体位。它虽然不是最能令人兴奋的种类，但如果动作准确，不仅能使你享受到性爱的美妙，还能燃起你们全部的激情。
+做法：
+呈仰卧姿势，双腿分开，让他躺在你身上，好了——这样就可以让他进入了。
+如何变化：
+·还照上面那样做，但是在他进入时要将双腿伸直、夹紧，这样会给你的阴蒂带来强烈刺激。
+·改变一下角度：用双腿环住他的腿。这也有助于你控制他的冲刺。
+·在你的臀部下方垫一个枕头以使你的身体后倾，他就可以进入得更深。
+·让他躺在你上面，不过要移动到你身体上方的较高位置上，这样，他就要用双臂来支撑自己，也就不会把你压扁了。
+有利于：亲密的“第一次接触”，对维持勃起有困难的男性。而且，对那些不能控制射精、容易“乱开枪”的男性尤其有利。
+男下女上式
+恰如其名——就是指你位于他的上方。这可是大多数女性的至爱，因为采用这种姿势，她们就可以掌控全局而且能保持较深的插入。男性们也喜欢这种体位，因为他们几乎什么都不用做。如果你的伴侣平日占尽主导地位，用这种方法就可以帮你控制他的插入深度。如果他容易早泄，这种体位也会对你有所帮助——当他看起来像要到达高潮时，你可以及时放慢速度。
+做法：
+让他呈仰卧姿势，双腿略微分开，你爬到他身上，跨坐在他的臀部两侧，让他的阴茎进入你的阴道。
+如何变化：
+a． 当你进入律动的节奏时，身体前倾，用他的骨盆区域摩擦你的阴蒂。这样你很快就能获得高潮。
+b． 倾向他的胸部，翘起你的骨盆以获得G点高潮。
+c． 如果你坐在他身上向下落去，你会使他更加深入。
+d． 不要只是让他来冲刺，而要靠你自己上下移动来达到这种体位的最大功效。
+e． 最后，可以试着以这种体位背对他，然后身体前倾，使他更加深入。
+有利于：想要控制插入深度和冲刺速度的女性。还有利于那些懒男人们。而且，在抽插时会感受到绝妙的阴蒂刺激。
+小狗式体位
+这是“从后方进入的性爱方式”，与“进入后方的性爱方式”相对（见84页“肛交”）。因为这是犬类“恩爱”的方式，所以得此名称。男性们很喜欢这种体位，因为会有一点点邪恶的感觉，同时给予他们对进入与冲刺的控制权，能使他们更为深入。女性们喜欢这种体位的原因却在于它经常能刺激到G点，而且男性们也更容易接近她们的乳房、臀部和阴蒂。但这种体位也有一种缺陷，它会使很多女性感到疼痛。因为插入过深也就意味着阴茎有时会触到子宫颈，因此会产生疼痛。
+做法：
+用双手、双膝支撑身体，让他在后面抱着你的臀部，由后方进入。
+如何变化：
+a． 放低身子，用手肘支撑，这样可以改变他进入的深度。
+b． 跪在床边，将你的躯干放在床上。这样会使你体会到使用这一体位的轻松之处——不必在他冲刺时支撑自己的身体。
+c． 对那些似乎额外强壮、想要有一次边缘体验的朋友，可以尝试将身体向床上倾斜，双臂曲起来支撑身体的重量（把头放在枕头上）。让你的男友站立着接近你，将你的双腿抬起环在他的腰上，然后从后方进入。
+有利于：更深的插入；使性爱有一种更加邪恶的感觉；能刺激到G点。
+“各种各样的体位和动作的确挺棒，不过，没有什么能比得上跟自己的梦中情人用‘一上一下’的简单方式来做一次。”
+——丹，25岁
+站立式体位
+有利于“速战速决”式的性爱，但如果你们两个身高、体重相差太大，那就不太适用了。尽管站立式体位在电影中看起来很简单，真正实践起来却很困难。因为你要站着找到正确的进入角度，经常就会经受不住重力的考验，破坏这一激情的时刻。
+做法：
+你需要处于适合插入的高度上，这往往就意味着你要将一条腿盘在他的腰上。
+如何变化：
+a． 让你的男友抱起你并且要扶住你。
+b． 如果这样太困难了，想想找些什么东西能让你站在上面（不是很性感的举动，但的确有效）。
+c． 穿上高跟鞋——性感，而且还能将那些不能穿着走路的鞋子善加 利用。
+有利于：喜欢尝试不同事物的情侣们；还有利于增进两人的亲密感；以及“速战速决”。
+并行式体位
+如果你追求的只是亲密的而不是激烈的性爱，这个体位就很适合你了，因为这种体位的运动幅度较小，激烈程度有限。这种体位的优点在于，整个过程需要很多“手工”。
+做法：
+两人并行躺着，将你的大腿放在他的腿上，他就能从更好的角度进入了。
+如何变化：
+a． 将身体弯曲成勺子的形状（转过身去，让他贴住你的背），就会变成从后方进入的侧体位。
+b． 弯曲膝盖环住他，让他以面对面的侧体位进入得更深。
+有利于：那些避免过度深入并且追求亲密的慢节奏性爱的朋友。
+肛交
+肛交在绝大部分女性的愿望列单上排名都比较落后，因为大多数女性仍把它看作是禁忌的体位，而且觉得使用这种体位做起来会很痛/会染上些恶心的东西/最糟糕的是她们会受到粗暴的对待。但这并不意味着没有人去尝试。根据著名的美国金赛机构的调查，大约有43%的女性曾尝试过肛交，但只有不到30%的人觉得有愉悦感。肛交也是一种高风险行为（想想HIV吧），所以做的时候一定要使用强力的保险套来保护自己，而且一定要他慢慢来。肛门区域的组织都十分脆弱且没有弹性（不像阴道），因而很容易撕裂。
+做法：
+肛交对大多数女性来说都是很痛苦的，因为要放松肛门肌肉（要同时放松两片括约肌）是很困难的。要克服这一点，最好的方法就是多涂些润滑剂，先将一只手指插入静止一分钟，然后向内推挤。这样有助于放松括约肌，阴茎进入时也就比较轻松了。我还要建议你使用以下这些最佳体位：
+a． 仰卧，在臀部下方垫一个枕头。你可以把手放在大腿下面把大腿向后抬起以加大身体弧度，使他更容易进入。
+b． 或者坐在他身上，向下将阴茎压入。
+c． 或者采用从后方进入的体位。
+有利于：那些喜欢大胆行事的人。
+14.性生活改善二十五法：
+亲吻
+听起来的确显而易见，而女性们对性爱最大的不满之处就是她们的男友们总是忘记亲吻她们，对她们的性感地带也是蹭蹭了事。所以让我们从基础做起，回到热吻这一阶段——你不会后悔的，因为研究者们发现接吻不仅会使性爱持续较长时间，还能增强高潮、增加温情，以及增进性欲。
+不要拿你的性生活当谈资。
+大多数男人把性披露当作最大的出卖，（例如，“天呐！我那位的‘家伙’不像香肠像什么？”）。如果你还想受益于他的床上魅力，就要对你们的性事守口如瓶。
+尽量不要分心。
+忘记你的同伴们在做什么，也不要去想你牺牲了多么宝贵的饮酒时间。跟人们的普遍想法恰恰相反，“春霄一刻值千金”，忘掉那些恼人的烛光音乐也是值得的。
+关掉电视。
+电视最近被评为最大的“性欲杀手”。在床上看电视显然会将你催眠，减少你对性的敏感度继而消灭你的性欲。
+掌控自己
+用上你骨盆底部肌肉（小便时使用的肌肉）。每天做二十次收放练习，你很快就能控制好自己的身体，来将他夹紧。
+捕猎G点游戏
+如果你告诉他，他要寻找的是什么，那么难以捉摸的G点也就不需要再难以捉摸下去了。只需将一只手指插入阴道内，再向上移动直到触摸到阴道前壁，就能找到这一点。
+身体对身体的按摩
+让他趴着而你则躺在他身上，然后用你的身体在他的身体上上下摩擦。如果想要更具挑逗性的动作，就把手滑向他前侧。
+不要太过激
+特别是你在下面探索时，如果你又拉又拽，他可不会感激你。
+对他进行口交
+如果你要对他进行口交就要把功夫做足。当你抬起头呼吸时，不要露出奇怪的表情，不要屏住呼吸，而且千万不要表现出一副帮了他大忙的样子。
+口交时速度要慢。
+要表现的像一个沙漠绿洲中饥渴难耐的女人，你就永远不会让他的欲望熄灭。开始时还要用上舌头扁平的部位，而不是只用舌尖儿。
+上床时带只香蕉。
+可不是为了你所想象的原因。香蕉富含维生素B, 所以吃香蕉可以促使血液流向性器官，从而有助于增进性事和高潮。
+用冰块来“增温”。
+专家建议，在接吻或口交时可以在口中含一块冰。会不会太凉了？那就试一下在插入前将一小块冰块放入阴道中。
+避开家居用品
+相信除了把胡佛电动吸尘器插入你的（或他的）肛门之外，还有更好的方法来让你的父母为你感到自豪。
+注意选择食物
+你的阴道可不像你的嘴巴一样，不是所有你想塞的东西都能往里塞，（希望你不是这样）。某些食物（特别是富含糖分的），会使阴道肌肉恶化。这也就是说，要小心那些恶心的肿块和疥疮了。
+注意他阴茎上的斑点
+阴囊区域就如同人的面部，很容易感染上一些小斑点。（特别是因为阴毛比较卷曲，就很容易向后弯扎入毛囊，就像是在比基尼裤边儿上那些向内生长的毛发）。有时受感染的毛囊还会在腹股沟处的温暖潮湿的环境中长成疖子。
+小心对待他
+勃起的阴茎很容易受伤，所以把自己丢到床上时一定要小心。如果以你听到了一声惨叫，那你可就“有幸”目睹男人阴茎剧痛的情景了，这时要立即带他去治疗。如果他的阴茎破裂，可是需要用夹板来固定的。
+不要对“失约”大惊小怪
+与一些普遍的说法相反，勃起并不受他的主观控制。所以疲劳和压力往往会导致勃起发生问题。一些数据也确实显示出有七分之一的男性（16岁以上）一年之中至少有四次勃起问题。
+让他把你绑起来
+有利于控制那些不肯放弃主导权的怪人。但切记，如果你是被绑的那个，你可以在他向你做一些下流的事情时装出一副被动与无助的样子，或许可以幸免于难。
+忘记那些平常的性数据
+不要在意那些调查，或是你朋友讲她一周X次的性事。性爱并不是竞赛，关键在于你能从中得到享受，而不在于你做了多少次，这一点很重要。
+试一下拉他的阴囊
+这可不是什么“橄榄球”式体位，而是一种延长做爱的技巧，就是轻拉睾丸周围的皮囊。通常这样可以延长人的性欲，因为这意味着男性要等到阴囊收缩时才能射精，他也就会更加接近你的身体。拉的方法——要用大拇指和食指成环状，轻轻捉住阴囊的囊袋（就在睾丸上方），向下轻拉。
+禁区试验。
+尽管有时会很可怕，但这种试验可以增强你的性自信，帮你克服性障碍，从而改善你的性生活。如果你有勇气（而且想要）去做，而且想了解是否适合自己，那就大胆尝试一下吧。
+穿着衣服做爱
+很怪异但也很真实。一项性研究表明，64%的女性喜欢与衣衫半解的男性相互爱抚。
+找到你的阴道盲管
+不管你信不信，就在骨盆下方有一条布满神经末梢的极为敏感的通道。这就是所谓“盲管”。专家提示，如果你在男友开始冲刺时，收紧腹部和PC 肌（控制小便流出的肌肉），就会触到这一区域。
+千万不要提起你的前男友
+特别是在你们两个都赤身裸体的时候。
+不要把性爱看得太重
+你要明白，它只是一种享受！
+
+\chapter{避孕方法与选择（旧书整理）}
+1.避孕
+
+避孕完全是个人的选择。它不仅包括是否要避孕，还包括用哪种方法避孕、是否保护自身不受性传播疾病（STIs）的侵袭的问题。就算是我们当中最懒的女性也知道要用避孕措施，只是要开发一种理想的方法还是个漫长的过程。也许你不喜欢用避孕套，或者担心避孕药会让人发胖。IUDs会让你浑身发冷，而用子宫帽又太烦琐。不论你的顾虑是什么，好消息是现在的避孕措施已经越来越普遍化，也逐渐安全化，这些都要归功于科学技术的进步、更好的设计和对荷尔蒙混合物（药片）研究的突破。这就意味着即使你认为这些都没什么用处，但事实上它们都是很有效的——你唯一要做的就是试一试。
+
+2.你为什么应该避孕
+·这要比处理你私处的溃烂要容易得多
+·简易可行
+·这比生孩子要简单
+·保护你和你爱人的性健康
+·让你不必尴尬的去见你的GP
+·有助于避免下身的异味和分泌物
+·让你保持生育能力
+·避免你感染你未来的情人们
+·如果你要生孩子，则防止你把疾病传染给自己的婴儿
+·保护你不得子宫颈癌
+
+3.哪些不算是避孕？
+首先，要略讲一下不是避孕的措施。不论你年龄有多大，人们在面对区分哪些算是避孕和哪些不是的时候总是有些糊涂。最大的分歧似乎是关于射前抽出。就是说男性在射精前将阴茎抽离，以防止将精子留在你的体内。这样做的问题很简单，就是在射精前分泌的精液也含有精子，而且你还得保证你的男友确切地知道他在做什么——不然的话他就会抽出得太迟了。另外——这更是重要——射前抽出是不能提供任何对于性传播疾病的保护的。所以如果跟你在一起的男友习惯于这种方法，那就意味着他常这样做，也就是说他的性生活常常不做任何防护措施——我们都知道这将意味着什么！
+
+4.哪些是避孕方法
+避孕药
+避孕套
+子宫帽/避孕帽
+IUD(子宫内置装置)
+IUS（子宫内系统）
+植体
+避孕注射
+自然避孕法
+紧急避孕
+
+5.避孕药
+基本上这属于荷尔蒙避孕法。药片里面含有两种荷尔蒙——雌性激素和孕激素——它们将阻止女性卵巢每月释放卵子。如果使用正确，这种方法是十分有效的，但是对于STIs和HIV并没有防护功能。
+据估计，全球有七千万女性朋友服用避孕药，因为这是最简易的避孕方法。
+关于药物
+a. 避孕药对于你的整体健康来说，利大于弊。
+事实上，它不仅能够改善皮肤，减少痛经和经血过量，还可以使人保持长久的生育力。最近的一次调查表明，在三十岁以前有超过九年的服药历史的女性，在怀孕时流产的可能性大大减少。
+b. 避孕药很安全
+所以说，有什么好大惊小怪的呢？在1995年10月，药品安全委员会报告了没有服用避孕药的女性患静脉血栓的几率相对来讲是服药的两倍。但是，冷静下来好好想想，正常怀孕带来的静脉血栓的几率是服药的两倍。实际上服药致死的几率在五十万分之一和一百万分之一之间，相当于在火车失事中罹难或者被闪电击中的可能性，甚至比被谋杀的几率还要小十倍。
+c. 避孕药的副作用
+值得一提的是，如今的避孕药已经比以往要安全得多。它们的荷尔蒙含量大大降低了不说，其中还有一些甚至只含有一种荷尔蒙，这些都是可以抗击副作用的，例如常伴随着服药出现的恶心和头痛的症状。
+“我正在服药，我知道只要我正确服用，就会避免怀孕，这确实提高了我的性生活质量。”——克姆，28岁
+药物作用原理
+复合药剂含有荷尔蒙、雌激素和孕激素，当服用时会停止排卵。这就是说，药物欺骗了你的身体，让你的身体认为你已经受孕，从而停止分泌自身的荷尔蒙，停止月经周期。另外，避孕药还能刺激子宫颈黏液增多，这样精子就不能进入了，而受精卵（如果有的话）也不能在子宫内壁附着。
+大部分的成药，设计的时候是按照一个月的剂量来做的，每一片都含有等量的荷尔蒙。这就是说，你每天服用一片，连续三个星期，然后停药一周（某些牌子的药需要在这一周内服用安慰剂）。在停药的这一周里，子宫内膜将会脱落，这就是月经，但这并不是实质性的月经，因为定期的排卵没有出现。
+避孕药带来的健康效应
+·规律的月经周期
+·经血血量减少
+·较少或者没有痛经
+·光滑的皮肤
+·降低乳腺癌、卵巢癌和子宫内膜癌的几率
+·降低骨盆炎症的几率
+·较少的子宫囊肿
+·可以帮助保持受孕能力
+·使骨骼更强壮
+·减少生理周期的大量出血
+·减少缺铁性贫血
+·防止受孕
+避孕药的误区
+误区一：使你发胖。
+研究表明，在服药期间，女性增重和减重的可能性不相上下。就算是就发胖的迹象，也一般只是在初服药的第一个月内，身体在适应药剂的时候才出现。如果一个月后仍有发胖的现象，你可能就需要换一种避孕药了，也就是换一种荷尔蒙药剂。
+误区二：如果不停药一周，而是直接连续服用避孕药，对身体有害。
+说来奇怪，但是这个停药周的确是可有可无的。在早期，避孕药是仿照月经周期设计的，因为生产商都认为女性朋友仍然想在服药期间拥有28天的周期。这就是说，你可以安全地服用药物，而不必每月经历一次“大出血”，但是要记得常去GP那里检查。
+误区三：避孕药有很多副作用，例如恶心和头痛。
+一些避孕药会有副作用（但是要知道，是药三分毒），但是大多数女性并没有这样的反应。如果你为此而苦恼，那么请去看医生，尝试换一种荷尔蒙药剂。
+误区四： 服用双倍剂量会收到加倍的效果
+加倍服药并不会给你加倍的保护。但是，如果你忘记服药（有47%的女性会这样）你可以在12小时以内补上。如果超出了12小时，就要去GP那里检查了。如果药物使用得当，有效率是99%。
+
+6.避孕套
+避孕套由非常薄的橡胶制成，是戴在阴茎上的。它就像是一种屏障，可以在射精时阻止精子进入体内。可以防治子宫颈癌，减少包括HIV及STI的得病危险。
+关于避孕套
+·可以防止STIs,受孕及HIV。
+·只可与水性润滑剂配合使用，例如KY胶。
+·凡士林、润肤露和护肤霜会腐蚀橡胶，使其更加容易破裂。
+·务必储存于阴凉处，高温也会腐蚀橡胶。
+新型避孕套
+你是不是喜欢用避孕套但又十分讨厌那股子橡胶味？你并不是唯一一个这么想的，因此，感谢上帝，一些研究人员已经找到了理想的解决方法：一种可以掩盖刺鼻的橡胶味儿的芳香剂。而且更好的是，有一种名叫Ez-On的新型大号美国避孕套已经在荷兰上市了。这种避孕套比较宽松，不需要卷着戴，而是像袜子一样拉上去的。它还有一个好处，就是可以更好地刺激阴道和G点。
+你也可以试一下聚亚安酯避孕套。这是用与女性避孕套femidom一样的材料制成的新型避孕套，更薄且更有韧性。
+怎样使用避孕套
+a. 直到他勃起再戴避孕套（也不要拆封之后就急着套在阴茎上）。
+b. 挤压套子顶端，将空气赶出，将其置于阴茎顶部，一边轻轻地卷下来，一边将气泡压出（气泡会使避孕套破裂）。
+c. 让你的伴侣在射精后尽快抽出，将避孕套的边缘按紧，这样就不易脱落。
+d. 绝不能重复使用一个避孕套。
+e. 要警惕避孕套破裂或在你体内滑落，这时要吃紧急避孕药。
+f. 请认准英国BSI 认证的风筝标志或者你所在国家的认证标志，以保证你使用的避孕套达到了国际最低质量标准。
+避孕套的误区
+误区一：它让性生活不舒服。
+这并不是真的——避孕套很薄，紧裹在勃起的阴茎上根本不会阻碍做爱和射精
+误区二：大多数男性觉得它过紧
+非常的不可能——如果你不相信，可以像吹气球一样吹起一个来看看，你会发现它们很有弹性。
+误区三：避孕套不管用。
+绝对不是——只要使用得当（见168页说明），它们就会十分有效。如果严格按照说明使用，避孕套有效性能达到98%。
+女性避孕套
+也就是众所周知的Femidom，它像一个管子似的，两端各有一个环，小的一头卡在阴道内，大的一头露出体外，这样整个阴道都得到了保护。有人抱怨说这样像是套在一个袋子里在做爱，但事实是其材料是聚亚安酯，而不是橡胶，只要你在男友进入时将它的位置固定好，就不会套不好或者在抽出时脱落。使用得当的话，女性避孕套的有效率是98%。
+7.子宫帽/避孕帽
+这是一种橡胶制作的圆帽状物体，配合杀精剂使用，置于子宫颈上防止精子进入子宫。你可以在做爱前任何时候将其置放好，但是第一次的时候必须找有经验的护士。每年都应该检查一次它的位置是否正确，而且若是体重上下浮动超过3公斤或者怀孕以后也要去及时检查。如果使用正确，其有效率是96%。
+8.IUD(子宫内置装置)
+这是一种由塑料和铜制成的装置，通常呈T形或7字形，从置入体内开始可以在子宫内保持五年。唯一的问题是一些IUD可能会引起暂时的增重，有时还会引起子宫的排斥反应。如果出现上述情况，则只要有性生活就有怀孕的危险。IUD有效率是98%-99%。
+对于那些曾经使用IUD无效或者不适应的女性，可以试一下GyneFIX这种新型的IUD。它有一小排铜珠，可以通过弯曲来适应子宫颈的弧度，而不是像一般的IUD一样是一个T字形。一旦插入得当，会比传统的IUD少很多痛苦的副作用，你可以将其作为长期的避孕措施，在体内保持五年，也可以作为只用于五天之内的应急避孕措施。
+9.IUS（子宫内系统）
+这是种小型的塑料装置，含有荷尔蒙中的孕激素。它一旦被放入子宫即可发挥长达三年的效用。对于经血过量和痛经的女性尤为适用，但是在头三个月内一般都会有零星的出血现象。短期内可能会有暂时的副作用，如粉刺和胸部敏感怕痛。其有效率是99%。
+10.植体
+植体就是一个小的软管，像火柴棒那么大小，植入上臂的皮下。它会源源不断地向血管内输入荷尔蒙。
+这样一来，你就可以得到五年左右的避孕保护。植体不适合于那些易于中风和患有心脏病、肝病、乳癌和子宫癌的女性。在最初使用的一年里它的有效率是99%，在接下来的几年里降为98%。
+11.避孕注射
+这是相对避孕药来说可以提供更长久效果的一种荷尔蒙注射剂。它通过向体内缓慢释放孕激素而阻止排卵。通常是采取肌肉注射，一般是在臀部。
+你在注射剂的有效期内不必担心避孕问题，但是有可能出现一些副作用，例如增重和反常的出血。其有效率是99%。
+12.自然避孕法
+（周期法、体温法、子宫黏液法）
+使用这些方法必须要计算自己的排卵期和非排卵期。而后必须要在排卵期避免性生活（或者采取避孕措施）。这些方法毫无副作用，而且适用于女性生殖年限的各个阶段。但是只适合细心和生理期规律的女性，否则失败的几率会很高。如果按照要求做，自然避孕法的成功率是98%。
+13.紧急避孕
+在没有避孕措施的性生活过后有两种方法可以防止受孕，但都需要在事后一到五天开始——而且越早越有效。
+紧急避孕药
+在当地的药店、你的GP和私人诊所都有销售。
+如果性生活过后不超过72小时（三天），那么吃药就可以。一种最新的名为Levonelle-2的药，每次只要两片，而不像传统药剂，如PC4一样需要吃四片。
+这种药片的优点是：
+·不会令你恶心或者呕吐。
+·它对你的健康没有任何威胁，而且有效率达95%，不但可以防止受孕（如果你已经怀孕就没有效了），而且还不像流产药一样，后者是处方药。
+“我有一个朋友用了自然避孕法但却怀孕了。我肯定不会去冒这种险的，因为我自己都弄不清楚自己的周期。”
+——露易斯，26岁
+IUD
+如果事发超过72小时，却在五天之内，可以请医生帮助将IUD植入体内，来阻止子宫内膜变厚。这将会阻止受孕。这是一种有效的事后避孕法，其效用可以持续三年（你也可以将它摘除）。
+14.避孕的新招
+避孕膏药
+Evra就像尼古丁膏药一样，通常贴在臀部或者胳膊，可以透过皮肤直接向血管输送此雌性激素和孕激素。
+你需要做的只是每次贴上它都要保持七天，每三周歇一次。它主要的弊端是不能防止STIs。
+避孕环
+NuvaRing 是一个空心的可伸缩的环，它的外皮充满了荷尔蒙，直接置于子宫颈附近。其优点是：直接将荷尔蒙作用于子宫和子宫颈，这就意味着那些激素不必通过整个身体传播，也就不会带来副作用，例如胸部怕痛和情绪波动。但是它也有缺点，那就是不能防止STI。
+智能激素
+这些激素是最近才在研究中发现的，它们不只是有个“智能”的名字，而且事实上也很是聪明。它们可以直接作用于生殖细胞和组织，而不影响周围的其他细胞和器官。将其在皮肤上摩擦，它就可以深入到生殖器官，这就是说，不会有任何副作用，还只需要很小的剂量，几乎是种完美的避孕法。
+阴道杀菌剂
+杀菌剂是一种传统的避孕法，可以在一天内杀死性传播病菌和精子。它一般是通过子宫帽起作用，虽然还有待改进，但最近一种新型品已经在南非通过审查（不是为了避孕目的，而是看它能不能杀HIV病菌）。
+
+\chapter{性传播疾病的识别与防治（旧书整理）}
+15.割掉毒疮——关于性传播疾病
+它们有增无减，高度传染，它们会带给你无尽的难言之隐，从疥疮到生育问题。这就是为什么安全的性生活是一个女性最好的朋友。
+性传播疾病检查表
+·确定你和新的伴侣做了检查，并在进行无保护的性生活之前清除了所有传染病菌。
+·如果已经患有STI，在双方都治愈之前不要同房。
+·在与自己不熟悉的人进行性接触时切记要使用阻截式避孕措施。
+·不要只因为没有症状就以为自己没有受感染。
+·不要拿自己的性生活当作俄国轮盘赌——要是跟足够多的人有过性关系，你很快就会发现自己染上了恶心的性病。
+·注意，并非所有的性病都会立刻出现症状。如果出现下列现象，就需要小心了：
+? 不明的生殖器官肿块。
+? 阴道内出现水泡，不论大小。
+? 分泌物呈水状、结块或者有异味。
+? 任何生殖器官的刺痒。
+? 异味——尤其是腥味
+? 生殖器附近区域有红疹（不仅是阴道，也包括臀部和大腿根部）。
+? 在性事过程中感觉疼痛——这与普遍观点相反，是反常的
+? 阴茎肿块、皮疹和不明分泌物。
+? 小便疼痛。
+·去最近的泌尿生殖科诊所去诊治。尿生殖诊所是百分百为病人保密的。尽管它们常位于医院内部，但是那里的病人资料是不会外传的。这就是说，他们不会将你的资料同一般的医院病人的资料放在一起，也不会送去你的GP那儿。因此没有人知道你去过那里。
+·如果你对自己的状况不是很了解，就要做些检查。性传播疾病（包括STI和泌尿生殖科传染病）是容易诊治的，但是会很快地传播，所以一定要在感染后尽快治疗。
+16.性传播疾病
+STIs不像泌尿生殖疾病（见180-184页），是只通过性接触和生殖器接触传播的。STI的问题是它们往往不显现症状，而且,尽管一般情况下都可以用抗生素和杀菌剂来治疗，有一些例如HIV、湿疣和生殖器疱疹是无法治愈的。但是这些可以通过药物控制病情。
+衣原体疾病
+近期数据显示，衣原体疾病的病例在近几年正在急剧上升。如果你没有听说过它，这并不奇怪，因为很多人都是。一些研究估计，在性方面比较活跃的年轻人里有5%已经感染了这种STI却还不自知。这就是说，仅在英国就有将近十五万的年轻女性患有这种病；想起来就令人害怕，因为如果不加治疗，就有可能引致盆腔炎和不孕不育。
+因为病源起于子宫颈，如果不加诊治，就会扩散到输卵管（卵细胞穿过它进入子宫），造成盆腔炎（PID）。而就是盆腔炎接下来会导致不孕不育，因为输卵管此时已经堵塞，而且还会留下伤口。一旦发生这种情况，受精卵就不能到达子宫，你也就不可能怀孕了。
+衣原体疾病尽管很危险、传染性也很高，但是通过一种简单的测试就可以确诊，而且服用一种抗生素药片就可以有效地治疗 。
+症状：如果出现下列症状，就要留意了：
+? 在经期出现大出血
+? 在性事过后出现阴道出血
+? 腹部疼痛
+? 低烧
+? 异常的分泌物
+? 小便疼痛
+? 男性有可能会出现少量乳状分泌物，而且在小便时会有灼痛的感觉。
+生殖器疣
+这种疣是极其毒性的STI。在生殖器附近区域到处都有可能出现小的肉瘤。这种疣是由乳突淋瘤菌（HPV）引起的。
+症状：生殖器疣一般会在感然后一至三个月内出现。如果你有的话，可能会发现小的白色肿块或者形状像花椰菜一样的肿块。虽然它们是毒瘤，但几乎无痛。
+此病的大问题是几乎不出现任何症状，或者直接生长于阴道内部（经常是在子宫颈），所以你看不到它们，然后它们就会引发各种各样的问题（详见下面的子宫颈癌）。
+诊治：医生或者护士常会通过内部检查来确定你是否患有此病。但是由于疣是毒性的，所以抗生素是不能对付它们的，通常只能通过冷冻法或者激光来治疗。
+疱疹
+是疱疹单结构病毒（HSV）导致了生殖疱疹。至今尚无有治疗疱疹的方法，病毒会感染到口腔、生殖器区域和肛门。这种病毒分为两种：第一种常会引起感冒及疼痛，第二种则引起生殖器疼痛。第一种会通过接吻传播。但是第一种会通过口交转换成第二种。
+症状：在生殖器附近出现水泡，最后变得疼痛，小便时有疼痛感，还有类似发烧的症状和头疼。
+诊治：在病人身上取样，还有可能要进行骨盆检查。通过吃药可以减少HSV的感染。牢记HSV是高度传染的，因此在病发期应避免性事和接吻（如果你带有第一种病毒）。
+淋病
+此种疾病可以感染男性和女性，而且六分之五的病例是没有症状的。这样一来就十分危险，因为如果不能及时诊治，就会引发盆腔炎。
+症状：阴道或者外生殖器的不明分泌物，小便疼痛。生殖器刺痛，有时还伴有喉咙痛。
+诊治：在病人的生殖器区域取样，如果你患有此病，医生会开给你青霉素用以治疗。
+HIV和爱滋病
+MORI民意调查最近显示，51%的英国女性在新的性关系伊始并不曾想到使用避孕套。考虑到最新的数据表明HIV感染率，尤其是在年轻异性恋人群中在上升，这样做并不是明智之举。
+自我防治：性生活采取安全措施，并限制性伴侣的数量。
+滴虫病
+这是一种通过性接触传播的传染病，需要用抗菌药来治疗。
+症状：出现黄绿色分泌物并伴有恶臭，症状类似鹅口疮，分泌物粘稠且伴有阴部瘙痒。
+生殖泌尿系传染病
+对于那些非性病，但是却可以通过性接触传播的传染病，我们把它们叫做生殖泌尿传染病。它们包括膀胱炎、膀胱感染、阴道鹅口疮和病毒性阴道炎。
+症状：膀胱炎的主要症状是小便时灼痛和刺痛；鹅口疮则会出现白色的胶状分泌物；病毒性阴道炎体现为灰白色的分泌物，并伴有腥臭。以上病症均可以通过抗生素和抗真菌药物轻松地得到治疗。
+即使这些病症可以很简单地进行家庭治疗，但是自行诊治仍不是明智之举。你很可能认为一种分泌物是你所知的种类，比如说是鹅口疮，但是要小心：那也可能是最普遍的性接触传播疾病之一——滴虫病。如果你怀疑自己有可能受了某种感染，就一定要到最近的生殖泌尿科诊所确诊。
+病毒性阴道炎
+这是一种非常常见的病毒性传染病，它是指在阴道滋生一种普通病菌的同时，人体内也遭受病毒性感染。某些行为，例如灌洗、泡泡浴和戴避孕环会有助于这类疾病的出现。
+症状：黄色、略带发灰的水状分泌物，伴有腥臭。有些女性会在一定时期后或者性生活过后症状加重，少数还会出现外阴瘙痒。据估计，有5%-30%的女性患有病毒性阴道炎却不出现症状，也就是说，这部分女性朋友很有可能会无意间传染更多的人。
+治疗方法很简单：去看医生，或者去当地的生殖泌尿科诊所就诊（可以在当地医院里找到专门的科室），然后医生会给你开出抗生素或者涂抹于阴道内的药膏。
+膀胱炎
+这是一种膀胱感染的炎症，因此病中就会常出现尿急和尿痛。这种病是由细菌引起的，一般会感染肠道和肛门，然后扩散到尿道和膀胱。
+即使膀胱炎很常见，也很痛苦，但是并不会影响性能力，不过由于怕复发，所以最好的方法还是暂时停止性生活。
+怎样预防膀胱炎：
+·在性生活前和过后都要立即去小便，这会帮助你冲洗走引发阴道炎的细菌。
+·如果你受感染的几率比较大，就一定要避免过激的性生活，也要避免在性事过程中频繁和剧烈的抽插，因为这会引起尿道周围出现微小裂口，让病菌有机会进入并扩散。
+·一定要严格保持私处的润滑，这一点同样能帮助你避免上述情况。
+·确定你的男友没有尿道炎——那是膀胱炎的男士版。其症状包括小便疼痛和射精疼痛。
+如果你确实患上了膀胱炎，也不要立即自行去药店。如果病发超过48小时，要去看医生，让他给你开抗生素，因为有些病例需要强一些的剂量。
+·在发病期间一定要保证充足的饮水——每半个小时一杯，因为这对于你清理膀胱很有益处。
+·适量喝一些酸果蔓果汁，那是一种泌尿系统杀菌剂。
+鹅口疮
+鹅口疮是由一种叫假丝酵母白体（candida albicans）的菌类引起的，是一种比较常见的传染病。通常这种菌类会在大多数人的消化系统内生存，并无害处，而且人体内脏里的有益菌也能将它们控制住。但是一旦有机会感染，也就是说一旦让它们得到了利用人体的体弱或失调的机会，就会出问题。一般会出现严重的瘙痒和像奶酪一样的棉状分泌物（这与正常的阴道分泌物很不同）。男性如若患有鹅口疮，就会在阴茎顶端和包皮下方出现瘙痒。另外还有可能出现一些更加严重的症状，比如红色斑点，并伴有干燥蜕皮现象，或者还会在阴茎顶端出现不明分泌物。
+治疗方法：一旦你被确诊为鹅口疮，你可以到药店买一些药膏或者阴道栓剂，例如Canesten（Clotrimazole）或者Diflucan （Fluconazole）。在使用这些抗菌剂之后，鹅口疮的症状会在一个星期内大大减轻。这种抗菌药剂疗法的有效率在90%以上，如果一种药物没有效果，你可以再试试其它种类。
+一些女性朋友在外阴敷天然酸乳，以期在短期内得到缓解。这的确有用，因为酸乳可以使患处清凉下来，但是至今还没有科学证据显示这种方法可以驱除鹅口疮，更何况酸乳是无论如何都不能取代抗菌剂的。
+怎样预防鹅口疮
+至今为止对付鹅口疮最好的方法是预防：
+·穿着天然质料的衣服，例如棉，尤其是在靠近生殖器附近的地方。同时还要避免穿过紧的裤子和束身衣，因为这些都会给病菌一个温暖的滋生环境。
+·避免使用香气过重的香皂，也不要洗放过多香料的泡泡浴，因为这些都会刺激阴道部位。这还意味着也不能在浴盆里洗头发。
+·如果你原来患有的鹅口疮复发，切记要去你的GP那里复诊，做进一步的检查并且听从医生的建议。
+
+\chapter{夫妻间的误解问题与解决}
+
+
+男性对女性性欲的九个典型误解
+
+
+广泛的调查表明，男性并不太了解女性的性欲。目前，男性对女性性欲存在以下一些主要误解。
+
+误解一：女性将性交当作最重要的性生活
+
+“我感到，其他的性活动比性交更有趣，”可丽说。“除了性器官外，还有不少的性感部位。我最喜欢背部被爱抚和颈部被热吻。”
+
+然而，对大多数男性来说，性爱无性交，就好像打篮球没有投篮一样。实际上，愿意花时间在前戏的男性，仍会想着接下去便是性交。女性则不然，对好的前戏也非常满足。
+
+误解二：女性喜欢粗鲁的刺激
+
+“在性爱时。我以自我为先，”远帆说。“我的活动又快又重，我以为她也喜欢。”
+
+事实上，女性喜欢慢而温柔的活动。“每当她将硬的阴茎插入。我便担心阴道会被损害。”南茜说。
+
+专家指出，对男性的粗鲁活动要提出。他不改，你再提。你不说就会加深他的误解。
+
+误解三：女性应可通过传统的性交达到高潮
+
+“老实说，我喜欢传统的阴茎－阴道交合方式，这不太费事，为何她有时达不到高潮呢？”里克说。
+
+专家指出，很多男性和里克一样，有这样的误解。通过这种传统性交方式达到高潮的女性是极少的。善于刺激阴核，倒可以常达到高潮。
+
+这时该怎么办呢？
+
+1．告诉他刺激的方法；
+
+2．引导他进行刺激；
+
+3．以自慰方式向他示范。
+
+误解四：女性认为快便是好
+
+性爱时，男性不花太多的时间来营造亲密、快乐的气氛。“实际上是我们认为快便是好。”约翰说。“因为我们将性交当作最重要的性活动，我们不屑作那些促进亲密和女性兴奋的性活动，于是很快性交，很快达到高潮，然后结束性活动。”
+
+然而，女性喜欢缠绵，喜欢慢慢进行的前戏、交合和后戏。她们认为，只有这样，才能享受到性乐趣。
+
+误解五：女性发出的信息
+
+一些男性说，女性发出的信息使他们困惑。“一次，女友热情吻我并且非常享受这种感觉，”罗拔说。“我以为，一两分钟后，很自然地她会要求性交。结果不是。”
+
+专家指出，男性常以自己的想法去代替女性的想法，他们常想女性的行动，与性联结在一起。很多时候，女性主动的亲吻拥抱男方，是爱的表示，而非性的要求。如果男性对女性发出的信息困惑。最好是问：“你需要吗？”
+
+误解六：女性的身体像他们的身体
+
+“我喜欢爱抚她的一些部位，是我喜欢被她爱抚的那些部位。”史密斯说。
+
+这是自我专注的心理。在这种心理支配下，男性利用他们的身体和性欲，作为对女性身体和性欲的试金石。
+
+专家认为，女性的身体不像男性的身体，而且女性的身体反应，各人亦不同。最好是，他爱抚你有快感，你表示肯定；无快感，你表示否定。
+
+误解七：女性喜欢亲密，而不喜欢性
+
+“女性以性换取爱，男性以爱换取性。女性一旦和你发生性的关系，便会爱你，”佛兰克说。这的确是个大误解。大多数男性不相信，女性会纯粹为了身体的发泄而要求性。
+
+专家指出，女性有时为了得到乐趣而要求性。因此，当你有些需要，你应明确提出。如果你不好意思。向他暗示，他总不致愚蠢到不明白吧。
+
+误解八：女性将性看做是严肃的事情
+
+将性看做是严肃的事情，是男性而不是女性。调查表明，大多数男性将性当成追求的目标，因此，在性活动时，认真的默默做。
+
+在性活动时，女性喜欢交谈、欢笑。她们认为，欢乐的性增进亲密感。既然如此，性活动时，放柔和的音乐、点蜡烛、营造欢乐的气氛。可以肯定，你们会得到更多的乐趣。
+
+误解九：女性的性欲范围狭窄
+
+女性的性欲范围狭窄吗？不对。“我以为我很了解女性，了解她们的性欲，实际并非如此，”菲立普说。“一次，我和女友性爱，她竟提出，在一空油桶中进行。这是我没有想到的。”
+
+专家指出，和男性一样，女性的性欲范围也是相当广泛的。好啦，你们可共同在性方面探索。从而得到更多的乐趣。
+
+
+
+
+
+提升性爱气氛的几部曲
+
+
+当伴侣相处日久，激情过后，无论生活及性事都变得平淡如水；专家为你提供五种方法改善这景况，更可为双方制造性兴奋的感觉。
+
+以下的情况可曾发生在你身上？你在跟伴侣造爱，但却闷得快要睡着。一心只想尽快了事。期间心中只纳闷着：“为何没有火花？”
+
+其实不只是你一个，对很多女性来说，性事都令她们失望。
+
+加强沟通维系激情
+
+你跟伴侣初相识时，性事刺激有新鲜感，然而激情过后，还是要吃饭、工作和洗衣服。一切下来，人当然会疲累，于是性生活随之渐渐变得平静。如果一对夫妇不能了解及接受这转变是自然的定律，就可能误会婚姻出现了问题。
+
+研究显示很多夫妇在结婚初期的几年中，在性方面会出现问题及误会，如果夫妇不小心，每晚共寝很易令到性事变得沉闷和刻板。
+
+想改善这处境，必须先跟伴侣分享你的感受。其实若你真的对性事有不满，你丈夫一般亦已心中有数；他甚至可能会草草了事以避免遭你拒绝：但是无论如何。要维系激情，就必须有足够沟通。
+
+其实一夫一妻制并不代表性生活必然会变得刻板。甚至有研究报告显示，已婚伴侣在性及情感方面都比单身人士满足，而且。已婚女性比单身女性得到高潮的机会较大。
+
+为双方制造气氛
+
+夫妇之间必须取得共识。最常见的问题是女方幻想着性生活会像爱情电影中一般浪漫，但男方却没有那股情怀。表面看似乎是男方温柔不足，但专家却分析其实是女方的期望太不切实际，甚至不健康。
+
+婚姻并不是童话般“幸福快乐，直至天荒地老”，只是女性常沉迷于“白马王子勇救佳人”的幻想中。但是，你可曾想过要他挽救你脱离什么？沉闷刻板的日常生活？那你到底想去哪里？
+
+专家认为当有人埋怨关系中缺少了某些元素，其实欠缺的正是那人的自我：他们只懂得要求伴侣提供幸福快乐给他，但往往却只是身在福中不福。换句话说，我们不可只懂得依赖伴侣制造浪漫情调，我们自己亦有责任为自己制造性兴奋的感觉。例如买些新的性感内衣，为双方制造性感气氛。
+
+工作过劳无法享受性趣
+
+许多夫妇都诉苦，说下班回家，做完家务和哄孩子入睡后，已倦得不似人形。还何来时间和精力造爱？
+
+此外。工作压力大亦是常见的问题之一。疲累和压力造成人体不能充分放松，而紧张情绪正是令人无法享受性爱的最主要原因。
+
+跳回女性化的身份里
+
+整天在办公室里拼搏，会把你雄性刚强的一面发挥出来。可是，当你放工后把这股雄风带回家里。会令丈夫感到如同跟一个男人在一起，这令男女双方都难以感到兴奋。
+
+一双男女觉得对方有吸引力，才会产生性兴奋的感觉。谈恋爱初期的性刺激感强，就是因为双方的男及女性力量很旺盛（即男的雄伟、女的温婉），如果任何一方的力量过分似另一方，那么性刺激感就自然会下降。
+
+专家认为，女性力量较男性力量优胜及有力。
+
+“男性力量好比一条船，女性力量则似海洋。船的目标性强，朝着目标进发时可以很有效率。但海却浮动性较强，且能载舟、更能覆舟。”
+
+专家更提议女性在下班后，暂时放下目标性的思想及举止，跳回女性化的身份里，这能令她和伴侣之间的吸引力提升。一些有舒缓化的活动，例如瑜伽、冥想、浸泡泡浴、随着音乐舒展筋骨或按摩，都能助你变得轻松和回复女性化。
+
+
+
+
+
+细说“性”事
+
+
+“性”通常容易与淫欲混淆，淫欲是紧张、强烈、出于自然的——当它满足时，便即消失，反之，性欲是渐渐唤醒，而一生一世的。
+
+关于性欲的误解不少，这会不利双方关系的发展，最常见的误解有以下数点。我们应了解其真实的情况，以促进双方关系。
+
+性欲是否如呼吸般，属于一种自然功能？
+
+不是，专家强调，没有人靠本能知道，性欲是怎么一回事，了解性欲的。“如果性欲是纯生理方面，我们体验到的也会相同。”
+
+性欲是存在于我们的脑中，而非在性器中，性欲和身体兴奋不同，当身体对性刺激产生反应便会令阴道润滑、阴茎勃起，性欲受到脑部控制和支配，也就是说，没有“标准”水平这回事，两人的性欲水平差不多，才最重要。
+
+亲密令固定关系中的性欲消失？
+
+性欲在长期关系中不会消失，不过它会改变，在关系的初段。会因性紧张、好奇而增强性欲，当淫欲不可避免减弱时，将使你感到失望。
+
+很多人仍相信热烈的性爱最好，然而，婚姻中的性欲减弱并非由婚姻带来的，而是人们的心理不成熟所造成，“心态年青，性欲便因新伴侣而增强，心态成熟的话。性欲便由愈趋亲密的关系而增强。”
+
+男人能在任何时候，任何地方造爱？
+
+这种错误说法对两性都有压力，男人会认为，只要对方愿意，便要准备造爱。女人会认为，对方没有做到这点，可能对她无兴趣，或在外面另有女人。专家强调，无论男女，都不会有持久不变的性欲。
+
+性欲受到荷尔蒙的支配。
+
+月经周期中不同水平的荷尔蒙。影响女性的性需要，但这不表示，荷尔蒙控制我们的性欲。如果能控制的话，那么，到了绝经期，性欲便会消失。事实上，绝经后性欲不但仍然有，而且还会增强。
+
+对男性来说，荷尔蒙有同样的作用，虽然荷尔蒙影响男性性欲。但主要影响部分仍是脑子。
+
+当男性和他心仪女性造爱，会经常保持勃起。
+
+一些女性错误地相信，性勃起反映了他们的欲望，因此，当勃起不能坚持时，她们感到被拒绝，事实上，阴茎硬度的变化，不像阴道润滑的变化，不能保持勃起只是没有处于准备状态，或者是他注意力不集中，令情绪受波动。
+
+任何影响情绪的东西都会影响性欲，因此，当他们忧虑或情绪低沉时，也难勃起。
+
+主动要求性以示对伴侣的欲望。
+
+事实上，男性造爱的原因各花各样，有时，男女主动要求性爱。是希望更加亲密。“许多人对性和亲密分开。因为他们不能同时应付两者，”专家说，所以不少女性在性爱后都感到孤独，原因便在此。一项调查发现，百分之七十二女性宁愿拥抱一起而不愿性交，因为她们感到。性交不如拥抱亲密，有时人们利用性爱消除紧张或愤怒。基于这原因性交，使你难于辨别这是否对伴侣的真正欲望。下次造爱不妨想一下你为了什么而造爱。
+
+性欲会引起爱情？
+
+实际上刚刚相反。爱情能刺激性欲。不幸的是，人们感到性欲低潮时，便开始怀疑对伴侣的爱，而他们的伴侣则将缺乏性欲理解为对自己的责难，但性欲的实际障碍通常与缺乏爱无关。专家指出，你越愿意接触伴侣，你越感到性欲高涨。你愿和伴侣分享全部的爱，性欲自然增强。
+
+
+
+
+
+性与爱此消彼长
+
+
+一些长期的性伴侣，因为太爱对方，以为现有的性方式才能满足对方，便趋向于墨守成规。日子久了，刻板的性生活变得乏趣沉闷。
+
+最初的几个月，你们会抓紧每个机会扯掉对方的衣服，旋即结合起来，即使在办公室里，你也会经常惦记着他，更盼望下次跟他跳到床上的火辣辣时刻。可是，相处久了。你在床上却忽然变得害羞起来，到底是什么一回事？
+
+在恋爱初期最激情的阶段，你对床事雀跃万分，乐于接受各种花式，亦勇于作多方面的尝试，那时候是百分百的自由和放纵。到了现在，虽然才不过相隔几个月，而且你仍觉得他很有吸引力，但是在床上却已失去了那份狂野。为什么当你跟伴侣的关系日渐亲密时，在床上反而会变得紧张而且害羞呢？专家不是常说，加深认识伴侣是痛快性生活的关键吗？我们跟伴侣相处越久、见面越多，应该是越加熟络，不再害羞才对，为何现在却刚巧相反？
+
+问题正是因为你跟对方的关系越来越亲密。你就变得越容易受伤，因为你心理上已开始重视你们之间的关系。压力便变得加重了，这也使你在床上变得难以开怀。现在，你的心已被他操纵着。你害怕给他看到自己放浪的一面，因而被他轻视或耻笑，那时真不知该如何收复失地了。
+
+这份恐惧正好解释到女性在相恋多个月后，反而对性越来越保守。我们在初时并不介意对方的反应，因为感情还未加深。可是日子久了。一切就变得重要，于是你不再随心所欲。
+
+
+
+
+
+爱得越深越刻板
+
+
+26岁的安妮跟男友志明谈恋爱一段日子，便一起买楼同居。“我们的性关系一向很炽热，可是同居后不久，便冷淡了下来。于是，我特地买了件性感内衣，希望能令他欲火重燃。”
+
+安妮回到家后。换上内衣，躺在床上摆出个“花花公子”海报郎的姿势，准备给志明一个惊喜：可是当志明踏进睡房时却吓得目瞪口呆，显得尴尬万分。
+
+“我当时难堪得想死掉，”安妮苦着脸说。“难受之余，觉得比在商场中脱光衣服更加尴尬。我一心以为自己酥胸半露定是很性感，但他看着我的表情告诉我这种行为像疯子的一样。”
+
+不用多说，安妮此后当然没有再刻意去展示性感，他俩甚至对此只字不提，就像从未发生过任何事，但他俩的性生活自此就每况愈下。
+
+性爱治疗师解释，一对长期伴侣的性生活，会随着时间变得刻板。不是因为他们不再爱对方，而是因为他们太爱对方。
+
+他们趋向于墨守成规，以确保心爱的伴侣会满足快乐。伴侣不是觉得对方沉闷，只是觉得规律化的性生活沉闷。
+
+人类在生理上需要多变化的生活，因此若果你想在一段长期关系中有出色的性生活，就需要付出努力去寻找变化。某些你一直认为很刺激的体位，可能现在已再引不起你和他的兴趣。毕竟，即使天天吃鱼翅，吃得上几年都会感烦厌的。
+
+
+
+
+
+夫妻在“性事”上的批评和忍耐
+
+
+批评，怎也说不出口
+
+如果性生活变得乏味，最好多和伴侣沟通。你们应该百无禁忌地坦言告诉对方，有什么性的要求。一段关系中，沟通是非常重要的，可惜偏偏却经常被忽视。
+
+当然。要跟伴侣坦诚谈论性问题，有时真的颇难。因为无论你如何婉转含蓄，他都可能把你的说话听成：“你的造爱方式对我来说是错的，快快改进。”因此，最好还是不要在床上跟他谈论这个问题，他便不会觉得你在批评他，也就不会感到自己表现不佳。选择在适当的地方和时候对他说，他不但不会介意，听上去还会像你在挑逗他。
+
+如果你觉得还是开不了口，有另一个好方法，就是用行动如呻吟声来让他知道你喜欢和需要些什么（这次就要在床上了）。多给他提示和鼓励，情况很快便会改善。
+
+忍得一时，不能忍一世
+
+虽然如此，如果一直以来你只是假装得到高潮。但其实跟他一起你从未得过一次真正的满足，那又怎么办呢？
+
+我们都知道，每个人对自己在床上的表现都极为忧虑，因此情侣们都害怕自己的言行会伤害到对方的自尊和心灵。既然他在其他方面满足到你，他对你温柔体贴、忠贞不贰，是个可托付终身的好男人，要对他说他在床上的表现未达理想，着实很难说出口。
+
+不过，你俩爱得越深。理应沟通就越深。如果你对他是一往情深，打算跟他长相厮守，更需鼓起勇气，将你的性需要表达出来。否则，你忍得一时，亦难以忍得一世。相处日久才因性生活不合而分开，不是更叫人伤感遗憾吗？
+
+现在就鼓起勇气跟伴侣商讨你俩的性生活吧！只要处理得宜，不但能解决问题，还会把你俩的距离拉近。
+
+\chapter{夫妻间的心理差距}
+
+
+夫妻心理差距知多少
+
+
+结婚后，夫妻虽然朝夕相处，但并未见得能够“知己知彼”。夫妻之间的心理差异不可忽视，了解这种差异有助于夫妻生活的和谐、美满。
+
+男性的情绪一般较为稳定，而女性的情绪容易波动。无论在外面遇到高兴的事还是倒了霉，丈夫回家后比较沉得住气，喜怒往往不溢于言表，不急于向妻子述说。而妻子则不然，遇到高兴的事回家就会喜形于色、手舞足蹈，会把事情从头到尾说一遍，甚至还会反复重复好几遍；遇到不高兴的事回家就会向丈夫大倒苦水乃至伤心落泪。
+
+由于两性的性格生理差距，就导致两性心理上的必然差异，使男与女在心理与见解形成了不同程度的分歧，也就是我们说的心理差异，这些差异大致可分为：认知心理差异、情感心理差异、行为心理差异、语言差异等。
+
+
+
+
+
+一天换一个地方——谁知差异
+
+
+【案例】
+
+做妻子的总喜欢把家具经常的挪来挪去，有时候，一个星期内就要把房间重新倒腾一番。
+
+有一天夜里，丈夫听到门口有响声，便迷迷糊糊地从床上跳起来，跑过去看究竟，谁想一下撞到墙上。
+
+这一声响将他妻子从睡梦中惊醒，她说：“亲爱的，我昨天才把柜子放在哪儿你就撞上了，明天我再换一个地方。”
+
+在一堆混乱的物品中快速地找到她想要一件小东西，是女性特有的能力，而男性则主要依靠习惯和逻辑思维，这也难怪上面故事中的丈夫要碰壁了。
+
+据研究，从八九岁开始，男孩在看图计算、走迷宫等空间知觉能力方面，无论速度还是精确性，开始比女孩表现出明显的优势。
+
+感官方面，男女在触觉、嗅觉和痛觉的灵敏性方面不相上下，对声音的辨别、定位及颜色色调的知觉上女性优于男性，而男性视觉上则比女性灵敏。
+
+记忆方面，女性机械记忆、短时记忆优于男性，而男性的理解记忆、长时记忆优于女性。
+
+思维方面，男女发展总体平衡，但发展速度及水平随年龄阶段而不同，开始的时候女孩思维发展略优于男孩，而且差异逐渐加大。青春期以后，男孩思维发展速度，迅速赶上并超过女孩。男性擅长抽象思维，而女性擅长形象思维。
+
+
+
+
+
+夫妻情感差异
+
+
+【案例】
+
+陈小姐收到男朋友的来信，只见信上写着：“亲爱的，我想念你！想念你那长长的秀发，浅蓝色的眼睛，高高的颧骨，还有你笑起来右嘴角上的酒窝比左边的更迷人，还有两颗一模一样的小虎牙以及1.62米的苗条身材。”
+
+这个男人写的情书可算是前无古人了，从这里，我们就能够看出男女两性表达感情时的差异。
+
+在情感心理上，男女差异非常明显，表现为：女性情感易变，男子相对稳定；男性情感多停留在表面，易冲动，女性则容易深入体验；男性情感粗犷，女性情感细腻；男性对愤怒、惊恐感受强烈，女性则对悲伤、忧愁体会更深刻；女性的感情主观色彩较重，男性则较为理性、客观；某种情感在女性之间会迅速传播，在男性之间则非常迟缓；女性个人情感具有弥漫性，男性情感较集中；男性心胸较开阔，情绪问题少，女性心胸则较狭窄，情绪问题多；女性言行感情色彩重，男性言行感情色彩轻。
+
+在情感表达方式上，男女也有明显差异。女性的情感表达常表现出委婉、含蓄、含糊、暧昧等特点，尤其是女孩儿，偏好掩饰自己的真实情感。比如让她们对人或事给出一个“好”“坏”的评价时，往往得不到其明确答复——遇到非常喜欢的，不说喜欢；对自己讨厌的，也不说讨厌。其实这样可以留给自己很大的选择余地。
+
+当被男性追求时，女性更会暧昧有加。这样可以增加自己的神秘感和吸引力，让男性更大胆、热烈地追求自己并考验他的真心。其实，女性有时候自己摸不透自己，也不知道自己到底是什么人，常常没有明确的目的与目标而是依靠感觉来生活。这是女性情感表达暧昧的另一个原因。而男性在情感表达上喜欢直截了当，不喜欢兜圈子。
+
+对人或事的“好”“坏”，他们不掩饰自己的真实情感，会做出明确的决断，好就是好，坏就是坏，不会含糊其辞。
+
+
+
+
+
+夫妻行为差异
+
+
+【案例】
+
+某单位的话务员接了一个电话，但她重复了好多遍“你好！你好！请问您是哪位？”都没有回音。
+
+最后，才有一个很紧张的女人声音说：“这儿真是某某地方吗？”
+
+“是的，女士，”接线生说，“你要跟谁说话？”
+
+又停了一会，那个女人声音温和地说：“我不找谁，我只是在我丈夫的口袋里发现了这个电话号码。”
+
+女性疑心通常比男性重，尤其表现在对配偶的信任问题上。妻子经常怀疑和害怕丈夫有外遇。心理学家认为，这是因为在她们心目中，男人总想逃避家庭的责任，一想到把终生托付给男人时，就会不寒而栗、倍加防范。
+
+女性往往有较多的朋友，尤其是与同性朋友之间能长久保持较亲密的联系；而男性则较少有长期亲密联系的朋友。他们除了握手之外，似乎不再需要任何进一步的接触。
+
+对此，心理学家认为，小女孩可以手拉手一起上学，受了委屈互相安慰，养成了亲密接触的习惯；小男孩从小就被教导要坚强、独立、自己的事情自己做。他们不敢像女孩那样做，否则可能会被别人说没出息。这种观念根深蒂固以至影响其一生的交友态度。
+
+通常，我们认为信口开河、夸夸其谈的人，男性多于女性。可大多数心理学家却不这么认为，他们说女性更擅长撒谎、欺骗、遮瞒、找借口等花样。因为她们体力天生比男性弱，所以不得不靠小计谋来弥补生存的缺陷。
+
+
+
+
+
+夫妻间的语言差异
+
+
+【案例】
+
+有一则笑话：
+
+丈夫对妻子说：“哥伦布肯定没老婆。要不，他什么大陆也发现不了。”
+
+妻子：“那是为什么？”
+
+丈夫：“哥伦布如果有老婆的话，在出海前，她一定会问哥伦布：你上哪儿去？为什么去？有什么事吗？和谁一起去？去多少时间？为什么……”
+
+为什么男人总是嫌女人唠叨，而女人总是嫌男人冷淡呢？是因为他们的重要沟通能力——语言，存在差异。
+
+语言运用作为一种社会行为，存在着性别差异。两性的言语差异表现在语音、用语和交谈三个方面。语音方面，女性发音的绝对音高高于男性，比男性更娇柔，语音听觉比男性更敏感；男性发音比女性含混，“底气”比女性更足。
+
+用语方面，女性颜色词语的掌握能力强于男性，比男性更喜欢使用情感词，比男性更善于使用委婉语。交谈方面，女性说话比男性含蓄，与男性相比不喜欢左右话题，言辞比男性更温文尔雅；男女交谈的兴奋点不同，男性更多地将注意力集中在谈话内容上，而女性将注意力集中在交谈过程本身。
+
+那么男人为什么会感觉女人说话唠叨呢？是因为女性的谈话一般是张口即出，通常没有经过大脑的宏观思考，于是说出的话往往显得冗长，要不就是不时地在重复，要不就是突然改变话题。
+
+而男性间的交谈则不是，他们谈话时总要先完全弄清楚对方的谈话思路，然后才有所回应。用一个心理学的名词来说，女性说话的特征是没有“回馈”。她们不会等到确认对方所说的内容之后再考虑自己该说什么，而男人想说话却插不上嘴，只好三缄其口。
+
+
+
+
+
+婚姻常见心理差距
+
+
+男性更需要自尊，女性更喜欢虚荣，一般来说，男性自尊心比较强，往往有意或无意地表现出男子汉的尊严，而女性虚荣心有些强，特别愿意别人欣赏自己的穿着、容貌或者夸奖自己的孩子、丈夫。妻子应当理解丈夫和自己之间的审美差异，更应当理解男人最需要尊严。
+
+男性尺度，女性敏感
+
+男性有时候显得反映比较迟钝，而女性敏感又喜欢联想。所以丈夫应该理解女性的心理特点，不要和妻子计较，妻子也应该理解男人的马大哈毛病，不要想得太多，许多矛盾就会不复存在了。
+
+男性豁达，女性小气
+
+男性一般胸襟比较豁达，而女性容易度量狭小，遇事往往想不开。妻子细致的心理特点，往往也表现为度量狭小，如果遇到什么不顺心的事，会在一段时间里放不下，一想起来就会唠叨，甚至会无缘无故地冲丈夫发无名火。这时候，丈夫最好对妻子采取忍让的态度，并适时加以劝导，如果丈夫针锋相对结果只会引火烧身。
+
+男性不如女性持家观念强
+
+夫妻间的心理差异还表现在丈夫持家意识比较弱，而妻子比较强。大部分妻子在家总是忙个不停，纵使现在越来越多的丈夫开始主动或被迫做家务了，妻子往往也不会闲着，定会对丈夫干过的活儿说三道四，或者干脆又重新干一遍，结果挫伤了丈夫做家务的积极性。操持家务应该是夫妻双方的义务，妻子应调动丈夫的积极性，即使丈夫笨手笨脚，也要耐心教导。
+
+女性更喜欢理财
+
+妻子的持家意识还体现在对家庭收支的管理上。妻子往往愿意掌管财政大权，不过男性遇事通常比较冷静、理智、有主见，而女性则容易受外界的影响，容易情绪化，因此，在处理一些事情上，妻子最好能听取丈夫的建议。不管当家理财的是妻子还是丈夫，在遇有重大家庭支出时，最好两个人共同决定。
+
+
+
+
+
+分裂型婚姻
+
+
+有这样一对夫妻，刘某是政府公务员，赵某毕业后在大学留校任教实验老师，夫妻俩的事业红红火火，蒸蒸日上。为了工作刘某住在单位，但他时常会感觉到自己对家庭温暖的需要和渴望，但同时事业的成功又冲淡了这种孤独、寂寞之感。
+
+而赵某则是一头扎进书海里，进行课题攻关。她把女儿送到爷爷奶奶身边，自己则利用丈夫孩子都不在身边的情况下去搞研究。后来，又索性搬到实验室里，吃住全在里面。
+
+暑假到来，刘某回到家里，没想到妻子仍然埋头在她的实验室里，而对他却不睬不理，更谈不上夫妻小别的脉脉温情与爱意。于是。他就想法让妻子与自己一起去风景区去旅游避暑，可是，赵某却舍不得离开自己的实验，拒绝了丈夫，结果他们大吵一架，不欢而散。
+
+刘某愤愤地走了，带着满心的寂寞与伤害，直到春节也没有回来。
+
+除夕夜，赵某也没有回冷清的家，一个人呆在实验室里。说真的，她对丈夫还是有感情的，这时，才感到了透骨的凄凉孤独。
+
+
+
+
+
+分裂型婚姻的成因
+
+
+在今天，“女性文化”的形成独立与平等的价值取向正与传统的文化对女性的定位形式发生着激烈的冲突，现代女性不再单纯地依赖于爱情，对感情的需要不再仅仅是以前的婚姻家庭关系，她们更注重思想的共鸣与相互的理解，在婚姻中，不再安于一种从属的关系，而是追求一种朋友式的、互助式的关系。
+
+随着社会发展的日新月异，女强人越来越多地涌现了出来，她们在社会中以“强”立足，但也把这强的影子带到了家中，带给了丈夫与孩子，却忽略了在家中自己应该是妻子、母亲，而不是经理、局长、政治家等。
+
+有些女人，在踏入家门的还放不下强人的架子，甚至把工作岗位上的霸气带到回了家。在家中，更是忘了自己要尽一个家庭主妇的责任，别说关心丈夫，照顾老人，有的甚至连孩子也顾不上看一眼。
+
+事业，已成为现代女性实现自身价值的一个重要途径，是女人自立的根基。不少职业女性终日都在忙碌着自己的事业，而忽略了在心灵深处应该给予丈夫一个无人替代的地位。但是，她们在工作的同时。简直就忘记了丈夫的存在，更别说有足够多的时间去关心丈夫，照料丈夫，体察丈夫的感情，满足丈夫的需要；更重要的是淡化了夫妻之间感情。
+
+于是，这些社会发展的因素，时代变化的因素，以及女人自身要“强”的因素，在无形与有形中大大地增加了，女人与家庭的分裂、与丈夫的分裂，最终导了心理上的分裂因形成了现在普遍的婚姻分裂现象。
+
+
+
+
+
+心理指导调整方案
+
+
+只要你有健康的心理，没有不可能的事。古人说鱼与熊掌不能兼得，有一定道理，但凡事没有绝对，事业与家庭发生冲突时，只要学会多花费一点心思，少算计一点得失，即便不能鱼与熊掌兼得。在家庭与事业之间，也总会找到一个平衡点。不要等到你一觉醒来，枕边的“他”或“她”已变成了遥远的陌生人，才想起心理平衡。
+
+成功的事业成就了幸福的婚姻，婚姻的美满托起了事业的辉煌。事业与婚姻相辅相成，工作与家庭相得益彰，才是一个人和谐美满的人生。如果一个人只是一味地投身于工作之中，却将家庭抛之脑后。那么事业的成功也只能是一份悬空的成功，也不能算是人生真正的成功。
+
+优秀的现代女性，往往能够根据自己的能力来协调事业与婚姻之间的关系，调节自己在不同时间、不同场合的不同身份与角色。在生活中，那些善于计划时间，并能在有效的时间内完成多件事的女人，多半是已婚的职业妇女，而不是家庭主妇。她们一只脚站在办公室，一只脚站在家里，虽然脚踏两船，但却能二者兼顾，生活、工作都处理得很好。
+
+而作为女强人的丈夫，如果你的事业成就不如妻子，也没有自卑的必要。现代社会在一定程度上已经抛弃了“男主外、女主内”的思维定式。如果能够当好妻子的“贤内助”，给妻子的事业以更大的支持，也是维系家庭幸福的良好态度。
+
+不管是丈夫还是妻子，都是很在乎爱人是不是关爱自己的，如果你能在百忙当中抽出一点时间，陪爱人出去吃顿饭、逛逛街或是在家里准备一顿有情调的烛光晚餐，他定会“芳心大悦”，涌出爱意无限，所有对你的怨恨与不满都会烟消云散，你的行动证明在你心里没有人可以取代对方的地位。
+
+作为事业型的丈夫，如果你一个星期之中少有在家的时间，所有的家务都推给了妻子，那周末早上你就一定要早起几分钟，为妻子做顿可口的早餐。你要知道，你的妻子一天要料理三餐，洗衣持家，繁重的家务劳动不下于繁忙的事业打拼，你要体恤她的辛劳。
+
+而作为一个“工作狂”的妻子，不仅仅要全方位地照顾好事业心强的丈夫的生活。如果对自己丈夫的工作或职业没有一些常识或了解，却想要给他适当的帮忙，这是几乎不可能的事。即使在丈夫的工作中，你并不能帮上什么实际的忙。但只要你能对他工作的需求充分了解，同样可以使你更有同情心和耐心，成为一位更加聪慧的伴侣。
+
+每一个丈夫都需要一个忠实的信徒。当什么事情都不顺利的时候，当处境危急的时候，当他面临失败的时候，他需要一个建立起他的抵抗力和信心的妻子，让他知道没有任何事情能够动摇你对他的信任，你们的关系紧密而牢不可破。
+
+不管社会如何变迁，家庭、事业都不应该对立，完全可以统一起来。如果把事业当作一个家庭来享受，如果把家庭当作一个事业去创立，那么建立在事业上的家庭是最稳固的家庭，建立在家庭上的事业是最甜蜜的事。
+
+
+
+
+
+婚外恋危害家庭
+
+
+婚外恋，就是婚姻关系中的一方同与配偶以外的异性发生情爱与性关系的行为。在现实的社会生活中，这种现象屡见不鲜，而且还有日益增长。婚外恋问题不仅直接关系着家庭中婚姻关系的稳定，也直接影响到社会整体的文化道德观念。
+
+对于婚外性行为的评价，人们较为一致的把它当作一种不道德行为而予以谴责。从理论上讲，真正的人类的爱情，只能发生在一对异性之间，而不可能同时存在于一个人与两个异性之间，如果夫妻间一方与婚外的异性发生爱情关系，其结果必然是降低对配偶的情爱与性爱，或干脆排斥配偶对自己的爱情。因此，无论是婚外性行为还是精神恋，无论是暂时的，还是长期的，对配偶的伤害和对家庭稳定的破坏作用都是一样的。
+
+
+
+
+
+说说婚外恋
+
+
+李某读研毕业后，做了一名公务员，认识了在财务科的出纳阿文，李某对她一见钟情，展开了疯狂的追求。阿文为自己能找到这么爱自己的男朋友而陶醉。毫不犹豫地嫁给了他。
+
+而李某婚后的事业非常顺利。很快就当上了副科长。这时年轻漂亮的女孩小华走进了他的生活，心就不在自己的家里了。
+
+于是，李某感觉每天和自己的老婆生活在一起，就像喝了许多遍的茶水一样，没滋没味。日子久了，体会不到妻子的关心，也发现不了妻子的优点，和情人偷偷摸摸地在一起，反而满眼看见的都是对方的长处。几天不见，就像丢了魂似的，那感觉比当年谈恋爱时还热烈。
+
+于是李某和阿文离婚了，再婚的初期，李某和小华生活得确实很恩爱。可是，时间一长。问题出现了。
+
+因为，小华每天下班回家后，都要和锅碗瓢盆打交道。再加上一天劳累。有时吃完饭，连桌子也不收拾，倒在床上就呼呼大睡。如此一来，不但把房间弄得邋邋遢遢，并且自己也不像以前做情人时那样注意修饰了。尤其是在怀孕期间，身体胖胖的，彻底失去了昔日的风采。
+
+面对眼前的妻子，李某困惑了，怎么现在的妻子还不如以前……到底哪边风景最好？他有些后悔了。可是，当他梦醒时，一切都太晚了。
+
+
+
+
+
+婚外恋心理剖析
+
+
+婚外恋作为一种社会现象，当然存在着产生这种社会现象的生理与心理基础。婚外恋一般包括两种情况：一种是婚外性行为，另一种是没有性行为关系，只存在着一种“柏拉图”式的精神恋爱。如果从时间上分，婚外恋既有短暂的，也有长期的。
+
+婚姻的感情基础不牢是产生婚外恋的首要原因。随着社会的发展、生活水平的提高和人们对生活需求观念的更新，以及价值观的改变，意识中的那种对婚姻生活的不满足感，越来越强烈地表现出来。
+
+于是，原先维系男女之间爱情的链条断裂并导致情感逐步淡化。如果夫妻双方的关系不能进行有效的调适，不能重建并更新夫妻间的爱情，就可能在双方或一方中产生移情别恋的动机，一旦遇到合适的异性，就很自然地导致婚外恋。
+
+心理学研究表明，人需要的满足与否直接影响着人际关系的形成和发展。需要得到满足，对人际关系就起着增强的作用；反之，就产生失望之感，而削弱人际关系；若长期得不到满足，就会使人际关系疏远或中止。夫妻间爱情的发展同样遵循这一规律，夫妻中任何一方心理上或生理上的需要长期得不到满足，就有可能导致夫妻间心理上的隔阂，甚至使感情发生转移。
+
+婚外恋问题作为人类两性间的关系问题，当然有其生理的依据，但更主要的是一种性心理行为。从社会的角度来评价婚外恋，是对婚姻体制构成了严重的威胁，具有明显的反道德性质。
+
+
+
+
+
+婚外恋的动机
+
+
+心理学家发现，孤独感常是促成外遇的主要原因，一个人要是没有人与他分享生活中的大大小小的事件时，孤独感便会油然而生，如果夫妻间缺乏亲切友好的感情交流，一方或双方便会感到孤独，以致到婚外恋去寻找外遇。
+
+夫妻间性生活不只是一种宣泄和生理需要的满足，主要是维持夫妻爱情的纽带，它不仅仅是肉体的交合还应伴随有情感的交流，如果在性生活中缺乏感情的分享，有一方就会感到孤独和寂寞，人的感情就像一座火山一样，不会永远沉寂，总会有爆发的一天，一旦爆发时，就会变成一种妄想目的破坏力量，很多有婚外恋和外遇的人坦然地承认，与他们发生性关系的人要比他们的配偶有更大的吸引力。
+
+由于单调造成的厌倦是造成情变的主要祸因。结婚几年后，生活的热情开始冷却。如果夫妻双方不能探索、寻找出新的、更令人满意的生活方式的话；则在这平淡无奇的背后就会孕育着人的好奇反射的总爆发，不甘寂寞的人便会寻找能够重新弹奏起交响乐的第三根琴弦。
+
+夫妻间的争吵固然难免，但如果争吵太多，即所谓的大吵三六九，小吵天天有的话，就会使配偶的感情遭到过多的伤害而产生隔阂和更大的心理矛盾冲突，当一方饱受伤害之苦而达到忍无可忍的时候，就会促使其对夫妻生活产生厌倦，丧失一起生活的信心。
+
+一些社会心理学家认为。从实际情况分析。婚外恋之所以呈增加的趋势，根本的原因还在于缺乏真正的离婚自由。当今社会对离婚的观念还是相当的陈旧和落后，一些已经“死亡”或应该“死亡”的婚姻，由于它受到来自社会各个方面，包括工作单位、家人、婚姻机关、亲朋等的干预，以及当事人自身受子女、经济等原因，顿觉离婚代价太大而却步，于是婚外恋就悄悄地产生了。
+
+要树立正确的婚姻爱情观，正确地对待、婚恋中的问题，要树立正确的婚姻观与家庭观，夫妻双方都要对婚姻与家庭高度负责，最大力度的尽自己对婚姻与家庭的义务。
+
+夫妻感情的发展是无止境的，理想的夫妻应是随着岁月的增长，夫妻之情不断深化，夫妻感情越巩固，第三者就无地可插足。夫妻感情不和是第三者插足的良好时机，有些夫妻结婚后，忽视感情的培养，长此下去，感情易淡弱，为第三者插足提供了条件。
+
+夫妻间要相互信任，无话不说，这样不仅可能消除夫妻之间的误解，而且也可以商量解决一些问题。例如在生活实践中，第三者对丈夫表示爱恋之情或者公开表达时，夫妻可共同商量对策，妥善地处理与解决问题。
+
+当发现配偶有了婚外恋，怎样帮助配偶摆脱第三者是要讲究心理对策的。
+
+首先最要紧的是要冷静、理智地分析情况。愤怒的情绪自然的产生是可以理解的，但是一定要努力控制自己的情绪，通过调查分析。弄清事情的真相，采取正确的态度和对策。如果任其怒火燃烧的话，不仅不能使爱人回心转意，反而易使夫妻的矛盾激化。
+
+夫妻的心灵美是相互吸引的基础，但不能忽视外表关在爱情中的作用。有些女性在婚后逐渐不注意适当的修饰，在无意识的心理生活中冲淡了爱的吸引力。婚后夫妇双方都要保持清洁整齐，注意适当的修饰，保持异性的魅力，保持自己原有的吸引力。
+
+要向爱人说明外遇对他自己，对家庭，对子女的危害性等等，讲明道理，使爱人对自己的错误有个正确的认识，悬崖勒马，改正错误。发现配偶有外遇，严肃批评是完全应该的，但同时在生活上要更加关心对方，感情上更加体贴。否则只能加大与对方的心理距离。
+
+最后，要根据情况，有针对性地做好第三者的工作，必要时可以用法律手段予以解决。
+
+
+
+
+
+性生活的不平等
+
+
+在我们许多家庭中，夫权是很严重的，这种男女的不平等，也在性生活中反映出来。
+
+有一对夫妇，丈夫在每次性生活中都占主动地位，妻子也都接受。偶尔一次妻子喝了些酒，一反常态向丈夫提出要求。这使丈夫心里非常不快，觉得眼前这位激情难耐的女子，不像自己的妻子，而是陌生的轻浮女子，他断然拒绝了妻子的要求。
+
+许多男性就是这样迷失于传统的困扰之中，他们认为女人只能分为淑女和妓女两种，妻子只能是淑女，规规矩矩，不能纵情声色。他们认为妻子主动提出要求是违反规矩的，妻子没有这种权力。对男性来说，性爱是自我需求的表现，如果把他变成性爱被动的一方，必然造成他们心理上不可抗拒的焦虑感。
+
+但这对女性来说太不公平了。许多女性虽然拥有自己的事业、地位，但一关上卧室房门，就失去了主动权。这种情况在某种程度上说也是女性自己造成的，女性在性爱中缺乏主动的勇气。女性始终保持着拒绝的权力，只有当她们退让的时候，男性才持有主动权。
+
+性生活要达到真正的平等，两性都得放弃原有的权力分配，双方都享有主动和拒绝的权利，这种新的模式在夫妻间建立起来并不容易，稍有不慎就可能陷入对立的僵局。
+
+男方应认识到，人们对性的态度有了很大的变化，女性赢得了坦诚表白对性的需求的权力，这是人类的一大进步。男性不要把这一解放看作是对往日大丈夫气概的剥夺，不能惋惜自己地位的丧失。
+
+由于男女双方心理上不能调适，往往出现“跷跷板”式的性关系，永不，得共鸣。即双方不能互相配合，而是互相赌气。当一方提出做爱时，另一方拒绝；这一方提出时，那一方作为报复也拒绝。双方都以消极的报复行为，弥补自我遭受的屈辱。这种报复行为，最后可能变为无法挽回的恨事。这种报复行为有时不是有意的，而是潜意识中的，这时双方应有清醒的认识。还有些是由于误解，例如妻子有某些炎症，房事后腹痛，拒绝性交，丈夫便觉得这是搪塞自己，伤害了他的自尊心。
+
+在双方进行调适的过程中，要想避免性生活不愉快，必须都具备信心和度量，经常在事业上受挫的男人和对自己的容貌没有信心的女人在被拒绝后，都会产生被蔑视的失败感。要让他们看清楚这种恶性循环的起因，互相了解不想做爱并不表示全然的否定，谁都可能提不起做爱的兴致，不要把事情想得太复杂，对别人要持宽容的态度。
+
+
+
+
+
+纠正种种错误观念
+
+
+有人认为，既然行行有“高手”，做爱自然也有“行家”。这些人追求精湛纯熟的技巧，像对待其他事情一样，竭尽所能力求完美，他们希望得到对方的喝彩与赏识。由于忙着去“表演”，表现自己的能力，使对方感到毫无感情，乏味而空洞。
+
+这种性心理是由于片面理解某些性指导用书造成的，许多人以为夫妻生活的谐调来自《婚姻指南》等书，想从中寻得要诀。实际上，夫妻做爱应该是顺其自然的感情宣泄，不应该受书本上条条框框的限制。性爱的完美与否并不是技巧如何决定的，重要的是精神感受的层次。
+
+许多年轻人，盲目追求“性解放、性自由”，他们并不了解西方性解放的历史背景和意义，只觉得是新潮时髦的标志，坠入肉体竞技，一味纵情，忽略了性爱的精神层次，不再重视感情是否深厚，心理是否做好准备，只是在麻木与慌乱中寻求虚幻的刺激。由于他们追求的是时尚，因此只求拥有，只求实际，却不注重精神的感受。
+
+有些丈夫具有较严重的大男子主义，他们的目的在于获得征服的优越感，因此做爱不过是一种手段，这使他们逐步丧失了原有的感觉。当异性已成为唾手可得之物，无需去征服时，他们会突然感到前所未有的失落与空虚。“征服”的目的不存在了，他们也就丧失了做爱的原动力，再也唤不回昔日那份战胜者的雄风，感觉到婚姻生活平淡乏味，面对百依百顺，无需费心征服的女性，不能忍受。
+
+尽管每个妇女都希望男女平等，但在家庭中，许多女性摆脱不了“丈夫是一家之主”的观念，认为男性享有性爱的优先权，妻子应满足丈夫的需求，做个尽责的妻子，虽然她们也希望拥有属于自己的性生活。传统的观念认为，“性”是女人用以抓住男人的手段，为了维持自己在家庭中的地位，女性也发挥最佳的演技以满足对方。因此，许多女性是被动地尽义务，不是享受积极的乐趣，所以免不了满腹牢骚。
+
+现代的丈夫希望妻子是一个有“感应”的被动者，即对丈夫的性行为要做出满意的答复。他们要求妻子介乎于野性和柔顺之间。
+
+许多丈夫认为如果妻子得不到满足，就是自己的失败，这种心理负担是非常沉重的，使不少妻子不得不伪装出兴奋满意的样子。有些男性由于不能使妻子达到高潮而气馁，他们的感情因此向外发展，希望找到一个能肯定自我的机会。还有一些人一天天畏缩了，他们慢慢地排斥性，提不起兴趣，甚至成为性无能。
+
+
+
+
+
+排除婚后的心理负荷
+
+
+有人说“结婚是爱情的坟墓”，这虽言过其实，但不少青年人发现，婚后的生活并没有带来婚前所期望的奇妙变化。他们感到失望，感到一切落了空。为什么如此呢？
+
+1．青年结婚大多经过长时间的追求和热恋，在一番奋斗之后才结成伴侣。结婚以后，当他们感到一切不过如此，并没有得到婚前所憧憬和神往的内容后，他们婚前那种激情和急切渐渐平和下来，开始正视现实。
+
+2．婚前因为没有建立牢固的关系，所以为了得到对方，双方都小心翼翼地掩盖自己的弱点，积极地维护恋爱关系。结婚以后，有了法律的保护，双方有了安全感，对婚姻关系不再那么珍惜。婚前殷勤的求婚者可能在婚后变得麻木不仁。婚前毕恭毕敬，婚后可能大打出手。
+
+3．在热恋中，双方都尽量把自己的美好的一面显示给恋人，双方在情人的心目中都是完美的，充满了迷人的魅力。恋人们非常容易忽略了对方的缺点，也很小心地掩饰了自己的缺点。结果在婚后，当双方共同生活，朝夕相处以后，双方的缺点一览无余。现实是无情的，婚前幻想与理想的色彩在现实生活面前不断消退。这时，他们感到失望，感到受了欺骗。现实中的爱人与婚前理想的恋人差距越大，夫妻关系越难以调适。
+
+4．恋人可能在一起学习、工作，但他们间的关系是由感情维系的，他们在一起跳舞、看电影、逛大街，充满了浪漫的色彩。即使共同劳动，也带有脉脉温情。婚后，夫妻开始朝夕相处，共同生活。生活不仅是跳舞、看电影，更主要的是呆板的、繁琐的小事。时间一长，自然感到枯燥，缺乏乐趣。
+
+5．婚前的单身生活是自由、轻松愉快的，生活有父母照料，经济上没有负担。许多青年不懂得关心和照顾别人，不知道家庭成员的责任和义务。结婚以后，他们首先发现不自由了，收入为夫妻共同所有，没有单独支配的权利，时间受到限制，下班不回家还得“请示汇报”。跟原来的朋友们的来往受到干涉。其次新婚夫妇感到家务劳动是沉重的负担，同时不仅要学会照顾自己，还要照顾对方以及其他家庭成员。婚后的家庭人际关系也变得复杂多了，双方都要努力去适应对方的家庭，处理好新亲戚之间的关系。总之。这一切形成沉重的心理负荷，使新婚夫妇难以应付，很容易造成夫妻冲突。
+
+
+
+
+
+敞开胸怀，表露需求
+
+
+“如果你真的爱我，就应该知道我的需要的呀！”——这是一个人类永远解不开的谜，从古至今不知困惑了多少情侣，拆散了多少夫妻。深信此说的人始终认为，真正完美的爱不需借庸俗的话语来沟通，片刻的凝视，一举手一投足，都足以洞悉内心。这些人于是终日等待对方凭借“直觉”来感应一切，结果唤来的只是满腹牢骚与惆怅。他们责怪对方，认为自己得到的是一份不完美的爱，对方的心思不在自己身上。他们认为夫妻之间应该默契，我喜欢的他也应该喜欢，我需要的他早该知道，如果需要说明那就太没味了。
+
+实际上夫妻之间彼此有着不同的需求，而且人在时时刻刻改变自己。有些变化和需求，即使是默契的夫妻也很难互相了解，需要告诉对方，或暗示给对方。有这样一对夫妻，妻子埋怨丈夫做爱时不抚摸她的胸部，丈夫立刻提出抗议：是你自己告诉我不喜欢别人碰你的胸部！妻子不甘示弱地说：那是几年前的事了，现在不一样！
+
+妻子晚餐想吃油腻还是想吃得清淡，做丈夫的无法知道。同样，在做爱时夫妻双方各自有什么改变，对方也很难了解。对于一时不能沟通的夫妇，性心理学家认为，在做爱时夫妻的比率不是50对50，应该是100对100。双方多为自己着想，两个人都得到满足，比只知道奉献牺牲来取悦对方，双方都得不到满足更好，那些征服欲强的男人，辛勤的丈夫以及尽责的妻子，处处关心对方的神态反应，忽略自我的感觉。时间长了，对方也不会轻松。
+
+有些男人及许多妇女从来不主动提出做爱的要求，他们之所以不愿表示的原因，就是羞于启齿，也怕勉强了对方或怕对方拒绝。于是他们刻意压抑自我需求，满腹怨气地等待对方发觉自己的需要，认为对方应该“心有灵犀”。夫妻之间应该能够自私地满足自己，也要无私地满足对方。不能相互提出要求的夫妇，可以订个协议，在一段时间内，彼此有权提出任何要求，不受限制。在这期间，不要屈服于羞涩，不要考虑对方是否同时需要，即使是凌晨三点钟，也可以叫醒对方。
+
+不敢提出需求是因为怕被拒绝，应该了解到有了希望才会有失望，不能因为害怕失望而永远不敢希望。当我们提出要求的时候，对方自然有拒绝的权利，不能因此而羞愧、怨恨。要求并不可耻，被拒绝也不是什么大不了的事。总之，夫妻之间不要互相等待，试着敞开胸怀，才是使婚姻幸福的最好方式。
+
+
+
+
+
+夫妻间性格迥异的利弊
+
+
+在为数不少的家庭中，夫妻性格是截然相反的；如外向的对内向的，乐天派对悲观主义，好新奇的对喜怀旧的，“闷罐子”对“火爆筒”。我们发现他们中的一部分，夫妻和睦，日子过得很好，但另一部分却相互冲突，导致婚姻破裂。
+
+
+
+
+
+性格相反也比较容易相爱
+
+
+我身上所具有的，并非想对方必须具有，我所没有的、欠缺的。往往希望对方具有，并且鲜明。如一个性格外向的男子，可能会喜欢性格内向的女子；一个多愁善感的女子可能会喜欢无忧无虑的男子，这就是爱情中的互补原理。所以夫妻之间要相互补充，吸取对方的长处，这样一个家庭就容易保持平衡适中，如“大手大脚的”娶了节俭成性的，家庭的开支就易适当；乐意过太平日子的嫁给热衷于冒险的，家庭既不会保守，也不会蛮干。
+
+
+
+
+
+夫妻之间有个相互适应的过程
+
+
+夫妻之间有个相互适应的过程，双方都必须尊重另一方的局限。性格迥然相异的人初做夫妻，难免要发生一些冲突，感到不太适应，这时既要正视差异的存在（不要梦想对方会变成自己那种性格的人），又要容忍对方的性格（一定程度的容忍是夫妻和谐的秘诀），还要设法从对方的个性中“借”一部分过来，变成自己的。
+
+
+
+
+
+己所不欲，勿施于人
+
+
+夫妻之间由于性格差异万一发生了冲突，要就事论事，不要否定对方的全部个性（须知个性很难判定好坏），在哪一点上令你舒服，就指出哪一点。同时，可以试着扮演一下对方的角色，体会一下己所不欲，勿施于人的道理。另外，自己必须明白，在我的爱人身上，我所喜欢的特性与我希望他改掉的特性往往是不可分割的，我们只能完善而不能抹杀个性。
+
+
+
+
+
+夫妻双方磨合感情
+
+
+婚后大多数夫妇都出现一定的心理变化，当他们相互理解以后，爱情更加醇厚，进入了一个新的阶段。
+
+求同存异
+
+夫妻间要有共同的乐趣，大致相同的价值观，有共同的生活目标。但是尽管在婚前经过了认真的考虑和选择，由于每个人的家庭环境、社会地位、文化修养、成长经历等不同，婚后生活在一起的两个人，都会程度不同地感到相互不适应，正像有人说的，“新婚夫妇使用的牙膏牌号都不同。”在这些问题上，最重要的是相互理解和体谅。对对方行为表示理解和宽容，不能苛求对方事事与自己一至。爱情就意味着个人在一定利益上的牺牲，特别是具有不同个性、志趣的夫妻所组成的家庭，彼此作出一些让步以适应对方是加深夫妻感情的重要因素。
+
+调整生活方式
+
+婚后生活与单身生活大不相同，生活的基本单位变成由两个人组成的家庭，因此生活方式也要进行相应的调整，必须增加夫妇二人的共同活动，减少单独的业余消遣以及与朋友们长时间的聚会。
+
+加强责任感
+
+结婚以后，男女双方共同担负家庭的重任，这就需要双方都有整体观念，有责任感。夫妻都应明了，结婚有了家庭，你就不是一个人生活了，你必须对另一个人负责，你的义务就是为爱人服务，为对方幸福着想。相爱的夫妻心甘情愿地为对方做各种事情，用自己的辛勤换取对方的快乐。
+
+正确对待对方的弱点
+
+恋爱期间。情人的形象都十分美好。有人婚后发现了对方的不足，便大失所望。实际上，婚前间断的接触，不可能了解对方的一切，双方都存在着对方没有察觉到的缺点，这不必大惊小怪。正如富兰克林说的“婚前睁大你的双眼，婚后闭起一只眼睛”。有些缺点是可以纠正的，比如有的人不爱学习，可以逐渐引导，提高学习的兴趣。但有的是行为习惯，如动作慢，干活不利落等。这只能相互宽容，在长期的生活中慢慢改正。
+
+\chapter{相互体谅才能让婚姻稳固}
+
+
+婚后存在危险期
+
+
+一位外国学者尼克斯曾说：“婚姻是一本书，第1章写的是诗篇，其余则是平淡的散文。实际上婚后的生活不仅有诗篇，有散文，而且有时还险象环生”。有关资料显示，感情危机最容易发生在婚后的最初几年。比如上海两个区1986年受理的离婚案中，婚龄1～5年的占41％，其中一个区民政局办理的72对协议离婚案中，婚龄5年以下的占66％。因此，社会心理学家把婚后的最初几年称为“危险期”。
+
+
+
+
+
+感情危机发生的原因
+
+
+婚后为什么会发生感情危机呢？
+
+一是，角色的改变。婚前彼此都是恋人，婚后的角色改变会带来许多具体的现实问题。恋爱期间对未来家庭生活的美好想象，现在被平淡的“开门七件事”所替代，因而产生失望心理。婚前期望越高，婚后失望越大。
+
+二是，恋爱的光环效应。恋爱时“情人眼里出西施”的光环效应使恋人只看到对方的优点，看不到缺点；婚后朝夕相处，耳鬓厮磨，原来“为悦己者容”的恋人也“返璞归真”，双方优点逐渐隐退，缺点却不断显露，一些人甚至“悔不该当初”。
+
+三是，吸引力的改变。恋爱时外貌、气质、风度是吸引力；新婚期间性爱也是一种吸引力；有了孩子后，妻子会将对丈夫的一部分爱移给孩子，又会把拖带孩子造成的烦恼向丈夫发泄。而丈夫以为只要使妻子能得到更多的物质和报酬，就是对家庭的爱，认为已不再是新婚燕尔，不需要彼此再进行感情交流和回报。这样，遇到一些小矛盾时便会发生争吵甚至出现婚姻危机。
+
+四是，“第三者”的闯入。生活的舞台是最宽阔的，而爱情的舞台却是狭小的，它只允许两个角色同时登台。如果出现了，第三个角色，那肯定是一场悲剧必然会导致家庭破裂。
+
+
+
+
+
+感情的五个周期
+
+
+有的社会学家把夫妻间的感情分为五个周期：
+
+一是，钟情幻想期（即新婚蜜月期）；
+
+二是，热情实现期；三是惆怅淡漠期；
+
+四是，孤寂反感期；五是否定厌倦期。
+
+此时双方的感情已接近冰点，如果彼此不进行“感情投资”，重新唤起对方的感情，爱情的火花就容易熄灭。当然，不是说所有新婚夫妻的感情都会出现这五个周期，但了解这种周期律，有利于婚后感情的和谐。
+
+
+
+
+
+如何顺利度过“婚后危险期”
+
+
+沟通思想
+
+一般说来，恋人之间往往具有“情人眼里出西施”的特点，把对方拔高了、美化了。婚后便常会因发现对方在恋爱时所不曾有的缺陷而产生失望的心情。因此，新婚的青年，必须在心理上有所准备，正确地对待相互的性格差异，经常谈谈共同生活中发生的事情，尤其是心中的苦恼或双方的误解。这样即使彼此有疙瘩，也能尽快解开。
+
+宽容忍让
+
+对对方婚前遮掩婚后暴露出来的缺点和弱点，采取宽容忍让的态度。正如富兰克林所说：“婚前眼睛睁大，婚后眼睛半开半闭。”夫妻双方的个性应在相容互补基础上得到充分的发展。谦让是婚姻美满的润滑剂。适度的有益争论，有利于解决冲突纠纷，但应尽量避免为一些无原则的生活琐事针锋相对。
+
+互相尊重
+
+自尊和要求平等是维护人格的心理基础，夫妻之间尤其是要平等和尊重。在夫妻相处中，要防止“夫唱妇随”的大男子主义；妻子也要警惕“妻管严”的意识。至于家庭角色的分工，夫妻间最好顺其自然，形成一个能发挥各自独特作用的、最合适的组合。
+
+注意“感情投资”
+
+夫妻在日常生活中，要多为对方着想，经常想到对方的实际需要，想到对方的情趣爱好。还要记住有特殊意义的日子，如结婚纪念日、对方的生日、女方的“三八”节及双方父母的寿辰、祭日，以及平时的饮食起居的互相照应等。事情虽小，但于细微处见真情。
+
+经济民主
+
+夫妻双方都应做到收支公开，量力而出，不同别人攀比。
+
+多一点幽默感
+
+在一方心情烦恼或双方发生冲突时，刺激性的语言无疑是火上浇油，唠叨不休地劝解也是事倍功半。这时如有一个得体的小幽默，便能使其破涕为笑或化干戈为玉帛。
+
+加强道德修养
+
+夫妻任何一方绝不做“第三者”，也不许“第三者”插足。“篱笆扎得紧，野狗不进门。”夫妻双方应用尚的情操、真挚的爱情铸成一堵铜墙铁壁，使不道德的“第三者”无隙可乘。
+
+注意性心理和谐与性生理的协调
+
+多一点诗意和罗曼蒂克，少一点动物性本能。因为性交往往不仅指两性的交流，重要的还有性心理交流，如甜蜜的爱抚、钟情的语言、热情的拥抱接吻等。
+
+注意爱的再分配
+
+小宝宝呱呱坠地后，注意夫妻感情的再分配，避免因亲子情弱化夫妻之情，而应把夫妻之爱明智地同父子（女）之爱、母子（女）之爱融为一体。
+
+谨慎对待离婚的冲动
+
+现实生活中，许多要分道扬镳的夫妻，并不都是非分不可的。闹离婚的人在心理上往往是一时的偏激和愤怒，结果导致离异。因此夫妻发生矛盾冲突时切莫轻易以“离婚”相威胁，那样只会激化矛盾。
+
+总之，正如鲁迅所说：“爱情必须时时更新、生长、创造。”这是度过婚后“危险期”的根本之途。
+
+
+
+
+
+情感危机可以修复
+
+
+夫妻双方已感到婚姻出现危机，产生离婚的念头，显然这样的婚姻已濒于破裂的边缘。那么，对这样的婚姻怎样加以挽救呢？
+
+首先必须重新树立配偶第一的原则。牢记在所有关系中配偶应处于第一优先的地位，主要的业余时间和精力应花在夫妻关系上。
+
+如果夫妻双方总幻想追求逝去的新婚时的欢乐，那么夫妻关系难免会出现裂缝。这并不是说爱情会永远消逝或性生活不再激动人心，而是说不能用新婚时的标准来衡量多年的夫妻关系。所以要反省自己对婚姻的目标是否现实，现实的眼光会使夫妻发现多年的夫妻关系反倒更充实。
+
+夫妻间的关系应当像流水，充满变化，已经冷淡了的关系重建起来需要时间，但值得为之努力。双方应从互相关心、互相注视开始，这样便会促进相互的爱抚，性生活也将成为有意义的示爱行为。
+
+在家政管理上，在经济开支方面，夫妻间可能会出现分歧。当出现分歧时，夫妻间应有意避开在这类观点上的交锋，否则便会陷入“争执——争吵——感情淡化——争吵加剧”这样一种恶性循环之中，夫妻间只要有一方能认识到导致矛盾爆发的焦点并有意淡化它，情感便得以交融，关系就有可能修复。
+
+
+
+
+
+爱情像沙子
+
+
+王女士的妹妹去美国留学已两年了，前几天打电话过来说要回国探望姐姐。
+
+于是，王女士的丈夫韩先生为了给小姨接风，特意在大酒店包了个雅间。这顿饭大家吃得很愉快，小妹讲了好多在美国的见闻，王女士夫妇俩人听得很新鲜。
+
+饭后，三人余兴未尽，就来到钢琴酒吧，边欣赏音乐边聊天，谈笑风生，兴致很高。
+
+这时，邻桌中一位跟韩先生有过一面之缘的李先生，就端着酒杯过来跟韩先生敬酒。就不免也跟王女士寒暄几句。
+
+他说“大嫂，我最喜欢和你先生聊天，说不定哪一天我把韩大哥请过去，高兴的话说不定我们会说到天亮……”
+
+谁知王女士当场就拉下了脸。没好气地说：“请我老公聊天当然可以，但是我们家有我们家的规矩。一夜不归是不行的，你们最多不要超过十二点，他要是敢违犯……”
+
+哪知她的丈夫感到当着朋友丢了面子，下不来台，就大声对王琳吼道：“够了！你到底有完没完？真没劲！”
+
+一时大家都很尴尬。
+
+这时李先生赶紧说：“对不起，对不起。这事都怨我。算我什么都没说，告辞了。”
+
+王女士的小妹也埋怨姐姐说：“都是你。把今天这么好的心情给搅坏了！”说完也拂袖而去。
+
+韩先生花钱买了一肚子气，也扫兴而去。剩下王女士一个人还不知道自己错在哪里。
+
+但是，回到家里事情还没算完。丈夫韩先生很生气地说：“够了，这样的日子我再也不想过下去了，咱们离婚吧！”
+
+原来，王琳很爱自己的丈夫，整天都想形影不离的跟他待在一起，唯恐自己不在身边他会跟别的女孩子好，因此就经常监视着他；在恋爱时这种情形还说得过去，让人觉得这是恋人的柔情蜜意。谁知结了婚以后。妻子对他寸步不离的纠缠让韩先生反感，加上今天的情形，终于使韩先生感到自己没有了一点人身自由，再也受不了这种约束与管制了，于是便向妻子提出了离婚。
+
+
+
+
+
+爱情需要形影不离
+
+
+在日常的夫妻生活中，相互的控制无处不在，很多的争吵都是控制与反控制的结果。诸如对某人的态度、饮食的习惯、家居的摆设、作息时间的安排、对孩子的教育、开支等等问题，每天有多少夫妻在较劲、伤害、冷战甚至争吵。
+
+他们都忽略了这些道理：爱一个人，不是把一切都交给你控制，让对方只能按你所希望的去生活。爱情的权利，不在于对方必须回报爱。爱情的意义不在于保证你一定可以得到照顾。害怕黑夜的女人，仍然需要准备独自面对黑夜。爱不可以交换爱，付出是自愿，得到是幸运。
+
+付出金钱可以得到某种东西，付出爱却不等于你可以得到爱，因为爱是双方的，只要两相情愿、互作多情，不管是和睦还是折磨，不管是不是幸福的爱，都是爱。爱的权利就是都自愿为对方多做些事情，你不能比这要求更多。
+
+相当一部分人只了解自己不了解对方，而且喜欢想当然地强加于人。为什么自己喜欢的就必须强加于人呢？爱的奇妙感觉往往使我们形成错觉和偏颇的信念，要知道，不管两个人多么相爱，信念却可以相差十万八千里，爱情需要信念的相互接纳与协调。
+
+要知道，不管情感多么真挚，对方都不可能照顾你一辈子。不要以为找到了真挚的爱就找到了最终的归宿，就应该得到无微不至地、永远的照顾和保护；得到爱人的支持和帮助，当然是幸福，但是别忘了，爱你的人是会变化的，什么时候都要保持你的独立性。因此，这就是我们要说的爱情不等于形影不离、不等于亲密无间，很多时候爱情真的就如沙子一样，你握得越紧，它就流失的越快。
+
+
+
+
+
+夫妻之间的金钱管理
+
+
+“管”永远不是办法，“掏”更不是良策，如果夫妻二人时时提防，步步小心，那么家庭乐趣又从何而来呢？
+
+“钱乃身外之物”，这句话虽然被用得“滥”之又“滥”。但它的确又是“真”之又“真”，其中蕴含着千古颠扑不破的哲理。夫妻生活。不要陷入金钱之中，彼此珍视、互相尊重，才是婚姻生活的重要支柱。
+
+
+
+
+
+夫妻之间要克服猜忌心理
+
+
+嫉妒心理在恋爱中的表现多种多样，在婚姻中也是层出不穷。它归纳起来有两种不同的性质：自然性嫉妒和变态性嫉妒。自然性嫉妒人皆有之，其出发点和归宿都是爱情。而变态性嫉妒具有猜疑、敌意和报复的特征，有很大的危害。
+
+虽说嫉妒心有一定积极意义，但更为常见的还是消极作用。它不仅会使人失去理智，也会似瘟神一般让更多的人敬而远之，最终两个人会被折磨得精疲力竭，爱情进展必然会受到影响，爱情的质量也会大打折扣。至于两人能否携手走到婚姻的殿堂，则只能听天由命了。因此，当务之急是立即改掉它，消灭这种过头的嫉妒。
+
+
+
+
+
+理智成就爱情经典
+
+
+心理学家认为，变态性嫉妒一般都是从占有心理中产生的。越是把爱情当作私有品，就越是要求对方成为自己的附庸，从而会产生各种各样的莫名嫉妒。
+
+理智比较强的人。即使因嫉妒而产生了疑心，也能冷静分析，正确处置，不使嫉妒成为爱的障碍。更不会由嫉妒而产生敌意，进行报复。与之相反，理智软弱的人，即使一点点嫉妒也会发展成醋海风波，闹得不可收拾。
+
+因此，如果能以平等的态度对待恋人，尊重对方的人格和自由，许多嫉妒当无立锥之地。为了克服自己的变态性嫉妒。学会理智是十分必要的。
+
+
+
+
+
+“妻管严”现象不可取
+
+
+“妻管严”现象这些年可以说在社会上日益风行，高速度的漫延成长，使现代女性越来越不满足于家庭里的角色，其中有好多女人认为“矫枉必须过正”。于是，不少妻子自觉不自觉地扮演起“妻管严”的角色。
+
+“妻管严”是一种利己主义的产物，它不过是“大男子主义”的翻版。在“妻管严”的家庭中，缺乏温暖，空气窒息，对家庭危害极大。这种家庭，失去了本应有的民主、和谐、温暖、友爱的和睦气氛，家庭经常处在对一些小事的是是非非矛盾之中，夫妻间也造成一种人为的隔阂。
+
+由于妻子的无理和不时的敲敲打打，使丈夫在心理上产生了一种危机感，整天在委曲求全、胆战心惊的心理支配下生活，失去了欢乐，丧失了自信。表面应付。实则是貌合神离，夫妻在思想上产生了一条鸿沟。
+
+愚昧、落后和虚荣心是产生“妻管严”的土壤。大多数丈夫对“妻管严”这种精神枷锁叫苦不迭，迫切希望摆脱这种没有和谐气氛的家庭桎梏，实现真正的男女平等。
+
+消除“妻管严”这一家庭弊病，丈夫就要做到以诚待妻，克服自卑的心理，除了充分肯定妻子在家庭中的功劳外，还要经常善意地指出她的弱点、毛病，并用自己的实际行动教育、感化妻子，共同改变这种弊病。
+
+
+
+
+
+平等要靠友爱互信
+
+
+很多男人乐意做模范丈夫，但并不甘受“妻管严”，对“妻管严”心生厌恶，经常在他人或感情比较接近的女性面前。诉说自己的悲哀和不幸，以引起异性的同情，寻找新的精神寄托。结果就可能会发生婚外恋，导致夫妻离异。
+
+而作为妻子一定要有自知之明。事实上，女性的自尊和独立。并非一定要打倒男子，实行大女子主义才能取得，因为那不是平等。真正的平等要靠友爱互信来取得，这一点应该是每一对“妻管严”式的夫妻都要明白的。
+
+
+
+
+
+婚姻不信金钱
+
+
+在现代社会中，恋人结婚，夫妻生活，这一切没有钱都不行，金钱似乎已成为许多人衡量婚姻与爱情的标准。
+
+还有人说“贫贱夫妻百事哀”，那么，是不是“富贵夫妻万事顺”呢？幸福的人生有时是要靠金钱来造就，但是，金钱也同样能够造就人生的不幸。
+
+知道幸福是无法用金钱买到，它是蕴藏在男女内心深处的一种珍贵的感情。这种感情可以在任何时候、任何地方都能感觉得到。它与金钱没有必然的联系，真正的幸福，只有当你真实地认识到人生的价值时，才能体会到，用金钱买来的爱情不会长久，用诚挚感情培植的爱情之花才永开不凋。
+
+在有些人的心目中，金钱似乎是一种罪恶之物，“男人有钱就变坏，女人变坏就有钱”，根深蒂固地存在于某些人的思想之中。不少妻子在家里千方百计搜刮丈夫的钱，在家里争财权。这样的婚姻即使不会走向破裂，也必然不会幸福。
+
+许多男人认为给予爱人金钱的奉献便是爱的奉献。男人认为金钱可以解决一切问题，却不知女人需要的是感情的慰藉。女人在不快乐的时候，如果不能得到丈夫的安慰，就永远不会真正地快乐起来。女人真正的快乐，是要能身心放松地浸泡在丈夫的关爱之中，而不是做丈夫财富的展示品。
+
+男人要懂得，使婚姻无情的原因，是缺少对良好夫妻关系的培养，而不是缺少财富。如果男人多用一些时间跟妻子、孩子在一起，并且对她日常的烦恼和问题表示理解，金钱就会有利于他们的关系。
+
+
+
+
+
+学会在心理去适应婚姻
+
+
+金钱能带来食物，却带不来胃口；能带来婚姻，却带不来真情；能带来享受。却带不来幸福。金钱不是婚姻的主人，它只是一个仆人，须服从于爱的领导。
+
+要想家庭美满幸福，夫妻恩恩爱爱，的确不是一件容易的事，但是，也不是不可能的，因为，在我们的社会里，在我们的身边有许多执子之手，相守百年的夫妻。这就需要我们尽最大的努力，调整好自己的心态，让自己在学会在心理去适应婚姻、烹调婚姻。
+
+
+
+
+
+夫妻间要互相谦让、互相体谅
+
+
+现在的女性不同于以往，每个人都拥有一份自己的职业，在外面忙碌了一天，回到家里还要忙着做家务，这在整天提倡的男女平等中，本身就是一个不平等，但大部分妻子并没有说什么，仍然是做了。
+
+可是却有很多做丈夫的不能很好地体谅妻子，反而认为做家务是妻子理所当然的分内事，因此就不太尊重妻子的劳动，经常是这不对那也不对，总是挑剔衣服没有洗干净，饭做得不好吃等等。
+
+想一想，妻子每天为做家务付出了很大的代价，却得不到丝毫尊重，这是一种极大的伤害，对于夫妻感情的发展极为不利。当然。如果妻子不尊重丈夫的劳动，也会破坏夫妻间的感情。
+
+因此，互相谦让、互相体谅、互相尊敬，有家务争着做、抢着做。才是夫妻生活中最基本的要素。当你以一种平等的眼光看待爱人，当你把自己和对方摆在同等的位置上，不轻视、不压迫、不伤害、不利用时，才能说你给了对方基本的体谅与尊重。这才是你爱他（她）、疼他（她）的体现，也是婚姻生活的本质。
+
+
+
+
+
+闹矛盾后夫妻如何重归于好
+
+
+【案例】
+
+张女士与丈夫江某经多年的爱情长跑后，终于走到了一起，可她还没来得及分享受新婚的喜悦和甜蜜，就被丈夫的从不干家务的懒惰给惊醒了。
+
+原来，她发现丈夫虽然不爱抽烟喝酒、打牌赌博、在外消遣。但是他也不爱干家务活，即使眼睁睁地看着自己忙得焦头烂额也不愿伸手帮一把。对他来说，做家务好像和抽烟喝酒一样，一伸手就会对身体有害，已经到了谈家务色变的地步。
+
+面对丈夫“甩手掌柜”的派头，张女士非常不满，自己是白领上班族，又不是家庭主妇，为什么家里面事事都要由她做。于是就经常向丈夫抱怨：“这个家还不如旅社，住旅社还要办手续，可是你呢，却是饭好到家，吃完就溜。再这样下去，咱们之间迟早会变得生疏，你自己好好想想吧。”
+
+谁知丈夫却不吃这一套，他认为男人应该去干大事业。马革裹尸、战死沙场，不该围着锅台转。对于他振振有词的对妻子说“从远古时代起，就是男人外出狩猎，女人在洞穴内生娃守家。古语说：凡成大器者，必先舍去巢卵之牵，丢弃家务之累。”
+
+为逃脱家务，江某有时就会流连在外，把家看成他急于逃脱的囚笼。久而久之，矛盾就产生了，夫妻间战火不断，甚至发展到妻子插门丈夫敲门、妻子锁门丈夫踹门的场面，有时还会兵戈相见的来一番战争。
+
+弄到后来，两败俱伤，两情相淡，无法再共同生活下毒。终于，两人都写了离婚申请书。
+
+从此以后，江某无论多晚回家，都再也没有热腾腾的饭菜等他来吃，没有明亮温馨的灯光为他点亮，衣服脏了没人洗。双人床上也没有了他的位置，他只好日日醉卧于沙发。
+
+时间一长，江某就觉得自己活得太被动了，总不能什么事都等别人来打理，自己该负起的责任还是要承担。面对成堆的脏衣服，他只好屈尊，洗了大半天，捎带着也洗了几件妻子的衣服。这时，他才发现，从事家务劳动并不如自己想象中那么可怕，家务不是洪水猛兽，不会将自己吞噬吃掉，终于江涛真正地成熟了起来。
+
+从这天起。他每天按时下班，回到家里就开始做饭洗衣，承担家务。
+
+这些天张女士下班回来，看到饭桌上色、香、味俱全的莱，脸上终于有了一丝笑容。而江某也觉得这些天的饭菜吃得格外香。这样一连几天，张女士的脸终于云开雾散，出现了久违的笑容。
+
+看到妻子的笑脸，江某的家务做得更起劲了，渐渐地张女士又恢复了对丈夫的柔情似水，家中也恢复了以往的和睦与幸福。
+
+
+
+
+
+夫妻间的家务协议
+
+
+现代社会中，家务问题困扰着无数的红男绿女。在男女双方都充分享受就业，经济地位趋于平衡的前提下，由谁干家务，干多少家务，日益成为夫妻间纠缠不清的烦恼问题。
+
+对于职业女性来说，完全做一个家庭型的“贤妻良母”，既不甘心又不现实，而如何在家庭中求得平等、独立和自由，实现起来又颇费周折。对于大多数男人来说，面对似乎无穷无尽的家务活，只有两种选择：一是硬着头皮干，一是硬着头皮不干。两种选择的结果是相同的，都是不那么舒服。
+
+最有效率的解决这一烦恼方法，就是在夫妻之间建立平等互助的“家务协议”。如果一方只要求另一方“全心全意为人民服务”，而自己却置身事外，坐享其成，那么不仅是对另一方的不尊重，也是对自己应负的婚姻责任的一种亵渎。
+
+可是，即便如此，沉重的家务活仍然困扰着我们，如何把家务变成一门艺术，将之化为轻松有趣的劳动，能够以愉快的心情对待它，就成为夫妻，急需面对的问题。
+
+
+
+
+
+家务要夫妻共同分担
+
+
+一对夫妻若想婚姻长久的稳固下去，就要勇于承担家里的家务与责任，下面的几个小窍门有利于缓解家务的纠纷，大家可以试一下。
+
+首先，夫妻之间可以将自己在家中担当的角色互换一下。在家务漫长的家务劳动中，如果长期把一个人局限在一个固定的角色里，日复一日、年复一年地做同样的事，就会逐渐产生一种单调乏味的感觉，出现倦怠心情，天长日久，自会厌恶劳动。
+
+因此，夫妻二人可以隔一段时期就做一下交换，尝试一下新的家务劳动。譬如，让丈夫代替妻子，给孩子穿衣、叠被、送上学。这样做不仅会增加新鲜感和乐趣，而且能够相互沟通，相互体谅。
+
+再一点就是叠用时间。人们之所以感到家务累人，不一定是因为它的劳动强度太大，而主要是劳动时间太长、太单调所致。其实，节省家务劳动时间也是有法可寻的，其中重要的一点，就是重叠使用时间。
+
+为了避免干家务时的烦闷与无聊，可以在干活时，添加一些娱乐活动。例如：可以一面擦地一面听广播、看电视；下班回家路上顺便去买油盐酱醋、奶粉、牙膏等日常用品。另外，尝试一下“多功能劳动”：看书看累了的时候，不妨去洗洗衣服、收拾一下房间或者去清洁地板。这样既调节了大脑的疲劳，又做了家务，可谓一举两得。
+
+还有一点就是提高技能。做任何事情，如果老是停留在一个水平上，时间长了，模式化了，自然容易产生厌倦情绪。如果不断提高发展，就会越干越有兴趣，家务劳动亦是如此。
+
+许多家庭“主妇”或“主夫”对天天做饭炒菜真是烦透了，这时如果看看烹调书。学会隔一段时间出几个“新品种”，或者与单位同事交流经验，回家做一个尝尝，以此不断地提高自己的烹调技巧，会使自己心情愉快，也会令伴侣尝到新口味，何乐而不为呢！
+
+
+
+
+
+家务需互相体谅
+
+
+在家务劳动中，夫妻要学会相互陪伴慰藉。当爱人辛勤劳动之时，不要袖手旁观，视而不动。如丈夫油烟满室地做饭时，妻子却在镜子前尽情地打扮；妻子弯腰拖地时，丈夫坐镇沙发高跷二郎腿，这样会大大挫伤爱人的劳动积极性，即使你平常做得再多，这一瞬间的情景也会烙印在爱人的脑海之中。
+
+两个人应该一起做家务，哪怕是为其打下手或者仅仅是相伴也好，边做边聊，且聊且做，既可快乐地完成家务，冲淡做家务的疲劳，又可借机沟通，增进夫妻的感情。丈夫看到妻子蹲着择菜，马上递过一个凳子；妻子看丈夫炒菜太热了，递上一条毛巾。这样，会使人感到做家务也是一种幸福。
+
+做家务的乐趣，就在子对家务活的安排和品味。家务劳动要安排得当，体脑交错，有张有弛，松紧适度。劳动的快乐要由夫妻一起进行品味，这样才能体会到做家务不是一种负担，而是一种创造。是一种生活的调节剂，能有效地促进夫妻感情，稳固婚姻生活。
+
+\chapter{认识性病}
+
+
+什么是性传播疾病
+
+
+性传播疾病简称性病，是一种主要由非婚姻性行为引起流行的传染病。
+
+引起性病的病原微生物有许多种，包括病毒、衣原体、支原体、螺旋体、细菌、真菌、原虫等等。不同的病原微生物引起不同的性病，被世界卫生组织列为性病的疾病已经有20多种。我国卫生部门规定属于性病的主要有艾滋病、淋病、梅毒、尖锐湿疣、生殖器疱疹、非淋菌性尿道炎、软下疳、性病淋巴肉芽肿八种。
+
+我国当前发病最多的性病主要有由淋球菌引起的淋病，由衣原体和支原体引起的非淋菌性尿道炎，以及由乳头状瘤病毒引起的尖锐湿疣和梅毒螺旋体引起的梅毒。由Ⅱ型疱疹病毒引起的生殖器疱疹和艾滋病病毒引起的艾滋病的发病人数也在逐年增多。
+
+
+
+
+
+性病指哪些疾病
+
+
+目前，性病主要有梅毒、淋病、非淋菌性尿道炎、软下疳、性病性淋巴肉芽肿、腹股沟肉芽肿、生殖器疱疹、尖锐湿疣、艾滋病、滴虫病、阴虱病、生殖器念珠菌病、病毒性肝炎等。
+
+1．性病按病原体分类
+
+（1）细菌性性病：主要指梅毒、淋病、滴虫病、软下疳、腹股沟肉芽肿等。（2）病毒性性病：主要指非淋菌性尿道炎、艾滋病、性病性淋巴肉芽肿、尖锐湿疣、生殖器疱疹等。
+
+2．性病按传染途径分类
+
+（1）肛交——性交型性病，主要指艾滋病。（2）性器——性交型性病，主要指后天梅毒、淋病、非淋菌性尿道炎、软下疳、腹股沟肉芽肿、性病性淋巴肉芽肿。（3）皮肤粘膜——性交型性病，主要指尖锐湿疣、阴虱病。（4）粪口——性交型性病，主要指乙型病毒性肝炎。（5）母婴传播型性病，如后天梅毒。
+
+
+
+
+
+性病的传播途径有哪些
+
+
+性关系混乱是传播性病最主要和最直接的原因。卖淫嫖娼、性乱、婚前和婚外性行为、同性恋等非婚姻的性行为越普遍，性病的流行越严重。
+
+除了通过性传播的途径外，性病还可以通过其他的途径传播。这些途径包括血液，如输血、注射血液制品、使用未消毒的注射器打针，尤其是吸毒者之间合用一个不消毒的注射器注射毒品。此外，还包括与性病患者身体的直接接触，如接吻、拥抱、抚摸、同床、共浴：或者使用性病病人用过而未消毒的日常生活用品，如毛巾、浴巾、擦脚布、脸盆、浴缸、洗脚盆、坐式马桶、内衣裤、被褥、餐具、刮脸刀、牙刷等。健康人的手在接触性病患者的分泌物后，如果没有用肥皂洗净即去触摸身体的其他部位，尤其是眼睛和生殖器官，也有可能造成传染。另外，患有性病的孕妇和产妇可以把性病传染给婴儿。
+
+
+
+
+
+性病传播的几率有多大
+
+
+性伙伴中任何一方，在性行为方面采取不负责任的态度，一旦染上性病，会造成双方痛苦。有资料表明，患梅毒的第1年间，传染给对方的几率是92％，第2年为70％：得淋病后，与之有过1次性交的，得淋病的几率是20％，2次为40％，4次为80％。其他一些性病也有相当强的传染性。与患有生殖器疱疹的病人有过一次性接触的人，约80％可感染上生殖器疱疹，与患生殖器疣的病人有性关系者，约2/3的人可传染上生殖器疣。
+
+
+
+
+
+性病对于个人、家庭和社会有什么危害
+
+
+大多数性病在急性期会给病人造成许多痛苦，而且有的还会产生后果严重的远期损害。如淋病和非淋菌性尿道炎，在男性，除可引起尿道炎症外，还可损害输精管，造成男性不育症；在女性除了引起尿道炎、子宫颈炎外，还会破坏输卵管和子宫内膜，造成不孕症或宫外孕。梅毒如果没有在早期治愈，就会损害心脏和神经系统并危及生命。引起尖锐湿疣和生殖器疱疹的病毒不可能从病人体内彻底消失，所以容易复发，还会造成男性阴茎癌和女性宫颈癌等生殖系统的癌症。
+
+性病还会祸及下一代。患淋病的孕妇生产时可将淋球菌传染给婴儿，引起新生儿淋球菌性眼结膜角膜炎，造成失明：非淋菌性尿道炎的病原微生物衣原体可以引起新生儿肺炎，严重时造成死亡。患有梅毒的孕妇会发生流产、早产、死产，以及引起胎传梅毒，使下一代患先天性梅毒，造成发育不良、骨膜炎、耳聋以及神经系统疾病。
+
+患性病的人更容易染上艾滋病病毒。多种性病能够在家庭内传播，殃及配偶和子女，破坏家庭幸福。
+
+
+
+
+
+怎样预防性病
+
+
+性接触
+
+引起性病流行的原因主要是不健康的生活方式造成的性乱，95％的性病是通过不洁性行为直接感染的，所以预防性病首先要从这方面着手。检点约束性行为，人人自觉遵守国家严禁卖淫嫖娼的法律，自觉遵守不要有婚前和婚外性行为的社会公德，洁身自爱，是防治性传播疾病的最重要措施。每个人都应自爱自重，切忌不正当的性关系。特别要防止与性传播疾病患者发生性关系。如果社会上每一个人都能这样做，性病的流行最终就会停止。
+
+接吻
+
+与梅毒病人接吻可染上梅毒。口腔的梅毒病变发生率仅次于生殖器部位，占第2位。接吻还可传染淋病，使人染上淋病性咽炎。
+
+产道
+
+多种性病可通过产道传染给婴儿，预防的关键是孕前彻底治愈性病。
+
+输血
+
+梅毒和艾滋病，可通过输血传播。
+
+其他
+
+有些性病还可以通过偶然的日常生活接触传染，所以我们还应该知道与此有关的预防知识：
+
+（1）在消毒不严的游泳池水可成为性病的一种传播媒介。
+
+（2）不要穿用别人的游泳衣裤或内衣裤。
+
+（3）不要和别人共用毛巾、浴巾、洗脚布或共用脸盆、澡盆、脚盆。
+
+（4）尽量避免使用公共厕所的坐式马桶，因为马桶坐圈上可能沾有性病病人的分泌物。
+
+（5）去公共浴室要自带毛巾，要洗淋浴，不洗盆浴，不下浴池，不要赤身坐在浴室的凳子上。
+
+（6）牙刷、刮脸刀、剃须刀都应每人自备，不可互相借用。
+
+（7）不到不消毒或消毒不彻底的理发店去理发。最好家庭自备理发工具，家庭成员互相理发。
+
+（8）穿耳和文眉等用的针具必须消毒。
+
+（9）不要因好奇而文身（在皮肤上刺花、刺字）。
+
+（10）打预防针必须一人一针一管。每个彻底消毒的注射器针管和针头只能用于一个人。
+
+（11）拔牙、打针、针灸治疗都要到重视消毒的医院和诊所去进行。
+
+（12）不要因好奇而尝试吸毒，静脉注射毒品有可能传染多种性病。
+
+对于各种性传播疾病的治疗，目前均有相应的药物与方法。新研制的恩威牌洁尔阴中药实验研究及临床证明，对性病中的淋球菌、尖锐湿疣、疱疹病毒、疥疮毒菌都有较强的灭杀作用，疗效较好。如果在房事前后，用稀释的洁尔阴清洗性器官，对预防性病也有一定的作用。
+
+
+
+
+
+怎样对待性病与性生活
+
+
+患了性病就应停止性生活，否则既害人又害己。每一种性传播疾病的发病过程、病程长短、症状表现以及治疗方法都迥然不同，所以不能一概而论。比如淋菌性尿道炎，使用青霉素、丙磺舒等药物治疗，短期间即可缓解症状，但此时不要认为症状消失了病已经治愈了，因为性病的治疗不能只看症状是否消失，而是要反复地做尿道脓液或分泌物涂片细菌学检查，直到连续3次以上细菌学检查均阴性才算完全治愈。每一种性病的治愈标准是不相同的，所以何时才能恢复性生活，需得到医生的指导，决不能凭感觉行事。患了性传播疾病，尤其是淋病性尿道炎、梅毒、软下疳、腹股沟肉芽肿等，夫妻双方应同时治疗。没有症状的一方，也应采取相应的防治措施。性传播疾病不少是由婚外不洁性交引起的，治愈后切忌不正当的性关系。
+
+
+
+
+
+如何自我发现性病
+
+
+出现以下30种情况时（特别是在不洁性交后），应警惕性病的存在：
+
+（1）本人或性伴侣在不洁性接触后，发现尿道口有异常分泌物，有时仅在清晨或排尿后有少量分泌物，小便时自觉灼热或痛者。
+
+（2）男性尿道口常有少量水样、粘液样分泌物，似痂膜封口，或裤裆污秽者。
+
+（3）男性病人自觉尿频、尿急、尿痛、排尿困难，晚间入睡时阴茎有痛性勃起者。
+
+（4）男性病人阴囊肿大，睾丸或副睾肿大有压痛者。
+
+（5）女性病人白带增多，外阴瘙痒，或下腹部疼痛（或压痛）者。
+
+（6）女性阴唇红肿痛热，或有脓液，并有发热及全身不适者。
+
+（7）外阴部有痛或不痛的溃疡者。
+
+（8）外阴部有疣状物增生者。
+
+（9）肛周或会阴部有疣状物（表面尖锐、菜花状或扁平的疣状增生物）增生者。
+
+（10）外阴部有反复发作的群集或分散的小水疱者。
+
+（11）全身皮肤（躯干为主）发生不痛不痒的皮疹伴有淋巴结肿大，全身不适，食欲不振，关节酸痛者。
+
+（12）有鸡奸或同性恋史者，肛门皮肤粘膜红肿，有脓样分泌物，大便不适或大便困难、疼痛或出血者。
+
+（13）有口交史而出现口腔咽喉粘膜红肿，有脓性分泌物或吞咽食物时有不适或疼痛者。
+
+（14）在变态性行为后，皮肤粘膜出现化脓样感染者。
+
+（15）单侧或双侧腹股沟淋巴结肿大，与周围组织粘连，可溃破形成瘘管，痛及触痛者。
+
+（16）腹股沟淋巴结和肛门直肠壁有挛缩性疤痕者。
+
+（17）直肠狭窄，排便困难，大便混有脓血者。
+
+（18）母亲有梅毒史，初生儿有皮肤粘膜起疱、糜烂，声音嘶哑或皮肤多皱纹，口角有放射状裂纹，牙周炎者。
+
+（19）母亲有梅毒史，其后代少年时出现眼炎，视物模糊，耳聋，锯形齿或额骨圆凸，小腿骨膨隆者。
+
+（20）母亲有淋病史，初生儿有眼皮红肿和分泌物者。
+
+（21）幼女外阴红肿、疼痛，小便时痛或有脓性分泌物者：幼女外阴有疣状物增生者。
+
+凡过去有梅毒病史，近来又发现以下情况者也应警惕：
+
+（1）关节自觉持续性钝痛，晚上或休息时疼痛加剧，白天或活动时则减轻者。
+
+（2）头发出现边缘不整的虫咬状脱发者。
+
+（3）皮肤出现暗红色或铜红色质硬、排列成环状或弧状的小结节者。
+
+（4）口腔或鼻腔出现发展缓慢的暗红色浸润斑者。
+
+（5）皮肤出现肿物，穿破后流出树胶样粘稠分泌物，甚至破坏骨质致溃疡穿孔者。
+
+（6）心脏主动脉炎、主动脉瘤或主动脉瓣闭锁不全者。
+
+（7）脊髓痨（不能随心所欲来调节四肢之运动，做正确有度之动作）者。
+
+（8）四肢肌肉松弛、知觉障碍、皮肤营养障碍者。
+
+（9）有限部症状者。
+
+
+
+
+
+怎样消毒处理性病病人的排泄物
+
+
+性病病人的分泌物、排泄物及被分泌排泄污染的生活用品可以采取以下方法消毒处理。
+
+（1）煮沸消毒。单纯疱疹病毒在湿热52℃，干热90℃，30分钟即可被杀灭。乙型肝炎病毒耐热性差，在6012加热10～15分钟其抗原体迅速破坏。梅毒螺旋体离开人体在48℃的水中只能活半时，并失去传染性。淋球菌在48℃的水中只能活半小时，并失去传染性。淋球菌在48℃的水温中能很快死亡。因此，对被性病病人污染的衣裤、被褥、毛巾等煮沸是最方便、最经济、最有效的消毒方法。
+
+（2）药物消毒：常用的消毒药物中氧化乙烯、过氧乙酸为强氧化剂，衣服、被单、毛巾、浴巾等用1：1000水稀释浸泡2小时，排出分泌物用1：500水稀释液喷雾或浸泡。漂白粉消毒排出分泌物的浓度为10％～20％，消毒生活用品浓度为0.5％。
+
+（3）火烧或阳光暴晒。
+
+
+
+
+
+从公厕、游泳池、浴盆可以感染到妇科疾病吗
+
+
+公共厕所几乎不可能感染妇科疾病，除非你的阴道接触到马桶座位，到游泳池也不必担心会受到感染，至于浴盆就要注意了，最好不要坐在别人使用过的浴盆中，否则很容易感染性病。
+
+
+
+
+
+如何分辨阴道内酵母菌、细菌或滴虫
+
+
+酵母菌感染最常出现的症状是阴道周围的瘙痒症状：阴道内细菌的感染则多是经由性交感染，会出现阴道内发红发热、有粘稠状异味的分泌物：至于滴虫感染也是经由性交传染，会出现黄色或绿色的分泌物。后两者的治疗方法都是使用抗生素，如果不加治疗，细菌感染会引起骨盆腔发炎，严重者将导致不孕：如果在怀孕期间感染滴虫而不治疗则有可能导致早产。
+
+
+
+
+
+往生殖器上喷洒消毒剂能预防艾滋病、性病吗
+
+
+这种做法缺乏科学根据。因为能直接喷在人身体上的消毒剂必须是没有毒性和刺激性的，但这样的药剂就不可能有很强的杀灭病毒和病菌的效果，特别是药剂不容易进入阴道深部，性交过程中的分泌物也会冲淡药剂浓度，在用了这类消毒剂后去进行高危性行为照样会染上艾滋病和性病的，不应该去冒这种险。
+
+
+
+
+
+性病患者婚前应注意什么
+
+
+一般来说，在性病彻底治愈后，除梅毒患者需观察1年左右以外，其他人观察数月无异常即可结婚。但有下述情况的人，在结婚前应倍加注意：
+
+晚期或慢性病的病人
+
+他们的传染性虽比早期病人弱得多，但为保护本人健康及对下一代负责，即使治愈了也不能立即结婚，应遵医嘱定期复查一段时间，经性病专科医生同意方可结婚。那些无自觉症状的梅毒病人（医学上称为。潜伏梅毒。或。隐性梅毒。），晚期一般虽无传染性，但女病人可经胎盘将梅毒传染给胎儿。所以也必须在彻底治疗并观察一定时间后方可结婚。
+
+未去正规医院而私自治疗的病人
+
+这些病人因未经正规治疗，很可能症状虽消失了但病菌未被完全杀灭仍潜伏在体内，一旦机体抵抗力下降，可再发病并传染给他人。因此，这些病人婚前必须去医院作正规检查，一旦发现有隐匿性感染，则需治愈后结婚。
+
+患性病的与恋爱对象有过性行为的人
+
+这种人除了自己接受治疗外，还应动员对方到医院检查。只有双方都经医生检查证明已治愈方可结婚。
+
+性病治愈后再度发生非法性行为的人
+
+这种人婚前必须到医院检查，以查明有无再次感染。只有在医生确认未被感染后已治愈的情况下才能结婚。
+
+
+
+
+
+说说艾滋病
+
+
+艾滋病（AIDS）是80年代初世界上新发现的一种病毒性传染病，是一种由艾滋病病毒，即人类免疫缺陷病毒（HV）侵入人体后破坏人体免疫功能，使病人丧失抵抗疾病的能力，从而使导致人体发生多种不可治愈的感染和肿瘤，最后导致被感染者死亡的一种严重传染病。艾滋病病毒进入人体后要经过数年，甚至长达5～8年或更长的潜伏期以后才发病。但是一旦感染上艾滋病病毒，就将终身携带，直到发病死亡。艾滋病病毒严重破坏人体免疫功能，病人因抵抗疾病的能力极度下降而重复感染多种疾病，如带状疱疹、口腔霉菌感染、肺结核，特殊病原微生物引起的肠炎、肺炎、脑炎及其他感染，后期常常发生恶性肿瘤。最终因长期消耗，全身衰竭而死亡。至今还没有治疗艾滋病的特效药，也没有可用于预防的有效疫苗。一旦发病，病死率高达100％。
+
+美国疾病控制中心的艾滋病定义是：（1）艾滋病病毒抗体阳性；（2）有一个或多个指标性疾病；（3）T淋巴细胞在200／毫升以下；（4）排除其他免疫抑制原因。
+
+ADIS是艾滋病的医学全称“获得性免疫缺陷综合症”Acquired Immune Deficiency Syndrome的英文字头缩写词。这个命名表达了艾滋病的完整概念，我们从中可以了解到艾滋病的三个明确定义：
+
+获得性：表示在病因方面是后天获得而不是先天具有的。
+
+免疫缺陷：表示在发病机理方面，主要是造成人体免疫系统的损伤而导致免疫系统的防护功能减低、丧失。免疫缺陷病的共同特点是：
+
+（1）对感染的易感性明显增加；
+
+（2）易发生恶性肿瘤；
+
+（3）临床及病理表现多样化。
+
+综合症：表示在临床症状方面，由于免疫缺陷导致的各个系统的机会性感染、肿瘤而出现的复杂症状群。
+
+
+
+
+
+艾滋病的特征
+
+
+艾滋病是由一种逆转录病毒引起的。1986年7月25日，世界卫生组织（WH0）发布公报，国际病毒分类委员会会议决定，将艾滋病病毒改称为人类免疫缺陷病毒（Human Immunodeficiency Virus）简称HIV。
+
+HIV呈袋状球形，直径约150纳米，包膜由一薄层类脂质构成，具有抗原性。HIV有10％碱基序列不同。是单链RNA病毒，外有核壳蛋白，此外还有一种特殊的逆转录酶，能以单链RNA作为模块，转录为双链DNA，该双链DNA可与宿主细胞的DNA结合然后逆转录为病毒的单链DNA，因此感染艾滋病病毒后，病毒的核酸永远与宿主细胞结合在一起，使得感染不能消失，机体无法清除病毒。
+
+现已证实HIV是嗜T4淋巴细胞和嗜神经细胞的病毒。HIV由皮肤破口或粘膜进入人体血液，主要攻击和破坏的靶细胞T4淋巴细胞（T4淋巴细胞在细胞免疫系统中起着中心调节作用，它能促进B细胞产生抗体），便得T4细胞失去原有的正常免疫功能。当激活免疫反应的T4细胞几乎全部被HIV消除，T4细胞抑制细胞，相反病人体内T4细胞在数量上骤减，从而导致病人的免疫功能全部衰竭，为条件性感染创造了极为有利的条件。
+
+HIV对神经细胞有亲和力，能侵犯神经系统，引起脑组织的破坏，或者继发条件性感染而致各种中枢神经系统的病变。
+
+HIV和其他逆转录病毒一样。当逆转录酶使病毒的RNA作为模板合成DNA而成前病毒DNA整合到宿主细胞的DNA中时，HIV带有的致癌基因可使细胞发生癌性转化，特别是在细胞。
+
+
+
+
+
+哪些途径不会传染艾滋病病毒
+
+
+目前没有任何迹象表明艾滋病病毒是通过唾液、泪液、尿液、餐具、疫菌、偶然的接触或昆虫（吸血昆虫和蚊子、跳蚤、虱子等）传播的，说明艾滋病病毒不会通过日常生活接触而传染。艾滋病病毒也不会通过空气、饮水、食品，以及未消费的餐具、衣服被褥、货币等物品而传染。一般也不必担心与艾滋病病人握手、亲吻或共用电话、马桶、蹲式厕所及小便池、桌椅等而被感染。游泳池和公共浴池一般也不会传染艾滋病。各种家养动物不可能携带艾滋病病毒，因此，艾滋病也不能通过动物的咬伤、抓伤而传播。
+
+
+
+
+
+艾滋病发病机理
+
+
+艾滋病之所以猖狂于全球，就在于艾滋病病毒HIV侵入人体后直接侵犯人体免疫系统，攻击和杀伤的是人体免疫系统中最重要、最具有进攻性的T4淋巴细胞，使机体～开始就处于丧失防御能力的地位。抵抗力越低，病毒繁殖得越快，形成恶性循环，结果导致艾滋病病人感染上一些普通人不易感染上的疾病，如肺炎、脑炎、肠炎、肿瘤，最终导致病人死亡。
+
+艾滋病病毒一旦进入人体，就寄生于T4淋巴细胞内最核心的部位，并与细胞核的遗传物质DNA整合为一体，人体没有能力使其分开，更没有力量杀灭它，艾滋病就成为一种“病入基因”的痼疾。
+
+艾滋病病毒随免疫细胞DNA复制而复制。病毒的繁殖和复制使免疫细胞遭到破坏和毁灭，并放出更多的病毒。新增殖的病毒再感染更多的细胞。就这样，病毒一代代地复制、繁殖、免疫细胞不断死亡。
+
+艾滋病病毒是一种不同于一般病毒的逆转录病毒，具有极强的迅速变异能力，而人体产生相应的抗体总落后于病毒的变异，因而无法阻止艾滋病病毒的繁殖和扩散，更何况人体免疫系统产生的抗艾滋病病毒抗体是毫无作战能力的非保护性抗体。艾滋病病毒的迅速变异能力也给目前特效药和疫苗研制工作造成了极大困难。
+
+艾滋病病毒对外界环境的抵抗力弱，离开人体后，常温下在血液或分泌物内只能生存数小时至数天，在自然条件下则不能存活。高温、干燥以及常用消毒药品都可以杀灭这种病毒。
+
+
+
+
+
+艾滋病有哪些常见症状
+
+
+许多受艾滋病病毒感染的人在潜伏期没有任何自觉症状，但也有一部分人在感染早期可以出现发烧、头晕、无力、咽痛、关节疼痛、皮疹、全身浅表淋巴结肿大等类似。“感冒”的症状，有些人还可发生腹泻。这种症状通常持续1～2周后就会消失，此后病人便转入无症状的潜伏期。潜伏期病人的血液中有艾滋病病毒，血清艾滋病病毒抗体检查呈阳性反应，这样的人称艾滋病病毒感染者，或称艾滋病病毒携带者，简称带毒者。艾滋病病毒感染者有很强的传染性，是传播艾滋病最重要的传染源。
+
+在很长的潜伏期中，感染者虽然没有自觉症状，外表一如常人，但全身免疫系统仍在继续受到艾滋病病毒的破坏，到免疫系统功能再也不能维持最低的防御能力时，多种对正常人不会引起疾病的病原微生物便会使患者发生条件性感染，引起脑、肺、胃肠道和其他部位的病变及症状。一些恶性肿瘤也因患者抵抗力极度低下而产生。艾滋病人的症状因为发生条件性感染的内脏和发生肿瘤的部位不同，表现为多种多样。常见的症状有以下几个方面：
+
+一般性症状
+
+持续发烧、虚弱、盗汗、全身浅表淋巴结肿大，体重下降在3个月之内可达10％以上，最多可降低40％，病人消瘦特别明显。
+
+呼吸道症状
+
+长期咳嗽、胸痛、呼吸困难、严重时痰中带血。
+
+消化道症状
+
+食欲下降、厌食、恶心、呕吐、腹泻、严重时可便血。通常用于治疗消化道感染的药物对这种腹泻无效。
+
+神经系统症状
+
+头晕、头痛、反应迟钝、智力减退、精神异常、抽风、偏瘫、痴呆等。
+
+皮肤和粘膜损害
+
+弥漫性丘疹、带状疱疹、口腔和咽部粘膜炎症及溃烂。
+
+肿瘤
+
+可出现多种恶性肿瘤，位于体表的卡波希氏肉瘤可见红色或紫红色的斑疹、丘疹和浸润性肿块。
+
+艾滋病有多种临床表现，主要表现有长期不明原因的发热、身体乏力、体重下降、咳嗽、气喘、腹泻、颈部、腋下及腹股沟淋巴结肿大等。目前对艾滋病的治疗没有特效药物，只有采取积极的预防措施，才是防止其蔓延的唯一有效方法。
+
+艾滋病患者多数易患有各种皮肤粘膜感染。最常见的是口腔粘膜念珠菌病，表现为舌和颊粘膜上的白斑，常在红色基底上出现，这种感染无症状，也可播散到口咽或食道，引起严重的吞咽困难，常见的是口腔粘膜感染是复发性单纯疱疹性口炎，病变常复发，长期持续，常见累及唇和咽。有文献报道，艾滋病的最初表现中有严重的慢性溃疡性肛门周围单纯疱疹病损，这种溃疡可能相当大，在病变的陡壁上可找到多核巨细胞或病毒，带状疱疹水痘皮疹在艾滋病患者中的发生率也增高，带状疱疹常撒播到几个皮神经区：疣是另一种常见的皮肤病毒感染，同性恋者患艾滋病可发生大的肛门周围尖锐湿疣，此种病较顽固，治疗较困难，皮肤真菌感染是艾滋病人一种常见的问题，腹股沟和肛周的念珠菌感染有时很严重，由念珠菌或毛癣菌引起的甲癣也常见：某些非感染性皮肤病在艾滋病患者中也常见，有药瘾的艾滋病患者，可出现多发性瘢痕和反复注射引起的溃疡，也可见到紫癜。此外脂溢性皮炎在艾滋病病人中的发生也多见，在病人的头皮、面、耳、胸以及更多见于生殖器，表现为红斑样、角化过度的鳞屑斑。在面部通常呈蝶形分布，其病因至今还不明。同时还伴有恶性肿瘤的发生，如卡波西氏肉瘤亚性淋巴瘤、皮肤鳞状细胞癌，基底细胞癌、色素瘤等。
+
+
+
+
+
+艾滋病的预防
+
+
+艾滋病虽然是一种危险的传染病，但却是可以预防的，只要每个人都掌握预防艾滋病的知识，注意如下事项，就可以把传染艾滋病的危险性减少到最低限度。
+
+（1）艾滋病主要通过三种途径传播：性接触、血液和母婴传播。
+
+（2）预防经性途径传染艾滋病首先是洁身自爱、遵守性道德，其次是正确使用避孕套。使用避孕套不仅可以避免怀孕，还可以预防性病和艾滋病。
+
+（3）预防经血液途径传染艾滋病首先是不要吸毒，特别是不能共用注射器或使用未消毒的注射器静脉注射毒品：避免使用未消毒的器械拔牙和其他侵入人体的操作，避免使用不安全的血液和血液制品。不到消毒不严密或不消毒的理发店和美容店去理发或美容：不要用不消毒的针穿耳，不要文身：浴室的修脚刀一定要消毒：刮脸刀、电动剃须刀必须每个人自备专用，不可借用：在救护流血伤员时，要设法防止血液直接沾在自己的皮肤或粘膜上。
+
+（4）已感染艾滋病病毒的妇女避免怀孕和哺乳可以预防经母婴途径传染艾滋病。
+
+（5）已感染艾滋病病毒的人在发展成艾滋病病人以前通常可以没有任何症状地生活很多年，外表看上去完全正常，但他们能够将病毒传染给其他人。
+
+（6）与艾滋病病人及艾滋病病毒感染者的一般生活工作接触1是不会传染上艾滋病的，不必恐惧与艾滋病病人接触。
+
+
+
+
+
+什么是淋病
+
+
+淋病是淋菌性尿道炎的简称。是一种古老而又常见的性病。多发生于青年男女。
+
+淋病的病原体即奈瑟菌，是1879年由Neisseria首次分离出的淋病双球菌，因而淋病双球菌又称为奈瑟双球菌（Neisseria Gonorrhoeae）。淋病双球菌呈肾形，两个凹面相对，大小一致，长约0.7微米，宽0.5微米。它是嗜二氧化碳的需氧菌，革兰染色阴性，最适宜在潮湿，温度为35112，含2.5％～5％二氧化碳的环境中生长。常存在多核白细胞内，椭圆或球形，常成双排列，无鞭毛、无荚膜，对外界理化条件的抵抗力差，最怕干燥，在干燥环境中1～2小时即可死亡。在高温或低温条件下都易致死。对各种化学消毒剂的抵抗力也很弱。
+
+淋菌最怕干燥，最适宜地潮湿、温度为35.5℃左右、2％～10％Z氧化碳环境中生长。淋菌有菌毛，上有吸附因子，对人类柱状上皮与移行上皮有特殊亲和力，故易侵犯泌尿、生殖系统。淋病几乎全是通过不洁性交传染的。女性与感染淋病的性伴侣发生性关系，则淋菌很快侵犯女性的泌尿生殖道上皮而致淋菌性尿道炎、前庭大腺炎及宫颈内膜炎。青春期少女由于阴道粘膜抵抗力弱，偶可得淋菌性阴道炎。
+
+
+
+
+
+淋病是如何传播的
+
+
+淋病系由淋球菌引起的泌尿生殖系统化脓性感染，多由不洁性交引起，主要侵犯泌尿生殖器粘膜，亦可经血流扩散全身，是我国目前性传播疾病中最常见的一种。人是淋球菌唯一天然宿主，故淋病患者是淋病的主要传染源。主要通过性交传染，暗娼和嫖客是主要传播者，男性同性恋可感染肛门与直肠。淋菌污染的衣裤、被褥、寝具、毛巾、浴池、便器等可间接传染。新生儿淋菌性结膜炎由母体产道分泌物感染。幼儿淋病见于2～8岁，因与淋病患者同床就寝与淋病污染物接触而引起淋菌性外阴阴道炎。
+
+淋病不仅在异性恋中广为传播，也在同性恋中传播、蔓延。同性恋采取特殊性交的方式而发生通常不易发生的淋病。幼女的阴道上皮对淋病双球菌特别敏感，父母双方只要有一方传染上淋病，其幼女就可能染上淋菌性阴道炎。
+
+性交传染
+
+人是淋球菌的唯一宿主。淋病患者是其传染源。性接触是淋病主要传播方式。成人特别是男性淋病99％～100％属于性交传染。目前，我国以暗娼为主要传染源。各国调查资料表明，在淋病患者中男女一次性交感染率为22％～35％：男女双方感染率是男性易于传染给女性。一次性交男性传染给女性的感染率为50％～90％，女性传染给男性的为25％～50％，感染率与性交次数成正比。男性与女性病人性交感染率平均为19％～25％，二次为35％，三次为49％，四次为57％。
+
+非性接触传染
+
+主要是接触病人含淋病双球菌的分泌物或污染的用具，如沾有分泌物的毛巾、脚布、脚盆、衣裤、被褥、床单、浴盆、大便纸，甚至厕所的马桶坐板等均可传染。特别是女性（包括幼女），因其尿道和生殖道短，很易感染。调查表明，淋病患者淋浴时污染明显存在，且其使用过的物品阳性率也较高。如果健康人在其淋浴后半小时内接触污染物，则易于感染上淋病。
+
+产道感染
+
+如产妇是淋病患者，分娩时产道内的淋病双球菌就会传染给新生儿。
+
+
+
+
+
+如何诊断淋病
+
+
+女性在感染早期，80％可无症状。少数在性交后2～21日可出现轻微不适，如尿频、尿痛、尿烧灼感、脓性白带增多等症状。由于症状轻微或不明显，患者常忽视或被误诊为其他病，未能及时彻底治疗。男性大多数有明显症状，如尿道口龟头红肿、烧灼感、尿频、尿痛、排尿困难，并分泌出脓液。淋病的早期诊断主要靠从宫颈涂片或培养中找到细胞内革兰氏阴性肾形淋球菌。取样方法与阳性率有关。先用棉球擦出宫口之粘脓液。用干棉拭插入宫颈管内转数圈后，再放置15～30秒钟。在肯定分泌物吸上后，取出拭子做涂片或培养。患有淋病的女性如不及时彻底治疗，淋菌可上行到子宫、输卵管，甚至波及卵巢。常表现为月经后发烧，严重下腹痛，阴道出血或脓性分泌物增多，即急性子宫内膜炎、急性输卵管炎。进一步可发展成急性盆腔炎、急性盆腔脓肿，甚至弥漫性腹膜炎、中毒性休克死亡。由于淋菌破坏了输卵管粘膜，使输卵管不很畅通，患者易患宫外孕。如不及时治疗，也可危及生命。部分患者终因输卵管完全破坏，而丧失生育能力。淋菌对青霉素较敏感，尤其在感染早期，及时用大剂量青霉素彻底治疗是极有效的。因淋病常并发衣原体感染，故要加用四环素或红霉素等治疗。性伴侣必须检查并做预防性治疗。治疗结束后一定要复查再涂片或培养。3个月后再复查。国外经过30年性传播疾病的泛滥，致病的淋病双球菌在长期与抗生素对抗中，逐渐对青霉素、四环素产生了耐药性。耐药淋病双球菌感染，治疗效果不佳，其传播机会较大，人们对此必须提高警惕。
+
+
+
+
+
+怎样治疗妊娠期淋病
+
+
+患有淋病的孕妇更应早期积极治疗，以免分娩时将淋病传染给婴儿，在应用治疗药物时必须考虑选用对胎儿没有损害的药物。可选用头孢三嗪250mg，一次肌注：或头孢噻肟1.0g，一次肌注：或壮观霉素4.0g，一次肌注。为预防同时存在的衣原体感染，用上述药物后疗效不好，可服红霉素500mg，每日4次，连服7天。
+
+
+
+
+
+什么是梅毒
+
+
+梅毒的病原体是一种螺旋体，医学上称之为梅毒螺旋体。梅毒螺旋体是一种小而纤细的呈螺旋状的微生物，长度为5～20mm。直径＜0.2mm。它有6～12个螺旋，肉眼看不到，在光镜暗视野下，人们仅能看到梅毒螺旋体的折光性，其活动较强。在其前端有4～6根鞭毛样细纤维束，其末端呈卷曲状。在未受外界因素的影响时，螺旋是规则的。因其透明不易着色，又称之为苍白螺旋体。
+
+梅毒螺旋体是厌氧菌，在体内可长期生存繁殖，只要条件适宜，便以横断裂方式一分为二的进行繁殖。在体外不易生存，煮沸、干燥、肥皂水和一般的消毒剂（如升汞、石碳酸、酒精等）很容易将它杀死。
+
+梅毒过去曾占性病的首位，危害最大。它是一种全身性慢性传染病，梅毒、结核、麻风并列为世界三大慢性传染病。梅毒患者的皮肤、粘膜中含梅毒螺旋体，未患病者在与梅毒患者的性接触中，皮肤或粘膜若有细微破损则可得病。极少数可通过输血或其他途径传染。传染梅毒后2周～2个月内，在感染处出现一个硬的、无痛性的圆形结节。开始潮红、湿润，渐渐破溃、糜烂，形成溃疡，即一期梅毒硬下疳。女性多见于大小阴唇内侧和宫颈。男性多见于阴茎、尿道外口。同时双侧腹股沟淋巴结肿大，但不痛。如不治疗，下疳在1个月左右能自然愈合。
+
+
+
+
+
+梅毒有哪些临床表现
+
+
+根据传播途径可分为后天（非胎传）与先天梅毒，各据其有无传染性又分为早期与晚期梅毒。
+
+后天梅毒
+
+（1）一期梅毒：属早期梅毒。主要症状为硬下疳，大部分发生于生殖器部位。一期梅毒的硬下疳内有很多梅螺旋体，传染性很强。但因女性下疳发生的部位较隐蔽，又无症状，常被忽视而增加了传播的机会。一期梅毒如不治疗或治疗不当，螺旋体经血行及淋巴结播散到全身，数周后即发展成二期梅毒。
+
+男性多在阴茎包皮、冠状沟、系带或阴茎头上，同性恋男性常见于肛门、肛管或直肠，女性多在大、小阴唇或子宫颈、乳房，极个别的发生舌部损害。性交后，梅毒进入体内，先在局部增殖，引起炎症性浸润，然后进入淋巴管，进入血行，几十小时后即能在骨髓、脾脏、睾丸等处出现，很快遍及全身各处。硬下疳出现在性交后2～4周，开始时为一丘疹或米粒大小红斑，以后隆起，形成豆大至指头大硬结，多为单发，很快破溃糜烂，有浆液性渗出，渗出液内含大量梅毒螺旋体，故传染性较强。硬下疳的特点是：
+
+①触诊有软骨样硬度；②无疼及压痛（无继发感染时）；③损害数目通常仅一个；④损害表面清洁；⑤不经治疗，经3～4周自然消失，不留痕迹或留有轻度萎缩性疤。接受不足量的抗梅治疗或外用药治疗，可见到不典型的硬下疳。
+
+硬下疳出现后数天，一侧腹股沟淋巴结肿大，以后另一侧也肿大。这些淋巴结的特点为：
+
+①如手指头大小，较硬，彼此散在不融合；②无疼痛与压痛；③表面皮肤无红、肿、热等炎症现象；④不化脓；⑤穿刺液中含有螺旋体。
+
+硬下疳初期，大部分病人的梅毒血清反应呈阳性，以后阳性率逐渐增高，硬下疳出现7～8周后，全部病人血清反应为阳性。
+
+硬下疳如不及时治疗，经3～4周自然消失。但病变并未痊愈，处在进入第二期梅毒的潜伏期阶段，若此期能得到及时诊断和充分治疗，可迅速达到彻底治愈的目的，一般预后情况良好。
+
+（2）二期梅毒：一期梅毒在出现硬下疳，梅毒螺旋体由硬下疳附近的淋巴结进入血液传播到全身，使人体几乎所有的组织及器官受累，经过6～8周的潜伏期，可出现低热、头痛、全身不适、肌肉和关节酸痛、食欲不振。浅淋巴结大、皮肤粘膜疹、骨膜炎、虹膜睫状体炎及脑膜炎等症状。这一段时期，临床上叫做二期梅毒。二期梅毒疹表面梅毒螺旋体很多，因此传染性也最强。
+
+二期梅毒表现为全身性皮疹。其特点是客观所见明显，可有低烧、头痛、咽痛、关节钝痛等类似感冒症状。此时传染性很强，亦可自然好转为潜伏梅毒。潜伏梅毒虽无症状，螺旋体继续潜伏在体内重要器官，数年乃至数十年后会出现三期梅毒，如眼、鼻损害、心血管梅毒、神经梅毒、精神失常等，甚至死亡。女性梅毒患者妊娠后，梅毒螺旋体可以通过母血到胎盘，破坏胎盘后传给胎儿。妊娠6～7周时胎儿即被传染，发生流产、死胎、早产等。胎传梅毒儿，可有皮肤、骨骼、牙齿、肝脾等脏器梅毒损伤，在出生2年后陆续表现出来，严重的可有眼盲、脑损害等。梅毒血清试验是诊断梅毒的主要方法。
+
+二期梅毒主要有以下表现：
+
+①二期早发梅毒疹。其特点症状复杂，疹型多样，损害分布广泛、稠密、对称、无融合倾向、境界清楚、呈铜红色、不痛不痒：血清反应呈强阳性：不治疗也可完全消灭。疹子形态虽多，主要有以下几种：
+
+斑疹型：本型常见。主要分在躯干、四肢近端内侧。皮疹大小不等，多为1～4m直径大小的红斑，常为椭圆或圆形，铜红色，境界清楚，可自然消退。
+
+丘疹型：此型易常见。疹子约米粒、黄豆到指甲大小，坚实，浸润明显，呈铜红色，境界清楚，有的表面有鳞屑，类似银屑病，躯干、四肢的屈则及掌足等多见。
+
+脓疮型：本型少见。多发生在身体虚弱的病人，全身症状较重。皮疹表现类似痤疮、痘疮样、蛎壳样及深脓疱疹样，愈合遗留疤痕。
+
+扁平湿疣型：此属于湿丘疹型梅毒疹。好发于皮肤粘膜交界处或皮肤易摩擦的部位，如大小阴唇间、肛门、包皮内、股内侧、腋窝、乳房下等。湿丘疹互相融合，呈隆起表面平坦，有时呈疣状或乳头状，表面湿烂，大量渗出液内含有梅毒螺旋体。
+
+脱发型：常发生于颞颥部，呈虫蚀状，弥漫性少见。
+
+梅毒性白斑：有色素消失，可持续数日。
+
+粘膜损害：一种是粘膜红肿，另一种是粘膜呈线糜烂状，有渗出物凝结其表面形成灰白色的粘膜斑。
+
+②二期骨骼损害。由于梅毒螺旋体侵犯了骨骼及骨关节引起的，无明显炎症现象。本期特点为在晚上和静止休息时疼痛加重，而白天及活动时较轻。多发生于四肢的长骨，亦可发生于骨骼肌的附着点处，如尺骨鹰嘴、髂骨嵴及乳突。在初次接受治疗时有加剧反应。
+
+③二期神经梅毒。多为无症状性神经梅毒，虽无症状，但脑脊液有异常变化，如蛋白增多，淋巴细胞数增加，脑脊液VDR1试验阳性，胶体金曲线异常等。还可发生脑膜炎，脑血管梅毒及脑膜血管梅毒等。
+
+④二期眼梅毒。可发生虹膜炎、虹膜睫状体炎、脉络膜炎、视神经炎和视网膜炎等。
+
+⑤二期复发梅毒。因治疗不彻底或病人免疫力下降，二期损害消退后可重新出现。时间是在感染后，一二年内。可有皮肤粘膜、眼、骨及内脏损害复发，最常见者为皮肤粘膜复发，其损害与二期梅毒大体相似，但皮疹数目较少，分布比较局限，群集的倾向较二期时更为明显，破坏性较大，好发于肛周、脐窝、腋窝、阴部及掌部。
+
+血清复发最为多见。血清复发是其他复发的先兆。血清复发时，可无其他症状，而有其他复发时，通常先有血清复发。
+
+（3）三期梅毒（晚期梅毒）
+
+发生于感染2～4年后，多为皮肤粘膜及骨骼的损害。感染10～20年后可侵犯心血管和神经系统等重要脏器。三期梅毒的特点是传染性很小，但对组织的破坏性很大，严重时可危及生命。
+
+三期梅毒主要有以下表现：
+
+①三期皮肤梅毒疹：此损害发病率高，约占晚期梅毒的50％。其主要表现为：结节性梅毒疹，结节如黄豆大到蚕虫大小，集簇成群，高出皮面，常呈铜红色，触之硬韧，中央呈吸收消退，外缘向外扩展出现新发疹，形成环状或多环状，损害破溃后形成溃疡，边缘堤状隆起，持续时间较长，预后可遗留萎缩性疤痕，多见头面部及四肢：梅毒瘤，开始为皮下硬结，逐渐扩大，中心坏死软化，最后破溃形成溃疡，境界清楚，边缘锐利垂直，周边呈堤状隆起，溃疡表面有少量粘稠浓液似树胶状，所以也称之为树胶样肿，损害多发于额、小腿外侧、胸及前臂等处。
+
+②三期粘膜梅毒树胶样肿常侵犯口腔粘膜及鼻粘膜，可破坏悬雍垂和扁桃体，引起硬腭，鼻中隔穿孔：可破坏鼻骨使鼻梁塌陷，形成鞍鼻，舌部树胶样肿破溃后，疤痕挛缩变硬，发音不清。
+
+③三期骨骼梅毒：以骨膜炎为多见，常侵犯长骨。与二期骨骼梅毒基本相似。但分布较局限，不对称，疼痛较轻。
+
+④三期心血管系统梅毒：为晚期梅毒中最严重的内脏梅毒，影响患者健康及劳动力，甚至危及生命。心血管梅毒主要有单纯性动脉炎，主动脉瓣闭锁不全，常与梅毒性主动脉瘤并发。心脏向左下扩大，主动脉瓣区有收缩期及舒张期杂音，脉压增加（收缩压高，舒张压低，压差增大），水冲样脉，指甲毛细血管搏动。严重时发生充血性心力衰竭，导致死亡。血清反应阳性。
+
+⑤三期神经系统梅毒：发病率高，治疗困难，预后很差，中枢神经受侵犯后主要表现可以保持为无症状神经梅毒，也可表现为梅毒性脑膜炎。
+
+先天梅毒
+
+患儿年龄在2岁以下，属于早期先天梅毒，有传染性。超过2岁的属于晚期先天梅毒。
+
+（1）早期先天梅毒：患儿一般到出生后3周时才发生临床症状。婴儿消瘦、形似小老头。梅毒性鼻炎为最常见的早期症状，因流涕、鼻塞以致呼吸与哺乳困难。鼻炎对症治疗无效。鼻分泌物既可呈脓性，也可呈血性，可有很多梅毒螺旋体，抗梅治疗后很快好转，12小时后不再有传染性。喉炎造成声音嘶哑，表现为失音性啼器。口腔内有粘膜斑。贫血、肺炎、淋巴结、肝、脾和睾丸肿大。
+
+皮肤症状可以在出生时出现，或在出生后数月时发生，可以有各种损害。梅毒性先天疱疹（后天梅毒无此型表现）具有特征性，常为疾病严重的表现，但少见，可见甲周炎与甲床炎，指甲失去光泽，脆弱易脱。毛发弥漫或成片脱落，骨骼可见骨骼炎与骨膜炎。
+
+（2）晚期先天梅毒：临床表现大致与后天三期梅毒的表现相同。多发生于2岁之后，3岁以后发生者少，主要表现有：实质性角膜炎，一侧或双侧眼角膜周围发炎，以后弥漫混浊，视力减退，常引起失明。上颚门齿发育不良。呈螺丝刀样，称郝秦森（Hutchinson）氏齿，到青春期由于第8脑神经障碍，引起神经性耳聋。亦常常并发前庭器官障碍。若在鼻中隔和上颚骨髓发生树胶肿、穿孔，愈合后形成马鞍鼻，成为永久性标记。
+
+临床表现：
+
+一期：主要为硬下，95％出现在外生殖器、冠状沟、龟头的阴茎带处，男性同性恋者可见于肛门及直肠。女性多见于大、小阴唇，阴蒂、宫颈，多为单发。
+
+二期：感染了3个月到二单元内称为二期梅毒。
+
+\chapter{外用避孕用具}
+
+
+男用避孕套的使用方法和优缺点
+
+
+【概念】
+
+避孕套又称安全套，分男用和女用两类。男用避孕套也称阴茎套，女用避孕套也称阴道套。男用避孕套是一种男性避孕工具。
+
+【作用】
+
+在开始性交前将其套在阴茎上，直到性交结束时与阴茎一并抽出，这样性交过程中的副性腺分泌物及射出的精液便全部泄入套的顶端，而不进入女子阴道，从而达到避孕的目的。使用避孕套后，性交时两性生殖器不直接接触，还可预防性传播疾病，后者在性传播疾病较为普遍存在的今天，更具有重要意义。
+
+【种类】
+
+男子阴茎的长短、粗细各不相同，为适应不同个体的需要，避孕套也有多种规格。
+
+避孕套的型号：我国出售的避孕套依其直径大小，可分为4种型号，即大号（直径35毫米）；中号（直径33毫米）；小号（直径31毫米）及特小号（直径29毫米）。使用较为普遍的是中号。
+
+避孕套的厚度：随橡胶质量与生产工艺的提高。避孕套的厚度日趋变薄，而其弹性与坚度却有增无减。依厚度可将避孕套分为普通型（厚度0.04～0.07毫米）、超薄型（厚度0.03毫米）及薄型（厚度介于前二者之间），超薄型号即国内通用的高级透明避孕套。
+
+避孕套的外观：
+
+①普通型。为乳胶橡皮套，其顶端有贮精用的小囊，体部平滑。
+
+②异型。套的体部有1～4个狭窄段。
+
+③波纹型。体部制成多层波纹或花形。
+
+④颗粒型。套的表面均匀地附着乳胶颗粒。制作过程中可掺入香料，使其散发出清淡的各种花香味。若配以消炎药或性兴奋迟缓剂。则可发挥消炎、延迟性交的目的。
+
+【效果】
+
+男用避孕套是一种屏障避孕法，仅阻断精子进入阴道，并不干扰下丘脑-垂体-性腺轴的功能，故不影响女性排卵及月经，也不影响男性的生精、输精与射精，停止避孕即可受孕。对胎儿不产生影响，使用安全，适用范围广，用法得当，避孕效果可达95％或以上。
+
+有许多需要节育的妇女因身体的各种情况不能采用体内节育器、避孕药等避孕措施。使用男用避孕套是唯一可行的办法。避孕套也适用于新婚夫妇，尤其适用于中年夫妇。
+
+【优缺点】
+
+避孕套作为避孕工具使用简便，用法得当避孕效果良好，无毒副作用，价格便宜，便于推广。此外，避孕套还有以下的功用。
+
+1．使用避孕套可避免两性生殖器的直接接触，从而可以预防梅毒、淋病、尖锐湿疣或艾滋病等性传播疾病。
+
+2．有些不孕的妇女体内存在抗精子抗体，从而导致不孕。若采用避孕套3～6个月，可暂时断绝与精液的接触，待妇女体内抗精子抗体的滴度下降后，停用避孕套后短期内可望受孕。
+
+3．男子早泄采用避孕套，可降低龟头的局部兴奋性，也有助于延长性交的时间。
+
+4．避孕套可阻断包皮垢与子宫颈的接触，或有助于减少宫颈癌的发生。有的妇女对其丈夫精液过敏，性交时采用避孕套可防止发生过敏反应。
+
+避孕套避孕的缺点有以下几方面：用法不当可致性交过程中避孕套破裂或性交结束时将避孕套遗留在阴道中，使精液流入阴道，从而导致避孕失败；少数人用避孕套后性感减弱；个别对橡胶过敏者不能使用。
+
+【注意事项】
+
+1．必须坚持使用，每次性交均要使用，不可存在侥幸心理。因为男性副性腺分泌物中存有精子，不射精即可进入阴道并可致受孕，所以要求自性交开始至结束均需戴套，不可仅在射精前才用。
+
+2．配戴型号要合适，过小不但用时有不适感，而且射精后易被胀破；过大的套，在抽出阴茎时容易将套遗留于阴道中，二者均是避孕失败的常见原因。
+
+3．戴套前，应将套的前端或小囊处的空气挤出，并在阴茎前端涂少许避孕胶冻，再将套戴在阴茎上，直达根部。如此可为射出的精液流出贮存的空间，以防将套胀破。
+
+4．女方阴道分泌物过少时，配戴避孕套由于干涩，会引起女方阴道疼痛，且易损坏避孕套。可配合使用避孕胶冻可增加润滑作用。涂有硅油的透明超薄型避孕套，其本身即有润滑作用，可不必使用避孕胶冻。
+
+5．射精完毕，在阴茎勃起未全消退时，应用手捏住套的上口，与阴茎一并拔出，避免将套遗留于阴道内，以致精液泄入阴道，导致受孕。拔出套后，应仔细检查它有无破裂。发现破裂时，还可采取补救措施。
+
+【选用及保管】
+
+选用避孕套的原则：
+
+1．根据阴茎勃起后的长度和粗细程度，选用不同的型号。
+
+2．优质的超薄型避孕套最好，可保证避孕效果，也不致削弱性感，波纹型或颗粒型避孕套可增加摩擦力，增强性感。
+
+3．根据双方的心理状态及具体情况可选择不同颜色、香型或释放药物的避孕套。
+
+4．避孕套均为橡胶制品，购买时应注意有效期限，过期后橡胶老化、变质，可影响效果。建议一次购买量不要过大，过期产品不要再用。
+
+避孕套的保管应注意以下几点：购得的避孕套最好再仔细复查有无漏气，然后卷好保存。应将避孕套保存在干燥、凉爽处，避免接触油类。最好不要重复使用，若需重复使用时，应在用后以水清洗干净、晾干，检查确系完整者，涂以滑石粉保存。涂有硅油的透明超薄型避孕套为一次性使用，不能保存。
+
+【失败的处理】
+
+在房事后发现套子破裂或不慎将其遗留于女方阴道中。应积极采取措施以防止受孕。
+
+1．精液射出后不久多为胶冻样，精子在其中的活动范围也较小，女方立即坐起后可促使大部分精液流出；还可用温开水清洗外阴、阴道，用温开水灌洗阴道可更有效地冲出遗留的精液，若用2％食醋溶液灌洗效果更好，因精子在酸性的环境中不易生存。之后，可将含杀精子剂的避孕胶冻挤入阴道，杀灭残存的精子。
+
+2．性交后72小时内放置含铜的宫内节育器。以改变子宫内膜的环境，即使受孕，孕卵发育5～7日方具有着床能力，此时内膜情况已不适于其种植面发生极早期的流产。此法适用于无放置宫内节育器的禁忌证者。
+
+3．服用“53”号探亲避孕药片，性交后立即服1片。次晨加服1片，以后每日1片，至少需连服8～12日，其抗着床效率达99.5％。
+
+4．在医生指导下使用药物紧急避孕。
+
+5．月经逾期未来，应及时检查确定是否妊娠，以便不失时机地采取简便方法终止。
+
+
+
+
+
+女用避孕套的使用方法和优缺点
+
+
+女用避孕套由一个松弛的聚氨酯套和两个有弹性的聚氨醇环组成。其长度与男用避孕套相仿，一端封闭呈袋状并置有内环，另一端开口与外环融合成套外口。女用避孕套于性交开始前放置，性交结束后取出，经指导事先由本人或男方协助放入。放置时首先选择一种最舒适的姿势；取出避孕套，确定内置的弹性内环处在套袋的底部；一手将阴道口大阴唇分开，另一手用拇指、食指和中指捏紧内环的下半部，在挤压内环的同时尽量将其推往阴道内。然后把手指伸进套内，直至触摸到内环为止，再继续把内环推进阴道内；用手指将内环沿阴道后壁送入阴道深处，使内环置于耻骨后端，外环留在阴道外面，盖住阴唇；性交后，抽出避孕套时要扭转外环一周，一边徐徐往外拉，以防精液外漏。
+
+【优点】
+
+在性交前放入，不影响快感。
+
+比男用避孕套更为敏感和舒适。
+
+性交时不易滑脱和破裂。
+
+【缺点】
+
+价格较贵。
+
+性敏感区被遮盖，可能影响性感。
+
+阴道较紧的女性不宜使用。
+
+
+
+
+
+阴道隔膜的使用方法和优缺点
+
+
+阴道隔膜又称子宫帽，是一种女用安全可靠的避孕工具。使用时把它置于阴道顶端，盖住宫颈口，使阴道内的精子不能进入宫腔，从而达到避孕的目的。
+
+阴道隔膜有7种型号，每种型号的阴道隔膜均用乳胶薄膜制成，四周边缘橡皮膜内镶有弹簧圈，所以既柔软又富有弹性。依其弹簧圈外直径（毫米），分为50、55、60、65、70、75和80等型号。我国育龄妇女最常用的是65、70、75号。
+
+【使用方法】
+
+采用阴道隔膜避孕，放置前必须经妇科医生检查，无禁忌证后，用手指测量自阴道后穹隆至耻骨联合下缘的距离，再用尺测量其长度。以选择相应型号的阴道隔膜。如型号过小，宫颈口遮盖不严。隔膜易移位。精子便于通过而进入官腔，造成避孕失败；如型号过大，可使阴道壁被挤压。造成阴道壁的损伤。所以选择阴道隔膜的型号是非常重要的。
+
+大小最为合适的阴道隔膜是隔膜的后缘达后穹隆，前缘达耻骨联合后上缘，其他各缘紧贴阴道侧璧，阴道隔膜部正好盖上了宫颈部。
+
+使用阴道隔膜前首先解小便，把手洗干净，详细检查膜有无破损或小孔，如无，则把避孕药膏挤在隔膜的凹凸两面及边缘上，并把药膏涂抹均匀。放阴道隔膜的姿势为坐式、蹲式、站立弯腰式或半卧式。放时将两腿稍分开，一手分开大阴唇，另一手的拇指和中指将阴道隔膜捏成椭圆形，凸面指向宫颈，沿阴道后壁向上方送入，直达穹隆顶端，再向前方移动，使阴道隔膜前端达到耻骨联合上缘，以盖住宫颈口全部和子宫颈。放好后再用食指检查一遍。如不合适可重新放入。只要经过医生测量，型号选择合适，放置正确，阴道隔膜不会影响正常活动，甚至大小便均不会受到丝毫影响。
+
+一般在性交后8～12小时之后取出阴道隔膜，精子在阴道内存活时间为8～12小时，如过早取出，部分精子在阴道内尚有活动能力，可进入宫颈、宫腔内导致妊娠，避孕就可能失败。放置时间也不宜过长，不能超过24小时，以免刺激阴道壁，使分泌物过多而引起不适或感染。
+
+阴道隔膜的取出如同放入的方法。用手指伸入阴道，钩住阴道隔膜的前缘。向上、向外慢慢拉出。取出的阴道隔膜要用肥皂水洗净，同时检查有无漏孔或破裂。如无损伤，则应擦干净，涂上滑石粉，包好，保存备用。只要用得好，1只阴道隔膜可以避孕2年左右。
+
+【禁忌证】
+
+1．患生殖道炎症，如阴道炎、重度宫颈糜烂、盆腔炎症，反复发作的泌尿系统感染及习惯性便秘者。
+
+2．阴道过紧，阴道畸形如阴道纵隔或横隔，阴道壁过松或膨出，子宫脱垂者。
+
+3．对橡胶过敏者。
+
+4．经反复教而无能力学会者。
+
+【优点】
+
+1．如使用正确，避孕有效率可高达95％。
+
+2．使用方法简便、经济。
+
+3．不影响性生活的快感。
+
+4．对人体无害。
+
+【缺点】
+
+1．如使用后过早取出阴道隔膜，此时精子尚未完全死亡，可导致怀孕。
+
+2．放入时没有完全盖好宫颈口而导致怀孕。
+
+3．放入前未检查阴道隔膜，因有破损而使避孕失败。
+
+4．使用时没有用杀精药物，以致避孕失败。
+
+5．阴道隔膜的大小型号不合适。使精子进入宫腔而导致避孕失败。
+
+6．使用阴道隔膜避孕时易出现以下副作用：
+
+①由于使用杀精剂，男女双方的局部产生刺激性，并有轻微的烧灼感。
+
+②有的妇女对橡胶或杀精剂出现过敏或不良反应。
+
+③未认真洗净阴道隔膜而重复使用，以致引起阴道炎症。
+
+④阴道隔膜在阴道内存放过久。引起局部反应，导致阴道分泌物增多，细菌在阴道内繁殖，从而引起阴道、宫颈感染。
+
+⑤阴道隔膜周围是由弹簧圈构成的，如配戴不合适，向上会压迫尿道，引起膀胱尿道炎症，向后会压迫直肠而致便秘。
+
+
+
+
+
+女性外用避孕药的使用
+
+
+常见的外用避孕药是放入阴道内，以杀死精子来达到避孕目的的药物。常用的外用避孕药有外用避孕药膜、外用避孕药片、避孕栓和避孕膏等4种。
+
+【分类】
+
+女性外用避孕药物按其对抗精子的不同方式具体分为以下几类：
+
+一种是化学杀精剂，直接杀死精子；另一种是采用胶冻、霜剂或泡沫剂支持杀精剂。同时消耗精子的能量。杀精剂的剂型有栓剂、片剂、胶冻、药膏和药膜。杀精剂的主要成分为壬苯醇醚、烷苯醇醚和盖苯醇醚等。
+
+【用法】
+
+1．外用避孕药膏：是一种半透明的糊状物，每100克内含醋酸苯汞0.09克，规格为50克装入塑料管内。它能杀死精子，对人体无害。与阴道隔膜、避孕套合用避孕效果更好，同时还可起到性交时的滑润作用。
+
+2．壬苯醇醚胶冻：是以壬苯醇醚为主药制成的半透明、半固定的胶冻，对人体及其内分泌功能无干扰。它的特点是能有效地使精子失去活力。破坏精子的细胞膜。从而杀死精子，以达到避孕的目的。
+
+使用方法是在性交前仰卧在床上，将盛有药物的注入器慢慢插入阴道深处，缓慢推动注入活塞，使药物均匀涂在子宫口周围，药物完全注入后取出注入器。
+
+3．外用避孕药膜：主药为杀精子剂。其包装为药膜型，每张药膜之间有纸相隔，含量为50毫克。性交前女方将两张纸之间的药膜取下揉成小团。用手指将它推入阴道深处。如感到粘在手指上，可旋转1周使之推入阴道深处。10分钟后待药膜溶解后再性交。但值得注意的是每次性交都要用1张药膜。否则杀精子不彻底，易失败。
+
+在使用外用避孕药膜之前先要清洗外阴，然后洗净手，将药膜用食指深深推入阴道内直达后穹隆，10分钟后等药膜充分溶解，即可性交。如放入药膜后30分钟未性交，应再放1张药膜。以提高避孕效果。如相隔1小时后再有性交，应再有1张，以杀死精子，否则易怀孕。
+
+4．安乐醚外用避孕片：是白色泡腾片，把它放入阴道内溶解后会产生大量泡沫，机械地阻止精子前进；此外，它还能改变精子的渗透压而杀死精子。使用时应先洗净外阴，并将手洗干净后将药片深深放入阴道内5分钟后性交，如再次性交，还需放入1片以提高效果。此种避孕片使用简便，避孕效果好，不影响性生活的快感。但有少数人的局部会发生过敏反应，如局部烧灼感及不适等，一旦出现这种情况，可改用其他方法避孕。
+
+如发现药膜变硬（天冷时易出现这种情况），只需用手心稍加温后即可再用。药膜一般可在防潮情况下保存两年，只要不过期就可使用。
+
+有少数妇女对外用避孕药膜过敏。如在使用时外阴局部有瘙痒、烧灼感、红肿等不良反应时应停止使用。
+
+外用避孕药片遇水产生碳酸并分解出二氧化碳，可形成许多泡沫，使药片中杀精子剂迅速扩散，均匀分布到阴道各处，由泡沫阻止精子前进，消耗精子能量，减弱其进入卵子的活动力。使用时将药片用水浸湿一下，再用手将其推入阴道深处，5分钟后药片溶解即可性交。
+
+应注意，在性交射精后6小时方可用温水洗净阴部，不可提前，以免影响避孕效果。使用时要按规定方法将药片放入阴道深部，不可过浅。药片放入后不要坐起或站立，以免药片掉出。重复性交需再放1片。
+
+外用避孕药片的优点是使用方便；不影响人体健康及内分泌功能。缺点是避孕效果稍差；对外用避孕药片过敏，如出现阴部烧灼感时不宜使用。
+
+5．避孕栓：避孕栓是一种杀精子剂。它可以在体温条件下约10～15分钟后溶化为液体，直接杀死精子或影响精子的活动；溶化后的药液呈油状，涂于子宫颈口，可阻止精子进入官腔。从而起到避孕的作用。
+
+在性交前将剥去包装的避孕栓1枚，轻轻推入阴道深部，5～10分钟溶化后即可性交。性交后大部分液体随阴道分泌物与精液排出体外。射精后6小时可用温水洗净外阴部。
+
+在使用避孕栓时，一定要按规定的时间及方法应用。若避孕栓放入后超过半小时未性交，则需再放入1枚方可性交。在室温较高时避孕栓易变形。变形后仍可应用。但若变色或变质则不可使用，以免影响其避孕效果。栓剂易损坏橡胶，故不宜与阴道隔膜、避孕套等同时使用。
+
+患有阴道炎、重度宫颈糜烂、阴道过度松弛、子宫脱垂者不宜使用避孕栓。
+
+避孕栓的优点是用法简便，不影响性生活的快感，药物本身无任何副作用。缺点是避孕的效果不及口服避孕药及宫内避孕器，少数妇女有过敏现象或阴部有轻微刺激感。
+
+6．阴道避孕海绵：阴道避孕海绵呈圆形，其直径约为5.5厘米，厚度约为2.5厘米，一面凹陷可盖住宫颈口，一面有五环状带子可在房事后拉出海绵。避孕海绵内浸满杀精子剂。
+
+在性交前将避孕海绵放入阴道，海绵可释放杀精子剂杀死精子或影响精子的活动，同时海绵的屏障作用可阻止精子进入官腔，从而达到避孕的目的。
+
+使用避孕海绵时应先用洁净清水将其浸湿，这样可激活其内杀精子剂的作用，然后将其放入阴道深部，并一定注意要将凹陷面盖住宫颈，10～15分钟后即可性交。一般避孕海绵作用持续的时间在24小时以内，性交后6小时可将海绵拉出。
+
+应用避孕海绵的优点是用法简单方便，一次放入后24小时内可多次性交，正确使用有一定避孕作用；若与阴茎套、安全期避孕等法合用还可增加避孕效果。缺点是费用较贵；避孕失败率较高；少数妇女经常应用杀精子剂后可发生过敏现象，如阴部出现皮疹、全身发热、腹泻、疼痛等，此时应及时去医院诊治。
+
+除有过敏史者应禁止使用阴道避孕海绵外，有阴道炎，阴道壁松弛、子宫脱垂或畸形者亦禁用避孕海绵。少数妇女性交后海绵取出困难，或取出时容易拉碎则应去医院请医生协助解决。性交后若发现海绵移动，未能很好地盖住宫颈口，则应立即采取补救措施，如加服避孕药等以减少受孕的机会。
+
+【禁忌证】
+
+（1）患有急性外阴炎、阴道炎、宫颈炎者。
+
+（2）患有急性泌尿系感染者。
+
+（3）对外用避孕药过敏者。
+
+【适应证】
+
+（1）育龄妇女。
+
+（2）哺乳期妇女。
+
+（3）患有慢性肝炎，肾脏疾患的妇女，不适合使用口服避孕药者，均可采用外用避孕药避孕。
+
+
+
+
+
+阴道避孕环的使用方法和注意事项
+
+
+【作用机制】
+
+1．影响子宫内膜发育，干扰受精卵着床。
+
+2．改变子宫颈黏液黏稠度，不利于精子穿透。
+
+【用法与步骤】
+
+1．甲孕酮阴道环（有2种使用方法）：
+
+（1）于月经来潮第5天，用酒精擦拭消毒阴道环，然后用手指将其推至阴道穹隆或子宫颈上。无异常情况，不必取出，可连续放置1年，避孕1年；如脱落。可用酒精消毒后，再放入阴道深部。
+
+（2）月经干净后，洗净双手，用酒精擦拭消毒阴道环。置入阴道深部。每个月经周期放置3周，最后一周取出。造成撤退性出血，月经来潮。
+
+2．甲基炔诺酮阴道环：用法同甲孕酮阴道环。
+
+3．阴道环：月经来潮第5天置入阴道深部，每个月经周期放置3周，最后一周取出，月经来潮。
+
+【优缺点】
+
+1．安全、长效、方便。
+
+2．对全身影响小。对性生活无影响，可取出，房事后再及时放入。
+
+3．缺点是易脱落，引起阴道分泌物增多；可诱发阴道、宫颈溃疡。
+
+4．阴道分泌物增加：少数妇女使用后，阴道分泌物增加，可能与其原有阴道炎有关。可坐浴，局部消炎治疗。
+
+【适应证】
+
+有避孕需求、无禁忌证的育龄妇女均可使用：
+
+1．有一定的生理知识，能够自己放置阴道环的妇女。
+
+2．有经济承受能力的妇女。
+
+3．服用短效避孕药易漏服的妇女。
+
+4．不愿意注射或注射不方便的妇女。
+
+【禁忌证】
+
+1．妊娠妇女及产后6周内的哺乳妇女。
+
+2．严重高血压患者。
+
+3．有20年以上糖尿病史者及糖尿病合并血管性疾病者。
+
+4．有脑血管意外史者、患心肌梗塞等缺血性心脏疾病者。
+
+5．急、慢性肝炎、严重肝纤维化、肝硬化者。
+
+6．乳腺癌及肝脏肿瘤患者。
+
+7．原因不明的异常阴道出血者。
+
+8．阴道壁过于松弛、子宫脱垂者。
+
+9．子宫颈糜烂、各种阴道炎或反复发作的泌尿系统感染者。
+
+10．阴道环易脱落者，如重体力劳动者、习惯性便秘者。
+
+【注意事项】
+
+1．第一次使用时，应由医生指导，以确定大小规格是否合适。
+
+2．阴道环应放入阴道深部，经常检查阴道环的位置，如有下移，及时复位。
+
+3．使用期间药环脱落，注意不要用水冲洗，以防药物损失过多，可用75％的酒精棉球擦拭，或用冷开水擦干净后。再放入。
+
+4．注意使用有效期，及时更换新的阴道环。
+
+5．如果避孕失败，应尽早人工终止妊娠。
+
+6．药环变色，不影响避孕效果。
+
+\chapter{避孕方法}
+
+
+自然避孕法
+
+
+自然避孕法是目前国际上推荐的一种不干扰人的生殖生理功能、对人体完全无害的避孕方法，它既不要服用避孕药，也不用工具，而是由育龄妇女通过自己的宫颈粘液和外阴情况来判断排卵日，掌握好性生活日期，利用时间差使精子和卵子不能相遇，从而达到避孕目的。
+
+这种方法是根据妇女宫颈粘液分泌的周期性变化，凭借妇女本人的感觉和观察到的分泌物性状，将每个月经周期分为干燥期-湿润期-干燥期，其中湿润期（白带较多且稀薄）是可能受孕的时期，尤其是分泌物呈蛋清样、清澈、透明、高弹性、拉丝度长的这一天，很可能就是排卵期，此时最容易受孕。因此就在这一天的前后各3天，严格禁止性生活，这样就可达到避孕目的。这种方法又称为安全或避孕法，但它不同于以往的排卵期计算法。
+
+采用自然避孕法调节生育至少有四个优点：①不用任何药具，不需任何医疗手段，也就无任何可能的副作用；②需夫妇双方密切配合，不存在避孕问题上的“性别歧视”；③如果希望生育，可有意识选择在易受孕期间同房，获取最高妊娠机会，具有避孕和受孕双重功能；④不受社会、文化、宗教等背景的限制，能为最广大人群所接受。
+
+自然避孕法的也有它的不足之处是：①有效率不如避孕药和宫内节育器等现代避孕方法高；②使用者需经适当的培训和自己经验积累的阶段；③月经不规则或处于特殊阶段的女性，如哺乳期、更年期等会增加使用自然避孕法的困难。
+
+因此，采用这种方法要谨慎，一般经过3个月的训练和观察，就可掌握宫颈粘液分泌的规律，恰当地使用这一方法，只要夫妇双方密切配合，避孕效果同样可靠，有效率可达98％。
+
+
+
+
+
+安全期避孕法
+
+
+安全期避孕是利用卵子排出后只能存活1天，而精子在女性生殖道内也只能存活3天的规律，在排卵期前后避免性交，使精子和卵子错过相遇机会而达到避孕目的。目前判断排卵目的几种方法：
+
+日期计算法
+
+月经规则妇女，排卵通常发生在下次月经来潮前14±2天，为预期排卵日，排卵前、后5天为受孕期。
+
+根据以往6～12月月经周期记录推算易受孕期和不易受孕期（安全期）的公式，最短周期（天数）21天，向前是前安全期，最长周期（天数）10天，向后是后安全期。此法简单可行，但影响排卵因素很多，使用时有效率仅80％左右。
+
+月经周期正常的妇女，一般每月排卵1次。且排卵时间亦有规律。但在某些情况下，如月经周期不准、产后哺乳等，则排卵时间难以固定。预测排卵期可以帮助自己判断排卵的时间及规律。以掌握受孕的时间或避开排卵期而达到避孕的目的。
+
+如何预测自己的排卵期呢？
+
+1．对月经规律的妇女来说，可以根据月经周期进行推算，一般排卵期大多在下次月经的前14天左右。如该妇女月经周期为28天。她的排卵期就应在月经周期的第14天左右；如该妇女的月经周期为40天，则她的排卵期就应在月经周期的第26天左右（即下次月经前14天左右）。根据精卵的存活时间。一般在排卵期前后共1周左右时间内易受孕，故认为此时系受孕的危险期。
+
+2．测定基础体温可准确地掌握自己的排卵期。基础体温测定是指经过6～8小时睡眠后。醒来未进行任何活动（如说话、进食或起床等）所测得的口腔体温。按日期将所测得的体温记录相连成曲线，称为基础体温曲线。因为排卵后卵巢所分泌的孕激素可刺激体温中枢使体温升高，所以在有排卵者其月经周期前半期的基础体温偏低。而后半期即排卵后的基础体温则升高，一般两者温差可达0.5℃左右，这样在基础体温曲线上呈上下波动的双相变化。若无排卵，则其基础体温曲线平坦无变化而呈单相型。排卵期一般在体温下降继之又上升的日子内。在某些妇女，或在某些月经周期中，体温可无明显下降或不下降，但只要体温开始上升，即可认为是排卵了。在排卵期体温变化不太明显的妇女可多测几个月经周期，这样就可以掌握自己排卵的规律。此外，如有感冒发热，或应用孕激素等因素，应在测定基础体温时予以排除。
+
+3．观察阴道分泌物的变化，亦可协助推测排卵期。阴道脱落上皮细胞及宫颈腺体所分泌的粘液，即白带，受卵巢雌、孕激素的影响，可发生周期性的变化。月经刚净时，白带量少；近排卵期时白带明显增多，稀薄透明如鸡蛋清样，粘性大，可拉成丝状而不断，排卵后，白带变得混浊。量少。
+
+因为几乎没有一个妇女月经周期的长短是恒定的，所以计算出来的能孕期范围很大，需要长时间的禁欲。假定一个妇女去年1年当中月经周期最长的是31天，最短的是23天，那么按照公式：
+
+23－21＝2（能孕期的第一天）
+
+31－10＝21（能孕期的最后一天）
+
+这就是说，这个妇女每个月经周期的第2天开始至第21天结束都是能孕期。这期间需要禁欲19天。周期长短变异越大。需要禁欲的时间就越长。
+
+在所有自然避孕技术中日历法的应用最为广泛，虽然按当前的标准来看，它还极不完善。使用这种方法的一个先决条件就是妇女本身的月经周期要相当规则。如果周期变动很大那么除去能孕期和月经期，每个月中能行房的日子就所剩无几了，这对一般年轻夫妇来说是难以做到的。另外，记录过去月经史的日期越长，预测下个周期能孕期的准确性就越大，一般来说不提倡单独使用日历法。
+
+基础体温避孕法
+
+基础体温（BBT）是指一个健康人在完全休息的状态下的体温。
+
+由于完全休息的状态通常是在睡眠中，不可能测量体温，因此我们就将每天早上醒来，没有从事任何活动之前所测得的体温当作BBT。把每日的BBT记录在温度表格上便可画出一个BBT曲线。通常妇女的排卵周期大致可分为两个阶段，排卵前体温较低，排卵后体温升高（0.2℃～0.4℃）。排卵后的体温升高是由孕酮及其代谢产物所导致。一般以周期中BBT最低日或体温升高前一日为排卵日。BBT持续升高3天以后，到下次月经来潮之前为绝对不孕期。禁欲应从月经期开始，因为月经的第一天比最后一天容易识别和记忆。
+
+2～20标明了一个典型30天月经周期内的BBT变化。不过，在实际生活中。每个人之间的差异很大，即使同一个人每一周期的BBT也不尽相同，而且BBT上升的方式也没有统一的模式。但无论如何，必须要保证有持续3天的高温才能行房，这是为了获得足够的时间让卵子衰亡。
+
+BBT法的最大缺点是必须在整个排卵前期禁欲。若碰上无排卵性月经，BBT不升高，则需要在整个周期内禁欲。不过，对于那些情愿在月经周期半数以上时间禁欲的人来说，BBT法倒是比其他自然避孕技术的效果更可靠。近年来，随着科学的进展，人们能非常精确地记录下妇女的BBT和激素的变化。通过仪器妇女能提前4～5天就知道自己的排卵日。这种避孕器～问世，就受到人们的欢迎。
+
+症状、体温避孕法
+
+大多数妇女在排卵时除了有宫颈粘液及基础体温的变化外，或多或少还伴有一些其他的症状和体征。常见症状包括下腹疼痛、乳房触痛、月经间期出血、情绪与性欲改变，少数妇女还可能出现偏头痛、恶心、皮肤瘙痒、痤疮、食欲和体重增加、上腹部胀满等。
+
+症状一体温法是在日历法、基础体温法和宫颈粘液法基础上发展起来的一项自然避孕技术，它的主要依据有：（1）按日历法计算的最早能孕日；（2）排卵前宫颈粘液的变化；（3）排卵后基础体温的升高；（4）排卵时的症状和体征。禁欲应从最早能孕日或粘液出现日开始至高峰日后第4天或基础体温连续上升后第3天晚上结束。
+
+应用症状一体温法时应注意下列问题：1．如基础体温已肯定到达高温期。但仍有可拉长的粘液或月经间期出血，则应继续观察并延长禁欲。2．如按一日历法计算是不孕期，但仍可见到或感觉到有液。则应当作能孕期对待。3．排卵前的干燥日最好不行房。4．如高峰日后第4个晚上，基础体温仍未达到第2个高温日。也不应行房。症状、体温法可以说是最可靠的自然避孕技术。只要决心大，受过良好的训练并严格遵循指导，失败率较小。
+
+
+
+
+
+哺乳闭经避孕法
+
+
+能在哺乳期特定生理时期的一段时间内使用的避孕方法。
+
+1．原理：吸吮刺激，催乳激素水平升高，抑制下丘脑腺垂体促性腺激素释放，继而影响卵巢不排卵或黄体不健。
+
+2．采用哺乳闭经法必须具备条件：完全母乳喂养，产后6个月内，月经未复潮。以上三个条件任何一个条件改变，均不应采用此法，需采用其他节育措施。
+
+3．“安全期”避孕试纸：“安全期”避孕试纸通过检测妇女尿液，根据试纸的中段有无红色色带显现，科学地掌握当月“安全期”的精确时间。
+
+使用方法：
+
+1．以本次月经来潮的日子作为第一天。
+
+（1）月经期在21～26天的妇女，从月经来潮的第6天起开始测试。
+
+（2）月经期在27～31天的妇女，从月经来潮的第11天起开始测试。
+
+（3）月经期在32～36天的妇女，从月经来潮的第16天起开始测试。
+
+（4）月经期在37～40天的妇女，从月经来潮的第20天起开始测试。
+
+2．测定方法：从步骤1确定的日子起，每天在相对固定的时间，用干燥、干净的容器收集少许尿液，然后从铝箔内取出一条试纸（请不要触摸试纸中段），把金色的一端插入刚收集的尿液内（不要使尿液面超过箭头所指的绿色交界线），保持10秒钟后取出平放，5分钟后观察试纸中段有无一条红色色带显现。
+
+3．结果判定：按上述方法逐天一直测定到有红色色带出现，然后再继续测定到红色色带消失，并且从这天起连续测定3天都无色带显现时，即可停止使用。从这天起到下次月经来潮前的这段时间便是绝对的“安全期”（约10天左右），在此期间同房，您无需再用任何药具避孕都是安全的。
+
+在月经来潮后，再如法进行下一个周期的测试（由于月经周期的多变性，不要根据上个周期测试的结果对下个周期的情况进行推测）。
+
+4．注意事项：（1）必须按照操作步骤进行测试。（2）本试纸条不适用于怀孕妇女及绝经期妇女。（3）服用避孕药会影响测试结果，应在停药两个月后再使用本品避孕。（4）某些疾病，如卵巢囊肿以及因内分泌疾病而服用激素、类固醇等药物时也会影响测试结果。
+
+5．若您在使用的一个周期内，试纸的中段一直显示红色色带或一直无色带。说明您的黄体生成激素（1H）激素水平可能不正常，不宜使用本试纸，并建议您去看医生。
+
+\chapter{中老年人的性事问题}
+
+
+中老年人的婚姻
+
+
+到了中年以后，夫妇们可以摆脱干扰，对对方进行重新认识。孩子们已经或就要离开家庭，而夫妇中常已有一方希望从事务和职业中退出而不再争取进一步的发展。在这个阶段，使很多被忽视的生活内容，也包括性问题，得到充实。有人认为，夫妇们在“空巢家庭”中会遇到感情上的困难，这不一定正确，在孩子离开家庭以后，许多夫妇的婚姻满足感反而上升了。
+
+对于那些婚姻满足感水平一直很高的夫妇，这一阶段是其婚姻中最幸福的时期。当然，相反的情况也不是没有。某些夫妇，仅仅是有共同抚养的孩子在义务才留在一起，这个义务一旦解除，他们对其婚姻的不满有所增长，使离婚率在中年以后突然增长。但对大多数夫妇来说，这个阶段几乎就像又一次新婚。60岁以上的夫妇半数认为这一阶段是婚姻中最快乐的时光。
+
+婚姻满足感可以帮助老年人加强对生活的信心。具有亲密婚姻关系的老人更容易排遣抑郁。老年男子更倾向于专一性地依赖妻子作为伴侣，而老年妇女的伴侣则比较多样化，包括朋友和子女在内。这也许是老年鳏居者抑郁率高于寡居者的原因。已婚者，无论男女，死亡率均低于未婚者。看来亲密关系对人的生存也是有价值的。
+
+
+
+
+
+婚姻性反应
+
+
+传统观念认为，人对性活动的兴趣是随年龄增长而下降的，中年后就会对性活动感到厌倦，而老年人则应该根除性欲。很多人都把老年男女间的性活动看成粗鄙的。事实上人们的性活动频率在40～60岁的阶段是逐渐减少的，一旦超过60岁，下降就突然加快。但是，并非所有正常的人在60岁以后性交额度都要下降。一项对性行为的研究观察了从60岁到94岁的老年人，发现15％的人在60岁以后还经历过一个有数年之久的性活动增长阶段。更重要的是绝大多数中年人和为数众多的老年人并没有丧失性的活跃性。据统计，大约有70％的男人在68岁时自然有规律地进行性活动，甚至在78岁年龄组，还有25％的人继续保持了性活跃。马斯特和约翰逊说：“如果从早年起就维持较高水平的性活动，如果不出现急性或慢性的生理残废，那高龄男子经常能将某种方式的活跃的性表达保持到70甚至80岁。”除了某些特殊的疾病之外，这一点无论对男性还是女性的高龄者，都是一样的，一般认为，由于高年后性激素的分泌水平降低，性活动在其直接影响下也会减少，如果从每个人的具体情况着眼，性活动水平下降的确与某些生物学因素有关。这些因素包括男女生殖器官的解剖和生理变化，年龄的生物学效应会引起性愿望的下降，如果在年龄轻的时候没有对性活动的模式做出调整，这种现象就非常容易发生。
+
+1．在男子，生理、解剖方面的变化有：
+
+（1）性唤起和勃起速度减低；
+
+（2）维持坚实的勃起需要对阴茎进行更直接的刺激；
+
+（3）在射精前维持勃起的时间延长；
+
+（4）当爱抚——准备阶段时间较长，勃起已消失后，再次勃起有困难；
+
+（5）不应期延长；
+
+（6）性高潮时在生殖器区肌肉收缩减少，高潮兴奋水平下降；
+
+（7）在高潮时。兴奋不再完全集中于生殖器。一般说来这类情况在30～40岁以后即已开始出现，在50～60岁阶段中则迅速加剧。其实，这些变化对于在性活动中获得愉快并不一定不利。
+
+勃起困难是唯一与年龄有关的性功能障碍。在50岁以后，勃起障碍出现的频度明显上升。但是，除了某些神经系统和心脏疾病造成的勃起障碍之外，大部分的勃起失败都是心理因素引起，绝非不可逆转。
+
+2．相对于男子，女子性功能在高龄时的变化并不很多，即使在绝经期后也是这样，其变化一般有：
+
+（1）阴道润滑发生的速度和水平下降；
+
+（2）阴道壁弹性减低；
+
+（3）生殖器的敏感性增强；
+
+（4）性高潮出现时。阴道和子宫收缩的次数减少；发生多重性高潮的能力并不随年龄发生变化；高年女性需要更多生殖器以外的身体刺激来达到性唤起，在性交中有时也需要使用人工润滑剂。
+
+3．人的观念对性活动的演化有很大的影响。如果将性活动看作仅仅是一种欲望的发泄，那他性生活的水平就会很快降低，反之。如果能将其视为一种与夫妇间亲密感有关的、积极的娱乐，那性活动就有可能以各种形式保持下去，关于性欲必定随年龄下降的说法会使那些早年就很少体会到性感的人退出性活动。
+
+老年人应该对自己具有信心，不必理睬那些不符合实际的传统见解，这才是维护心理健康的有效途径。信心可以带来活跃的生活，活跃的生活又能加强自信。随着食品、保健、身体锻炼等方面的进展，人们不仅能活得更长久，还能在这些“黄金年代”里享受充分的健康和各种生活乐趣。对疾病的担心（尤其是心脏病）常是对待老年性生活的又一种错误观点，当然，任何严重的疾病都可能对性功能产生影响，但一位科学家说：“不管疾病把人弄得多么丑陋和无能为力，她或他也不会就此不再是一个没有性欲的生物了——和我们其余的人一样，他们也有意愿、期望和需要。”可是，很多人弄不清这一点，大部分医生也还没有注意到他们的病人是有性欲的。老年人因为疾病放弃性活动是屡见不鲜的，而90％以上的病人又从来没有接受过有关的指导，甚至于从没有人问起过他们的病对性生活有些什么影响。冠心病人总是担心他残存的性能力，以及进行性交是否安全，如果医生只是说上几句“小心点儿！”之类的话而没有具体建议往往就会使病人不敢参加性活动，甚至影响他们的家庭关系。其实在目前已经有了不少有关的理论和疗法来维持心脏病人在性活动中的安全。通过锻炼，医生就能对病人重建性生活的能力作出结论，给予指导。他还可以推荐一些预防措施：如准备好硝酸甘油，避免在饱食后或疲劳时进行性交，性交时间不要太长，不要过分用力，或是采用其他性交方式等等。有了这些，心脏病人就用不着为此发愁。别的疾病，包括为癌而进行的大手术导致的体像损害，也总有一定的救治手段和补偿方法减小其对性生活的干扰，就连对待残疾病人，医生们也有很多能使他们享受残存的性快乐的东西，如果不能勃起，病人还可以采用别的方法来接受或给别人以性刺激。总之，疾病对于人也包括老年人的性生活不应当是一道不可逾越的障碍；医生会帮助病人，尤其是老年病人，使他们在余年内得到高质量的生活。
+
+4．夫妻关系问题：传统的男女性角色也会促使老年人性活动水平下降。传统型妇女的性行为越来越信赖于其伴侣，妻子们停止性交的理由常使丈夫缺乏兴趣，或是阳痿。结果，当男子对性活动的发起减少时，婚姻性活动的频率也就随之下降了。
+
+习惯于由丈夫发起性活动的妇女们会觉得主动对丈夫进行性刺激感到困难。而当男子年高以后，勃起反应速度变慢。其性唤起便在更大程度上依赖于妻子在性生活中采取主动的能力。如果婚姻性活动要保持下去，中老年夫妇中妻子一方就必须在对待性生活方面采取更为主动的态度。
+
+能将性活动保持到晚年的夫妇一般都是那些在早期同居中即能共同体验到性快感的人。除了健康之外，早年的性快乐也许就是对婚姻性反应影响最大的因素了。如果夫妇双方都能对有关性的问题进行自由交流，那他们在晚年就能依其生理状况取得性活动方面的协调。夫妇们可以在50岁和60岁时重建他们的性表达，这种性表达带来的愉快是他们在以前没有享受到的，重建后的性活动可以远不止于性交，它可以包括由于越来越意识到双方不可能永远不分离而得愈加珍贵的热爱和柔情。到了晚年，婚姻性活动较少地依赖于强烈的性高潮，高年者对生理变化取得适应是否充分，取决于他们能不能充分体会由具有广泛的爱情和关怀的相互关系所带来的愉快，老年人性活动中的趣味，更多地来自性活动的娱乐性质，而不是一种强烈的身体要求的发泄。高龄者，期望在每一次性交时都达到性高潮反而会抑制双方在性活动中获得快乐。从某种意义上来说，我们应该把老年性活动的建立视为性生活在向另一类同样富有生气的形式转化，而不是性快感的衰退和告终。
+
+科学的进步使人长寿也应该使他们生活的更加愉快。老年人有权力也有潜力享受性生活，一位叫斯维兰德的科学家指出的一个原则：“性治疗的目的是帮助老年人在性方面得到解放。这不仅有积极的社会意义，还能使老年夫妇能进行进一步的情感交流，提高亲密程度和自尊心，在没有精神压力的情况下体验生活快乐。”
+
+
+
+
+
+中老年人的性教育
+
+
+大多数老年人从未受过正规的性教育，通过性教育，可以消除老年人对晚年性生活的自卑感和羞耻感，使他们了解保持性生活的必要性，并持科学态度。从而使老年伴侣间生活更和谐、更有乐趣、更加健康和幸福。
+
+过去的传统说教和社会偏见，认为人进入中年后，就应该对性生活逐渐感到厌倦，步入老年期，就应该没有性欲了。如果老年人还有性要求，就属于不正经“人过40岁天过午，50（岁）不近床，60（岁）不近妇”。使老年人的性观念、性兴趣受到极大的抑制。
+
+在人类，性是与生俱来与死同归的一种正常生理功能。人到老年期，仍然有性功能、性要求和性能力。老年妇女虽然丧失了生殖能力，但仍保持一定的性生活能力，还可获得兴奋、愉快和美好的感受，有益于身心健康。
+
+随着年龄的增长，身体的结构与功能都不可避免地发生着衰退变化，性功能也不例外。进入老年期后，性功能减退、性欲降低是普遍的生理现象。但是。老年人的性观念、性兴趣和性能力存在着很大的个体差异，与年龄不成正比。这是因为性功能除体内性激素因素外，还受心理社会因素和健康状况的影响。总的看，男性性功能减退较女性晚；身体一向健康，到老年期也没有严重疾病的人，比体弱多病的人性功能减退要慢得多。
+
+了解男女老年性生理变化，就有可能会消除性的不安、焦躁、恐惧等思想负担，态度变消极为积极，并采取相应的措施，提高生活质量。
+
+老年夫妻要按照自己的特点来达到性生活和谐，不能依照年轻时的模式。主要应当注意延长性交前戏的时间，不必次次苛求射精。选择身体适合的姿势，要把感觉集中到心理和情绪上。保持节制的、和谐的性生活，可延缓生殖器官的衰退，有益于健康长寿。也有的人认为自己年龄虽大，但仍精力旺盛，性能力维持不变，以性欲强、性要求频繁来显示自己不老，会导致体力消耗过大。
+
+老年夫妻的性活动，不能等同于性交。感情上的依恋更需要。到了老年性生活较少依赖于强烈的性高潮，更多地来自性生活的互相爱抚，如果每一次都期望达到性高潮，反而会抑制双方的性生活乐趣。老年人对异性的需要，除了性生活外，更需要感情上的交流，这是老年人生活和精神上的支柱。老年夫妻经过多年来已感受到的性体验。已使他们很自然地转换了做爱方式，对爱的理解也更深沉、更现实。爱不仅仅是性爱，它包含的内容比原来的含义广泛得多，例如彼此间的承担义务、保护、体贴、关怀、理解和忠诚等。老年夫妻双方的相互依恋，在生活中有更多的情趣和寄托。他们语言契合、体肤的亲近、出自爱心的抚慰，这都是老年人主要的性行为——“伴恋”，“少年夫妻老来伴”，其真正含义也在于此。
+
+老年人保持适当的性生活是身体健康的表现。有益无害。对老年人来说，性生活不能滥无节制，也不应长期中断。滥无节制会导致性功能过早衰退，因为过于频繁、拖延时间和半途中断的性交，会造成神经-肌肉组织过度紧张和性器官淤血，这会引起生殖系统的感受一传导部分发生炎症和损伤，导致过早的性欲减退。相反，过早地停止性生活，反而会使性器官萎缩，对健康不利。保持适度、有规律、有节制的性生活，能使精力充沛、精神愉快，有助于保持脑年轻，防止脑老化；可以促进血液循环和各组织系统的新陈代谢。
+
+老年人性生活的满足感。可以增强对生活的信心，有利于克服老年抑郁症，各种疾病的死亡率。也有相对降低的趋势。
+
+老年人的心理健康是影响寿命的核心问题，老年夫妻要以科学态度和健全的心态来对待性生活，防止衰败心理。可以保持有节制的、和谐的性生活，但应该“重情不重欲。”
+
+老年人有长期性生活的体验，丧偶或配偶有性功能障碍，得不到满足与性和谐；老年人再婚得不到社会支持，有时还受到社会的鄙视和儿女的反对，造成他们在心理上产生对性偏执。
+
+美满婚姻的确是人们健康长寿的重要原因之一。长寿老年人除了在生活上具有良好的习惯之外，大多数夫妻和睦。精神愉快。生活上的关怀体贴，精神上的安慰支持无疑对健康长寿是一剂良药。离婚的男女与有美满家庭的人，平均寿命要短得多。尽管离婚后有的另有新欢，但与婚姻美满的同龄男子相比，心脏病、肺癌和胃癌的发病率要高出2倍，肝硬化发病率要高7倍，高血压发病率约高3倍。据统计，丧偶当年而辞别人世的人亦屡见不鲜。人的情绪和心境取决于夫妻双方的感情是否真诚，关系是否融洽。一对恩爱的伴侣，一个美满的家庭，无疑给夫妇双方的健康长寿奠定了基石。有了爱的家庭，才会充满温暖欢乐。良好的精神状态有助于调动身体内在的积极因素，抗御疾病的发生和发展，延长人的寿命。相反，夫妻反目为仇，老年丧偶或终身不娶嫁的老年男女，终日郁闷忧伤，就会干扰人体内激素正常分泌，内脏器官功能失调，血压升高，造成心管疾病。
+
+性欲可以分为接触欲和胀满缓解欲。接触欲是指男女双方希望互相接触身体之情，对老年夫妇来说除精神上的爱慕之情的交流之外，另一个重要方面是身体接触，互相爱抚，以及性器官互相刺激等。胀满缓解欲也叫排泄欲，是指在性激素作用下，体内有一种充满东西的胀满感，并有把这些东西排泄出去的愿望。如男性的阴茎勃起和射精，女性性欲冲动时的生殖器充血，前庭大腺和阴道分泌物增加等。排泄欲是受年龄影响的，老年人的次数显然会减少。老年人可通过上述并不一定导致性交的性活动，如拥抱和被拥抱，表达感情和接受他人感情，来享受这种天伦之乐。这对于身体健康、感情和睦、消除孤独感等大为有益。
+
+光强调性生活对健康长寿有利一面，而忽视了老年人的身体特点也是不科学的。
+
+老年具有以下特点：老年化并非是病理状态，而是正常的自然现象，但在衰老过程也往往有一些病理改变。身体对环境的适应能力逐步下降，死亡的危险性增高。人体对环境的反应能力逐步下降。衰老过程来自内因，外因也能使机体发生一定变化，并加速衰老过程。
+
+因此，老年人在性生活中要注意以下问题：
+
+1．老年人的体脂减少，更易畏寒，机体对寒冷和炎热的调节能力减弱，在性生活时要注意室温的调节，冬天避免受寒，夏天避免炎热造成大汗虚脱。
+
+2．老年人的皮层变薄、弹性消失、体脂减少、皱纹增多。此外，皮肤感觉也发生改变，变得迟钝起来。因此，老年人不要过分洗澡，并注意保护皮肤。也有的老年人对触觉特别敏感，不愿意像过去那样接受过多的爱抚。
+
+3．由于肌肉的萎缩，肌肉收缩力下降，灵活性降低。因此也要注意动作不要过猛过大，以免造成背痛、肌肉酸痛，肌肉损伤，并注意选择更为省力的体位。
+
+4．衰老过程中脑血流量的减少可使全身功能状况下降。因此，在性交过程中应避免颈部过度的弯曲或伸展。
+
+5．在性生活中要注意老年人的特点，要有耐心，不能急于求成。男方一定要等待妻子充分兴奋后再进行性行为，而妻子也不要因为丈夫勃起较慢而心烦意乱，应耐心地帮助丈夫兴奋起来。
+
+6．过度激烈的运动可使老年人呼吸急促并加深，出现呼吸困难。所以，性交体位的选择很重要，侧位使双方不必担负对方的体重，有利于保持呼吸的平稳，故侧位或坐位较合适。
+
+7．老年人应避免过分紧张和过分剧烈的运动，不要增加心血管系统的额外负担。性生活所需要的能量大小和它们的激烈程度关系很大，婚外性行为危险性更大。发现有性交时或性交后心跳气短、心慌或食欲锐减时，除暂停性生活外还要及时求医。
+
+8．性交前不要吃得过饱，也不要在饱食后立即性交，这都会影响胃肠的消化功能。
+
+9．性交前先排空小便，平时注意锻炼耻尾肌，有助于解决性交时可能出现的一些难题。
+
+10．老年人性交次数减少，男性射精后不应期显著延迟，但性交时间可以延长。
+
+11．健康男性在性欲高潮反应时血压升高。收缩压可增高40～100毫米汞柱。舒张压增高20～50毫米汞柱，呼吸增加超过40次／分，心率在平时基础上增加50～100次／分。这些变化发生很快，其反应的剧烈程度有可能诱发心脏病发作。心血管患者应注意以下一些问题：
+
+目前医生们认为患心脏病后没有必要过分谨慎地回避性生活，可在心脏机能允许的限度内进行性交。有心绞痛发作史者要根据病情由医生而定。
+
+无合并心力衰竭或心律失常的急性心肌梗塞在康复后6个月经过医生诊断后才能考虑恢复性生活，一旦发生下列情况应该中止。
+
+（1）房事后心悸，甚至心力衰竭，这时显然要禁欲。
+
+（2）房事中发生胸痛时应立即终止，并及时服硝酸甘油等。
+
+（3）房事后失眠或第二天极度疲劳。
+
+（4）伴有发热或其他传染病。
+
+遇到精神紧张、发怒、情绪不佳，气温过高或过低，饮酒后2～3小时内，剧烈运动后，连日来工作疲劳应暂时回避性接触。还应注意性交时间不宜过长，不要过分用力，不要过频。应采取本人认为最舒适的体位性交。高血压的病人也应对性生活有所节制，特别是血压控制不稳时应特别注意，防止出现不测。
+
+
+
+
+
+
+
+
+
+\clearpage
+
+\noindent\textbf{说明：} 以下由配套资料《性医学基础》Markdown 转换而来，作为专业基础参考。
+
+\chapter{性医学基础}
+
+\section{概述}
+
+性医学是研究人类性生理、性功能、性心理及其相关疾病的诊断、治疗和预防的交叉学科。涵盖泌尿外科、妇科、内分泌科、精神心理科等多个领域。
+
+\emph{性医学不仅仅是"治病"，更关注生活质量和身心健康。}
+
+\hrulefill
+
+\section{一、两性生殖解剖}
+
+\subsection{1.1 男性生殖系统}
+
+\begin{verbatim}
+男性生殖系统
+        │
+        ├─ 外生殖器
+        │   ├─ 阴茎：排尿和性交器官
+        │   │   ├─ 阴茎海绵体（2 条）：勃起组织
+        │   │   └─ 尿道海绵体（1 条）：包绕尿道
+        │   └─ 阴囊：容纳和保护睾丸
+        │
+        ├─ 内生殖器
+        │   ├─ 睾丸：产生精子 + 分泌雄激素（睾酮）
+        │   ├─ 附睾：精子储存和成熟
+        │   ├─ 输精管：输送精子
+        │   ├─ 射精管：将精液排入尿道
+        │   ├─ 精囊：分泌精囊液（占精液 60%）
+        │   ├─ 前列腺：分泌前列腺液（占精液 30%）
+        │   └─ 尿道球腺：分泌润滑液
+        │
+        └─ 精液组成
+            ├─ 精子：由睾丸产生，占精液体积 < 5%
+            ├─ 精囊液：碱性，含果糖（供能）
+            └─ 前列腺液：含酶和锌离子
+\end{verbatim}
+
+\subsection{1.2 女性生殖系统}
+
+\begin{verbatim}
+女性生殖系统
+        │
+        ├─ 外生殖器（外阴）
+        │   ├─ 大阴唇
+        │   ├─ 小阴唇
+        │   ├─ 阴蒂：富含神经末梢，唯一以快感为目的的器官
+        │   ├─ 阴道前庭
+        │   └─ 前庭大腺：分泌润滑液
+        │
+        └─ 内生殖器
+            ├─ 阴道：性交器官、分娩产道
+            ├─ 子宫：孕育胎儿
+            ├─ 输卵管：受精场所
+            └─ 卵巢：排卵 + 分泌雌激素/孕激素
+\end{verbatim}
+
+\subsection{1.3 性腺轴}
+
+\begin{verbatim}
+下丘脑-垂体-性腺轴
+        │
+        ├─ 下丘脑 → GnRH（促性腺激素释放激素）
+        │   └─ 脉冲式分泌，调控垂体
+        │
+        ├─ 垂体前叶
+        │   ├─ FSH（卵泡刺激素）：促进精子/卵泡生成
+        │   └─ LH（黄体生成素）：促进睾酮/雌激素分泌
+        │
+        └─ 性腺
+            ├─ 睾丸：睾酮 → 生精 + 维持第二性征
+            └─ 卵巢：雌二醇 + 孕酮 → 月经周期
+\end{verbatim}
+
+\hrulefill
+
+\section{二、性激素及其功能}
+
+\subsection{2.1 雄激素}
+
+| 激素 | 来源 | 功能 |
+|------|------|------|
+| 睾酮 (Testosterone) | 睾丸间质细胞（95\%）+ 肾上腺 | 精子发生、维持性欲、肌肉量、骨密度 |
+| 双氢睾酮 (DHT) | 睾酮经 5α-还原酶转化 | 前列腺发育、男性脱发（雄秃） |
+
+\subsection{2.2 雌激素与孕激素}
+
+| 激素 | 来源 | 功能 |
+|------|------|------|
+| 雌二醇 (E2) | 卵巢颗粒细胞 | 子宫内膜增生、第二性征、骨骼健康 |
+| 孕酮 (P4) | 黄体、胎盘 | 维持妊娠、子宫内膜分泌期改变 |
+
+\subsection{2.3 激素随年龄变化}
+
+\begin{verbatim}
+睾酮变化（男性）
+        │
+        ├─ 青春期（~12 岁）：开始升高
+        ├─ 20~30 岁：峰值
+        └─ 40 岁后逐年下降 ~1%/年 → 迟发性性腺功能减退 (LOH)
+
+雌激素变化（女性）
+        │
+        ├─ 青春期：开始升高
+        ├─ 育龄期：周期性波动
+        ├─ 围绝经期（45~55 岁）：雌激素急剧下降
+        └─ 绝经后：低水平维持
+\end{verbatim}
+
+\hrulefill
+
+\section{三、性反应周期}
+
+Masters \& Johnson (1966) 提出的四期模型：
+
+\begin{verbatim}
+性反应周期
+        │
+        ├─ 兴奋期
+        │   ├─ 男性：阴茎勃起（副交感神经 → 海绵体充血）
+        │   └─ 女性：阴道润滑、阴蒂充血、乳房增大
+        │
+        ├─ 平台期
+        │   ├─ 男性：龟头充血、睾丸上提
+        │   └─ 女性：阴道外 1/3 充血（高潮平台）、阴蒂回缩
+        │
+        ├─ 高潮期
+        │   ├─ 男性：射精（交感神经控制）
+        │   │   ├─ 泄精期：附睾/输精管/精囊/前列腺收缩 → 精液入尿道
+        │   │   └─ 射精期：尿道括约肌节律性收缩
+        │   └─ 女性：盆底肌节律性收缩（0.8 秒间隔）
+        │
+        └─ 消退期
+            ├─ 男性：阴茎疲软 → 不应期（随年龄延长）
+            └─ 女性：消退缓慢，可再次高潮（无不应期）
+\end{verbatim}
+
+\hrulefill
+
+\section{四、男性性功能障碍}
+
+\subsection{4.1 勃起功能障碍 (ED)}
+
+| 项目 | 内容 |
+|------|------|
+| 定义 | 持续 ≥ 3 个月不能获得或维持足以完成性交的勃起 |
+| 分类 | 心理性 / 器质性 / 混合性 |
+| 危险因素 | 年龄、糖尿病、高血压、心血管病、吸烟、肥胖 |
+
+\begin{verbatim}
+ED 的病因
+        │
+        ├─ 心理性（10-20%）
+        │   ├─ 表现焦虑
+        │   ├─ 抑郁、焦虑
+        │   └─ 夫妻关系问题
+        │
+        ├─ 器质性（80-90%）
+        │   ├─ 血管性（最常见）：动脉供血不足、静脉漏
+        │   ├─ 神经性：脊髓损伤、糖尿病神经病变、盆腔手术后
+        │   ├─ 内分泌性：低睾酮、高泌乳素血症、甲减
+        │   └─ 药物性：降压药（利尿剂、β 阻滞剂）、抗抑郁药 (SSRIs)
+        │
+        └─ 混合性：器质性疾病 + 心理负担
+\end{verbatim}
+
+**治疗阶梯**：
+
+| 阶梯 | 治疗 | 说明 |
+|:---:|------|------|
+| 1 | 生活方式调整 | 戒烟、运动、减重、控制三高 |
+| 2 | 口服 PDE5 抑制剂 | 西地那非（万艾可）/ 他达拉非 / 伐地那非 |
+| 3 | 负压吸引装置 | 物理方法 |
+| 4 | 海绵体注射 | 前列地尔 |
+| 5 | 假体植入 | 手术最后手段 |
+
+\emph{PDE5 抑制剂禁忌：**正在服用硝酸酯类药物**（严重低血压风险）。}
+
+\subsection{4.2 早泄 (PE)}
+
+| 项目 | 内容 |
+|------|------|
+| 定义 | 总是在插入后 < 1 分钟内射精，无法控制 |
+| 分类 | 终身性（原发性）/ 获得性（继发性） |
+| 治疗 | SSRIs（达泊西汀，按需服用）、局部麻醉喷雾、行为疗法 |
+
+\subsection{4.3 迟发性性腺功能减退 (LOH)}
+
+| 项目 | 内容 |
+|------|------|
+| 本质 | 年龄相关的睾酮下降 + 临床症状 |
+| 症状 | 性欲减退、ED、乏力、情绪低落、肌肉减少 |
+| 诊断 | 晨间总睾酮 < 300 ng/dL（需重复测定） |
+| 治疗 | 睾酮替代治疗——需排除前列腺癌后慎重使用 |
+
+\hrulefill
+
+\section{五、女性性功能障碍}
+
+| 类型 | 定义 | 常见原因 |
+|------|------|----------|
+| 性欲障碍 | 持续性性兴趣/性幻想缺乏 | 心理因素、关系问题、激素变化、药物 |
+| 性唤起障碍 | 不能维持润滑/兴奋 | 绝经后雌激素缺乏、血管因素 |
+| 性高潮障碍 | 高潮延迟/缺失 | 心理因素、药物 (SSRIs)、缺乏有效刺激 |
+| 性交疼痛 | 性交时反复疼痛 | 阴道干涩、子宫内膜异位症、盆底痉挛 |
+
+\emph{性交疼痛需排查器质性病因（子宫内膜异位症、盆腔炎性疾病、间质性膀胱炎）。}
+
+\hrulefill
+
+\section{六、不孕不育}
+
+\subsection{6.1 定义}
+
+| 术语 | 定义 |
+|------|------|
+| 不孕 (infertility) | 规律无保护性生活 ≥ 12 个月未孕 |
+| 不育 | 能怀孕但反复流产/死产 |
+
+\subsection{6.2 病因构成}
+
+\begin{verbatim}
+不孕原因分布
+        │
+        ├─ 女性因素：~40%
+        ├─ 男性因素：~40%
+        ├─ 双方因素：~10%
+        └─ 不明原因：~10%
+\end{verbatim}
+
+\subsection{6.3 基本检查}
+
+| 性别 | 检查项目 |
+|------|---------|
+| 男性 | 精液常规（数量、活力、形态） |
+| 女性 | 排卵监测、输卵管通畅性、盆腔超声 |
+
+\hrulefill
+
+\section{七、性传播疾病 (STDs)}
+
+\subsection{7.1 常见 STDs}
+
+| 疾病 | 病原体 | 特征 | 治疗 |
+|------|--------|------|------|
+| 淋病 | 淋病奈瑟菌 | 尿道/宫颈脓性分泌物 | 头孢曲松 |
+| 衣原体感染 | 沙眼衣原体 | 常无症状，黏液脓性分泌物 | 阿奇霉素 / 多西环素 |
+| 梅毒 | 梅毒螺旋体 | 一期硬下疳 → 二期皮疹 → 三期多系统 | 青霉素 |
+| 尖锐湿疣 | HPV 6、11 型 | 菜花样赘生物 | 冷冻/激光/咪喹莫特 |
+| 生殖器疱疹 | HSV-1、2 | 簇状水疱、反复发作 | 阿昔洛韦 |
+| 艾滋 (HIV) | 人类免疫缺陷病毒 | CD4+ T 细胞耗竭 | 抗逆转录病毒治疗 (ART) |
+
+\subsection{7.2 预防}
+
+\begin{verbatim}
+STD 预防策略
+        │
+        ├─ 安全套使用：有效屏障
+        ├─ HPV 疫苗：预防宫颈癌和尖锐湿疣
+        ├─ 定期筛查：有高危行为者
+        ├─ 伴侣同治：避免乒乓球效应
+        └─ 暴露前预防 (PrEP)：HIV 高风险人群
+\end{verbatim}
+
+\hrulefill
+
+\section{八、避孕与计划生育}
+
+| 方法 | 避孕有效率 | 特点 |
+|------|:---:|------|
+| 安全套（男用） | ~98\%（正确使用） | 唯一同时预防 STD 的方法 |
+| 短效口服避孕药 | > 99\%（完美使用） | 调节月经周期 |
+| 宫内节育器 (IUD) | > 99\% | 长效可逆 |
+| 皮下埋植 | > 99\% | 有效期 3~5 年 |
+| 紧急避孕药 | ~85\% | 72 小时内服用 |
+| 体外射精、安全期 | 低效 | **不推荐**作为常规避孕手段 |
+
+\hrulefill
+
+\section{九、性心理与性教育}
+
+\begin{verbatim}
+健康性心理要素
+        │
+        ├─ 性认同：对自己性别和性取向的接纳
+        ├─ 性知识：正确的生理和避孕知识
+        ├─ 性沟通：伴侣间开放的性需求表达
+        └─ 性价值观：尊重、自愿、安全、负责任
+\end{verbatim}
+
+\subsection{常见心理问题}
+
+| 问题 | 表现 | 处理 |
+|------|------|------|
+| 性表现焦虑 | 过度关注"表现"导致功能障碍 | 认知行为疗法 + 伴侣配合 |
+| 性欲不一致 | 伴侣间性需求差异 | 沟通、协商频率、寻求专业帮助 |
+| 性创伤后应激 | 性侵/虐待后对性的恐惧 | 心理治疗、伴侣理解支持 |
+
+\hrulefill
+
+\section{总结}
+
+性医学是多学科交叉领域，涉及生理、心理、社会三方面。健康和谐的性生活是整体健康的重要组成。遇到性相关问题应放下羞耻感，积极寻求专业帮助——大多数性功能障碍是可以有效治疗的。
+
+\end{document}

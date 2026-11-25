@@ -1,0 +1,134 @@
+% !TEX program = xelatex
+% 硝酸酯类 × PDE5 抑制剂（他达拉非/西地那非）—— 患者一页速查卡
+% 独立文档，可单独编译打印；配色沿用 common.tex 风格。
+\documentclass[a4paper,8.5pt]{ctexart}
+
+\usepackage[top=1.1cm,bottom=1.1cm,left=1.3cm,right=1.3cm]{geometry}
+\usepackage{xcolor}
+\usepackage{tcolorbox}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{multirow}
+
+\tcbuselibrary{skins,breakable}
+
+% ---- 配色（与 common.tex 一致）----
+\definecolor{myblue}{HTML}{185FA5}
+\definecolor{myblueL}{HTML}{E6F1FB}
+\definecolor{mygreen}{HTML}{3B6D11}
+\definecolor{mygreenL}{HTML}{EAF3DE}
+\definecolor{myamber}{HTML}{854F0B}
+\definecolor{myamberL}{HTML}{FAEEDA}
+\definecolor{myred}{HTML}{A32D2D}
+\definecolor{myredL}{HTML}{FCEBEB}
+\definecolor{mygray}{HTML}{6B6A64}
+
+% ---- 区块样式 ----
+\newtcolorbox{card}[1][]{%
+  enhanced,%
+  arc=2.5mm,boxrule=0.9pt,%
+  left=3.0mm,right=3.0mm,top=1.3mm,bottom=1.3mm,%
+  boxsep=0.6mm,#1}
+\newcommand{\cardtitle}[1]{{\color{white}\bfseries\small #1}}
+
+\setlist{nosep,leftmargin=1.4em}
+\setlength{\parindent}{0pt}
+\pagestyle{empty}
+
+\begin{document}
+
+% ===================== 顶部标题 =====================
+\begin{center}
+  {\color{myred}\large\bfseries 危险药物组合速查卡}\\[1pt]
+  {\large\bfseries 硝酸酯类 \(\times\) 他达拉非 / 西地那非}\\[1pt]
+  {\color{mygray}\small 给患者与家属看——吃「治勃起」的药之前，务必对照本卡}
+\end{center}
+
+\vspace{2mm}
+
+% ===================== 红色警告条 =====================
+\begin{card}[colback=myred, colframe=myred]
+  {\color{white}\bfseries\large 两类药一起用，血压可能骤降——头晕、眼前发黑、晕倒，严重可致心梗、猝死。}
+\end{card}
+
+% ===================== 1 哪些药是硝酸酯 =====================
+\begin{card}[colback=myblueL, colframe=myblue, title={\cardtitle{1\ \ 哪些药是「硝酸酯」（看商品名认全）}}]
+{\small
+\begin{tabularx}{\textwidth}{@{}>{\bfseries\raggedright\arraybackslash}p{3.1cm} X@{}}
+\toprule
+通用名（学名） & 常见商品名 / 别名（\textcolor{myred}{红色}＝最常被忽视） \\
+\midrule
+硝酸甘油 & 保欣宁、乃才朗、礼顿、疗痛脉、永保心灵（舌下片/喷雾/贴片/注射液） \\
+硝酸异山梨酯 & \textcolor{myred}{\bfseries 消心痛}、异舒吉、长效易顺脉、ISOKET \\
+单硝酸异山梨酯 & \textcolor{myred}{\bfseries 依姆多}、异乐定、欣康、爱倍、诺可达、鲁南欣康、安心脉 \\
+硝普钠 & 多为通用名（住院静滴）；名字不带「硝酸酯」，但同属一氧化氮供体，\textbf{同样致命} \\
+\bottomrule
+\end{tabularx}}
+\end{card}
+
+% ===================== 2 识别口诀 =====================
+\begin{card}[colback=myredL, colframe=myred, title={\cardtitle{2\ \ 3 秒认全口诀}}]
+{\bfseries\small
+药名带 \textcolor{myred}{「硝酸」} 或 \textcolor{myred}{「异山梨酯」}，或商品名是：\\[1pt]
+{\small 消心痛 · 依姆多 · 异乐定 · 欣康 · 诺可达 · 爱倍 · 鲁南欣康 · 安心脉 · 乃才朗 · 保欣宁 · 礼顿 · 疗痛脉}\\[1pt]
+{\small 命中任意一个 $\to$ 一律当硝酸酯对待，\textbf{吃他达拉非/西地那非前先问医生}}
+}
+\end{card}
+
+% ===================== 3 安全间隔 =====================
+\begin{card}[colback=myamberL, colframe=myamber, title={\cardtitle{3\ \ 安全间隔（离硝酸酯至少多久）}}]
+{\small
+\begin{tabularx}{\textwidth}{@{}>{\bfseries\raggedright\arraybackslash}p{3.1cm} X@{}}
+\toprule
+「治勃起」的药 & 与硝酸酯的安全间隔 \\
+\midrule
+西地那非（万艾可/伟哥） & 至少 \textbf{\(24\) 小时} \\
+他达拉非（希爱力） & 至少 \textbf{\(48\) 小时}（半衰期长，留够时间） \\
+\bottomrule
+\end{tabularx}\par\vspace{2mm}
+{\color{myred}\bfseries 反向禁忌（最易被忽略）：}
+{\small 吃了\textbf{他达拉非 48 小时内}，若心绞痛发作，\textbf{不要直接舌下含硝酸甘油}——先告诉医生你在用它，由医生决定替代方案。}
+}
+\end{card}
+
+% ===================== 4 正在吃硝酸酯 / 5 急救 =====================
+\begin{card}[colback=mygreenL, colframe=mygreen, title={\cardtitle{4\ \ 正在吃硝酸酯，勃起困难怎么办？——别停硝酸酯}}]
+{\small 硝酸酯是\textbf{保命药}，勃起是\textbf{生活质量}——保命永远优先。正确做法是\textbf{换一种不靠全身血管的勃起治疗}（听医生）：
+\begin{itemize}
+  \item \textbf{真空负压装置}（物理，无药物相互作用，最安全）
+  \item \textbf{海绵体注射 / 尿道栓剂}（局部作用）
+  \item 严重或长期可考虑\textbf{阴茎假体植入}
+\end{itemize}}
+\end{card}
+
+\begin{card}[colback=myredL, colframe=myred, title={\cardtitle{5\ \ 万一头晕 / 低血压 / 晕了——急救}}]
+{\small
+\begin{enumerate}[label=\textbf{\arabic*.}]
+  \item \textbf{立即平躺、抬高双腿}（帮助血液回流），\textbf{不要站着}
+  \item 能测血压就测：\textbf{\(<90/60\) mmHg 或意识模糊 $\to\) 立即急诊}
+  \item \textbf{不要「再等一会看看」}——低血压性晕倒可致跌倒外伤、脑供血不足
+  \item 不要自行再「补服」其他降压药
+\end{enumerate}}
+\end{card}
+
+% ===================== 6 就医沟通 =====================
+\begin{card}[colback=myblueL, colframe=myblue, title={\cardtitle{6\ \ 看任何医生，先说这一句}}]
+{\small
+看\textbf{心内科、心外科、急诊、麻醉、骨科}……都要主动报：\\[1pt]
+\textbf{第一句}：「我在吃\textcolor{myblue}{他达拉非 / 西地那非}」（别让医生不知情开硝酸酯）\\
+\textbf{第二句}：「我在吃\textcolor{myred}{硝酸酯类}」（别让医生不知情开 PDE5）\\[1pt]
+{\color{mygray}\small 建议：手机备忘录 / 钱包卡片写清「我同时在用这两类药」，看医生第一句话就报出来}
+}
+\end{card}
+
+% ===================== 底部 =====================
+\vspace{0.8mm}
+\begin{center}
+{\color{myred}\bfseries 一句话：硝酸酯是保命药，PDE5 是生活质量药——两者不能同时吃，保命永远优先。}\\[1pt]
+{\color{mygray}\scriptsize 内容整理自《性医学》C 册《男性性健康》· 供健康教育参考，\textbf{不构成医嘱，具体用药请遵医嘱}\\
+卡片生成日期 2026-11-25 · 如药名/商品名有更新，以药品说明书与医生为准}
+\end{center}
+
+\end{document}
